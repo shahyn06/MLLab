@@ -11,7 +11,7 @@ This is a line-addressed review ledger, not a completion certificate. It include
 
 ## Remaining decisions and acceptance priorities
 
-1. Layer-by-layer forward/backward propagation animation, beyond current actual activation and gradient inspection.
+1. Propagation playback implemented and bounded checks passed. Continue final integration/replay and all-route checks.
 2. Expanded numeric Gini/entropy arithmetic per tree node, beyond current criterion controls and impurity readouts.
 3. Match every mathematics topic to its own sufficient adjustable experiment. Content and formula checks alone do not establish this.
 4. Per-algorithm Python settings/data correspondence, all state transitions and replay, denied/quota storage, keyboard focus and all-route visual inspection after final changes.
@@ -21,9 +21,9 @@ This is a line-addressed review ledger, not a completion certificate. It include
 ## Status counts
 
 - MAPPED, REVIEW OPEN: 345
-- PARTIAL: 3
+- VERIFIED, BOUNDED: 10
 - REVIEW PRIORITY: 5
-- VERIFIED, BOUNDED: 8
+- PARTIAL: 1
 - SCOPE DECISION: 2
 - CONDITIONAL: 1
 
@@ -95,7 +95,7 @@ This is a line-addressed review ledger, not a completion certificate. It include
 | R062 / 118 | C. Neural Networks & Deep Learning Lab | Visualize connections between neurons. | MAPPED, REVIEW OPEN | src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope. |
 | R063 / 119 | C. Neural Networks & Deep Learning Lab | Run forward propagation. | MAPPED, REVIEW OPEN | src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope. |
 | R064 / 120 | C. Neural Networks & Deep Learning Lab | Visualize weight changes. | MAPPED, REVIEW OPEN | src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope. |
-| R065 / 121 | C. Neural Networks & Deep Learning Lab | Observe how information travels between layers. | PARTIAL | Actual activations/weights update with training, but no layer-by-layer propagation animation yet. |
+| R065 / 121 | C. Neural Networks & Deep Learning Lab | Observe how information travels between layers. | VERIFIED, BOUNDED | src/propagation-player.tsx and propagation-engine.ts; opt-in forward/backward layer playback with actual fixed-sample values, numeric arithmetic, pause/resume/manual stages, snapshot isolation; 660 gradient parity checks and 19 UI checks. |
 | R066 / 122 | C. Neural Networks & Deep Learning Lab | Visualize backpropagation. | MAPPED, REVIEW OPEN | src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope. |
 | R067 / 123 | C. Neural Networks & Deep Learning Lab | Track loss reduction during training. | MAPPED, REVIEW OPEN | src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope. |
 | R068 / 129 | D. Data Preprocessing Lab | Missing Values Handling. | MAPPED, REVIEW OPEN | src/datalab.tsx, pipeline-engine.ts; tests/pipeline.mjs; preprocessing/evaluation routes. |
@@ -244,7 +244,7 @@ This is a line-addressed review ledger, not a completion certificate. It include
 | R211 / 365 | Decision Trees | Change maximum depth. | MAPPED, REVIEW OPEN | src/classical.tsx and classical-engine.ts; tree split structure, criterion selection and impurity values. |
 | R212 / 366 | Decision Trees | Show Gini Impurity and Entropy calculations. | PARTIAL | Both criteria are computed; fitted tree shows numeric impurity. Per-node expanded arithmetic/count explanation remains to be added or accepted. |
 | R213 / 370 | Neural Networks | Visualize neurons and connections. | MAPPED, REVIEW OPEN | src/neural.tsx, neural-engine.ts; actual weights, activations, biases and gradients. |
-| R214 / 371 | Neural Networks | Animate forward propagation. | PARTIAL | Actual activations/weights update with training, but no layer-by-layer propagation animation yet. |
+| R214 / 371 | Neural Networks | Animate forward propagation. | VERIFIED, BOUNDED | src/propagation-player.tsx and propagation-engine.ts; opt-in forward/backward layer playback with actual fixed-sample values, numeric arithmetic, pause/resume/manual stages, snapshot isolation; 660 gradient parity checks and 19 UI checks. |
 | R215 / 372 | Neural Networks | Display weights and biases. | MAPPED, REVIEW OPEN | src/neural.tsx, neural-engine.ts; actual weights, activations, biases and gradients. |
 | R216 / 373 | Neural Networks | Show activation values. | MAPPED, REVIEW OPEN | src/neural.tsx, neural-engine.ts; actual weights, activations, biases and gradients. |
 | R217 / 374 | Neural Networks | Visualize backpropagation. | MAPPED, REVIEW OPEN | src/neural.tsx, neural-engine.ts; actual weights, activations, biases and gradients. |

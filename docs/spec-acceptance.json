@@ -584,8 +584,8 @@
       "section": 2,
       "context": "C. Neural Networks & Deep Learning Lab",
       "requirement": "Observe how information travels between layers.",
-      "status": "PARTIAL",
-      "evidence": "Actual activations/weights update with training, but no layer-by-layer propagation animation yet."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "src/propagation-player.tsx and propagation-engine.ts; opt-in forward/backward layer playback with actual fixed-sample values, numeric arithmetic, pause/resume/manual stages, snapshot isolation; 660 gradient parity checks and 19 UI checks."
     },
     {
       "id": "R066",
@@ -1925,8 +1925,8 @@
       "section": 4,
       "context": "Neural Networks",
       "requirement": "Animate forward propagation.",
-      "status": "PARTIAL",
-      "evidence": "Actual activations/weights update with training, but no layer-by-layer propagation animation yet."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "src/propagation-player.tsx and propagation-engine.ts; opt-in forward/backward layer playback with actual fixed-sample values, numeric arithmetic, pause/resume/manual stages, snapshot isolation; 660 gradient parity checks and 19 UI checks."
     },
     {
       "id": "R215",
