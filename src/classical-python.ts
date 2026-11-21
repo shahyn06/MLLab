@@ -69,7 +69,7 @@ def predict(p):
             if not rows: scores.append(-1e9); continue
             s=math.log(len(rows)/len(train))
             for f in [0,1]:
-                mu=mean([r[f] for r in rows]); var=max(1e-5,mean([(r[f]-mu)**2 for r in rows]))
+                mu=mean([r[f] for r in rows]); var=max(c.get('varianceFloor',1e-5),mean([(r[f]-mu)**2 for r in rows]))
                 s+=-.5*math.log(2*math.pi*var)-(p[f]-mu)**2/(2*var)
             scores.append(s)
         return sigmoid(scores[1]-scores[0])
