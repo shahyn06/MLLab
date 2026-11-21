@@ -1,0 +1,210 @@
+{
+  "checks": 920,
+  "errors": [],
+  "records": [
+    {
+      "route": "datasets",
+      "topic": "Missing values"
+    },
+    {
+      "route": "datasets",
+      "topic": "Duplicate rows"
+    },
+    {
+      "route": "datasets",
+      "topic": "Min-max scaling"
+    },
+    {
+      "route": "datasets",
+      "topic": "Standardization"
+    },
+    {
+      "route": "datasets",
+      "topic": "Label encoding"
+    },
+    {
+      "route": "datasets",
+      "topic": "One-hot encoding"
+    },
+    {
+      "route": "datasets",
+      "topic": "Feature selection"
+    },
+    {
+      "route": "datasets",
+      "topic": "Feature engineering"
+    },
+    {
+      "route": "datasets",
+      "topic": "IQR outliers"
+    },
+    {
+      "route": "datasets",
+      "topic": "Train/test split"
+    },
+    {
+      "route": "datasets",
+      "topic": "Cross-validation"
+    },
+    {
+      "route": "datasets",
+      "topic": "Stratified cross-validation"
+    },
+    {
+      "route": "datasets",
+      "topic": "Histogram"
+    },
+    {
+      "route": "datasets",
+      "topic": "Box plot"
+    },
+    {
+      "route": "datasets",
+      "topic": "Scatter and pair plots"
+    },
+    {
+      "route": "preprocessing",
+      "topic": "Missing values"
+    },
+    {
+      "route": "preprocessing",
+      "topic": "Duplicate rows"
+    },
+    {
+      "route": "preprocessing",
+      "topic": "Min-max scaling"
+    },
+    {
+      "route": "preprocessing",
+      "topic": "Standardization"
+    },
+    {
+      "route": "preprocessing",
+      "topic": "Label encoding"
+    },
+    {
+      "route": "preprocessing",
+      "topic": "One-hot encoding"
+    },
+    {
+      "route": "preprocessing",
+      "topic": "Feature selection"
+    },
+    {
+      "route": "preprocessing",
+      "topic": "Feature engineering"
+    },
+    {
+      "route": "preprocessing",
+      "topic": "IQR outliers"
+    },
+    {
+      "route": "preprocessing",
+      "topic": "Train/test split"
+    },
+    {
+      "route": "preprocessing",
+      "topic": "Cross-validation"
+    },
+    {
+      "route": "preprocessing",
+      "topic": "Stratified cross-validation"
+    },
+    {
+      "route": "preprocessing",
+      "topic": "Histogram"
+    },
+    {
+      "route": "preprocessing",
+      "topic": "Box plot"
+    },
+    {
+      "route": "preprocessing",
+      "topic": "Scatter and pair plots"
+    },
+    {
+      "route": "evaluation",
+      "topic": "Train/test split"
+    },
+    {
+      "route": "evaluation",
+      "topic": "Cross-validation"
+    },
+    {
+      "route": "evaluation",
+      "topic": "Stratified cross-validation"
+    },
+    {
+      "route": "evaluation",
+      "topic": "Confusion matrix"
+    },
+    {
+      "route": "evaluation",
+      "topic": "Accuracy"
+    },
+    {
+      "route": "evaluation",
+      "topic": "Precision"
+    },
+    {
+      "route": "evaluation",
+      "topic": "Recall"
+    },
+    {
+      "route": "evaluation",
+      "topic": "F1 score"
+    },
+    {
+      "route": "evaluation",
+      "topic": "ROC curve"
+    },
+    {
+      "route": "evaluation",
+      "topic": "AUC"
+    },
+    {
+      "route": "evaluation",
+      "topic": "Mean squared error"
+    },
+    {
+      "route": "evaluation",
+      "topic": "Mean absolute error"
+    },
+    {
+      "route": "evaluation",
+      "topic": "R-squared"
+    },
+    {
+      "route": "evaluation",
+      "topic": "Learning curve"
+    },
+    {
+      "route": "evaluation",
+      "topic": "Model comparison"
+    },
+    {
+      "route": "evaluation",
+      "topic": "Histogram"
+    },
+    {
+      "route": "evaluation",
+      "topic": "Box plot"
+    },
+    {
+      "route": "evaluation",
+      "topic": "Scatter and pair plots"
+    },
+    {
+      "route": "evaluation",
+      "topic": "Root mean squared error"
+    },
+    {
+      "route": "evaluation",
+      "topic": "Precision-recall curve"
+    },
+    {
+      "route": "evaluation",
+      "topic": "Average precision"
+    }
+  ]
+}

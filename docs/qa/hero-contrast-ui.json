@@ -1,0 +1,257 @@
+{
+  "method": "Background pixels sampled with actual text transparent; conservative minimum over text range",
+  "results": [
+    {
+      "theme": "dark",
+      "width": 320,
+      "label": "MACHINE LEARNING LABORATORY / EARLY RELEASE",
+      "minimumContrast": 7.843,
+      "required": 4.5
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "label": "ML Lab",
+      "minimumContrast": 10.821,
+      "required": 3
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "label": "Change a number. See the result. Understand the model.",
+      "minimumContrast": 8.034,
+      "required": 4.5
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "label": "14 browser workspaces",
+      "minimumContrast": 11.266,
+      "required": 4.5
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "label": "15-section reference map",
+      "minimumContrast": 11.266,
+      "required": 4.5
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "label": "Browser labs need no installation",
+      "minimumContrast": 11.266,
+      "required": 4.5
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "label": "MACHINE LEARNING LABORATORY / EARLY RELEASE",
+      "minimumContrast": 7.843,
+      "required": 4.5
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "label": "ML Lab",
+      "minimumContrast": 10.821,
+      "required": 3
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "label": "Change a number. See the result. Understand the model.",
+      "minimumContrast": 5.927,
+      "required": 4.5
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "label": "14 browser workspaces",
+      "minimumContrast": 11.266,
+      "required": 4.5
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "label": "15-section reference map",
+      "minimumContrast": 10.365,
+      "required": 4.5
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "label": "Browser labs need no installation",
+      "minimumContrast": 10.365,
+      "required": 4.5
+    },
+    {
+      "theme": "dark",
+      "width": 1280,
+      "label": "MACHINE LEARNING LABORATORY / EARLY RELEASE",
+      "minimumContrast": 11.319,
+      "required": 4.5
+    },
+    {
+      "theme": "dark",
+      "width": 1280,
+      "label": "ML Lab",
+      "minimumContrast": 15.617,
+      "required": 3
+    },
+    {
+      "theme": "dark",
+      "width": 1280,
+      "label": "Change a number. See the result. Understand the model.",
+      "minimumContrast": 9.862,
+      "required": 4.5
+    },
+    {
+      "theme": "dark",
+      "width": 1280,
+      "label": "14 browser workspaces",
+      "minimumContrast": 11.595,
+      "required": 4.5
+    },
+    {
+      "theme": "dark",
+      "width": 1280,
+      "label": "15-section reference map",
+      "minimumContrast": 11.595,
+      "required": 4.5
+    },
+    {
+      "theme": "dark",
+      "width": 1280,
+      "label": "Browser labs need no installation",
+      "minimumContrast": 9.572,
+      "required": 4.5
+    },
+    {
+      "theme": "light",
+      "width": 320,
+      "label": "MACHINE LEARNING LABORATORY / EARLY RELEASE",
+      "minimumContrast": 7.843,
+      "required": 4.5
+    },
+    {
+      "theme": "light",
+      "width": 320,
+      "label": "ML Lab",
+      "minimumContrast": 10.821,
+      "required": 3
+    },
+    {
+      "theme": "light",
+      "width": 320,
+      "label": "Change a number. See the result. Understand the model.",
+      "minimumContrast": 8.034,
+      "required": 4.5
+    },
+    {
+      "theme": "light",
+      "width": 320,
+      "label": "14 browser workspaces",
+      "minimumContrast": 11.266,
+      "required": 4.5
+    },
+    {
+      "theme": "light",
+      "width": 320,
+      "label": "15-section reference map",
+      "minimumContrast": 11.266,
+      "required": 4.5
+    },
+    {
+      "theme": "light",
+      "width": 320,
+      "label": "Browser labs need no installation",
+      "minimumContrast": 11.266,
+      "required": 4.5
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "label": "MACHINE LEARNING LABORATORY / EARLY RELEASE",
+      "minimumContrast": 7.843,
+      "required": 4.5
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "label": "ML Lab",
+      "minimumContrast": 10.821,
+      "required": 3
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "label": "Change a number. See the result. Understand the model.",
+      "minimumContrast": 5.927,
+      "required": 4.5
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "label": "14 browser workspaces",
+      "minimumContrast": 11.266,
+      "required": 4.5
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "label": "15-section reference map",
+      "minimumContrast": 10.365,
+      "required": 4.5
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "label": "Browser labs need no installation",
+      "minimumContrast": 10.365,
+      "required": 4.5
+    },
+    {
+      "theme": "light",
+      "width": 1280,
+      "label": "MACHINE LEARNING LABORATORY / EARLY RELEASE",
+      "minimumContrast": 11.319,
+      "required": 4.5
+    },
+    {
+      "theme": "light",
+      "width": 1280,
+      "label": "ML Lab",
+      "minimumContrast": 15.617,
+      "required": 3
+    },
+    {
+      "theme": "light",
+      "width": 1280,
+      "label": "Change a number. See the result. Understand the model.",
+      "minimumContrast": 9.862,
+      "required": 4.5
+    },
+    {
+      "theme": "light",
+      "width": 1280,
+      "label": "14 browser workspaces",
+      "minimumContrast": 11.595,
+      "required": 4.5
+    },
+    {
+      "theme": "light",
+      "width": 1280,
+      "label": "15-section reference map",
+      "minimumContrast": 11.595,
+      "required": 4.5
+    },
+    {
+      "theme": "light",
+      "width": 1280,
+      "label": "Browser labs need no installation",
+      "minimumContrast": 9.572,
+      "required": 4.5
+    }
+  ]
+}

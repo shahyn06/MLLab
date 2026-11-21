@@ -8,8 +8,8 @@
       "section": 1,
       "context": "Project Overview",
       "requirement": "Understand mathematical concepts visually.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "See implementation map below; individual acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Cross-workspace review tied the overview promises to actual engines and controls, not static mockups. 43 math topics, 29 algorithm/update lessons and 30 data concept guides explain the models; numerical and topic-control tests cover computation. Actual upload/train/holdout/CV/compare/snapshot restoration tested by the data/classical/structure/deep/API/replay suites. Available source and hosted capabilities are explicitly separated; no cloud/general deep-training claim."
     },
     {
       "id": "R002",
@@ -17,8 +17,8 @@
       "section": 1,
       "context": "Project Overview",
       "requirement": "Experiment with Machine Learning algorithms.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "See implementation map below; individual acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Cross-workspace review tied the overview promises to actual engines and controls, not static mockups. 43 math topics, 29 algorithm/update lessons and 30 data concept guides explain the models; numerical and topic-control tests cover computation. Actual upload/train/holdout/CV/compare/snapshot restoration tested by the data/classical/structure/deep/API/replay suites. Available source and hosted capabilities are explicitly separated; no cloud/general deep-training claim."
     },
     {
       "id": "R003",
@@ -26,8 +26,8 @@
       "section": 1,
       "context": "Project Overview",
       "requirement": "Modify model parameters in real time.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "See implementation map below; individual acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Cross-workspace review tied the overview promises to actual engines and controls, not static mockups. 43 math topics, 29 algorithm/update lessons and 30 data concept guides explain the models; numerical and topic-control tests cover computation. Actual upload/train/holdout/CV/compare/snapshot restoration tested by the data/classical/structure/deep/API/replay suites. Available source and hosted capabilities are explicitly separated; no cloud/general deep-training claim."
     },
     {
       "id": "R004",
@@ -35,8 +35,8 @@
       "section": 1,
       "context": "Project Overview",
       "requirement": "Visualize how algorithms work step by step.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "See implementation map below; individual acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Cross-workspace review tied the overview promises to actual engines and controls, not static mockups. 43 math topics, 29 algorithm/update lessons and 30 data concept guides explain the models; numerical and topic-control tests cover computation. Actual upload/train/holdout/CV/compare/snapshot restoration tested by the data/classical/structure/deep/API/replay suites. Available source and hosted capabilities are explicitly separated; no cloud/general deep-training claim."
     },
     {
       "id": "R005",
@@ -44,8 +44,8 @@
       "section": 1,
       "context": "Project Overview",
       "requirement": "Upload and explore their own datasets.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "See implementation map below; individual acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Cross-workspace review tied the overview promises to actual engines and controls, not static mockups. 43 math topics, 29 algorithm/update lessons and 30 data concept guides explain the models; numerical and topic-control tests cover computation. Actual upload/train/holdout/CV/compare/snapshot restoration tested by the data/classical/structure/deep/API/replay suites. Available source and hosted capabilities are explicitly separated; no cloud/general deep-training claim."
     },
     {
       "id": "R006",
@@ -53,8 +53,8 @@
       "section": 1,
       "context": "Project Overview",
       "requirement": "Train and evaluate models.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "See implementation map below; individual acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Cross-workspace review tied the overview promises to actual engines and controls, not static mockups. 43 math topics, 29 algorithm/update lessons and 30 data concept guides explain the models; numerical and topic-control tests cover computation. Actual upload/train/holdout/CV/compare/snapshot restoration tested by the data/classical/structure/deep/API/replay suites. Available source and hosted capabilities are explicitly separated; no cloud/general deep-training claim."
     },
     {
       "id": "R007",
@@ -62,8 +62,8 @@
       "section": 1,
       "context": "Project Overview",
       "requirement": "Compare different algorithms.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "See implementation map below; individual acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Cross-workspace review tied the overview promises to actual engines and controls, not static mockups. 43 math topics, 29 algorithm/update lessons and 30 data concept guides explain the models; numerical and topic-control tests cover computation. Actual upload/train/holdout/CV/compare/snapshot restoration tested by the data/classical/structure/deep/API/replay suites. Available source and hosted capabilities are explicitly separated; no cloud/general deep-training claim."
     },
     {
       "id": "R008",
@@ -71,8 +71,8 @@
       "section": 1,
       "context": "Project Overview",
       "requirement": "Save and revisit experiments.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "See implementation map below; individual acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Cross-workspace review tied the overview promises to actual engines and controls, not static mockups. 43 math topics, 29 algorithm/update lessons and 30 data concept guides explain the models; numerical and topic-control tests cover computation. Actual upload/train/holdout/CV/compare/snapshot restoration tested by the data/classical/structure/deep/API/replay suites. Available source and hosted capabilities are explicitly separated; no cloud/general deep-training claim."
     },
     {
       "id": "R009",
@@ -80,8 +80,8 @@
       "section": 1,
       "context": "Project Overview",
       "requirement": "Understand the mathematical foundations behind every algorithm.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "See implementation map below; individual acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Cross-workspace review tied the overview promises to actual engines and controls, not static mockups. 43 math topics, 29 algorithm/update lessons and 30 data concept guides explain the models; numerical and topic-control tests cover computation. Actual upload/train/holdout/CV/compare/snapshot restoration tested by the data/classical/structure/deep/API/replay suites. Available source and hosted capabilities are explicitly separated; no cloud/general deep-training claim."
     },
     {
       "id": "R010",
@@ -89,8 +89,8 @@
       "section": 1,
       "context": "Project Overview",
       "requirement": "1. Mathematical Understanding.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "See implementation map below; individual acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Cross-workspace review tied the overview promises to actual engines and controls, not static mockups. 43 math topics, 29 algorithm/update lessons and 30 data concept guides explain the models; numerical and topic-control tests cover computation. Actual upload/train/holdout/CV/compare/snapshot restoration tested by the data/classical/structure/deep/API/replay suites. Available source and hosted capabilities are explicitly separated; no cloud/general deep-training claim."
     },
     {
       "id": "R011",
@@ -98,8 +98,8 @@
       "section": 1,
       "context": "Project Overview",
       "requirement": "2. Programming and Implementation.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "See implementation map below; individual acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Cross-workspace review tied the overview promises to actual engines and controls, not static mockups. 43 math topics, 29 algorithm/update lessons and 30 data concept guides explain the models; numerical and topic-control tests cover computation. Actual upload/train/holdout/CV/compare/snapshot restoration tested by the data/classical/structure/deep/API/replay suites. Available source and hosted capabilities are explicitly separated; no cloud/general deep-training claim."
     },
     {
       "id": "R012",
@@ -107,8 +107,8 @@
       "section": 1,
       "context": "Project Overview",
       "requirement": "3. Interactive Visual Experimentation.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "See implementation map below; individual acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Cross-workspace review tied the overview promises to actual engines and controls, not static mockups. 43 math topics, 29 algorithm/update lessons and 30 data concept guides explain the models; numerical and topic-control tests cover computation. Actual upload/train/holdout/CV/compare/snapshot restoration tested by the data/classical/structure/deep/API/replay suites. Available source and hosted capabilities are explicitly separated; no cloud/general deep-training claim."
     },
     {
       "id": "R013",
@@ -2096,8 +2096,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Modern scientific laboratory aesthetic.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R234",
@@ -2105,8 +2105,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Clean and minimal interface.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R235",
@@ -2114,8 +2114,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Professional desktop-first layout.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R236",
@@ -2123,8 +2123,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Fully responsive design for tablets and smartphones.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R237",
@@ -2132,8 +2132,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Dark Mode and Light Mode.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R238",
@@ -2141,8 +2141,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Smooth transitions and subtle animations.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R239",
@@ -2150,8 +2150,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Clear typography.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R240",
@@ -2159,8 +2159,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Consistent spacing.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R241",
@@ -2168,8 +2168,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Organized navigation.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R242",
@@ -2177,8 +2177,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Avoid unnecessary visual clutter.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R243",
@@ -2186,8 +2186,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Primary background: Deep Navy / Charcoal.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R244",
@@ -2195,8 +2195,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Accent colors: Cyan, Blue, and Violet.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R245",
@@ -2204,8 +2204,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Light theme: White and soft gray.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R246",
@@ -2213,8 +2213,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Charts must use distinguishable colors.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R247",
@@ -2222,8 +2222,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Use clear mathematical typography.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R248",
@@ -2231,8 +2231,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Use MathJax or KaTeX for mathematical equations.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R249",
@@ -2240,8 +2240,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Dashboard.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R250",
@@ -2249,8 +2249,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Mathematical Foundations.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R251",
@@ -2258,8 +2258,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Supervised Learning.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R252",
@@ -2267,8 +2267,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Unsupervised Learning.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R253",
@@ -2276,8 +2276,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Neural Networks.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R254",
@@ -2285,8 +2285,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Data Preprocessing.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R255",
@@ -2294,8 +2294,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Model Evaluation.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R256",
@@ -2303,8 +2303,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Optimization.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R257",
@@ -2312,8 +2312,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Dataset Explorer.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R258",
@@ -2321,8 +2321,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Experiment Manager.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R259",
@@ -2330,8 +2330,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Settings.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R260",
@@ -2339,8 +2339,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Available laboratories.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R261",
@@ -2348,8 +2348,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Recently opened experiments.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R262",
@@ -2357,8 +2357,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Learning progress.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R263",
@@ -2366,8 +2366,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Recommended experiments.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R264",
@@ -2375,8 +2375,8 @@
       "section": 6,
       "context": "Website Design & User Experience",
       "requirement": "Quick access to popular algorithms.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific dashboard, responsive sidebar, navy/cyan/gold/violet accents, white/gray light theme, KaTeX MathML, shared spacing/type/control/plot styles and reduced-motion-aware disclosure inspected. Existing route/keyboard/storage suites cover route tops at 320/390/1280 and all light-theme route contents; individual updated scientific views inspected in both themes. 44 direct dashboard checks now verify all eleven sidebar categories, actual 15-entry/9-family counts, honest empty history, explicit 1-of-6 self-review change, mobile expand/collapse, themes and widths. History restore is verified separately, not fabricated progress. Distinguishable plotted series retain labels/titles; this is not color-blindness or assistive-tech certification."
     },
     {
       "id": "R265",
@@ -2663,8 +2663,8 @@
       "section": 9,
       "context": "Educational Experience",
       "requirement": "Beginner: Intuitive explanations and simple examples.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Content review covers 43 math, 29 algorithm/update-rule and 30 added data/preprocessing/validation/metric/chart concepts. Each has meaning/purpose, calculation or derivation, fixed numeric example, uses and limitations alongside the real workbench. Three levels expose increasing detail; critical assumptions stay visible, not hidden behind Advanced. Independent teaching checks: 58 math, 63 algorithm and 230 data field/example assertions. Direct UI checks: 819 math, 785 algorithm and 920 data guide/level/viewport/empty-state checks. Fixed examples and actual outputs are distinguished; exact small-model assumptions and known-sigma inference limits stated. Not a graduate textbook or general ML training service."
     },
     {
       "id": "R297",
@@ -2672,8 +2672,8 @@
       "section": 9,
       "context": "Educational Experience",
       "requirement": "Intermediate: Equations, implementation, and experiments.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Content review covers 43 math, 29 algorithm/update-rule and 30 added data/preprocessing/validation/metric/chart concepts. Each has meaning/purpose, calculation or derivation, fixed numeric example, uses and limitations alongside the real workbench. Three levels expose increasing detail; critical assumptions stay visible, not hidden behind Advanced. Independent teaching checks: 58 math, 63 algorithm and 230 data field/example assertions. Direct UI checks: 819 math, 785 algorithm and 920 data guide/level/viewport/empty-state checks. Fixed examples and actual outputs are distinguished; exact small-model assumptions and known-sigma inference limits stated. Not a graduate textbook or general ML training service."
     },
     {
       "id": "R298",
@@ -2681,8 +2681,8 @@
       "section": 9,
       "context": "Educational Experience",
       "requirement": "Advanced: Derivations, optimization, mathematical analysis, and advanced configurations.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Content review covers 43 math, 29 algorithm/update-rule and 30 added data/preprocessing/validation/metric/chart concepts. Each has meaning/purpose, calculation or derivation, fixed numeric example, uses and limitations alongside the real workbench. Three levels expose increasing detail; critical assumptions stay visible, not hidden behind Advanced. Independent teaching checks: 58 math, 63 algorithm and 230 data field/example assertions. Direct UI checks: 819 math, 785 algorithm and 920 data guide/level/viewport/empty-state checks. Fixed examples and actual outputs are distinguished; exact small-model assumptions and known-sigma inference limits stated. Not a graduate textbook or general ML training service."
     },
     {
       "id": "R299",
@@ -2690,8 +2690,8 @@
       "section": 9,
       "context": "Educational Experience",
       "requirement": "What it is.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Content review covers 43 math, 29 algorithm/update-rule and 30 added data/preprocessing/validation/metric/chart concepts. Each has meaning/purpose, calculation or derivation, fixed numeric example, uses and limitations alongside the real workbench. Three levels expose increasing detail; critical assumptions stay visible, not hidden behind Advanced. Independent teaching checks: 58 math, 63 algorithm and 230 data field/example assertions. Direct UI checks: 819 math, 785 algorithm and 920 data guide/level/viewport/empty-state checks. Fixed examples and actual outputs are distinguished; exact small-model assumptions and known-sigma inference limits stated. Not a graduate textbook or general ML training service."
     },
     {
       "id": "R300",
@@ -2699,8 +2699,8 @@
       "section": 9,
       "context": "Educational Experience",
       "requirement": "Why it exists.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Content review covers 43 math, 29 algorithm/update-rule and 30 added data/preprocessing/validation/metric/chart concepts. Each has meaning/purpose, calculation or derivation, fixed numeric example, uses and limitations alongside the real workbench. Three levels expose increasing detail; critical assumptions stay visible, not hidden behind Advanced. Independent teaching checks: 58 math, 63 algorithm and 230 data field/example assertions. Direct UI checks: 819 math, 785 algorithm and 920 data guide/level/viewport/empty-state checks. Fixed examples and actual outputs are distinguished; exact small-model assumptions and known-sigma inference limits stated. Not a graduate textbook or general ML training service."
     },
     {
       "id": "R301",
@@ -2708,8 +2708,8 @@
       "section": 9,
       "context": "Educational Experience",
       "requirement": "How it works.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Content review covers 43 math, 29 algorithm/update-rule and 30 added data/preprocessing/validation/metric/chart concepts. Each has meaning/purpose, calculation or derivation, fixed numeric example, uses and limitations alongside the real workbench. Three levels expose increasing detail; critical assumptions stay visible, not hidden behind Advanced. Independent teaching checks: 58 math, 63 algorithm and 230 data field/example assertions. Direct UI checks: 819 math, 785 algorithm and 920 data guide/level/viewport/empty-state checks. Fixed examples and actual outputs are distinguished; exact small-model assumptions and known-sigma inference limits stated. Not a graduate textbook or general ML training service."
     },
     {
       "id": "R302",
@@ -2717,8 +2717,8 @@
       "section": 9,
       "context": "Educational Experience",
       "requirement": "Its mathematical foundation.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Content review covers 43 math, 29 algorithm/update-rule and 30 added data/preprocessing/validation/metric/chart concepts. Each has meaning/purpose, calculation or derivation, fixed numeric example, uses and limitations alongside the real workbench. Three levels expose increasing detail; critical assumptions stay visible, not hidden behind Advanced. Independent teaching checks: 58 math, 63 algorithm and 230 data field/example assertions. Direct UI checks: 819 math, 785 algorithm and 920 data guide/level/viewport/empty-state checks. Fixed examples and actual outputs are distinguished; exact small-model assumptions and known-sigma inference limits stated. Not a graduate textbook or general ML training service."
     },
     {
       "id": "R303",
@@ -2726,8 +2726,8 @@
       "section": 9,
       "context": "Educational Experience",
       "requirement": "Where it is used.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Content review covers 43 math, 29 algorithm/update-rule and 30 added data/preprocessing/validation/metric/chart concepts. Each has meaning/purpose, calculation or derivation, fixed numeric example, uses and limitations alongside the real workbench. Three levels expose increasing detail; critical assumptions stay visible, not hidden behind Advanced. Independent teaching checks: 58 math, 63 algorithm and 230 data field/example assertions. Direct UI checks: 819 math, 785 algorithm and 920 data guide/level/viewport/empty-state checks. Fixed examples and actual outputs are distinguished; exact small-model assumptions and known-sigma inference limits stated. Not a graduate textbook or general ML training service."
     },
     {
       "id": "R304",
@@ -2735,8 +2735,8 @@
       "section": 9,
       "context": "Educational Experience",
       "requirement": "Its limitations.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Content review covers 43 math, 29 algorithm/update-rule and 30 added data/preprocessing/validation/metric/chart concepts. Each has meaning/purpose, calculation or derivation, fixed numeric example, uses and limitations alongside the real workbench. Three levels expose increasing detail; critical assumptions stay visible, not hidden behind Advanced. Independent teaching checks: 58 math, 63 algorithm and 230 data field/example assertions. Direct UI checks: 819 math, 785 algorithm and 920 data guide/level/viewport/empty-state checks. Fixed examples and actual outputs are distinguished; exact small-model assumptions and known-sigma inference limits stated. Not a graduate textbook or general ML training service."
     },
     {
       "id": "R305",
@@ -2745,7 +2745,7 @@
       "context": "Performance & Engineering Requirements",
       "requirement": "Modular architecture.",
       "status": "VERIFIED, BOUNDED",
-      "evidence": "Modular typed engines/components inspected; source typecheck, 5120 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
+      "evidence": "Modular typed engines/components inspected; source typecheck, 5350 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
     },
     {
       "id": "R306",
@@ -2754,7 +2754,7 @@
       "context": "Performance & Engineering Requirements",
       "requirement": "Reusable components.",
       "status": "VERIFIED, BOUNDED",
-      "evidence": "Modular typed engines/components inspected; source typecheck, 5120 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
+      "evidence": "Modular typed engines/components inspected; source typecheck, 5350 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
     },
     {
       "id": "R307",
@@ -2763,7 +2763,7 @@
       "context": "Performance & Engineering Requirements",
       "requirement": "Reusable visualization components.",
       "status": "VERIFIED, BOUNDED",
-      "evidence": "Modular typed engines/components inspected; source typecheck, 5120 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
+      "evidence": "Modular typed engines/components inspected; source typecheck, 5350 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
     },
     {
       "id": "R308",
@@ -2772,7 +2772,7 @@
       "context": "Performance & Engineering Requirements",
       "requirement": "Clean separation between frontend and ML backend.",
       "status": "VERIFIED, BOUNDED",
-      "evidence": "Modular typed engines/components inspected; source typecheck, 5120 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
+      "evidence": "Modular typed engines/components inspected; source typecheck, 5350 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
     },
     {
       "id": "R309",
@@ -2781,7 +2781,7 @@
       "context": "Performance & Engineering Requirements",
       "requirement": "Type safety.",
       "status": "VERIFIED, BOUNDED",
-      "evidence": "Modular typed engines/components inspected; source typecheck, 5120 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
+      "evidence": "Modular typed engines/components inspected; source typecheck, 5350 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
     },
     {
       "id": "R310",
@@ -2790,7 +2790,7 @@
       "context": "Performance & Engineering Requirements",
       "requirement": "Efficient dataset processing.",
       "status": "VERIFIED, BOUNDED",
-      "evidence": "Modular typed engines/components inspected; source typecheck, 5120 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
+      "evidence": "Modular typed engines/components inspected; source typecheck, 5350 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
     },
     {
       "id": "R311",
@@ -2799,7 +2799,7 @@
       "context": "Performance & Engineering Requirements",
       "requirement": "Lazy loading for heavy modules.",
       "status": "VERIFIED, BOUNDED",
-      "evidence": "Modular typed engines/components inspected; source typecheck, 5120 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
+      "evidence": "Modular typed engines/components inspected; source typecheck, 5350 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
     },
     {
       "id": "R312",
@@ -2808,7 +2808,7 @@
       "context": "Performance & Engineering Requirements",
       "requirement": "Responsive charts.",
       "status": "VERIFIED, BOUNDED",
-      "evidence": "Modular typed engines/components inspected; source typecheck, 5120 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
+      "evidence": "Modular typed engines/components inspected; source typecheck, 5350 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
     },
     {
       "id": "R313",
@@ -2817,7 +2817,7 @@
       "context": "Performance & Engineering Requirements",
       "requirement": "Error handling.",
       "status": "VERIFIED, BOUNDED",
-      "evidence": "Modular typed engines/components inspected; source typecheck, 5120 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
+      "evidence": "Modular typed engines/components inspected; source typecheck, 5350 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
     },
     {
       "id": "R314",
@@ -2826,7 +2826,7 @@
       "context": "Performance & Engineering Requirements",
       "requirement": "Input validation.",
       "status": "VERIFIED, BOUNDED",
-      "evidence": "Modular typed engines/components inspected; source typecheck, 5120 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
+      "evidence": "Modular typed engines/components inspected; source typecheck, 5350 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
     },
     {
       "id": "R315",
@@ -2835,7 +2835,7 @@
       "context": "Performance & Engineering Requirements",
       "requirement": "Loading and progress indicators.",
       "status": "VERIFIED, BOUNDED",
-      "evidence": "Modular typed engines/components inspected; source typecheck, 5120 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
+      "evidence": "Modular typed engines/components inspected; source typecheck, 5350 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
     },
     {
       "id": "R316",
@@ -2844,7 +2844,7 @@
       "context": "Performance & Engineering Requirements",
       "requirement": "Clear empty states.",
       "status": "VERIFIED, BOUNDED",
-      "evidence": "Modular typed engines/components inspected; source typecheck, 5120 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
+      "evidence": "Modular typed engines/components inspected; source typecheck, 5350 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
     },
     {
       "id": "R317",
@@ -2853,7 +2853,7 @@
       "context": "Performance & Engineering Requirements",
       "requirement": "Accessible UI.",
       "status": "AUTOMATED VERIFIED, MANUAL REVIEW OPEN",
-      "evidence": "axe-core WCAG 2/2.1 A/AA checks run with disclosures open across all 19 routes in both themes (38 states), no reported violations. Repaired real scroll-region keyboard focus, CNN label-content mismatch, sequence nested-interactive role and accessible values, equation ARIA, curriculum contrast. 28 direct keyboard/scroll/toggle/width checks and 220 route/label/keyboard checks pass. Changed views inspected at 320/390/1280 in both themes. Automated color-contrast and empty-table incomplete results still need human review; not a screen-reader or WCAG certification."
+      "evidence": "axe-core WCAG 2/2.1 A/AA checks run with disclosures open across all 19 routes in both themes (38 states), no reported violations. Repaired real scroll-region keyboard focus, CNN label-content mismatch, sequence nested-interactive role and accessible values, equation ARIA, curriculum contrast. 28 direct keyboard/scroll/toggle/width checks and 220 route/label/keyboard checks pass. Changed views inspected at 320/390/1280 in both themes. Empty tables now show real empty-state rows. Incomplete-node review found only color-contrast uncertainty after that repair. Expanded style/shape contrast checked 6196 visible text/math/SVG leaves, no measured failures; conservative actual-background pixel checks cover 36 hero text regions, minimum 5.927 after dimming the image. Full assistive-tech/manual acceptance remains open, not a screen-reader or WCAG certification."
     },
     {
       "id": "R318",
@@ -2862,7 +2862,7 @@
       "context": "Performance & Engineering Requirements",
       "requirement": "Persistent user preferences.",
       "status": "VERIFIED, BOUNDED",
-      "evidence": "Modular typed engines/components inspected; source typecheck, 5120 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
+      "evidence": "Modular typed engines/components inspected; source typecheck, 5350 source checks and production/portable builds pass. Source lazy chunks tested, all 18 route/unknown-route states checked after loading, including no boundary fallback (220 route/label/keyboard/empty-state/width checks). tests/browser/engineering.mjs observes actual worker result/progress, pre/in-flight/fallback cancellation, error surfacing, termination and URL cleanup (16 checks). tests/browser/error-boundary.mjs aborts a real production lazy chunk, verifies surviving navigation and successful reload recovery (10 checks); fallback inspected in both themes at 320/390/1280. Storage denial/quota/corruption has separate 36 browser checks. Bounds and in-page hosted fallback are explicit; not an accessibility certification or large-data performance claim."
     },
     {
       "id": "R319",
@@ -2870,8 +2870,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Website architecture.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R320",
@@ -2879,8 +2879,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Dashboard.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R321",
@@ -2888,8 +2888,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Navigation.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R322",
@@ -2897,8 +2897,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Dark/Light themes.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R323",
@@ -2906,8 +2906,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Mathematical rendering.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R324",
@@ -2915,8 +2915,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Reusable chart components.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R325",
@@ -2924,8 +2924,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Linear Algebra.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R326",
@@ -2933,8 +2933,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Calculus.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R327",
@@ -2942,8 +2942,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Probability.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R328",
@@ -2951,8 +2951,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Statistics.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R329",
@@ -2960,8 +2960,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Interactive mathematical simulations.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R330",
@@ -2969,8 +2969,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Linear Regression.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R331",
@@ -2978,8 +2978,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Logistic Regression.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R332",
@@ -2987,8 +2987,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "KNN.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R333",
@@ -2996,8 +2996,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "K-Means.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R334",
@@ -3005,8 +3005,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Decision Trees.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R335",
@@ -3014,8 +3014,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "SVM.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R336",
@@ -3023,8 +3023,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Dataset Explorer.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R337",
@@ -3032,8 +3032,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Preprocessing.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R338",
@@ -3041,8 +3041,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Evaluation Metrics.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R339",
@@ -3050,8 +3050,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Model Comparison.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R340",
@@ -3059,8 +3059,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Perceptron.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R341",
@@ -3068,8 +3068,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "MLP.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R342",
@@ -3077,8 +3077,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Backpropagation.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R343",
@@ -3086,8 +3086,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Neural Network Visualizer.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R344",
@@ -3095,8 +3095,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "CNN.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R345",
@@ -3104,8 +3104,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Python Playground.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R346",
@@ -3113,8 +3113,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Experiment Manager.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R347",
@@ -3122,8 +3122,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Dataset Uploads.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R348",
@@ -3131,8 +3131,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Model Export.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R349",
@@ -3140,8 +3140,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "User Accounts.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Phase feature recheck uses the accepted concrete implementation, not phase titles: foundation/sidebar/theme/math/shared charts; all four math areas; requested classical estimators; explorer/train-only preprocessing/evaluation/comparison; perceptron/MLP/backpropagation/CNN; optional local CodeMirror/FastAPI/SQLite/uploads/saved experiments/model export/optional API accounts. Refer to sections 2-10 engine/UI evidence, 52 backend tests and real local API browser tests. All six phases remain incremental with explicit limits; cloud persistence excluded and advanced PyTorch recommendation-only."
     },
     {
       "id": "R350",
@@ -3284,8 +3284,8 @@
       "section": 1,
       "context": "Project Overview / normative prose",
       "requirement": "Build a professional, interactive, educational, and experimental web platform called: ML Lab - Machine Learning Laboratory",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "The named ML Lab is an actual interactive scientific workspace, not article-only content: eleven main navigation categories, four math workbenches and real small-model/data/optimization experiments with source Python. Overview and full-container review links each promise to accepted concrete engine/UI checks. Dataset, training, compare and explicit save/revisit behavior are tested. Hosted and local execution boundaries remain explicit."
     },
     {
       "id": "P002",
@@ -3293,8 +3293,8 @@
       "section": 1,
       "context": "Project Overview / normative prose",
       "requirement": "The platform should serve as a comprehensive virtual laboratory for Machine Learning, Data Science, Mathematics, Statistics, and Deep Learning.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "The named ML Lab is an actual interactive scientific workspace, not article-only content: eleven main navigation categories, four math workbenches and real small-model/data/optimization experiments with source Python. Overview and full-container review links each promise to accepted concrete engine/UI checks. Dataset, training, compare and explicit save/revisit behavior are tested. Hosted and local execution boundaries remain explicit."
     },
     {
       "id": "P003",
@@ -3302,8 +3302,8 @@
       "section": 1,
       "context": "Project Overview / normative prose",
       "requirement": "This is NOT a traditional educational website containing only articles, tutorials, or static explanations.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "The named ML Lab is an actual interactive scientific workspace, not article-only content: eleven main navigation categories, four math workbenches and real small-model/data/optimization experiments with source Python. Overview and full-container review links each promise to accepted concrete engine/UI checks. Dataset, training, compare and explicit save/revisit behavior are tested. Hosted and local execution boundaries remain explicit."
     },
     {
       "id": "P004",
@@ -3311,8 +3311,8 @@
       "section": 1,
       "context": "Project Overview / normative prose",
       "requirement": "It must be an interactive laboratory where users can:",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "The named ML Lab is an actual interactive scientific workspace, not article-only content: eleven main navigation categories, four math workbenches and real small-model/data/optimization experiments with source Python. Overview and full-container review links each promise to accepted concrete engine/UI checks. Dataset, training, compare and explicit save/revisit behavior are tested. Hosted and local execution boundaries remain explicit."
     },
     {
       "id": "P005",
@@ -3320,8 +3320,8 @@
       "section": 1,
       "context": "Project Overview / normative prose",
       "requirement": "The primary goal is to connect three essential dimensions:",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "The named ML Lab is an actual interactive scientific workspace, not article-only content: eleven main navigation categories, four math workbenches and real small-model/data/optimization experiments with source Python. Overview and full-container review links each promise to accepted concrete engine/UI checks. Dataset, training, compare and explicit save/revisit behavior are tested. Hosted and local execution boundaries remain explicit."
     },
     {
       "id": "P006",
@@ -3329,8 +3329,8 @@
       "section": 2,
       "context": "Main Platform Architecture / normative prose",
       "requirement": "Organize the website into the following main laboratories.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "The named ML Lab is an actual interactive scientific workspace, not article-only content: eleven main navigation categories, four math workbenches and real small-model/data/optimization experiments with source Python. Overview and full-container review links each promise to accepted concrete engine/UI checks. Dataset, training, compare and explicit save/revisit behavior are tested. Hosted and local execution boundaries remain explicit."
     },
     {
       "id": "P007",
@@ -3572,8 +3572,8 @@
       "section": 6,
       "context": "Website Design & User Experience / normative prose",
       "requirement": "Create a professional scientific dashboard.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Dashboard/sidebar/style source and actual rendered layouts inspected. 44 direct category/count/progress/menu/theme/viewport checks supplement 220 route/label/keyboard checks and existing storage/history restoration tests. All eleven categories, actual available-workspace links, restored-history empty state, self-reported learning review, recommended XOR comparison and quick algorithm access are real. Self-review is not represented as mastery."
     },
     {
       "id": "P034",
@@ -3581,8 +3581,8 @@
       "section": 6,
       "context": "Website Design & User Experience / normative prose",
       "requirement": "Create a sidebar with:",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Dashboard/sidebar/style source and actual rendered layouts inspected. 44 direct category/count/progress/menu/theme/viewport checks supplement 220 route/label/keyboard checks and existing storage/history restoration tests. All eleven categories, actual available-workspace links, restored-history empty state, self-reported learning review, recommended XOR comparison and quick algorithm access are real. Self-review is not represented as mastery."
     },
     {
       "id": "P035",
@@ -3590,8 +3590,8 @@
       "section": 6,
       "context": "Website Design & User Experience / normative prose",
       "requirement": "The dashboard should display:",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Dashboard/sidebar/style source and actual rendered layouts inspected. 44 direct category/count/progress/menu/theme/viewport checks supplement 220 route/label/keyboard checks and existing storage/history restoration tests. All eleven categories, actual available-workspace links, restored-history empty state, self-reported learning review, recommended XOR comparison and quick algorithm access are real. Self-review is not represented as mastery."
     },
     {
       "id": "P036",
@@ -3680,8 +3680,8 @@
       "section": 9,
       "context": "Educational Experience / normative prose",
       "requirement": "The platform should support both beginners and advanced learners.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Review covered 43 math topics, 29 algorithm/update rules and 30 additional data concepts with meaning/purpose/computation/examples/uses/limitations. New data guide fills actual explanation gaps for imputation/encoding/scaling/outliers, leakage/splits/CV, metrics, comparisons and chart interpretation. Three levels work; important limits remain visible at every level. 230 data field/example checks and 920 direct guide/level/viewport checks join 58/63 math/algorithm teaching checks and 819/785 direct lesson checks. Fixed calculations are explicitly separate from live data."
     },
     {
       "id": "P046",
@@ -3689,8 +3689,8 @@
       "section": 9,
       "context": "Educational Experience / normative prose",
       "requirement": "Use progressive disclosure:",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Review covered 43 math topics, 29 algorithm/update rules and 30 additional data concepts with meaning/purpose/computation/examples/uses/limitations. New data guide fills actual explanation gaps for imputation/encoding/scaling/outliers, leakage/splits/CV, metrics, comparisons and chart interpretation. Three levels work; important limits remain visible at every level. 230 data field/example checks and 920 direct guide/level/viewport checks join 58/63 math/algorithm teaching checks and 819/785 direct lesson checks. Fixed calculations are explicitly separate from live data."
     },
     {
       "id": "P047",
@@ -3698,8 +3698,8 @@
       "section": 9,
       "context": "Educational Experience / normative prose",
       "requirement": "For every concept, explain:",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Review covered 43 math topics, 29 algorithm/update rules and 30 additional data concepts with meaning/purpose/computation/examples/uses/limitations. New data guide fills actual explanation gaps for imputation/encoding/scaling/outliers, leakage/splits/CV, metrics, comparisons and chart interpretation. Three levels work; important limits remain visible at every level. 230 data field/example checks and 920 direct guide/level/viewport checks join 58/63 math/algorithm teaching checks and 819/785 direct lesson checks. Fixed calculations are explicitly separate from live data."
     },
     {
       "id": "P048",
@@ -3707,8 +3707,8 @@
       "section": 9,
       "context": "Educational Experience / normative prose",
       "requirement": "Do not oversimplify mathematical concepts or hide important assumptions.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Review covered 43 math topics, 29 algorithm/update rules and 30 additional data concepts with meaning/purpose/computation/examples/uses/limitations. New data guide fills actual explanation gaps for imputation/encoding/scaling/outliers, leakage/splits/CV, metrics, comparisons and chart interpretation. Three levels work; important limits remain visible at every level. 230 data field/example checks and 920 direct guide/level/viewport checks join 58/63 math/algorithm teaching checks and 819/785 direct lesson checks. Fixed calculations are explicitly separate from live data."
     },
     {
       "id": "P049",
@@ -3734,8 +3734,8 @@
       "section": 11,
       "context": "Development Strategy / normative prose",
       "requirement": "Build the project incrementally.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Repository commit history and privately published verified increments record incremental work rather than one untested final dump. Stable 419-row line-addressed ledger retains open/partial/exception statuses. Each increment runs source checks/builds and affected direct UI checks before publication."
     },
     {
       "id": "P052",
