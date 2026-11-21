@@ -1313,8 +1313,8 @@
       "section": 3,
       "context": "Linear Algebra",
       "requirement": "Scalars.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R147",
@@ -1322,8 +1322,8 @@
       "section": 3,
       "context": "Linear Algebra",
       "requirement": "Vectors.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R148",
@@ -1331,8 +1331,8 @@
       "section": 3,
       "context": "Linear Algebra",
       "requirement": "Matrices.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R149",
@@ -1340,8 +1340,8 @@
       "section": 3,
       "context": "Linear Algebra",
       "requirement": "Matrix Operations.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R150",
@@ -1349,8 +1349,8 @@
       "section": 3,
       "context": "Linear Algebra",
       "requirement": "Matrix Multiplication.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R151",
@@ -1358,8 +1358,8 @@
       "section": 3,
       "context": "Linear Algebra",
       "requirement": "Transpose.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R152",
@@ -1367,8 +1367,8 @@
       "section": 3,
       "context": "Linear Algebra",
       "requirement": "Inverse.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R153",
@@ -1376,8 +1376,8 @@
       "section": 3,
       "context": "Linear Algebra",
       "requirement": "Determinants.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R154",
@@ -1385,8 +1385,8 @@
       "section": 3,
       "context": "Linear Algebra",
       "requirement": "Eigenvalues.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R155",
@@ -1394,8 +1394,8 @@
       "section": 3,
       "context": "Linear Algebra",
       "requirement": "Eigenvectors.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R156",
@@ -1403,8 +1403,8 @@
       "section": 3,
       "context": "Linear Algebra",
       "requirement": "Singular Value Decomposition (SVD).",
-      "status": "REVIEW PRIORITY",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review. Verify a shared experiment is sufficient rather than assuming content cards satisfy interactivity."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open. These priority topics were directly exercised, not inferred from cards."
     },
     {
       "id": "R157",
@@ -1412,8 +1412,8 @@
       "section": 3,
       "context": "Linear Algebra",
       "requirement": "Vector Spaces.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R158",
@@ -1421,8 +1421,8 @@
       "section": 3,
       "context": "Linear Algebra",
       "requirement": "Dot Product.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R159",
@@ -1430,8 +1430,8 @@
       "section": 3,
       "context": "Calculus",
       "requirement": "Limits.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R160",
@@ -1439,8 +1439,8 @@
       "section": 3,
       "context": "Calculus",
       "requirement": "Derivatives.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R161",
@@ -1448,8 +1448,8 @@
       "section": 3,
       "context": "Calculus",
       "requirement": "Partial Derivatives.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R162",
@@ -1457,8 +1457,8 @@
       "section": 3,
       "context": "Calculus",
       "requirement": "Chain Rule.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R163",
@@ -1466,8 +1466,8 @@
       "section": 3,
       "context": "Calculus",
       "requirement": "Multivariable Calculus.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R164",
@@ -1475,8 +1475,8 @@
       "section": 3,
       "context": "Calculus",
       "requirement": "Gradients.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R165",
@@ -1484,8 +1484,8 @@
       "section": 3,
       "context": "Calculus",
       "requirement": "Directional Derivatives.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R166",
@@ -1493,8 +1493,8 @@
       "section": 3,
       "context": "Calculus",
       "requirement": "Jacobian.",
-      "status": "REVIEW PRIORITY",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review. Verify a shared experiment is sufficient rather than assuming content cards satisfy interactivity."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open. These priority topics were directly exercised, not inferred from cards."
     },
     {
       "id": "R167",
@@ -1502,8 +1502,8 @@
       "section": 3,
       "context": "Calculus",
       "requirement": "Hessian.",
-      "status": "REVIEW PRIORITY",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review. Verify a shared experiment is sufficient rather than assuming content cards satisfy interactivity."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open. These priority topics were directly exercised, not inferred from cards."
     },
     {
       "id": "R168",
@@ -1511,8 +1511,8 @@
       "section": 3,
       "context": "Calculus",
       "requirement": "Optimization.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R169",
@@ -1520,8 +1520,8 @@
       "section": 3,
       "context": "Probability",
       "requirement": "Basic Probability.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R170",
@@ -1529,8 +1529,8 @@
       "section": 3,
       "context": "Probability",
       "requirement": "Conditional Probability.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R171",
@@ -1538,8 +1538,8 @@
       "section": 3,
       "context": "Probability",
       "requirement": "Bayes' Theorem.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R172",
@@ -1547,8 +1547,8 @@
       "section": 3,
       "context": "Probability",
       "requirement": "Probability Distributions.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R173",
@@ -1556,8 +1556,8 @@
       "section": 3,
       "context": "Probability",
       "requirement": "Normal Distribution.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R174",
@@ -1565,8 +1565,8 @@
       "section": 3,
       "context": "Probability",
       "requirement": "Bernoulli Distribution.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R175",
@@ -1574,8 +1574,8 @@
       "section": 3,
       "context": "Probability",
       "requirement": "Binomial Distribution.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R176",
@@ -1583,8 +1583,8 @@
       "section": 3,
       "context": "Probability",
       "requirement": "Poisson Distribution.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R177",
@@ -1592,8 +1592,8 @@
       "section": 3,
       "context": "Probability",
       "requirement": "Gaussian Distribution.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R178",
@@ -1601,8 +1601,8 @@
       "section": 3,
       "context": "Statistics",
       "requirement": "Mean.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R179",
@@ -1610,8 +1610,8 @@
       "section": 3,
       "context": "Statistics",
       "requirement": "Median.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R180",
@@ -1619,8 +1619,8 @@
       "section": 3,
       "context": "Statistics",
       "requirement": "Mode.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R181",
@@ -1628,8 +1628,8 @@
       "section": 3,
       "context": "Statistics",
       "requirement": "Variance.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R182",
@@ -1637,8 +1637,8 @@
       "section": 3,
       "context": "Statistics",
       "requirement": "Standard Deviation.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R183",
@@ -1646,8 +1646,8 @@
       "section": 3,
       "context": "Statistics",
       "requirement": "Covariance.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R184",
@@ -1655,8 +1655,8 @@
       "section": 3,
       "context": "Statistics",
       "requirement": "Correlation.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R185",
@@ -1664,8 +1664,8 @@
       "section": 3,
       "context": "Statistics",
       "requirement": "Sampling.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R186",
@@ -1673,8 +1673,8 @@
       "section": 3,
       "context": "Statistics",
       "requirement": "Hypothesis Testing.",
-      "status": "REVIEW PRIORITY",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review. Verify a shared experiment is sufficient rather than assuming content cards satisfy interactivity."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open. These priority topics were directly exercised, not inferred from cards."
     },
     {
       "id": "R187",
@@ -1682,8 +1682,8 @@
       "section": 3,
       "context": "Statistics",
       "requirement": "Confidence Intervals.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R188",
@@ -1691,8 +1691,8 @@
       "section": 3,
       "context": "Statistics",
       "requirement": "Statistical Inference.",
-      "status": "REVIEW PRIORITY",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review. Verify a shared experiment is sufficient rather than assuming content cards satisfy interactivity."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open. These priority topics were directly exercised, not inferred from cards."
     },
     {
       "id": "R189",
@@ -1700,8 +1700,8 @@
       "section": 3,
       "context": "Statistics",
       "requirement": "Clear explanation.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R190",
@@ -1709,8 +1709,8 @@
       "section": 3,
       "context": "Statistics",
       "requirement": "Mathematical equations.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R191",
@@ -1718,8 +1718,8 @@
       "section": 3,
       "context": "Statistics",
       "requirement": "Step-by-step examples.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R192",
@@ -1727,8 +1727,8 @@
       "section": 3,
       "context": "Statistics",
       "requirement": "Interactive visualizations.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R193",
@@ -1736,8 +1736,8 @@
       "section": 3,
       "context": "Statistics",
       "requirement": "Adjustable parameters.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R194",
@@ -1745,8 +1745,8 @@
       "section": 3,
       "context": "Statistics",
       "requirement": "Practical Machine Learning applications.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+      "status": "INTERACTION VERIFIED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Direct UI audit changed a relevant control for all 43 named topics and observed changed computed outputs (146 checks). docs/math-topic-interaction-audit.json records each input/output; final content and visual acceptance remains open."
     },
     {
       "id": "R195",
