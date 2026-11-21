@@ -26,3 +26,15 @@ Shared math area/topic/learning-level selection already has separate 819 topic/l
 3. Browser snapshots, imports/downloads/comparisons/deletion and local API/account/editor effects need their real storage/download/service states, not mocks that only return success.
 4. Finish shell, curriculum, exported-text panel, copy fallback, lazy-view toggles, errors and recovery. Retain bounded execution limits and intentionally disabled states.
 5. Only then individually disposition global/final requirements. The nine historical-planning items, four declared interface exceptions, advanced-backend partial item and human assistive-technology review keep their separate honest statuses.
+
+## Subsequent passes in this increment
+
+- `original-control-effects.mjs`: 35 records for every original regression/perceptron/scalar-GD control family, actual timing, data operations, reproducible random generation and quiz feedback.
+- `parameter-control-effects.mjs`: 28 records. Matching-update comparisons include actual learned state or scientific output. IDs in SVG markup are normalized so generated identifiers cannot produce false differences. Decision-tree depth uses XOR rather than an already depth-one separable dataset. Inspection-only controls compare the actual graph/state.
+- `view-lifecycle-effects.mjs`: 18 records. Actual step caps, seed regeneration, responsibility inspection, SVG rotations, WebGL pixel changes, renderer close/disposal, propagation duration/pause/resume, pagination and split membership.
+- `shared-pipeline-effects.mjs`: 17 records. Real selected column order/row transfer into classical, structure, neural and raw pipelines; real fitted transforms/CV; reset; four actual UI cancellation paths; regression comparison. Test navigation preserves the session's source document so the shared table is not accidentally lost through a page reload.
+- `api-account-effects.mjs`: 42 assertions on disposable real local API/SQLite. Account creation/session revocation, rejected password, selection/refresh/export, exact known fit, nondefault ridge alpha, experiment comparison/restore/delete and persisted artifacts are checked. Test credentials are fixed disposable fixtures in a temporary database, never real account secrets.
+- `python-acceptance.mjs`: expanded to 15 checks including all three editor example selections, actual isolated stdout/Matplotlib, exact downloads and keyboard exit.
+- `chart-accessibility.mjs`: 81 checks of actual chart values, descriptions, reading order, lesson focus, generated-panel focus/return, real update status and six-state containment. The numeric alternatives improve feasible access without claiming a screen-reader certification.
+
+All these passes succeeded on the current application. Existing full-route, restore/import/history, export and axe regressions were rerun successfully. A source-site-to-evidence map and final conditional gaps are the next step, not implied complete by these counts.

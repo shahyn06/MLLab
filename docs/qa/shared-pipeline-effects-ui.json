@@ -1,0 +1,73 @@
+{
+  "records": [
+    {
+      "label": "Share table",
+      "effect": "Actual in-session copy is available to other labs."
+    },
+    {
+      "label": "Shared classical",
+      "effect": "Selected columns and rows reach actual model snapshot."
+    },
+    {
+      "label": "Classical column order",
+      "effect": "Transfer uses selected feature order and exact selected raw rows."
+    },
+    {
+      "label": "Shared unsupervised",
+      "effect": "Selected columns and rows reach actual model snapshot."
+    },
+    {
+      "label": "Shared neural",
+      "effect": "Selected columns and rows reach actual model snapshot."
+    },
+    {
+      "label": "Neural transfer rows",
+      "effect": "Exactly 24 transferred observations are split."
+    },
+    {
+      "label": "Pipeline transfer",
+      "effect": "Twenty raw rows loaded without fitting."
+    },
+    {
+      "label": "Pipeline selected order",
+      "effect": "Selected b column is first raw feature."
+    },
+    {
+      "label": "Pipeline settings",
+      "effect": "Real training-only fitted transform displayed after selected settings."
+    },
+    {
+      "label": "Pipeline CV settings",
+      "effect": "Actual fresh two-fold stratified results displayed."
+    },
+    {
+      "label": "Reset pipeline example",
+      "effect": "Restores default raw example, not transferred rows."
+    },
+    {
+      "label": "Cancel pipeline",
+      "effect": "Real UI cancellation stops computation and reports cancelled."
+    },
+    {
+      "label": "Cancel pipeline CV",
+      "effect": "Real UI cancellation stops computation and reports cancelled."
+    },
+    {
+      "label": "Cancel validation",
+      "effect": "Real UI cancellation stops computation and reports cancelled."
+    },
+    {
+      "label": "Cancel comparison",
+      "effect": "Real UI cancellation stops computation and reports cancelled."
+    },
+    {
+      "label": "Comparison task",
+      "effect": "Regression selection computes real regression metric table."
+    },
+    {
+      "label": "Browser errors",
+      "effect": "No uncaught errors."
+    }
+  ],
+  "errors": []
+}

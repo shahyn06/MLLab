@@ -1,0 +1,117 @@
+{
+  "records": [
+    {
+      "label": "classical Multiple Linear Regression Model learning rate",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "classical K-Nearest Neighbors Neighbor count k",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "classical Decision Tree Maximum tree depth",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "classical Ridge Regression Penalty λ",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "classical Elastic Net L1 mixing fraction ρ",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "classical Polynomial Regression Polynomial degree",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "neural  Neural learning rate",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "cnn  CNN learning rate",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "sequence  Sequence learning rate",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "sequence  Global gradient clip norm",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "optimization  Optimizer learning rate",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "optimization  Optimizer batch size",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "optimization  First moment beta",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "optimization  Squared gradient decay",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "optimization  Inverse-time decay",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "unsupervised Gaussian Mixture Requested clusters / components",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "unsupervised DBSCAN Neighborhood epsilon",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "unsupervised DBSCAN Minimum neighborhood points",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "unsupervised Isolation Forest Outlier fraction",
+      "effect": "Changing parameter changes learned model or computed predictions/geometry after matching updates."
+    },
+    {
+      "label": "Inspect training sample",
+      "effect": "Changes actual activation/gradient graph."
+    },
+    {
+      "label": "Neural dataset",
+      "effect": "Selected dataset changes actual stored training and test rows."
+    },
+    {
+      "label": "CNN image inspection",
+      "effect": "Changes loaded image and computed inspection."
+    },
+    {
+      "label": "Sequence sample index",
+      "effect": "Changes actual unrolled input/state values."
+    },
+    {
+      "label": "Sequence time slider",
+      "effect": "Selects actual inspected state."
+    },
+    {
+      "label": "First sequence step",
+      "effect": "Returns actual inspection to step one."
+    },
+    {
+      "label": "Custom sequence apply",
+      "effect": "Unrolls exactly the three inspection inputs."
+    },
+    {
+      "label": "Use dataset sequence",
+      "effect": "Restores generated dataset inspection."
+    },
+    {
+      "label": "Browser errors",
+      "effect": "No uncaught errors."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,77 @@
+{
+  "records": [
+    {
+      "label": "Classical seed and regenerate",
+      "effect": "Changes actual generated feature points."
+    },
+    {
+      "label": "Classical step limit",
+      "effect": "Actual training stops at the selected 20-step cap."
+    },
+    {
+      "label": "Inspect point number",
+      "effect": "Changes displayed point responsibilities."
+    },
+    {
+      "label": "View azimuth",
+      "effect": "Changes actual projected feature geometry."
+    },
+    {
+      "label": "View elevation",
+      "effect": "Changes actual projected feature geometry."
+    },
+    {
+      "label": "True 3D azimuth",
+      "effect": "Changes actual rendered WebGL pixels."
+    },
+    {
+      "label": "True 3D elevation",
+      "effect": "Changes actual rendered WebGL pixels."
+    },
+    {
+      "label": "Close true 3D",
+      "effect": "Removes/disposes actual renderer."
+    },
+    {
+      "label": "Propagation slow duration",
+      "effect": "Selected 2000ms duration keeps first stage for 500ms."
+    },
+    {
+      "label": "Pause propagation",
+      "effect": "Frozen exact stage."
+    },
+    {
+      "label": "Propagation fast duration",
+      "effect": "Selected shorter duration advances actual computed stages."
+    },
+    {
+      "label": "Resume propagation",
+      "effect": "Actual stage progresses again."
+    },
+    {
+      "label": "Optimizer iteration limit",
+      "effect": "Actual training stops at selected 50 updates."
+    },
+    {
+      "label": "Loss surface azimuth",
+      "effect": "Changes actual surface geometry."
+    },
+    {
+      "label": "Next rows",
+      "effect": "Shows actual second page."
+    },
+    {
+      "label": "Previous rows",
+      "effect": "Returns actual first page."
+    },
+    {
+      "label": "Explorer split seed",
+      "effect": "Changes actual training-row membership."
+    },
+    {
+      "label": "Browser errors",
+      "effect": "No uncaught errors."
+    }
+  ],
+  "errors": []
+}

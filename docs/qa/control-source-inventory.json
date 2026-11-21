@@ -1776,7 +1776,7 @@
     },
     {
       "file": "src/export-panel.tsx",
-      "line": 4,
+      "line": 19,
       "tag": "CopyButton",
       "label": "\"Copy generated text\"",
       "events": {},
@@ -1787,11 +1787,11 @@
     },
     {
       "file": "src/export-panel.tsx",
-      "line": 4,
+      "line": 19,
       "tag": "Button",
       "label": "Close generated content",
       "events": {
-        "onClick": "{()=>S(null)}"
+        "onClick": "{close}"
       },
       "disabled": null,
       "type": null,

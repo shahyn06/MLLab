@@ -1,0 +1,145 @@
+{
+  "records": [
+    {
+      "label": "Slope · m",
+      "effect": "Changes computed prediction line and errors."
+    },
+    {
+      "label": "Intercept · b",
+      "effect": "Changes computed prediction line and errors."
+    },
+    {
+      "label": "Known exact fitted line",
+      "effect": "Manually selected m=2,b=1 gives zero error on current data."
+    },
+    {
+      "label": "Prediction query",
+      "effect": "Produces y=9 from current line, not just input echo."
+    },
+    {
+      "label": "Residual toggle off",
+      "effect": "Removes residual geometry."
+    },
+    {
+      "label": "Residual toggle on",
+      "effect": "Restores one segment per observation."
+    },
+    {
+      "label": "Restart from zero",
+      "effect": "Zeros actual model."
+    },
+    {
+      "label": "One regression update",
+      "effect": "Actual MSE decreases from zero-line error."
+    },
+    {
+      "label": "Regression pause",
+      "effect": "Both plotted/model outputs remain stable."
+    },
+    {
+      "label": "Regression continue",
+      "effect": "Real additional steps are recorded."
+    },
+    {
+      "label": "Find best fit",
+      "effect": "Actual OLS result gives MSE zero."
+    },
+    {
+      "label": "Add point fields/button",
+      "effect": "New sixth plotted observation."
+    },
+    {
+      "label": "Seeded generate",
+      "effect": "Same seed regenerates exactly the same 20 points."
+    },
+    {
+      "label": "Seed changes generated data",
+      "effect": "Different seed changes actual plotted points."
+    },
+    {
+      "label": "Invalid custom data",
+      "effect": "Rejected with visible error."
+    },
+    {
+      "label": "Custom apply and fit",
+      "effect": "Uses actual pasted data."
+    },
+    {
+      "label": "Reset lab",
+      "effect": "Restores default data/model and clears steps."
+    },
+    {
+      "label": "Weight · w₁",
+      "effect": "Changes actual boundary or prediction table."
+    },
+    {
+      "label": "Weight · w₂",
+      "effect": "Changes actual boundary or prediction table."
+    },
+    {
+      "label": "Bias · b",
+      "effect": "Changes actual boundary or prediction table."
+    },
+    {
+      "label": "Perceptron rate",
+      "effect": "Changes actual learned feature weight after same epoch."
+    },
+    {
+      "label": "XOR selector",
+      "effect": "Changes target table and resets model."
+    },
+    {
+      "label": "Perceptron pause",
+      "effect": "Stops actual epoch updates."
+    },
+    {
+      "label": "Perceptron continue",
+      "effect": "Advances actual epochs."
+    },
+    {
+      "label": "AND and reset",
+      "effect": "Task switch clears actual epochs."
+    },
+    {
+      "label": "Scalar one step",
+      "effect": "Matches independently calculated first update."
+    },
+    {
+      "label": "Scalar ten steps",
+      "effect": "Records ten real additional updates."
+    },
+    {
+      "label": "Scalar reset",
+      "effect": "Restores initial position."
+    },
+    {
+      "label": "Scalar rate",
+      "effect": "Selected rate changes actual update."
+    },
+    {
+      "label": "Scalar pause",
+      "effect": "Stops actual updates."
+    },
+    {
+      "label": "Scalar animate/resume",
+      "effect": "Actual steps advance."
+    },
+    {
+      "label": "Quiz regression",
+      "effect": "Chosen answer produces correct feedback."
+    },
+    {
+      "label": "Quiz perceptron",
+      "effect": "Chosen answer produces correct feedback."
+    },
+    {
+      "label": "Quiz gradient",
+      "effect": "Chosen answer produces correct feedback."
+    },
+    {
+      "label": "Browser errors",
+      "effect": "No uncaught errors."
+    }
+  ],
+  "errors": []
+}

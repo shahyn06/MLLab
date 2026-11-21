@@ -1,0 +1,76 @@
+{
+  "checks": 81,
+  "records": [
+    {
+      "route": "regression",
+      "chart": 0,
+      "values": 12
+    },
+    {
+      "route": "regression",
+      "chart": 1,
+      "values": 0
+    },
+    {
+      "route": "perceptron",
+      "chart": 0,
+      "values": 4
+    },
+    {
+      "route": "gradient",
+      "chart": 0,
+      "values": 102
+    },
+    {
+      "route": "gradient",
+      "chart": 1,
+      "values": 2
+    },
+    {
+      "route": "cnn",
+      "chart": 0,
+      "values": 2
+    },
+    {
+      "route": "sequence",
+      "chart": 0,
+      "values": 16
+    },
+    {
+      "route": "sequence",
+      "chart": 1,
+      "values": 2
+    },
+    {
+      "route": "datasets",
+      "chart": 0,
+      "values": 32
+    },
+    {
+      "route": "datasets",
+      "chart": 1,
+      "values": 32
+    },
+    {
+      "route": "datasets",
+      "chart": 2,
+      "values": 32
+    },
+    {
+      "route": "datasets",
+      "chart": 3,
+      "values": 36
+    },
+    {
+      "route": "evaluation",
+      "chart": 0,
+      "values": 14
+    },
+    {
+      "route": "evaluation",
+      "chart": 1,
+      "values": 14
+    }
+  ],
+  "errors": []
+}
