@@ -1907,8 +1907,8 @@
       "section": 4,
       "context": "Decision Trees",
       "requirement": "Show Gini Impurity and Entropy calculations.",
-      "status": "PARTIAL",
-      "evidence": "Both criteria are computed; fitted tree shows numeric impurity. Per-node expanded arithmetic/count explanation remains to be added or accepted."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "src/tree-arithmetic.tsx and tree-arithmetic-engine.ts expose actual per-node class counts, both numeric formulas, child weighted impurity and gain; 589 source parity/membership checks and 17 UI checks."
     },
     {
       "id": "R213",
