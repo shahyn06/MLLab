@@ -2,7 +2,7 @@
 
 An English-language, browser-based Machine Learning learning website. Change parameters, inspect the results and understand the model.
 
-## Stage 1
+## Implemented phases 1 and 2
 
 - **Linear Regression:** adjustable slope and intercept, editable x/y data, ordinary least-squares fit, actual animated gradient-descent training with pause/restart/convergence, paired data and learning-curve plots, mean squared error and predictions.
 - **Perceptron:** online training on AND and XOR, adjustable weights and bias, a decision-boundary plot and prediction table.
@@ -37,6 +37,7 @@ Deploy the contents of `dist` to a static host. There is no backend, database, A
 - `src/App.tsx`: app shell, routing and reference topic map.
 - `src/labs.tsx`: interactive labs, explanations and quizzes.
 - `src/dashboard.tsx`: dashboard, sidebar, lab categories and Settings.
+- `src/mathlab.tsx`: mathematical workbenches and numerical functions.
 - `src/Math.tsx`: KaTeX MathML equation rendering.
 - `src/components.tsx`: reusable lab controls, charts and feedback.
 - `src/curriculum.ts`: curriculum sections, readable topic names and available lab links.
@@ -47,7 +48,7 @@ Deploy the contents of `dist` to a static host. There is no backend, database, A
 
 ## Scope and limitations
 
-Only three labs are built. The remaining curriculum is a roadmap, not completed course material. Topic names follow the aibdaya.com concept-map image supplied for the project. The request described 217 topics; the total has not been reconciled item by item. The project does not copy paid course content or access a course account.
+Three algorithm labs and four mathematical workbenches are built. The remaining curriculum is a roadmap, not completed course material. Topic names follow the aibdaya.com concept-map image supplied for the project. The request described 217 topics; the total has not been reconciled item by item. The project does not copy paid course content or access a course account.
 
 Lab state is temporary and resets when the page is reopened. Theme preferences are saved locally when browser storage is available. Displayed Python code is educational and is not executed by the website. Examples are fictional and are not production models. Do not enter sensitive data. This source application does not transmit lab inputs to a service.
 
@@ -60,6 +61,12 @@ The regression lab uses MSE without a one-half factor. The gradient-descent lab 
 
 See `ARCHITECTURE.md` for the complete six-phase plan, future API boundary and proposed data model. These are designs, not implemented services.
 
-## Suggested next stage
+## Mathematical foundations
 
-Descriptive statistics and distributions; vectors, dot products and derivatives; Logistic Regression; train/test splits and a Confusion Matrix. Reconcile the full source topic map before declaring a topic count complete.
+Four working areas cover linear algebra, calculus, probability and statistics. There are 43 topic explanations that share the four simulations, not 43 independent labs. Matrix results include real eigendecomposition, SVD and reconstruction errors; probability includes four distributions and Bayes; statistics includes editable paired data, descriptive measures, z inference with assumptions and seeded bootstrap draws.
+
+The workbenches use the MIT-licensed ml-matrix runtime. See src/vendor/MATRIX-LICENSE.txt.
+
+## Next phases
+
+Classical ML, dataset processing and evaluation, neural networks, and advanced execution/persistence remain in progress. The full specification is not yet complete.

@@ -7,3 +7,5 @@ const formulas:Record<string,string>={
  '03':String.raw`w_{t+1}=w_t-\alpha\,f'(w_t),\qquad f(w)=(w-3)^2`
 };
 export function Equation({kind}:{kind:string}){const text=formulas[kind];if(!text)return null;return <div className="ml-equation" aria-label="Mathematical model" dangerouslySetInnerHTML={{__html:katex.renderToString(text,{output:'mathml',displayMode:true,throwOnError:true,trust:false})}}/>}
+
+export function Formula({tex}:{tex:string}){return <div className="ml-formula-group">{tex.split(/,?\\quad\s*/).map((part,i)=><div key={i} className="ml-equation" dangerouslySetInnerHTML={{__html:katex.renderToString(part,{output:'mathml',displayMode:true,throwOnError:false,trust:false})}}/>)}</div>}
