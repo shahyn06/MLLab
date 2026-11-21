@@ -1,0 +1,3649 @@
+{
+  "scope": "Static source inventory only. A mapped component, conditional disabled state or event handler is not proof of its rendered behavior. Pair each state with direct interaction evidence before universal acceptance.",
+  "sourceControlSites": 282,
+  "byTag": {
+    "input": 36,
+    "Button": 113,
+    "button": 15,
+    "Link": 21,
+    "select": 18,
+    "textarea": 9,
+    "Range": 58,
+    "UIButton": 1,
+    "CopyButton": 2,
+    "SelectField": 9
+  },
+  "missingButtonHandlers": [],
+  "controls": [
+    {
+      "file": "src/App.tsx",
+      "line": 34,
+      "tag": "input",
+      "label": "",
+      "events": {
+        "onChange": "{e=>Q(e.target.value)}"
+      },
+      "disabled": null,
+      "type": "\"search\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/App.tsx",
+      "line": 34,
+      "tag": "Button",
+      "label": "Clear search",
+      "events": {
+        "onClick": "{()=>Q('')}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/App.tsx",
+      "line": 34,
+      "tag": "button",
+      "label": "<span className=\"ml-number\">{String(c.i+1).padStart(2,'0')}</span> <span><strong>{c.title}</strong><small>{c.subtitle}</small></span> <span className={c.ready?'ml-ready':'ml-planne",
+      "events": {
+        "onClick": "{()=>S(selected===c.i?null:c.i)}"
+      },
+      "disabled": null,
+      "type": "\"button\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/App.tsx",
+      "line": 34,
+      "tag": "Link",
+      "label": "Open {labNames[id]}",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": "{id==='regression'?'/regression':'/'+id}",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/App.tsx",
+      "line": 35,
+      "tag": "Link",
+      "label": "Back to the first lab",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": "\"/\"",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/algorithm-depth.tsx",
+      "line": 25,
+      "tag": "select",
+      "label": "\"Algorithm learning level\"",
+      "events": {
+        "onChange": "{e=>L(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 15,
+      "tag": "Button",
+      "label": "{t}",
+      "events": {
+        "onClick": "{()=>{T(t);O(null)}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 16,
+      "tag": "input",
+      "label": "\"Loopback API base URL\"",
+      "events": {
+        "onChange": "{e=>B(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 16,
+      "tag": "Button",
+      "label": "Connect local API",
+      "events": {
+        "onClick": "{()=>run(async()=>{const a=new LabAPI(base);await a.request('/health');const c=await a.request('/capabilities');A(a);C(c);O(null);D([]);E([]);X([]);R(null);S('Connected. '+(c.auth_enabled?'Local account sign-in required.':'Anonymous shared local workspace.'));if(!c.auth_enabled)await refresh(a)})}"
+      },
+      "disabled": "{busy}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 16,
+      "tag": "Button",
+      "label": "Disconnect",
+      "events": {
+        "onClick": "{()=>{A(null);C(null);D([]);E([]);O(null);R(null);PW('');S('Disconnected. In-memory session discarded.')}}"
+      },
+      "disabled": "{busy||!api}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 16,
+      "tag": "input",
+      "label": "\"Local username\"",
+      "events": {
+        "onChange": "{e=>UN(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 16,
+      "tag": "input",
+      "label": "\"Local password\"",
+      "events": {
+        "onChange": "{e=>PW(e.target.value)}"
+      },
+      "disabled": null,
+      "type": "\"password\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 16,
+      "tag": "Button",
+      "label": "Create local account",
+      "events": {
+        "onClick": "{()=>run(async()=>{await client().request('/auth/register','POST',{username,password});PW('');S('Local account created. Sign in to use its workspace.')})}"
+      },
+      "disabled": "{busy}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 16,
+      "tag": "Button",
+      "label": "Sign in locally",
+      "events": {
+        "onClick": "{()=>run(async()=>{const r=await client().request('/auth/login','POST',{username,password});client().token=r.access_token;PW('');await refresh();S('Signed in locally until '+r.expires_at)})}"
+      },
+      "disabled": "{busy}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 16,
+      "tag": "Button",
+      "label": "Sign out",
+      "events": {
+        "onClick": "{()=>run(async()=>{await client().request('/auth/logout','POST');client().token='';D([]);E([]);O(null);R(null);S('Signed out. Session revoked.')})}"
+      },
+      "disabled": "{busy}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 17,
+      "tag": "input",
+      "label": "\"Server dataset file\"",
+      "events": {
+        "onChange": "{e=>U(e.target.files?.[0]||null)}"
+      },
+      "disabled": null,
+      "type": "\"file\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 17,
+      "tag": "Button",
+      "label": "Upload selected dataset",
+      "events": {
+        "onClick": "{()=>run(async()=>{const body=new FormData();body.append('file',file!);const d=await client().request('/datasets/upload','POST',body);await refresh();V(d.id);F(d.columns.slice(0,-1).join(','));Y(d.columns.at(-1)||'');S('Uploaded '+d.name)})}"
+      },
+      "disabled": "{busy||!api||!file}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 17,
+      "tag": "Button",
+      "label": "Refresh stored datasets",
+      "events": {
+        "onClick": "{()=>run(()=>refresh())}"
+      },
+      "disabled": "{busy||!api}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 17,
+      "tag": "select",
+      "label": "\"Stored dataset\"",
+      "events": {
+        "onChange": "{e=>{V(e.target.value);const d=datasets.find(d=>d.id===e.target.value);F(d?.columns.slice(0,-1).join(',')||'');Y(d?.columns.at(-1)||'')}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 17,
+      "tag": "Button",
+      "label": "Preview dataset",
+      "events": {
+        "onClick": "{()=>run(async()=>{O(await client().request('/datasets/'+encodeURIComponent(dataset)+'?limit=100'));S('Preview: first 100 rows at most. Full row count is shown separately.')})}"
+      },
+      "disabled": "{busy||!dataset}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 17,
+      "tag": "Button",
+      "label": "Dataset summary",
+      "events": {
+        "onClick": "{()=>run(async()=>{O(await client().request('/datasets/'+encodeURIComponent(dataset)+'/summary'));S('Summary computed from stored data.')})}"
+      },
+      "disabled": "{busy||!dataset}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 17,
+      "tag": "Button",
+      "label": "Export stored CSV",
+      "events": {
+        "onClick": "{()=>run(async()=>{saveBlob(await client().request('/datasets/'+encodeURIComponent(dataset)+'/download','GET',undefined,true),'dataset.csv');S('CSV export downloaded.')})}"
+      },
+      "disabled": "{busy||!dataset}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 17,
+      "tag": "select",
+      "label": "\"Server algorithm\"",
+      "events": {
+        "onChange": "{e=>G(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 17,
+      "tag": "input",
+      "label": "\"Experiment name\"",
+      "events": {
+        "onChange": "{e=>N(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 17,
+      "tag": "input",
+      "label": "\"Server feature names\"",
+      "events": {
+        "onChange": "{e=>F(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 17,
+      "tag": "input",
+      "label": "\"Server target column\"",
+      "events": {
+        "onChange": "{e=>Y(e.target.value)}"
+      },
+      "disabled": "{unsupervised}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 17,
+      "tag": "textarea",
+      "label": "\"Server hyperparameters\"",
+      "events": {
+        "onChange": "{e=>P(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 17,
+      "tag": "Button",
+      "label": "Train and save experiment",
+      "events": {
+        "onClick": "{()=>run(async()=>{const hyperparameters=JSON.parse(params);if(!hyperparameters||Array.isArray(hyperparameters)||typeof hyperparameters!=='object')throw Error('Hyperparameters must be a JSON object.');const e=await client().request('/train','POST',{dataset_id:dataset,name,algorithm,features:features.split(',').map(s=>s.trim()).filter(Boolean),target:unsupervised?null:target,test_fraction:.2,seed:42,hyperparameters});O(e);await refresh();S('Real model fitted and experiment saved: '+e.name)})}"
+      },
+      "disabled": "{busy||!dataset||!api}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 18,
+      "tag": "Button",
+      "label": "Refresh experiments",
+      "events": {
+        "onClick": "{()=>run(()=>refresh())}"
+      },
+      "disabled": "{busy||!api}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 18,
+      "tag": "input",
+      "label": "",
+      "events": {
+        "onChange": "{v=>X(v.target.checked?[...selected,e.id]:selected.filter(x=>x!==e.id))}"
+      },
+      "disabled": null,
+      "type": "\"checkbox\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 18,
+      "tag": "Button",
+      "label": "Inspect results",
+      "events": {
+        "onClick": "{()=>O(e)}"
+      },
+      "disabled": "{busy}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 18,
+      "tag": "Button",
+      "label": "Reopen configuration",
+      "events": {
+        "onClick": "{()=>{V(e.dataset_id);F(e.results?.features?.join(',')||features);Y(e.results?.target||'');G(e.algorithm);P(json(e.hyperparameters));N(e.name+' copy');T('Data & training');S('Configuration reopened. Check feature and target columns before fitting a new model.')}}"
+      },
+      "disabled": "{busy||!e.dataset_id}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 18,
+      "tag": "Button",
+      "label": "Export JSON",
+      "events": {
+        "onClick": "{()=>run(async()=>{saveBlob(await client().request('/experiments/'+e.id+'/export','GET',undefined,true),'experiment-'+e.id+'.json');S('Experiment JSON downloaded.')})}"
+      },
+      "disabled": "{busy}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 18,
+      "tag": "Button",
+      "label": "Download fitted model",
+      "events": {
+        "onClick": "{()=>run(async()=>{const metadata=await client().request('/experiments/'+e.id+'/model/metadata'),blob=await client().request('/experiments/'+e.id+'/model','GET',undefined,true);saveBlob(new Blob([json(metadata)],{type:'application/json'}),'model-'+e.id+'-metadata.json');saveBlob(blob,'model-'+e.id+'.joblib');S('Model and metadata downloaded. Load joblib only from trusted sources, it can execute code.')})}"
+      },
+      "disabled": "{busy}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 18,
+      "tag": "Button",
+      "label": "Delete record",
+      "events": {
+        "onClick": "{()=>CD(e.id)}"
+      },
+      "disabled": "{busy}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 18,
+      "tag": "Button",
+      "label": "Confirm deletion",
+      "events": {
+        "onClick": "{()=>run(async()=>{await client().request('/experiments/'+e.id,'DELETE');CD('');X(selected.filter(x=>x!==e.id));await refresh()})}"
+      },
+      "disabled": "{busy}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 18,
+      "tag": "Button",
+      "label": "Keep record",
+      "events": {
+        "onClick": "{()=>CD('')}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 18,
+      "tag": "Button",
+      "label": "Compare selected experiments",
+      "events": {
+        "onClick": "{()=>run(async()=>{O(await client().request('/experiments/compare','POST',{ids:selected}));S('Comparison returned. Check dataset and task compatibility before interpreting it.')})}"
+      },
+      "disabled": "{busy||selected.length<2||selected.length>10}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 19,
+      "tag": "select",
+      "label": "\"Python example\"",
+      "events": {
+        "onChange": "{e=>{if(e.target.value){K(pythonExamples[e.target.value]);R(null);S(\"Example loaded. Run it to calculate real output.\")}}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 19,
+      "tag": "Button",
+      "label": "Copy Python code",
+      "events": {
+        "onClick": "{()=>{Promise.resolve().then(()=>navigator.clipboard.writeText(code)).then(()=>S(\"Python source copied.\"),()=>S(\"Clipboard access unavailable. Select the code and copy it manually.\"))}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 19,
+      "tag": "Button",
+      "label": "Download Python code",
+      "events": {
+        "onClick": "{()=>{saveBlob(new Blob([code],{type:\"text/x-python\"}),\"ml-lab.py\");S(\"Python source downloaded.\")}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 19,
+      "tag": "Button",
+      "label": "Reset Python editor",
+      "events": {
+        "onClick": "{()=>{K(pythonExamples[\"Quadratic chart\"]);R(null);S(\"Editor reset to the chart example. Each run starts a new isolated environment.\")}}"
+      },
+      "disabled": "{busy}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 19,
+      "tag": "Button",
+      "label": "Run isolated Python",
+      "events": {
+        "onClick": "{()=>run(async()=>{const r=await client().request('/playground/run','POST',{code});R(r);S('Python '+r.status+' in '+r.elapsed_seconds+' seconds. Exit '+r.exit_code)})}"
+      },
+      "disabled": "{busy||!api||!cap?.playground?.available}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 19,
+      "tag": "Button",
+      "label": "Clear editor and output",
+      "events": {
+        "onClick": "{()=>{K('');R(null);S('Editor and output cleared. Each new run already uses a fresh process.')}}"
+      },
+      "disabled": "{busy}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/api-workspace.tsx",
+      "line": 20,
+      "tag": "Button",
+      "label": "Close response",
+      "events": {
+        "onClick": "{()=>O(null)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 11,
+      "tag": "input",
+      "label": "\"Browser experiment name\"",
+      "events": {
+        "onChange": "{e=>N(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 11,
+      "tag": "Button",
+      "label": "Capture current experiment",
+      "events": {
+        "onClick": "{()=>{try{const entry:Snapshot={schemaVersion:1,id:crypto.randomUUID(),name:name.trim()||algorithm+' experiment',algorithm,route,created:new Date().toISOString(),config,metrics,model,dataset};const next=[entry,...store.records].slice(0,12);const text=JSON.stringify(next);if(new Blob([text]).size>store.storageLimit){S('Snapshot is too large. Export the current snapshot instead, or delete an older one.');return}store.setRecords(JSON.parse(text));S('Snapshot captured in the current session.')}catch{S('Snapshot could not be serialized. Current model is unchanged.')}}}"
+      },
+      "disabled": "{!store.meta.ready}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 11,
+      "tag": "Button",
+      "label": "Export current snapshot",
+      "events": {
+        "onClick": "{()=>saveBlob(new Blob([JSON.stringify({schemaVersion:1,name:name.trim()||algorithm,route,algorithm,config,metrics,model,dataset,created:new Date().toISOString()},null,2)],{type:'application/json'}),'ml-browser-experiment.json')}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 11,
+      "tag": "Link",
+      "label": "Open saved snapshots",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": "\"/browser-experiments\"",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 12,
+      "tag": "input",
+      "label": "\"Import browser snapshot JSON\"",
+      "events": {
+        "onChange": "{async e=>{const f=e.target.files?.[0];if(!f)return;IS(\"Validating and rebuilding snapshot…\");try{if(f.size>2000000)throw Error(\"File exceeds 2 MB.\");const r=await job.run(\"restore\",JSON.parse(await f.text()));if(!r){IS(\"Snapshot was not applied. See calculation status.\");return}r.id=crypto.randomUUID();const next=[r,...s.records].slice(0,12);if(new Blob([JSON.stringify(next)]).size>s.storageLimit)throw Error(\"Validated snapshot exceeds this viewer's storage limit. Open it in the local source app or remove old snapshots.\");s.setRecords(next);IS(\"Validated snapshot imported. Stored metrics have been recomputed. Choose Prepare restoration, then Open rebuilt experiment.\")}catch(error){IS(error instanceof Error?error.message:\"Invalid JSON snapshot.\")}finally{e.target.value=''}}}"
+      },
+      "disabled": "{busy}",
+      "type": "\"file\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 12,
+      "tag": "Button",
+      "label": "Cancel rebuilding",
+      "events": {
+        "onClick": "{job.cancel}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 12,
+      "tag": "Link",
+      "label": "Open rebuilt experiment",
+      "events": {
+        "onClick": "{()=>s.restore(prepared)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": "{prepared.route}",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 12,
+      "tag": "Link",
+      "label": "Open the classical workbench",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": "\"/classical\"",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 12,
+      "tag": "input",
+      "label": "",
+      "events": {
+        "onChange": "{e=>Select(e.target.checked?[...selected,r.id]:selected.filter(v=>v!==r.id))}"
+      },
+      "disabled": null,
+      "type": "\"checkbox\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 12,
+      "tag": "Button",
+      "label": "Inspect saved state",
+      "events": {
+        "onClick": "{()=>I(inspect===r.id?'':r.id)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 12,
+      "tag": "Button",
+      "label": "Download snapshot JSON",
+      "events": {
+        "onClick": "{()=>saveBlob(new Blob([JSON.stringify(r,null,2)],{type:'application/json'}),'ml-snapshot-'+r.id+'.json')}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 12,
+      "tag": "Button",
+      "label": "Prepare restoration",
+      "events": {
+        "onClick": "{async()=>{Prepared(null);const rebuilt=await job.run('restore',r);if(rebuilt)Prepared(rebuilt)}}"
+      },
+      "disabled": "{busy}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 12,
+      "tag": "Link",
+      "label": "Open fresh lab",
+      "events": {
+        "onClick": "{s.fresh}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": "{r.route}",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 12,
+      "tag": "Button",
+      "label": "Delete snapshot",
+      "events": {
+        "onClick": "{()=>C(r.id)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 12,
+      "tag": "Button",
+      "label": "Confirm snapshot deletion",
+      "events": {
+        "onClick": "{()=>{s.setRecords(records.filter(v=>v.id!==r.id));Select(selected.filter(v=>v!==r.id));C('')}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 12,
+      "tag": "Button",
+      "label": "Keep snapshot",
+      "events": {
+        "onClick": "{()=>C('')}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 13,
+      "tag": "input",
+      "label": "",
+      "events": {
+        "onChange": "{e=>s.setProgress(e.target.checked?[...s.progress,path]:s.progress.filter((v:string)=>v!==path))}"
+      },
+      "disabled": "{!s.progressMeta.ready}",
+      "type": "\"checkbox\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 13,
+      "tag": "Link",
+      "label": "Open ↗",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": "{path}",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/browser-experiments.tsx",
+      "line": 13,
+      "tag": "Link",
+      "label": "Recently captured experiments ↗",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": "\"/browser-experiments\"",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/classical.tsx",
+      "line": 27,
+      "tag": "select",
+      "label": "{label}",
+      "events": {
+        "onChange": "{e=>onChange(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/classical.tsx",
+      "line": 32,
+      "tag": "Range",
+      "label": "\"Model learning rate\"",
+      "events": {
+        "onChange": "{v=>config('rate',v)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/classical.tsx",
+      "line": 32,
+      "tag": "Range",
+      "label": "{clustering?'Cluster count k':'Neighbor count k'}",
+      "events": {
+        "onChange": "{v=>config('k',v)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/classical.tsx",
+      "line": 32,
+      "tag": "Range",
+      "label": "\"Maximum tree depth\"",
+      "events": {
+        "onChange": "{v=>config('depth',v)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/classical.tsx",
+      "line": 32,
+      "tag": "Range",
+      "label": "\"Penalty λ\"",
+      "events": {
+        "onChange": "{v=>config('penalty',v)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/classical.tsx",
+      "line": 32,
+      "tag": "Range",
+      "label": "\"L1 mixing fraction ρ\"",
+      "events": {
+        "onChange": "{v=>config('l1',v)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/classical.tsx",
+      "line": 32,
+      "tag": "Range",
+      "label": "\"Polynomial degree\"",
+      "events": {
+        "onChange": "{v=>config('degree',v)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/classical.tsx",
+      "line": 32,
+      "tag": "input",
+      "label": "\"Absolute variance floor\"",
+      "events": {
+        "onChange": "{e=>config('varianceFloor',Math.max(.000001,Math.min(1,+e.target.value)))}"
+      },
+      "disabled": null,
+      "type": "\"number\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/classical.tsx",
+      "line": 32,
+      "tag": "Range",
+      "label": "\"Maximum training steps\"",
+      "events": {
+        "onChange": "{v=>config('maxSteps',v)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/classical.tsx",
+      "line": 32,
+      "tag": "input",
+      "label": "\"Reproducible seed\"",
+      "events": {
+        "onChange": "{e=>{const v=Math.max(1,Math.min(99999,Math.floor(+e.target.value)));config('seed',v)}}"
+      },
+      "disabled": null,
+      "type": "\"number\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/classical.tsx",
+      "line": 32,
+      "tag": "Button",
+      "label": "Regenerate with seed",
+      "events": {
+        "onClick": "{()=>{reset();D(dataset(kind==='Custom data'?(reg?'Linear target':clustering?'Three clusters':'Separated groups'):kind,90,c.seed))}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/classical.tsx",
+      "line": 32,
+      "tag": "textarea",
+      "label": "\"Classical dataset rows\"",
+      "events": {
+        "onChange": "{e=>Dr(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/classical.tsx",
+      "line": 32,
+      "tag": "Button",
+      "label": "Apply custom dataset",
+      "events": {
+        "onClick": "{apply}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/classical.tsx",
+      "line": 32,
+      "tag": "Button",
+      "label": "{running?'Pause training':model?.step?'Continue training':'Start training'}",
+      "events": {
+        "onClick": "{()=>R(!running)}"
+      },
+      "disabled": "{current.done}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/classical.tsx",
+      "line": 32,
+      "tag": "Button",
+      "label": "{clustering?'One K-Means phase':'One training step'}",
+      "events": {
+        "onClick": "{step}"
+      },
+      "disabled": "{running||current.done}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/classical.tsx",
+      "line": 32,
+      "tag": "Button",
+      "label": "Reset model",
+      "events": {
+        "onClick": "{reset}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/classical.tsx",
+      "line": 33,
+      "tag": "input",
+      "label": "{label}",
+      "events": {
+        "onChange": "{e=>set(Math.max(-3,Math.min(3,+e.target.value)))}"
+      },
+      "disabled": null,
+      "type": "\"number\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/comparison.tsx",
+      "line": 3,
+      "tag": "select",
+      "label": "\"Comparison task\"",
+      "events": {
+        "onChange": "{e=>{job.cancel();T(e.target.value);R([])}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/comparison.tsx",
+      "line": 3,
+      "tag": "Button",
+      "label": "{busy?'Fitting four models...':'Train and compare models'}",
+      "events": {
+        "onClick": "{run}"
+      },
+      "disabled": "{busy}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/comparison.tsx",
+      "line": 3,
+      "tag": "Button",
+      "label": "Cancel comparison",
+      "events": {
+        "onClick": "{job.cancel}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/components.tsx",
+      "line": 9,
+      "tag": "UIButton",
+      "label": "{children}",
+      "events": {
+        "onClick": "{onClick}"
+      },
+      "disabled": "{disabled}",
+      "type": null,
+      "to": null,
+      "componentForwarding": true
+    },
+    {
+      "file": "src/components.tsx",
+      "line": 10,
+      "tag": "input",
+      "label": "{label}",
+      "events": {
+        "onChange": "{e=>onChange(Number(e.target.value))}"
+      },
+      "disabled": null,
+      "type": "\"range\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/components.tsx",
+      "line": 12,
+      "tag": "CopyButton",
+      "label": "\"Copy code\"",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": true
+    },
+    {
+      "file": "src/components.tsx",
+      "line": 13,
+      "tag": "button",
+      "label": "{s}",
+      "events": {
+        "onClick": "{()=>S(i)}"
+      },
+      "disabled": null,
+      "type": "\"button\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/convolution.tsx",
+      "line": 5,
+      "tag": "button",
+      "label": "{label+' pixel '+i+', value '+fmt(v)}",
+      "events": {
+        "onClick": "{()=>edit(i)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/convolution.tsx",
+      "line": 6,
+      "tag": "Range",
+      "label": "\"CNN learning rate\"",
+      "events": {
+        "onChange": "{v=>{R(false);Rate(v);M(createCNN())}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/convolution.tsx",
+      "line": 6,
+      "tag": "Button",
+      "label": "{running?'Pause CNN training':m.step?'Continue CNN training':'Start CNN training'}",
+      "events": {
+        "onClick": "{()=>R(!running)}"
+      },
+      "disabled": "{m.step>=1000}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/convolution.tsx",
+      "line": 6,
+      "tag": "Button",
+      "label": "One CNN epoch",
+      "events": {
+        "onClick": "{()=>M(cnnStep(m,train,rate))}"
+      },
+      "disabled": "{running||m.step>=1000}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/convolution.tsx",
+      "line": 6,
+      "tag": "Button",
+      "label": "Reset CNN",
+      "events": {
+        "onClick": "{()=>{R(false);M(createCNN())}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/convolution.tsx",
+      "line": 6,
+      "tag": "Range",
+      "label": "\"Inspect image index\"",
+      "events": {
+        "onChange": "{v=>{I(v);P(data[v].pixels)}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/dashboard.tsx",
+      "line": 15,
+      "tag": "button",
+      "label": "{open?'Hide laboratories':'Browse laboratories'}",
+      "events": {
+        "onClick": "{()=>setOpen(!open)}"
+      },
+      "disabled": null,
+      "type": "\"button\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/dashboard.tsx",
+      "line": 15,
+      "tag": "Link",
+      "label": "Dashboard",
+      "events": {
+        "onClick": "{()=>setCategory('dashboard')}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": "\"/\"",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/dashboard.tsx",
+      "line": 15,
+      "tag": "Link",
+      "label": "{f.title}",
+      "events": {
+        "onClick": "{()=>setCategory(f.id)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": "\"/\"",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/dashboard.tsx",
+      "line": 15,
+      "tag": "Link",
+      "label": "Settings",
+      "events": {
+        "onClick": "{()=>setCategory('settings')}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": "\"/\"",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/dashboard.tsx",
+      "line": 15,
+      "tag": "Link",
+      "label": "Reference topic map",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": "\"/curriculum\"",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/dashboard.tsx",
+      "line": 15,
+      "tag": "button",
+      "label": "{theme==='dark'?'Switch to light mode':'Switch to dark mode'}",
+      "events": {
+        "onClick": "{()=>setTheme(theme==='dark'?'light':'dark')}"
+      },
+      "disabled": "{!ready}",
+      "type": "\"button\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/dashboard.tsx",
+      "line": 16,
+      "tag": "Link",
+      "label": "<span className=\"ml-eyebrow\">OPEN INTERACTIVE LAB ↗</span> <strong>{a.name}</strong> <span>{a.detail}</span>",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": "{a.path}",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/dashboard.tsx",
+      "line": 17,
+      "tag": "button",
+      "label": "{theme==='dark'?'Use light mode':'Use dark mode'}",
+      "events": {
+        "onClick": "{()=>setTheme(theme==='dark'?'light':'dark')}"
+      },
+      "disabled": "{!ready}",
+      "type": "\"button\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/dashboard.tsx",
+      "line": 19,
+      "tag": "Link",
+      "label": "<strong>{a.name} ↗</strong> <span>{a.detail}</span>",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": "{a.path}",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/dashboard.tsx",
+      "line": 19,
+      "tag": "Link",
+      "label": "Open device-local browser snapshots ↗",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": "\"/browser-experiments\"",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/data-guide.tsx",
+      "line": 2,
+      "tag": "select",
+      "label": "\"Data concept\"",
+      "events": {
+        "onChange": "{e=>N(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/data-guide.tsx",
+      "line": 2,
+      "tag": "select",
+      "label": "\"Data learning level\"",
+      "events": {
+        "onChange": "{e=>L(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 10,
+      "tag": "select",
+      "label": "{label}",
+      "events": {
+        "onChange": "{e=>onChange(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 12,
+      "tag": "input",
+      "label": "",
+      "events": {
+        "onChange": "{e=>{Q(e.target.value);P(0)}}"
+      },
+      "disabled": null,
+      "type": "\"search\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 12,
+      "tag": "button",
+      "label": "{c} {sort===j?(asc?'↑':'↓'):''}",
+      "events": {
+        "onClick": "{()=>{S(j);A(sort===j?!asc:true)}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 12,
+      "tag": "Button",
+      "label": "Previous rows",
+      "events": {
+        "onClick": "{()=>P(p-1)}"
+      },
+      "disabled": "{p===0}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 12,
+      "tag": "Button",
+      "label": "Next rows",
+      "events": {
+        "onClick": "{()=>P(p+1)}"
+      },
+      "disabled": "{p===max}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 15,
+      "tag": "button",
+      "label": "{t}",
+      "events": {
+        "onClick": "{()=>Tab(t)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 15,
+      "tag": "input",
+      "label": "\"Import dataset file\"",
+      "events": {
+        "onChange": "{e=>FileSelected(e.target.files?.[0])}"
+      },
+      "disabled": "{busy}",
+      "type": "\"file\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 15,
+      "tag": "Button",
+      "label": "Read selected file",
+      "events": {
+        "onClick": "{()=>upload(file)}"
+      },
+      "disabled": "{busy||!file}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 15,
+      "tag": "textarea",
+      "label": "\"CSV data with header\"",
+      "events": {
+        "onChange": "{e=>P(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 15,
+      "tag": "Button",
+      "label": "Load pasted CSV",
+      "events": {
+        "onClick": "{()=>{try{set(parseCSV(paste))}catch(e){E((e as Error).message)}}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 15,
+      "tag": "Button",
+      "label": "Restore fictional survey",
+      "events": {
+        "onClick": "{()=>set(starter)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 15,
+      "tag": "Button",
+      "label": "Export current CSV",
+      "events": {
+        "onClick": "{()=>download('ml-lab-dataset.csv',csv(table),'text/csv')}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 15,
+      "tag": "SelectField",
+      "label": "\"Horizontal / distribution column\"",
+      "events": {
+        "onChange": "{X}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 15,
+      "tag": "SelectField",
+      "label": "\"Vertical column\"",
+      "events": {
+        "onChange": "{Y}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 15,
+      "tag": "SelectField",
+      "label": "\"Selected feature\"",
+      "events": {
+        "onChange": "{X}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 15,
+      "tag": "SelectField",
+      "label": "\"Preprocessing operation\"",
+      "events": {
+        "onChange": "{O}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 15,
+      "tag": "Button",
+      "label": "Apply transformation",
+      "events": {
+        "onClick": "{apply}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 15,
+      "tag": "Button",
+      "label": "Reset to raw data",
+      "events": {
+        "onClick": "{()=>{T(raw);X(raw.columns[0]);Y(raw.columns[Math.min(1,raw.columns.length-1)]);H([]);E('')}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 15,
+      "tag": "Range",
+      "label": "\"Test fraction\"",
+      "events": {
+        "onChange": "{F}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 15,
+      "tag": "input",
+      "label": "",
+      "events": {
+        "onChange": "{e=>Seed(Math.max(0,Math.min(100000,+e.target.value)))}"
+      },
+      "disabled": null,
+      "type": "\"number\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 15,
+      "tag": "Button",
+      "label": "Export training partition",
+      "events": {
+        "onClick": "{()=>download('train.csv',csv({...table,rows:shuffled.slice(0,cut).map(i=>table.rows[i])}),'text/csv')}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 15,
+      "tag": "Button",
+      "label": "Export test partition",
+      "events": {
+        "onClick": "{()=>download('test.csv',csv({...table,rows:shuffled.slice(cut).map(i=>table.rows[i])}),'text/csv')}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 16,
+      "tag": "SelectField",
+      "label": "\"Evaluation task\"",
+      "events": {
+        "onChange": "{change}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 16,
+      "tag": "textarea",
+      "label": "\"Evaluation prediction rows\"",
+      "events": {
+        "onChange": "{e=>D(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 16,
+      "tag": "Button",
+      "label": "Calculate metrics",
+      "events": {
+        "onClick": "{apply}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 16,
+      "tag": "Range",
+      "label": "\"Classification threshold\"",
+      "events": {
+        "onChange": "{T}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 16,
+      "tag": "Button",
+      "label": "Export evaluation JSON",
+      "events": {
+        "onClick": "{()=>download('evaluation.json',JSON.stringify({task,rows,threshold,metrics:task==='Classification'?cl:reg},null,2),'application/json')}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 17,
+      "tag": "Range",
+      "label": "\"Cross-validation folds\"",
+      "events": {
+        "onChange": "{v=>{job.cancel();F(v);R(null)}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 17,
+      "tag": "input",
+      "label": "",
+      "events": {
+        "onChange": "{e=>{job.cancel();S(e.target.checked);R(null)}}"
+      },
+      "disabled": null,
+      "type": "\"checkbox\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 17,
+      "tag": "Button",
+      "label": "{busy?'Fitting validation models...':'Run cross-validation'}",
+      "events": {
+        "onClick": "{run}"
+      },
+      "disabled": "{busy}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/datalab.tsx",
+      "line": 17,
+      "tag": "Button",
+      "label": "Cancel validation",
+      "events": {
+        "onClick": "{job.cancel}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/export-panel.tsx",
+      "line": 4,
+      "tag": "CopyButton",
+      "label": "\"Copy generated text\"",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": true
+    },
+    {
+      "file": "src/export-panel.tsx",
+      "line": 4,
+      "tag": "Button",
+      "label": "Close generated content",
+      "events": {
+        "onClick": "{()=>S(null)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/lab-boundary.tsx",
+      "line": 5,
+      "tag": "button",
+      "label": "Reload this page",
+      "events": {
+        "onClick": "{()=>window.location.reload()}"
+      },
+      "disabled": null,
+      "type": "\"button\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 10,
+      "tag": "input",
+      "label": "",
+      "events": {
+        "onChange": "{e=>Residuals(e.target.checked)}"
+      },
+      "disabled": null,
+      "type": "\"checkbox\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 10,
+      "tag": "Button",
+      "label": "{running?'Pause training':trace.length?'Continue training':'Start training'}",
+      "events": {
+        "onClick": "{running?()=>Run(false):start}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 10,
+      "tag": "Button",
+      "label": "One regression update",
+      "events": {
+        "onClick": "{oneStep}"
+      },
+      "disabled": "{running||trace.length>=5001}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 10,
+      "tag": "Button",
+      "label": "Restart from zero",
+      "events": {
+        "onClick": "{()=>{Run(false);Trace([]);M(0);B(0);N('Training reset. Press Start training to watch the line learn.')}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 10,
+      "tag": "Range",
+      "label": "\"Slope · m\"",
+      "events": {
+        "onChange": "{v=>{Run(false);Trace([]);M(v);N('')}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 10,
+      "tag": "Range",
+      "label": "\"Intercept · b\"",
+      "events": {
+        "onChange": "{v=>{Run(false);Trace([]);B(v);N('')}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 10,
+      "tag": "Button",
+      "label": "Find best fit",
+      "events": {
+        "onClick": "{fit}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 10,
+      "tag": "Button",
+      "label": "Reset lab",
+      "events": {
+        "onClick": "{reset}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 10,
+      "tag": "input",
+      "label": "",
+      "events": {
+        "onChange": "{e=>T(Math.max(-100,Math.min(100,Number(e.target.value))))}"
+      },
+      "disabled": null,
+      "type": "\"number\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 11,
+      "tag": "input",
+      "label": "\"New regression point x\"",
+      "events": {
+        "onChange": "{e=>PX(e.target.value)}"
+      },
+      "disabled": null,
+      "type": "\"number\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 11,
+      "tag": "input",
+      "label": "\"New regression point y\"",
+      "events": {
+        "onChange": "{e=>PY(e.target.value)}"
+      },
+      "disabled": null,
+      "type": "\"number\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 11,
+      "tag": "Button",
+      "label": "Add data point",
+      "events": {
+        "onClick": "{addPoint}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 11,
+      "tag": "Range",
+      "label": "\"Regression random seed\"",
+      "events": {
+        "onChange": "{Seed}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 11,
+      "tag": "Button",
+      "label": "Generate random regression data",
+      "events": {
+        "onClick": "{()=>replaceData(regressionSample(sampleSeed),`Generated 20 synthetic observations with seed ${sampleSeed}; generating relation y = 1.7x − 0.8 plus bounded uniform noise.`)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 11,
+      "tag": "textarea",
+      "label": "\"Regression data x,y\"",
+      "events": {
+        "onChange": "{e=>D(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 11,
+      "tag": "Button",
+      "label": "Apply data",
+      "events": {
+        "onClick": "{apply}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 16,
+      "tag": "button",
+      "label": "{s}",
+      "events": {
+        "onClick": "{()=>{S(s);reset()}}"
+      },
+      "disabled": null,
+      "type": "\"button\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 16,
+      "tag": "Range",
+      "label": "\"Weight · w₁\"",
+      "events": {
+        "onChange": "{v=>{Run(false);W([v,w[1],w[2]]);C(0);L('Manual weights changed; epoch count reset.')}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 16,
+      "tag": "Range",
+      "label": "\"Weight · w₂\"",
+      "events": {
+        "onChange": "{v=>{Run(false);W([w[0],v,w[2]]);C(0);L('Manual weights changed; epoch count reset.')}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 16,
+      "tag": "Range",
+      "label": "\"Bias · b\"",
+      "events": {
+        "onChange": "{v=>{Run(false);W([w[0],w[1],v]);C(0);L('Manual weights changed; epoch count reset.')}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 16,
+      "tag": "Range",
+      "label": "\"Learning rate · η\"",
+      "events": {
+        "onChange": "{v=>{Run(false);H(v)}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 16,
+      "tag": "Button",
+      "label": "{running?'Pause perceptron training':epoch?'Continue perceptron training':'Start perceptron training'}",
+      "events": {
+        "onClick": "{()=>Run(!running)}"
+      },
+      "disabled": "{epoch>=200||correct===data.length}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 16,
+      "tag": "Button",
+      "label": "Train one epoch",
+      "events": {
+        "onClick": "{train}"
+      },
+      "disabled": "{running||epoch>=200||correct===data.length}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 16,
+      "tag": "Button",
+      "label": "Reset training",
+      "events": {
+        "onClick": "{reset}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 18,
+      "tag": "Range",
+      "label": "\"Learning rate · α\"",
+      "events": {
+        "onChange": "{H}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 18,
+      "tag": "Button",
+      "label": "{playing?'Pause animation':'Animate learning'}",
+      "events": {
+        "onClick": "{()=>Play(!playing)}"
+      },
+      "disabled": "{stop}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 18,
+      "tag": "Button",
+      "label": "Take one step",
+      "events": {
+        "onClick": "{()=>step(1)}"
+      },
+      "disabled": "{stop}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 18,
+      "tag": "Button",
+      "label": "Take 10 steps",
+      "events": {
+        "onClick": "{()=>step(10)}"
+      },
+      "disabled": "{stop}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/labs.tsx",
+      "line": 18,
+      "tag": "Button",
+      "label": "Reset position",
+      "events": {
+        "onClick": "{()=>{Play(false);J([-3])}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/lesson-sections.tsx",
+      "line": 6,
+      "tag": "button",
+      "label": "{name}",
+      "events": {
+        "onClick": "{()=>{const heading=document.getElementById('ml-lesson-'+(i+1));if(heading){for(let p=heading.parentElement;p;p=p.parentElement)if(p.tagName==='DETAILS')(p as HTMLDetailsElement).open=true;heading.scrollIntoView({block:'start',behavior:reduced?'auto':'smooth'});heading.focus({preventScroll:true})}}}"
+      },
+      "disabled": null,
+      "type": "\"button\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 57,
+      "tag": "select",
+      "label": "{label}",
+      "events": {
+        "onChange": "{e=>set(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 60,
+      "tag": "input",
+      "label": "{'Matrix A '+i}",
+      "events": {
+        "onChange": "{e=>A(a.map((q,j)=>i===j?Math.max(-10,Math.min(10,+e.target.value)):q))}"
+      },
+      "disabled": null,
+      "type": "\"number\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 60,
+      "tag": "input",
+      "label": "{'Matrix B '+i}",
+      "events": {
+        "onChange": "{e=>B(b.map((q,j)=>i===j?Math.max(-10,Math.min(10,+e.target.value)):q))}"
+      },
+      "disabled": null,
+      "type": "\"number\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 60,
+      "tag": "Range",
+      "label": "{'Vector v'+(i+1)}",
+      "events": {
+        "onChange": "{n=>V(v.map((q,j)=>i===j?n:q))}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 60,
+      "tag": "Range",
+      "label": "\"Scalar s\"",
+      "events": {
+        "onChange": "{S}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 60,
+      "tag": "Button",
+      "label": "Reset algebra",
+      "events": {
+        "onClick": "{()=>{A([2,1,1,2]);B([2,0,0,1]);V([1,2]);S(1)}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 63,
+      "tag": "Range",
+      "label": "{label}",
+      "events": {
+        "onChange": "{set}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 63,
+      "tag": "Button",
+      "label": "Take a gradient step (α=0.05)",
+      "events": {
+        "onClick": "{()=>{X(nextX);Y(nextY)}}"
+      },
+      "disabled": "{!stepSafe}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 63,
+      "tag": "Button",
+      "label": "Reset calculus",
+      "events": {
+        "onClick": "{()=>{A(1);B(0);C(1);X(1);Y(1);T(0);H(.1)}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 66,
+      "tag": "Range",
+      "label": "\"Success probability p\"",
+      "events": {
+        "onChange": "{P}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 66,
+      "tag": "Range",
+      "label": "\"Trials n (Binomial)\"",
+      "events": {
+        "onChange": "{N}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 66,
+      "tag": "Range",
+      "label": "\"Rate λ (Poisson)\"",
+      "events": {
+        "onChange": "{L}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 66,
+      "tag": "Range",
+      "label": "\"Mean μ (Normal)\"",
+      "events": {
+        "onChange": "{M}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 66,
+      "tag": "Range",
+      "label": "\"Standard deviation σ (Normal)\"",
+      "events": {
+        "onChange": "{S}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 66,
+      "tag": "Range",
+      "label": "\"Probability cutoff\"",
+      "events": {
+        "onChange": "{C}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 66,
+      "tag": "Range",
+      "label": "\"Prior P(A)\"",
+      "events": {
+        "onChange": "{Pr}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 66,
+      "tag": "Range",
+      "label": "\"Sensitivity P(positive | A)\"",
+      "events": {
+        "onChange": "{Se}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 66,
+      "tag": "Range",
+      "label": "\"False-positive rate P(positive | not A)\"",
+      "events": {
+        "onChange": "{Fp}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 68,
+      "tag": "textarea",
+      "label": "\"Statistics data x,y\"",
+      "events": {
+        "onChange": "{e=>D(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 68,
+      "tag": "Button",
+      "label": "Apply statistics data",
+      "events": {
+        "onClick": "{apply}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 68,
+      "tag": "Range",
+      "label": "\"Known population σ (z-model assumption)\"",
+      "events": {
+        "onChange": "{S}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 68,
+      "tag": "Range",
+      "label": "\"Null population mean μ₀\"",
+      "events": {
+        "onChange": "{H}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/mathlab.tsx",
+      "line": 68,
+      "tag": "Button",
+      "label": "Draw bootstrap sample",
+      "events": {
+        "onClick": "{resample}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/neural.tsx",
+      "line": 7,
+      "tag": "SelectField",
+      "label": "\"Neural dataset\"",
+      "events": {
+        "onChange": "{(v:string)=>{CD(null);K(v);reset()}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/neural.tsx",
+      "line": 7,
+      "tag": "SelectField",
+      "label": "\"Hidden activation\"",
+      "events": {
+        "onChange": "{(v:string)=>{A(v);reset()}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/neural.tsx",
+      "line": 7,
+      "tag": "Range",
+      "label": "\"Neural learning rate\"",
+      "events": {
+        "onChange": "{v=>{R(v);reset()}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/neural.tsx",
+      "line": 7,
+      "tag": "Range",
+      "label": "{'Hidden layer '+(l+1)+' neurons'}",
+      "events": {
+        "onChange": "{v=>config(hidden.map((w,i)=>i===l?v:w))}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/neural.tsx",
+      "line": 7,
+      "tag": "Button",
+      "label": "Add hidden layer",
+      "events": {
+        "onClick": "{()=>config([...hidden,4])}"
+      },
+      "disabled": "{hidden.length>=4}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/neural.tsx",
+      "line": 7,
+      "tag": "Button",
+      "label": "Remove hidden layer",
+      "events": {
+        "onClick": "{()=>config(hidden.slice(0,-1))}"
+      },
+      "disabled": "{hidden.length===0}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/neural.tsx",
+      "line": 7,
+      "tag": "Button",
+      "label": "{running?'Pause neural training':net.step?'Continue neural training':'Start neural training'}",
+      "events": {
+        "onClick": "{()=>Run(!running)}"
+      },
+      "disabled": "{net.step>=1500}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/neural.tsx",
+      "line": 7,
+      "tag": "Button",
+      "label": "One neural epoch",
+      "events": {
+        "onClick": "{()=>N(netStep(net,data.train,rate,activation))}"
+      },
+      "disabled": "{running||net.step>=1500}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/neural.tsx",
+      "line": 7,
+      "tag": "Button",
+      "label": "Reset neural network",
+      "events": {
+        "onClick": "{()=>reset()}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/neural.tsx",
+      "line": 7,
+      "tag": "Range",
+      "label": "\"Inspect training sample\"",
+      "events": {
+        "onChange": "{I}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/neural.tsx",
+      "line": 7,
+      "tag": "SelectField",
+      "label": "\"Connection display\"",
+      "events": {
+        "onChange": "{P}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/optimization.tsx",
+      "line": 11,
+      "tag": "select",
+      "label": "{label}",
+      "events": {
+        "onChange": "{e=>onChange(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/optimization.tsx",
+      "line": 14,
+      "tag": "Range",
+      "label": "\"Optimizer learning rate\"",
+      "events": {
+        "onChange": "{rate=>config({rate})}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/optimization.tsx",
+      "line": 14,
+      "tag": "Range",
+      "label": "\"Optimizer iteration limit\"",
+      "events": {
+        "onChange": "{maxSteps=>config({maxSteps})}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/optimization.tsx",
+      "line": 14,
+      "tag": "Range",
+      "label": "\"Optimizer batch size\"",
+      "events": {
+        "onChange": "{batchSize=>config({batchSize})}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/optimization.tsx",
+      "line": 14,
+      "tag": "Range",
+      "label": "\"First moment beta\"",
+      "events": {
+        "onChange": "{beta=>config({beta})}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/optimization.tsx",
+      "line": 14,
+      "tag": "Range",
+      "label": "\"Squared gradient decay\"",
+      "events": {
+        "onChange": "{beta2=>config({beta2})}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/optimization.tsx",
+      "line": 14,
+      "tag": "Range",
+      "label": "\"Inverse-time decay\"",
+      "events": {
+        "onChange": "{decay=>config({decay})}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/optimization.tsx",
+      "line": 14,
+      "tag": "Range",
+      "label": "\"Initial optimizer weight\"",
+      "events": {
+        "onChange": "{v=>{R(false);IW(v);S(optInitial(v,ib))}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/optimization.tsx",
+      "line": 14,
+      "tag": "Range",
+      "label": "\"Initial optimizer bias\"",
+      "events": {
+        "onChange": "{v=>{R(false);IB(v);S(optInitial(iw,v))}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/optimization.tsx",
+      "line": 14,
+      "tag": "Button",
+      "label": "{running?'Pause optimization':s.step?'Continue optimization':'Start optimization'}",
+      "events": {
+        "onClick": "{()=>R(!running)}"
+      },
+      "disabled": "{s.done}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/optimization.tsx",
+      "line": 14,
+      "tag": "Button",
+      "label": "One optimizer update",
+      "events": {
+        "onClick": "{step}"
+      },
+      "disabled": "{running||s.done}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/optimization.tsx",
+      "line": 14,
+      "tag": "Button",
+      "label": "Reset optimizer",
+      "events": {
+        "onClick": "{reset}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/optimization.tsx",
+      "line": 14,
+      "tag": "input",
+      "label": "",
+      "events": {
+        "onChange": "{e=>SU(e.target.checked)}"
+      },
+      "disabled": null,
+      "type": "\"checkbox\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/optimization.tsx",
+      "line": 14,
+      "tag": "Range",
+      "label": "\"Loss surface azimuth\"",
+      "events": {
+        "onChange": "{AN}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/pipeline.tsx",
+      "line": 7,
+      "tag": "textarea",
+      "label": "\"Raw pipeline rows\"",
+      "events": {
+        "onChange": "{e=>{reset();T(e.target.value);Source('Manually edited raw rows')}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/pipeline.tsx",
+      "line": 7,
+      "tag": "select",
+      "label": "{label}",
+      "events": {
+        "onChange": "{e=>{reset();set(e.target.value)}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/pipeline.tsx",
+      "line": 7,
+      "tag": "select",
+      "label": "\"Pipeline test fraction\"",
+      "events": {
+        "onChange": "{e=>{reset();F(+e.target.value)}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/pipeline.tsx",
+      "line": 7,
+      "tag": "input",
+      "label": "\"Pipeline split seed\"",
+      "events": {
+        "onChange": "{e=>{reset();Seed(+e.target.value)}}"
+      },
+      "disabled": null,
+      "type": "\"number\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/pipeline.tsx",
+      "line": 7,
+      "tag": "Button",
+      "label": "{job.busy?'Fitting training-only pipeline...':'Fit training-only pipeline'}",
+      "events": {
+        "onClick": "{run}"
+      },
+      "disabled": "{job.busy}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/pipeline.tsx",
+      "line": 7,
+      "tag": "Button",
+      "label": "Cancel pipeline",
+      "events": {
+        "onClick": "{job.cancel}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/pipeline.tsx",
+      "line": 7,
+      "tag": "Button",
+      "label": "Reset pipeline example",
+      "events": {
+        "onClick": "{()=>{reset();T(example);Source('Built-in raw example');Task('Classification');S('Standardize');I('Training mean');F(.25);Seed(42)}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/pipeline.tsx",
+      "line": 7,
+      "tag": "select",
+      "label": "\"Fitted-pipeline CV folds\"",
+      "events": {
+        "onChange": "{e=>{job.cancel();CV(null);Folds(+e.target.value)}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/pipeline.tsx",
+      "line": 7,
+      "tag": "input",
+      "label": "",
+      "events": {
+        "onChange": "{e=>{job.cancel();CV(null);Stratified(e.target.checked)}}"
+      },
+      "disabled": null,
+      "type": "\"checkbox\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/pipeline.tsx",
+      "line": 7,
+      "tag": "Button",
+      "label": "{job.busy?'Computing pipeline...':'Cross-validate fitted pipeline'}",
+      "events": {
+        "onClick": "{crossValidate}"
+      },
+      "disabled": "{job.busy}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/pipeline.tsx",
+      "line": 7,
+      "tag": "Button",
+      "label": "Cancel pipeline CV",
+      "events": {
+        "onClick": "{job.cancel}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/plotly-landscape.tsx",
+      "line": 4,
+      "tag": "button",
+      "label": "{open?'Close interactive contour':'Open interactive contour'}",
+      "events": {
+        "onClick": "{()=>{if(open&&node.current&&plotly.current)plotly.current.purge(node.current);Open(!open)}}"
+      },
+      "disabled": null,
+      "type": "\"button\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/propagation-player.tsx",
+      "line": 3,
+      "tag": "Button",
+      "label": "Capture propagation snapshot",
+      "events": {
+        "onClick": "{capture}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/propagation-player.tsx",
+      "line": 3,
+      "tag": "Button",
+      "label": "{playing?'Pause propagation':stage?'Resume propagation':'Play propagation'}",
+      "events": {
+        "onClick": "{()=>Play(!playing)}"
+      },
+      "disabled": "{stage===trace.stages.length-1&&!playing}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/propagation-player.tsx",
+      "line": 3,
+      "tag": "Button",
+      "label": "Next propagation stage",
+      "events": {
+        "onClick": "{()=>Stage(v=>v+1)}"
+      },
+      "disabled": "{playing||stage>=trace.stages.length-1}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/propagation-player.tsx",
+      "line": 3,
+      "tag": "Button",
+      "label": "Restart propagation",
+      "events": {
+        "onClick": "{()=>{Play(false);Stage(0)}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/propagation-player.tsx",
+      "line": 3,
+      "tag": "Range",
+      "label": "\"Propagation stage duration (ms)\"",
+      "events": {
+        "onChange": "{Delay}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/sequence.tsx",
+      "line": 9,
+      "tag": "SelectField",
+      "label": "\"Recurrent cell\"",
+      "events": {
+        "onChange": "{v=>{K(v);reset(v)}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/sequence.tsx",
+      "line": 9,
+      "tag": "Range",
+      "label": "\"Sequence learning rate\"",
+      "events": {
+        "onChange": "{v=>{R(v);reset()}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/sequence.tsx",
+      "line": 9,
+      "tag": "Range",
+      "label": "\"Global gradient clip norm\"",
+      "events": {
+        "onChange": "{v=>{C(v);reset()}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/sequence.tsx",
+      "line": 9,
+      "tag": "Button",
+      "label": "{running?'Pause sequence training':model.epoch?'Continue sequence training':'Start sequence training'}",
+      "events": {
+        "onClick": "{()=>Run(!running)}"
+      },
+      "disabled": "{model.epoch>=1200||trainLoss<.0001}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/sequence.tsx",
+      "line": 9,
+      "tag": "Button",
+      "label": "One sequence epoch",
+      "events": {
+        "onClick": "{()=>M(m=>sequenceEpoch(m,train,rate,clip))}"
+      },
+      "disabled": "{running||model.epoch>=1200||trainLoss<.0001}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/sequence.tsx",
+      "line": 9,
+      "tag": "Button",
+      "label": "Reset sequence model",
+      "events": {
+        "onClick": "{()=>reset()}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/sequence.tsx",
+      "line": 9,
+      "tag": "Range",
+      "label": "\"Sequence sample index\"",
+      "events": {
+        "onChange": "{v=>{S(v);U(null);T(0)}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/sequence.tsx",
+      "line": 9,
+      "tag": "textarea",
+      "label": "\"Custom sequence values\"",
+      "events": {
+        "onChange": "{e=>D(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/sequence.tsx",
+      "line": 9,
+      "tag": "Button",
+      "label": "Apply custom sequence",
+      "events": {
+        "onClick": "{()=>{const parts=draft.split(',').map(s=>s.trim());if(parts.length<2||parts.length>30||parts.some(s=>!s||!Number.isFinite(+s)||Math.abs(+s)>1)){E('Use 2–30 finite comma-separated values in [−1,1].');return}E('');U(parts.map(Number));T(0)}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/sequence.tsx",
+      "line": 9,
+      "tag": "Button",
+      "label": "Use dataset sequence",
+      "events": {
+        "onClick": "{()=>{U(null);E('');T(0)}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/sequence.tsx",
+      "line": 9,
+      "tag": "Range",
+      "label": "\"Inspect sequence time step\"",
+      "events": {
+        "onChange": "{T}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/sequence.tsx",
+      "line": 9,
+      "tag": "Button",
+      "label": "Next sequence step",
+      "events": {
+        "onClick": "{()=>T(v=>v+1)}"
+      },
+      "disabled": "{time>=rows.length-1}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/sequence.tsx",
+      "line": 9,
+      "tag": "Button",
+      "label": "First sequence step",
+      "events": {
+        "onClick": "{()=>T(0)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/sequence.tsx",
+      "line": 9,
+      "tag": "button",
+      "label": "<span className=\"ml-sr-only\">Inspect recurrent step {t+1}: </span> <small>t={t+1}</small> <strong>h={fmt(r.h)}</strong> {kind==='LSTM'&&<span>c={fmt(r.c)}</span>} <span>x={fmt(r.x)",
+      "events": {
+        "onClick": "{()=>T(t)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/shared-dataset.tsx",
+      "line": 7,
+      "tag": "Button",
+      "label": "Share current table with labs",
+      "events": {
+        "onClick": "{()=>{s.publish(table);M('Current table copied into this session. Choose a workbench below.')}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/shared-dataset.tsx",
+      "line": 7,
+      "tag": "Link",
+      "label": "Open classical models",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": "\"/classical\"",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/shared-dataset.tsx",
+      "line": 7,
+      "tag": "Link",
+      "label": "Open structure discovery",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": "\"/unsupervised\"",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/shared-dataset.tsx",
+      "line": 7,
+      "tag": "Link",
+      "label": "Open neural network",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": "\"/neural\"",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/shared-dataset.tsx",
+      "line": 7,
+      "tag": "Link",
+      "label": "Open fitted pipeline",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": "\"/evaluation\"",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/shared-dataset.tsx",
+      "line": 8,
+      "tag": "Link",
+      "label": "Open Dataset Explorer ↗",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": "\"/datasets\"",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/shared-dataset.tsx",
+      "line": 8,
+      "tag": "select",
+      "label": "{'Shared feature '+(i+1)}",
+      "events": {
+        "onChange": "{e=>C(columns.map((v,j)=>i===j?+e.target.value:v))}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/shared-dataset.tsx",
+      "line": 8,
+      "tag": "select",
+      "label": "\"Shared target column\"",
+      "events": {
+        "onChange": "{e=>Y(+e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/shared-dataset.tsx",
+      "line": 8,
+      "tag": "input",
+      "label": "\"Shared rows to transfer\"",
+      "events": {
+        "onChange": "{e=>N(+e.target.value)}"
+      },
+      "disabled": null,
+      "type": "\"number\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/shared-dataset.tsx",
+      "line": 8,
+      "tag": "Button",
+      "label": "Use shared table for this lab",
+      "events": {
+        "onClick": "{()=>{try{if(table.rows.length<8)throw Error('This table needs at least 8 rows for these training labs.');if(!Number.isInteger(count)||count<8||count>limit||count>table.rows.length)throw Error('Choose 8–'+Math.min(limit,table.rows.length)+' rows.');if(columns.length!==dimensions||new Set(columns).size!==dimensions||columns.some(c=>c<0||c>=table.columns.length))throw Error('Choose distinct feature columns.');if(target&&(targetColumn<0||targetColumn>=table.columns.length||columns.includes(targetColumn)))throw Error('Target must be a separate column, not a feature.');const rows=table.rows.slice(0,count),x=rows.map(r=>columns.map(j=>{const v=number(r[j]);if(Math.abs(v)>bound)throw Error('Feature values exceed this educational lab\\'s range. Use an appropriate training-only scaling pipeline or the local backend for larger-scale data.');return v})),y=target?rows.map(r=>{const v=number(r[targetColumn]);if(Math.abs(v)>10000||(binary&&v!==0&&v!==1))throw Error(binary?'Selected target must contain only 0 and 1.':'Target exceeds the supported range.');return v}):[];onUse(x,y,table.name.slice(0,75));E('')}catch(error){E(error instanceof Error?error.message:'Cannot transfer data.')}}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/shared-pipeline.tsx",
+      "line": 5,
+      "tag": "select",
+      "label": "{j===2?'Pipeline shared target':'Pipeline shared feature '+(j+1)}",
+      "events": {
+        "onChange": "{e=>{E('');if(j===2)T(+e.target.value);else F(features.map((v,k)=>k===j?+e.target.value:v))}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/shared-pipeline.tsx",
+      "line": 5,
+      "tag": "input",
+      "label": "\"Pipeline shared row count\"",
+      "events": {
+        "onChange": "{e=>C(+e.target.value)}"
+      },
+      "disabled": null,
+      "type": "\"number\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/shared-pipeline.tsx",
+      "line": 5,
+      "tag": "Button",
+      "label": "Load shared rows into pipeline",
+      "events": {
+        "onClick": "{()=>{try{const rows=pipelineTableRows(table,features,target,count);onUse(rows,table.name);E('')}catch(e){E(e instanceof Error?e.message:'Invalid table.')}}}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/three-cloud.tsx",
+      "line": 5,
+      "tag": "button",
+      "label": "{enabled?'Close true 3D view':'Open true 3D view'}",
+      "events": {
+        "onClick": "{()=>Enable(!enabled)}"
+      },
+      "disabled": null,
+      "type": "\"button\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/three-cloud.tsx",
+      "line": 5,
+      "tag": "input",
+      "label": "\"True 3D azimuth\"",
+      "events": {
+        "onChange": "{e=>A(+e.target.value)}"
+      },
+      "disabled": null,
+      "type": "\"range\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/three-cloud.tsx",
+      "line": 5,
+      "tag": "input",
+      "label": "\"True 3D elevation\"",
+      "events": {
+        "onChange": "{e=>E(+e.target.value)}"
+      },
+      "disabled": null,
+      "type": "\"range\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/ui.tsx",
+      "line": 6,
+      "tag": "Link",
+      "label": "{children}",
+      "events": {},
+      "disabled": null,
+      "type": null,
+      "to": "{to}",
+      "componentForwarding": true
+    },
+    {
+      "file": "src/ui.tsx",
+      "line": 14,
+      "tag": "button",
+      "label": "{status==='Copied'?status:label}",
+      "events": {
+        "onClick": "{copy}"
+      },
+      "disabled": null,
+      "type": "\"button\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/unsupervised.tsx",
+      "line": 20,
+      "tag": "select",
+      "label": "{label}",
+      "events": {
+        "onChange": "{e=>change(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/unsupervised.tsx",
+      "line": 22,
+      "tag": "input",
+      "label": "",
+      "events": {
+        "onChange": "{e=>configure(()=>S(e.target.checked))}"
+      },
+      "disabled": null,
+      "type": "\"checkbox\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/unsupervised.tsx",
+      "line": 22,
+      "tag": "Range",
+      "label": "\"Requested clusters / components\"",
+      "events": {
+        "onChange": "{v=>configure(()=>C(v))}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/unsupervised.tsx",
+      "line": 22,
+      "tag": "Range",
+      "label": "\"Neighborhood epsilon\"",
+      "events": {
+        "onChange": "{v=>configure(()=>E(v))}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/unsupervised.tsx",
+      "line": 22,
+      "tag": "Range",
+      "label": "\"Minimum neighborhood points\"",
+      "events": {
+        "onChange": "{v=>configure(()=>MP(v))}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/unsupervised.tsx",
+      "line": 22,
+      "tag": "Range",
+      "label": "\"Outlier fraction\"",
+      "events": {
+        "onChange": "{v=>configure(()=>CO(v))}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/unsupervised.tsx",
+      "line": 22,
+      "tag": "textarea",
+      "label": "\"Unsupervised custom rows\"",
+      "events": {
+        "onChange": "{e=>DR(e.target.value)}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/unsupervised.tsx",
+      "line": 22,
+      "tag": "Button",
+      "label": "Apply unlabelled data",
+      "events": {
+        "onClick": "{apply}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/unsupervised.tsx",
+      "line": 22,
+      "tag": "Button",
+      "label": "{running?'Pause structure learning':state?'Continue structure learning':'Start structure learning'}",
+      "events": {
+        "onClick": "{()=>R(!running)}"
+      },
+      "disabled": "{current.done}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/unsupervised.tsx",
+      "line": 22,
+      "tag": "Button",
+      "label": "One structure step",
+      "events": {
+        "onClick": "{step}"
+      },
+      "disabled": "{running||current.done}",
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/unsupervised.tsx",
+      "line": 22,
+      "tag": "Button",
+      "label": "Reset structure",
+      "events": {
+        "onClick": "{reset}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/unsupervised.tsx",
+      "line": 22,
+      "tag": "input",
+      "label": "",
+      "events": {
+        "onChange": "{e=>TD(e.target.checked)}"
+      },
+      "disabled": null,
+      "type": "\"checkbox\"",
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/unsupervised.tsx",
+      "line": 22,
+      "tag": "Range",
+      "label": "\"View azimuth\"",
+      "events": {
+        "onChange": "{AN}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/unsupervised.tsx",
+      "line": 22,
+      "tag": "Range",
+      "label": "\"View elevation\"",
+      "events": {
+        "onChange": "{EL}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    },
+    {
+      "file": "src/unsupervised.tsx",
+      "line": 22,
+      "tag": "Range",
+      "label": "\"Inspect point number\"",
+      "events": {
+        "onChange": "{PR}"
+      },
+      "disabled": null,
+      "type": null,
+      "to": null,
+      "componentForwarding": false
+    }
+  ]
+}
