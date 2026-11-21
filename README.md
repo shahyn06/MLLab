@@ -4,9 +4,9 @@ An English-language, browser-based Machine Learning learning website. Change par
 
 ## Stage 1
 
-- **Linear Regression:** adjustable slope and intercept, editable x/y data, ordinary least-squares fit, mean squared error and predictions.
+- **Linear Regression:** adjustable slope and intercept, editable x/y data, ordinary least-squares fit, actual animated gradient-descent training with pause/restart/convergence, paired data and learning-curve plots, mean squared error and predictions.
 - **Perceptron:** online training on AND and XOR, adjustable weights and bias, a decision-boundary plot and prediction table.
-- **Gradient Descent:** a quadratic loss curve, configurable learning rate, single-step and ten-step updates, and position history.
+- **Gradient Descent:** a quadratic loss curve, configurable learning rate, single-step and ten-step updates, timed playback, paired objective/learning-curve plots and position history.
 - Each lab includes an explanation, worked example, educational Python code and a quiz with feedback.
 - A searchable roadmap covers 15 curriculum sections. Unbuilt topics are labeled Planned.
 - Dashboard, nine lab families, sidebar, Settings, light/dark themes and rendered equations. Planned labs are clearly marked.
