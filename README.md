@@ -170,3 +170,7 @@ All 29 algorithm/update-rule lessons also provide explicit Beginner/Intermediate
 ## Fitted preprocessing pipeline
 
 Evaluation includes a separate raw-row pipeline: seeded split before training-mean imputation and Standardize/Min-max/None fitting, identical transforms applied to train and hold-out, then an actual logistic or multiple linear fit. It exposes fitted means/centers/scales and source-row indices. Training columns that are entirely missing are rejected, constant-scale divisors use one, test outliers are never silently clipped, and transformed magnitudes beyond 30 are rejected. This pipeline uses pasted two-feature rows, 12–200 examples, and is separate from exploratory whole-table transforms and the synthetic CV demo.
+
+### Shared raw tables and per-fold fitting
+
+The fitted pipeline can now load explicit feature/target columns from the session-shared Explorer table, preserving missing feature cells. Share the raw table, not an already globally transformed version. K-fold and stratified K-fold controls fit a fresh imputer, scaler and model inside every fold, expose the fitted means/scales and source-row membership, and support classification or regression. Single-split and per-fold results are separate, configuration edits clear stale results, and cancellation discards partial folds.
