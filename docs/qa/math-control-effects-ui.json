@@ -1,0 +1,227 @@
+{
+  "scope": "Scientific numerical controls and reset/application effects. Shared guide navigation is covered separately.",
+  "records": [
+    {
+      "area": "Linear Algebra",
+      "label": "Matrix A 0",
+      "old": "2",
+      "value": "2.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Linear Algebra",
+      "label": "Matrix A 1",
+      "old": "1",
+      "value": "1.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Linear Algebra",
+      "label": "Matrix A 2",
+      "old": "1",
+      "value": "1.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Linear Algebra",
+      "label": "Matrix A 3",
+      "old": "2",
+      "value": "2.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Linear Algebra",
+      "label": "Matrix B 0",
+      "old": "2",
+      "value": "2.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Linear Algebra",
+      "label": "Matrix B 1",
+      "old": "0",
+      "value": "0.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Linear Algebra",
+      "label": "Matrix B 2",
+      "old": "0",
+      "value": "0.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Linear Algebra",
+      "label": "Matrix B 3",
+      "old": "1",
+      "value": "1.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Linear Algebra",
+      "label": "Vector v1",
+      "old": "1",
+      "value": "1.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Linear Algebra",
+      "label": "Vector v2",
+      "old": "2",
+      "value": "2.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Linear Algebra",
+      "label": "Scalar s",
+      "old": "1",
+      "value": "1.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Linear Algebra",
+      "label": "Reset algebra",
+      "effect": "Restores exact default computed output."
+    },
+    {
+      "area": "Calculus",
+      "label": "Coefficient a",
+      "old": "1",
+      "value": "1.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Calculus",
+      "label": "Coefficient b",
+      "old": "0",
+      "value": "0.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Calculus",
+      "label": "Coefficient c",
+      "old": "1",
+      "value": "1.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Calculus",
+      "label": "Position x",
+      "old": "1",
+      "value": "1.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Calculus",
+      "label": "Position y",
+      "old": "1",
+      "value": "1.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Calculus",
+      "label": "Direction angle (radians)",
+      "old": "0",
+      "value": "0.02",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Calculus",
+      "label": "Difference-quotient h",
+      "old": "0.1",
+      "value": "0.10200000000000001",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Calculus",
+      "label": "Take a gradient step / Reset calculus",
+      "effect": "Actual computed step followed by exact output restoration."
+    },
+    {
+      "area": "Probability",
+      "label": "Success probability p",
+      "old": "0.5",
+      "value": "0.52",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Probability",
+      "label": "Trials n (Binomial)",
+      "old": "10",
+      "value": "12",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Probability",
+      "label": "Probability cutoff",
+      "old": "5",
+      "value": "7",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Probability",
+      "label": "Prior P(A)",
+      "old": "0.01",
+      "value": "0.012",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Probability",
+      "label": "Sensitivity P(positive | A)",
+      "old": "0.95",
+      "value": "0.97",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Probability",
+      "label": "False-positive rate P(positive | not A)",
+      "old": "0.05",
+      "value": "0.07",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Probability",
+      "kind": "Poisson",
+      "label": "Rate λ (Poisson)",
+      "old": "4",
+      "value": "4.2",
+      "effect": "Actual distribution or Bayes output changes."
+    },
+    {
+      "area": "Probability",
+      "kind": "Normal",
+      "label": "Mean μ (Normal)",
+      "old": "0",
+      "value": "0.2",
+      "effect": "Actual distribution or Bayes output changes."
+    },
+    {
+      "area": "Probability",
+      "kind": "Normal",
+      "label": "Standard deviation σ (Normal)",
+      "old": "1",
+      "value": "1.2",
+      "effect": "Actual distribution or Bayes output changes."
+    },
+    {
+      "area": "Statistics",
+      "label": "Known population σ (z-model assumption)",
+      "old": "2",
+      "value": "2.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Statistics",
+      "label": "Null population mean μ₀",
+      "old": "3",
+      "value": "3.2",
+      "effect": "Computed metric, matrix, plotted geometry or scientific status changed, excluding the input value itself."
+    },
+    {
+      "area": "Statistics",
+      "label": "Apply statistics data / Draw bootstrap sample",
+      "effect": "New computed summary and generated bootstrap draw."
+    }
+  ],
+  "errors": []
+}
