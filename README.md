@@ -197,3 +197,17 @@ After `npm ci` and `npm run portable`, run `node tests/browser/storage.mjs`, `no
 node tests/browser/classical.mjs
 node tests/browser/math-repair.mjs
 node tests/browser/naive-bayes.mjs`. Install Chrome separately and set `CHROME_BIN` if needed. `ML_LAB_URL` defaults to the generated portable HTML; `ML_QA_OUTPUT` selects an existing output directory. The restore suite generates its own replay fixtures. These tests write only local test data and screenshots. Python 3 is required for the classical code parity tests in `npm test`.
+
+## Reproducible engineering and Python acceptance
+
+The additional browser checks use `CHROME_BIN` (default `/usr/bin/google-chrome-stable`) and `ML_QA_OUTPUT` for evidence output. Run `npm ci`, `npm run build` and `npm run portable` first. Existing portable suites accept `ML_LAB_URL`.
+
+```sh
+mkdir -p /tmp/ml-qa
+ML_QA_OUTPUT=/tmp/ml-qa node tests/browser/optimizer-acceptance.mjs
+ML_QA_OUTPUT=/tmp/ml-qa node tests/browser/error-boundary.mjs
+ML_QA_OUTPUT=/tmp/ml-qa node tests/browser/engineering.mjs
+ML_TEST_PYTHON="$PWD/backend/.venv/bin/python" ML_QA_OUTPUT=/tmp/ml-qa node tests/browser/python-acceptance.mjs
+```
+
+The last three suites start and stop their own loopback servers (5177, 5178, and 5176/8127 respectively). Python acceptance needs the backend development environment installed as described in `backend/README.md`, with Linux isolation support. It creates a temporary SQLite data directory, verifies actual stdout and Matplotlib output, and removes the temporary environment. It does not deploy or use a public execution service. Route error recovery is tested by intentionally blocking a production lazy chunk; normal route tests now reject the error fallback after loading completes. Optimizer minima and gradient markers retain their intended colors in light mode.

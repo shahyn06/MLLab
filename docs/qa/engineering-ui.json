@@ -1,0 +1,16 @@
+{
+  "checks": 16,
+  "progress": [
+    "Training validation model 1/8…",
+    "Training validation model 2/8…",
+    "Training validation model 3/8…",
+    "Training validation model 4/8…",
+    "Training validation model 5/8…",
+    "Training validation model 6/8…",
+    "Training validation model 7/8…",
+    "Training validation model 8/8…"
+  ],
+  "modes": [
+    "Web Worker, off the page thread"
+  ]
+}

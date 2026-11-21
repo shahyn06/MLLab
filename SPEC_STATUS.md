@@ -78,3 +78,13 @@ Derived columns now reject name collisions: repeated squaring and one-hot names 
 Re-ran the local backend: all 52 tests passed in 50.46 seconds with no skips. One non-failing Starlette test-client deprecation warning remains. This includes actual isolated stdout, sklearn and Matplotlib plus fail-closed/resource/ownership/persistence checks, not public-service approval. No deployment or cloud persistence. PyTorch is still recommendation-only.
 
 These are bounded semantic acceptances, not a whole-project completion. Educational depth, remaining engineering/interaction requirements and the full final ledger still require closure.
+
+## Semantic acceptance: optimization, Python and bounded engineering
+
+All five optimizer update rules and all three sampling modes, four schedules, initial parameters, actual timed pause/reset, computed minima, real Plotly contour and Three.js mesh were exercised (44 direct UI checks). Existing independent finite-difference/update/stationary-point tests remain green. Light-theme generic SVG styles no longer erase the minima crosses or negative-gradient arrow; both themes were visually inspected at 320/390/1280.
+
+A reproducible 14-check browser suite launches a temporary loopback API and SQLite directory, runs actual isolated Python, verifies stdout and a computed Matplotlib PNG, exercises CodeMirror syntax/keyboard/reset/clear/copy or honest fallback, downloads the editor source and disconnects. Each execution has a fresh environment. This is a supported local Linux workflow, not a deployed service or hosted-viewer Python runtime.
+
+A route-scoped error boundary now contains render/lazy-module failures while keeping navigation usable. A real blocked production chunk test verifies containment, changing route and reload recovery (10 checks). The fallback was visually checked in both themes at all three widths. The full route suite now waits for lazy loading to finish and explicitly rejects a hidden route error, rather than accepting a navigation shell alone (220 checks). The 70-check replay suite was rerun.
+
+16 new browser checks directly observe real worker results/progress and resource cleanup, pre-flight and in-flight cancellation, worker validation errors, labeled worker-construction fallback and fallback cancellation. These do not replace a full assistive-technology audit. Remaining content, interface, experiment and math semantic ledger entries remain open. PyTorch stays recommendation-only; no deployment, spending or cloud persistence.
