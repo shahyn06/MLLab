@@ -144,3 +144,13 @@ Snapshot validation: 57 persistence, metrics, comparison, export, deletion and r
 ### Snapshot restoration and recent history
 
 Version-1 imports support all nine browser training routes. JSON files are limited to 2 MB, supported route/configuration enums and bounded numeric arrays. Recursive depth/size and unsafe object keys are rejected. Imports never execute source code. All learned models are replayed deterministically from validated data/configuration and update count, producing real parameters, history and metrics. The linear and perceptron demonstrations allow manual parameter editing; these values are range-checked instead of claiming a training provenance. Quadratic history is range-checked. The dashboard records the last six actually restored saved experiments with timestamps; it does not invent recent activity from available labs.
+
+### Build targets, workers and hosted exports
+
+`npm run build` creates a normal route-chunked site in `dist/`. Heavy labs and the Python editor load on demand. `npm run portable` builds the separately inlined `dist-portable/` target and packages `ml-lab.html` plus `ml-lab-source.zip`. Python 3 is used only by the packaging script; normal web builds need Node. The portable HTML is larger by design and does not need a web server.
+
+Snapshot import/restoration, cross-validation and model comparison run in a disposable Web Worker in the source app. Progress is real per-fit progress, cancellation terminates the worker, and stale results are discarded on reset/unmount. If workers are unavailable, a clearly labeled bounded in-page fallback is used. The hosted viewer uses the bounded in-page path explicitly; it does not claim off-thread execution. The tiny live training ticks remain bounded browser computations.
+
+The hosted viewer cannot make generated Blob file downloads. Its export controls instead show the exact JSON/CSV as text inside the page with the viewer's supported copy control. The local source app retains direct file downloads. A displayed export is not described as a successful download.
+
+Worker checks: 47 engine parity/validation checks, 16 actual-browser worker checks (instances observed, main-thread heartbeat, cancellation, responsive states) and 62 re-run restore/import/history checks. Normal initial JavaScript is about 163 KB gzip, excluding deferred labs/editor; the portable target is about 426 KB gzip including deferred code and the worker source. Build warnings refer to uncompressed bundle size, not a failed build.

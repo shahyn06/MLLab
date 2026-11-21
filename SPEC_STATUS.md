@@ -15,7 +15,7 @@ This is an implementation checklist, not a completion certificate. The full supp
 - Resource-limited isolated Python process execution, real stdout/stderr and PNG charts. CodeMirror editor, runnable examples, copy/reset/download.
 - Explicit snapshots from nine browser training routes, saved configuration/model/history/data inspection, export, comparison and confirmed deletion. Local app: 12 records/2 MB; hosted viewer: 14 KB total. Large states can be exported without storing them. Hosted previews are memory-only and show that status.
 - Device-local theme and an explicitly self-reported six-workbench review checklist. No mastery is inferred from visits.
-- TypeScript checking and 676 reproducible numerical/parser/replay checks. Recent UI checks include sequence 24, local API 40, Python editor 15, snapshots 57 and nine initial-model capture smoke checks.
+- TypeScript checking and 723 reproducible numerical/parser/replay/compute checks. Recent UI checks include sequence 24, local API 40, Python editor 15, snapshots 57 and nine initial-model capture smoke checks.
 
 ## Not finished, next priorities
 
@@ -23,7 +23,7 @@ This is an implementation checklist, not a completion certificate. The full supp
 2. **History and progress: core implemented.** Dashboard records up to six actually restored experiments with timestamps, alongside explicit review marks. A richer adaptive learning path remains optional work, not a claim of mastery.
 3. **Unified educational interface.** Existing lessons have equations, assumptions, practical uses and challenges, but all eleven requested sections and beginner/intermediate/advanced levels are not uniformly present. Audit every algorithm and every named mathematical topic against the original spec. Fill derivations and step-by-step examples where thin.
 4. **Broader dataset reuse.** The explorer imports files and the API trains uploaded data, while some browser labs still have their own bounded custom-data inputs. Unify dataset selection without leaking held-out information into preprocessing/training.
-5. **Performance.** Heavy browser computation is not yet offloaded to Web Workers. Local Vite currently inlines dynamic imports for a portable one-file HTML, so lazy route splitting does not reduce its initial bundle. Provide separate normal chunked and portable build targets, worker requests with cancellation/reset guards and responsive progress indicators.
+5. **Performance: core implemented.** Normal route-chunked and separate portable targets are available. Source-app snapshot rebuilding, CV and model comparison run in disposable workers, with progress, cancellation and stale-result guards. Hosted viewer uses a labeled bounded in-page fallback. Small animated training ticks and table exploration remain on the page thread; assess their bounded worst cases in the final audit.
 6. **Declared stack alignment.** React, TypeScript, Vite, KaTeX, FastAPI, NumPy, Pandas and sklearn are present. Tailwind/shadcn, Framer Motion, Plotly, D3, Three.js and PyTorch are not fully adopted. Current SVG/orthographic visualizations are real computation, but do not silently claim these libraries are used. ONNX is conditional, not currently needed.
 7. **Advanced server training.** Local API explicitly reports CNN/RNN/LSTM unsupported. Their tiny educational browser implementations work, but larger PyTorch training/exports are not provided.
 8. **Cloud persistence and deployment.** None is configured. SQLite is a local prototype and must not be described as cloud storage. No spending, subscriptions or paid infrastructure are authorized. Decide on an authorized free deployment route and verify production security before hosting accounts or execution.
@@ -32,3 +32,5 @@ This is an implementation checklist, not a completion certificate. The full supp
 ## Boundaries
 
 The hosted File provides browser workbenches and a setup-only local-execution page. It never connects to the viewer's loopback API. The local source app contains the full editor and backend client. Device-local snapshots are not cloud synchronization. Agent-preview persistence is not owner-persistence evidence. Model JSON is inspection data, not an executable trained-model format. Joblib exports from the optional backend must be treated as executable content and loaded only from trusted sources.
+
+Hosted generated exports now show their exact text in-page with the supported copy control. They do not claim a Blob file download. Source-app file downloads remain available. Verified hosted import/rebuild, copy result, CV and comparison; source worker test observed real workers and main-thread heartbeat.

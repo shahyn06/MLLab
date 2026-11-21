@@ -7,8 +7,13 @@
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
-    "test": "node tests/numerical.mjs && node tests/structure.mjs && node tests/optimization.mjs && node tests/sequence.mjs && node tests/snapshots.mjs",
-    "typecheck": "tsc --noEmit"
+    "test": "node tests/numerical.mjs && node tests/structure.mjs && node tests/optimization.mjs && node tests/sequence.mjs && node tests/snapshots.mjs && node tests/compute.mjs",
+    "typecheck": "tsc --noEmit",
+    "build:portable": "vite build --mode portable",
+    "prebuild": "node scripts/build-worker.mjs",
+    "prebuild:portable": "node scripts/build-worker.mjs",
+    "predev": "node scripts/build-worker.mjs",
+    "portable": "npm run build:portable && python3 scripts/package-portable.py"
   },
   "dependencies": {
     "@codemirror/commands": "^6.11.1",

@@ -1,2 +1,2 @@
 import {defineConfig} from 'vite';
-export default defineConfig({base:'./',build:{rollupOptions:{output:{inlineDynamicImports:true}}}});
+export default defineConfig(({mode})=>({base:'./',build:{outDir:mode==='portable'?'dist-portable':'dist',rollupOptions:{output:{inlineDynamicImports:mode==='portable'}}}}));
