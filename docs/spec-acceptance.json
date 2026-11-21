@@ -3158,8 +3158,8 @@
       "section": 12,
       "context": "Final Instructions",
       "requirement": "1. Analyze the complete requirements.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+      "status": "HISTORICAL ORDER UNVERIFIABLE",
+      "evidence": "Complete analysis before implementation is not established. ARCHITECTURE.md in root 7eb3470 references the official spec; the full spec file itself was added only in 2271bbc. Current complete 419-row review cannot retroactively prove preimplementation analysis. This is a historical limitation, not a missing current control. Do not report this row fully satisfied."
     },
     {
       "id": "R352",
@@ -3167,8 +3167,8 @@
       "section": 12,
       "context": "Final Instructions",
       "requirement": "2. Design the application architecture.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+      "status": "HISTORICAL ORDER UNVERIFIABLE",
+      "evidence": "Root 7eb3470 records architecture and foundational implementation together. The plan precedes later math/classical/data/backend modules in commit history, but intra-commit order is not established. This is a historical limitation, not a missing current control. Do not report this row fully satisfied."
     },
     {
       "id": "R353",
@@ -3176,8 +3176,8 @@
       "section": 12,
       "context": "Final Instructions",
       "requirement": "3. Define the folder structure.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+      "status": "HISTORICAL ORDER UNVERIFIABLE",
+      "evidence": "Root architecture records a module/folder plan and its tree contains foundational source modules. It does not timestamp planning before the first implementation; later folders evolved with actual modules. This is a historical limitation, not a missing current control. Do not report this row fully satisfied."
     },
     {
       "id": "R354",
@@ -3185,8 +3185,8 @@
       "section": 12,
       "context": "Final Instructions",
       "requirement": "4. Identify reusable components.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+      "status": "HISTORICAL ORDER UNVERIFIABLE",
+      "evidence": "Root architecture identifies shared controls, metrics, plots, quizzes, code and UI primitives; those components coexist in the same root commit. Prior planning order is not recoverable. This is a historical limitation, not a missing current control. Do not report this row fully satisfied."
     },
     {
       "id": "R355",
@@ -3194,8 +3194,8 @@
       "section": 12,
       "context": "Final Instructions",
       "requirement": "5. Design the database schema.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+      "status": "HISTORICAL ORDER UNVERIFIABLE",
+      "evidence": "Root architecture includes proposed users/datasets/experiments/runs/events/preferences schema before the later backend commit. The actual local SQLite schema differs and is documented separately. No evidence proves the proposal predated foundational coding. This is a historical limitation, not a missing current control. Do not report this row fully satisfied."
     },
     {
       "id": "R356",
@@ -3203,8 +3203,8 @@
       "section": 12,
       "context": "Final Instructions",
       "requirement": "6. Define the communication between frontend and backend.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+      "status": "HISTORICAL ORDER UNVERIFIABLE",
+      "evidence": "Root architecture contains proposed versioned transport endpoints before later API implementation. Actual local routes are documented. Ordering before the very first frontend implementation remains unverified. This is a historical limitation, not a missing current control. Do not report this row fully satisfied."
     },
     {
       "id": "R357",
@@ -3212,8 +3212,8 @@
       "section": 12,
       "context": "Final Instructions",
       "requirement": "7. Plan the visualization engine.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+      "status": "HISTORICAL ORDER UNVERIFIABLE",
+      "evidence": "Root architecture plans data-driven SVG, equations, Plotly/D3/Three and workers before later renderer/worker commits. SVG already exists in that same root commit; exact preimplementation sequence is unverified. This is a historical limitation, not a missing current control. Do not report this row fully satisfied."
     },
     {
       "id": "R358",
@@ -3221,8 +3221,8 @@
       "section": 12,
       "context": "Final Instructions",
       "requirement": "Build a functional application, not just a UI prototype.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Actual scientific application verified through real gradient fits, held-out predictions, transformations, per-fold refitting, model snapshots and isolated local Python/API/SQLite. Current source 5350 checks and typecheck/builds pass; direct actual effects are mapped across 282 original source control sites. Browser and hosted/local limits remain explicit."
     },
     {
       "id": "R359",
@@ -3230,8 +3230,8 @@
       "section": 12,
       "context": "Final Instructions",
       "requirement": "Do not create buttons that do nothing.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "All 282 original control sites reviewed and mapped to actual runtime family effects in docs/CONTROL_EFFECT_MAP.md and docs/qa/control-effect-map.json. New original/model/view/shared/account/manager/remaining suites verify actual results, not input echo. Shared/repeated handlers use explicit family evidence; no claim of exhaustive generated instances or timing interleavings. Native disclosures/editor/chart-library controls have separate direct checks. Disabled and unavailable actions explain their state."
     },
     {
       "id": "R360",
@@ -3239,8 +3239,8 @@
       "section": 12,
       "context": "Final Instructions",
       "requirement": "Do not use fake data as actual training results.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Every Metrics call inspected and traced to actual arrays/current weights/predictions/tables/objectives/fits. Synthetic task data and fixed teaching examples are labeled. Actual model/query/holdout/parity tests and snapshots demonstrate real computation; no fixed trained accuracy or loss was found substituted for a fit. See docs/FINAL_REVIEW.md and specific numerical/semantic suites."
     },
     {
       "id": "R361",
@@ -3248,8 +3248,8 @@
       "section": 12,
       "context": "Final Instructions",
       "requirement": "Do not replace interactive charts with static screenshots.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific browser plots use current data, learned state and real SVG/Plotly/WebGL geometry, not image swaps. Direct parameter/model/path tests and rendered WebGL pixel comparisons verify interaction. Matplotlib PNG is a separate actual computation output in Python Playground, not a substitute for live browser experiments."
     },
     {
       "id": "R362",
@@ -3257,8 +3257,8 @@
       "section": 12,
       "context": "Final Instructions",
       "requirement": "Ensure all mathematical formulas are correct.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "All 43 math-topic formulas/assumptions/examples, 29 algorithm/update lessons and 30 data guides reviewed. Strict KaTeX parsing, 58/63/230 independent teaching checks, analytic arithmetic, finite-difference gradients and library/browser parity support the bounded educational formulas. No universal scientific certification or PyTorch runtime pass is claimed."
     },
     {
       "id": "R363",
@@ -3266,8 +3266,8 @@
       "section": 12,
       "context": "Final Instructions",
       "requirement": "Keep the code modular and maintainable.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Typed UI/engine/transport/storage/worker modules are separated. Multiple later algorithms and renderers were added without replacing the shell; direct integration/typecheck/build/replay tests pass. Dense JSX remains a readability/maintenance limitation, explicitly recorded rather than cosmetically refactored late. This is bounded architecture review, not a guarantee about future maintenance."
     },
     {
       "id": "R364",
@@ -3275,8 +3275,8 @@
       "section": 12,
       "context": "Final Instructions",
       "requirement": "Prioritize functionality and scientific accuracy over decorative design.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Actual scientific engine, data leakage, gradient/tree arithmetic, dynamic training, safe local execution and accessibility repairs were prioritized and tested before final presentation review. Source-backed metrics and explicit limits remain above cosmetic polish. This is a reviewed implementation priority, not a quantitative design score."
     },
     {
       "id": "P001",
@@ -3545,8 +3545,8 @@
       "section": 4,
       "context": "Interactive Visualization Engine / normative prose",
       "requirement": "All visualizations must be responsive and interactive.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Scientific views respond to actual data/model/parameter changes and work at 320/390/1280 in both themes. Plotly contour and Three.js/WebGL views actually render; rotations change pixels/geometry. Native SVGs have exact data alternatives where shared Plot is used, while bespoke diagrams have their own tables/readouts. Interactivity can be through adjacent controls; not every mark is independently draggable. Python chart output is intentionally a computed image, not a substitute browser simulation. See docs/FINAL_DISPOSITION.md and current source/control-effect evidence."
     },
     {
       "id": "P031",
@@ -3716,8 +3716,8 @@
       "section": 10,
       "context": "Performance & Engineering Requirements / normative prose",
       "requirement": "Do not generate fake training results or pretend that a model has been trained when it has not.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Actual model state and metrics are produced by named fitting/update engines. Direct matched-step parameter tests, gradual/pause/cap tests, held-out/parity tests and actual backend model artifacts rule out placeholder training within the bounded current implementations. Fixed synthetic tasks and demonstration arithmetic remain labeled. See docs/FINAL_DISPOSITION.md and current source/control-effect evidence."
     },
     {
       "id": "P050",
@@ -3725,8 +3725,8 @@
       "section": 10,
       "context": "Performance & Engineering Requirements / normative prose",
       "requirement": "Every displayed metric must come from an actual computation or be explicitly labeled as a demonstration.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Reviewed every Metrics call, dashboard count, snapshot result and API provenance. Current numeric values derive from actual tables/predictions/weights/objectives/held-out fits or explicit fixed demonstration examples. Restored/imported metrics are recomputed. Self-reported review progress is not represented as mastery or unseen history. See docs/FINAL_DISPOSITION.md and current source/control-effect evidence."
     },
     {
       "id": "P051",
@@ -3743,8 +3743,8 @@
       "section": 12,
       "context": "Final Instructions / normative prose",
       "requirement": "Before implementing:",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "HISTORICAL ORDER UNVERIFIABLE",
+      "evidence": "Root 7eb3470 contains an architecture/module/schema/transport/visualization plan together with the foundational implementation; the complete spec file was added later in 2271bbc. Later module commits follow the root plan, but before-implementing/then-start chronology for the first implementation cannot be established. Current acceptance work cannot reconstruct that historical order. This row is not fully satisfied."
     },
     {
       "id": "P053",
@@ -3752,8 +3752,8 @@
       "section": 12,
       "context": "Final Instructions / normative prose",
       "requirement": "Then start implementation.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "HISTORICAL ORDER UNVERIFIABLE",
+      "evidence": "Root 7eb3470 contains an architecture/module/schema/transport/visualization plan together with the foundational implementation; the complete spec file was added later in 2271bbc. Later module commits follow the root plan, but before-implementing/then-start chronology for the first implementation cannot be established. Current acceptance work cannot reconstruct that historical order. This row is not fully satisfied."
     },
     {
       "id": "P054",
@@ -3761,8 +3761,8 @@
       "section": 12,
       "context": "Final Instructions / normative prose",
       "requirement": "The final result should feel like a professional combination of: Jupyter Notebook + MATLAB + Scikit-learn Playground + Interactive Mathematics Laboratory.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Reviewed as a design analogy, not claimed product compatibility. Actual code editing/isolated stdout/charts provide notebook-like exploration; mathematical workbenches supply numeric/visual reasoning; bounded sklearn models have data/splits/evaluation/exports. No persistent Jupyter kernel, MATLAB runtime or general deep-training service is claimed. Scientific dashboard and actual workflows are visually and interactively reviewed. See docs/FINAL_DISPOSITION.md and current source/control-effect evidence."
     },
     {
       "id": "P055",
@@ -3770,8 +3770,8 @@
       "section": 12,
       "context": "Final Instructions / normative prose",
       "requirement": "The platform should be expandable so that new algorithms, experiments, and scientific tools can be added without redesigning the entire application.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "Explicit prose requirement. Review source implementation and cross-cutting behavior; neighboring bullet acceptance does not automatically verify this row."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Repeated independent module additions across git history demonstrate expansion without shell redesign: math/classical/data/structure/neural/CNN/sequence/optimizer modules, shared components, independent engines, local API and persistence. Current architecture documents extension boundaries and tests. Dense JSX is a known readability limit; no promise that arbitrary new tools require zero design work. See docs/FINAL_DISPOSITION.md and current source/control-effect evidence."
     }
   ]
 }

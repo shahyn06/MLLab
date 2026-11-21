@@ -1,0 +1,61 @@
+{
+  "records": [
+    {
+      "label": "Invalid unlabelled rows",
+      "effect": "Rejected at actual UI."
+    },
+    {
+      "label": "Apply unlabelled data",
+      "effect": "Exact custom matrix reaches actual model."
+    },
+    {
+      "label": "Requested cluster stop Single",
+      "effect": "Ten custom points stop after five actual merges at five clusters."
+    },
+    {
+      "label": "Requested cluster stop Complete",
+      "effect": "Ten custom points stop after five actual merges at five clusters."
+    },
+    {
+      "label": "Requested cluster stop Average",
+      "effect": "Ten custom points stop after five actual merges at five clusters."
+    },
+    {
+      "label": "Linkage effects",
+      "effect": "Actual computed merge distances/history differ, not only the selected label."
+    },
+    {
+      "label": "Prediction x2",
+      "effect": "Second coordinate changes actual model query output."
+    },
+    {
+      "label": "Vertical column",
+      "effect": "Actual scatter axes/query data change."
+    },
+    {
+      "label": "Data download Export current CSV",
+      "effect": "Actual selected CSV/partition bytes."
+    },
+    {
+      "label": "Data download Export training partition",
+      "effect": "Actual selected CSV/partition bytes."
+    },
+    {
+      "label": "Data download Export test partition",
+      "effect": "Actual selected CSV/partition bytes."
+    },
+    {
+      "label": "Test fraction",
+      "effect": "Changes computed partition counts."
+    },
+    {
+      "label": "Restore survey",
+      "effect": "Restores real starter table."
+    },
+    {
+      "label": "Browser errors",
+      "effect": "No uncaught errors."
+    }
+  ],
+  "errors": []
+}

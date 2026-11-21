@@ -232,3 +232,5 @@ The automation covers 19 routes in both themes with disclosures open, plus direc
 
 Latest acceptance increment: 5,120 reproducible source checks, 819 math-content UI checks and 785 algorithm lesson/interface checks. See SPEC_STATUS.md and the complete 419-row docs/SPEC_ACCEPTANCE.md; the full project is not yet accepted.
 Latest source suite: 5,350 checks. Data concepts now have a three-level guide beside real computation; see docs/qa/data-guide-ui.json. Optional browser contrast review: run tests/browser/hero-contrast.mjs, then scripts/check-hero-contrast.py with the same ML_QA_OUTPUT directory (Pillow required for that image audit only).
+
+Final scoped review: docs/FINAL_DISPOSITION.md lists the 18 obligations that are not fully closed. docs/CONTROL_EFFECT_MAP.md maps the original 282 source control sites to bounded runtime evidence. The project remains explicitly not fully accepted; historical ordering, universal interface exceptions, manual assistive-technology review and declared backend/cloud boundaries are not silently waived.

@@ -1,0 +1,121 @@
+{
+  "records": [
+    {
+      "label": "Empty manager link",
+      "effect": "Opens real workbench."
+    },
+    {
+      "label": "Saved snapshot names",
+      "effect": "Typed names and actual trained snapshots are present."
+    },
+    {
+      "label": "Inspect state open",
+      "effect": "Shows actual stored JSON."
+    },
+    {
+      "label": "Inspect state close",
+      "effect": "Hides exact stored JSON."
+    },
+    {
+      "label": "Download snapshot JSON",
+      "effect": "Actual exact selected learned state."
+    },
+    {
+      "label": "One selected model",
+      "effect": "Does not pretend a one-model comparison."
+    },
+    {
+      "label": "Two selected models",
+      "effect": "Shows actual saved metric/config comparison."
+    },
+    {
+      "label": "Deselect comparison",
+      "effect": "Removes comparison when fewer than two selected."
+    },
+    {
+      "label": "Cancel rebuilding",
+      "effect": "No prepared restoration is offered after actual cancellation."
+    },
+    {
+      "label": "All dashboard destinations enumerated",
+      "effect": "Fifteen actual workspace entries, not a vacuous empty loop."
+    },
+    {
+      "label": "Workspace link #/math",
+      "effect": "Actual navigation reaches registered live destination."
+    },
+    {
+      "label": "Workspace link #/classical",
+      "effect": "Actual navigation reaches registered live destination."
+    },
+    {
+      "label": "Workspace link #/regression",
+      "effect": "Actual navigation reaches registered live destination."
+    },
+    {
+      "label": "Workspace link #/unsupervised",
+      "effect": "Actual navigation reaches registered live destination."
+    },
+    {
+      "label": "Workspace link #/clustering",
+      "effect": "Actual navigation reaches registered live destination."
+    },
+    {
+      "label": "Workspace link #/neural",
+      "effect": "Actual navigation reaches registered live destination."
+    },
+    {
+      "label": "Workspace link #/cnn",
+      "effect": "Actual navigation reaches registered live destination."
+    },
+    {
+      "label": "Workspace link #/sequence",
+      "effect": "Actual navigation reaches registered live destination."
+    },
+    {
+      "label": "Workspace link #/perceptron",
+      "effect": "Actual navigation reaches registered live destination."
+    },
+    {
+      "label": "Workspace link #/preprocessing",
+      "effect": "Actual navigation reaches registered live destination."
+    },
+    {
+      "label": "Workspace link #/evaluation",
+      "effect": "Actual navigation reaches registered live destination."
+    },
+    {
+      "label": "Workspace link #/optimization",
+      "effect": "Actual navigation reaches registered live destination."
+    },
+    {
+      "label": "Workspace link #/gradient",
+      "effect": "Actual navigation reaches registered live destination."
+    },
+    {
+      "label": "Workspace link #/datasets",
+      "effect": "Actual navigation reaches registered live destination."
+    },
+    {
+      "label": "Workspace link #/execution",
+      "effect": "Actual navigation reaches registered live destination."
+    },
+    {
+      "label": "Settings theme button",
+      "effect": "Changes actual theme, separate from sidebar shortcut."
+    },
+    {
+      "label": "Shared copy button",
+      "effect": "Reports actual copy result or actionable unavailable fallback."
+    },
+    {
+      "label": "Generated content copy",
+      "effect": "Same actual shared copy contract applies to generated text."
+    },
+    {
+      "label": "Browser errors",
+      "effect": "No uncaught errors."
+    }
+  ],
+  "errors": []
+}

@@ -38,3 +38,9 @@ Shared math area/topic/learning-level selection already has separate 819 topic/l
 - `chart-accessibility.mjs`: 81 checks of actual chart values, descriptions, reading order, lesson focus, generated-panel focus/return, real update status and six-state containment. The numeric alternatives improve feasible access without claiming a screen-reader certification.
 
 All these passes succeeded on the current application. Existing full-route, restore/import/history, export and axe regressions were rerun successfully. A source-site-to-evidence map and final conditional gaps are the next step, not implied complete by these counts.
+
+## Review disposition
+
+The original 282 source sites are now individually mapped in docs/CONTROL_EFFECT_MAP.md and docs/qa/control-effect-map.json. There are 205 named locator leads and 77 repeated/dynamic/shared-family entries. The map is bounded runtime-family evidence, not exhaustive generated-instance/state-space testing. The final remaining-control suite adds 14 direct assertions for custom unlabelled input, each linkage and exact requested stopping count, x2 query, chart-axis choice, actual CSV/partition bytes, fraction and restore. The manager/shell suite adds 29 assertions, including an asserted nonempty enumeration of all fifteen actual destination links, snapshots/comparison/cancel, exact download, Settings theme, and copy/fallback.
+
+All 21 former final/mapped rows have individual dispositions in docs/FINAL_DISPOSITION.md: twelve bounded accepted and nine historically unverifiable. Whole-project completion remains false; the exact 18 non-fully-closed rows are enumerated there.
