@@ -178,3 +178,7 @@ The fitted pipeline can now load explicit feature/target columns from the sessio
 ## Consistent algorithm sections
 
 All training workspaces expose the eleven requested lesson sections with working jump/focus navigation. To preserve useful side-by-side live results and controls, sections follow the local simulation layout rather than forcing every plot below every control. Perceptron supports start/pause/resume, one epoch and reset with a 200-epoch cap. Optimizer Python templates now match selected method/objective/schedule; MLP architecture/activation/rate and CNN rate are reflected in their templates. They do not promise identical random initialization or sampling across Python and browser engines.
+
+## Visualization and UI library alignment
+
+Shared SVG coordinate maps use D3 linear scales. Buttons use a source-owned Radix Slot/CVA shadcn/ui pattern with locally generated Tailwind utilities, retaining the ML Lab palette. Framer Motion animates the lesson navigator and honors reduced-motion preferences. The optimizer has an on-demand Plotly contour with an actual 41×41 objective grid and real parameter path. Three.js renders the real three-feature cloud on demand, with camera controls, geometry updates and disposal. WebGL failure retains the existing SVG and numeric alternatives. Heavy renderers are lazy chunks in the normal build; portable output intentionally embeds them. Exact package versions and bundled licenses are included. No CDN or remote runtime is needed.

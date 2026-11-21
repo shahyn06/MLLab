@@ -1,0 +1,9 @@
+import {build} from 'esbuild';
+import {writeFile,copyFile} from 'node:fs/promises';
+await build({stdin:{contents:"export {UIButton} from './src/ui-button';export {scaleLinear} from 'd3-scale';",resolveDir:process.cwd(),loader:'ts'},bundle:true,format:'esm',platform:'browser',minify:true,outfile:'src/vendor/ui-runtime.mjs',external:['react','react-dom','react/jsx-runtime']});
+await build({stdin:{contents:"export {motion,useReducedMotion} from 'framer-motion';",resolveDir:process.cwd(),loader:'ts'},bundle:true,format:'esm',platform:'browser',minify:true,outfile:'src/vendor/motion-runtime.mjs',external:['react','react-dom','react/jsx-runtime']});
+await build({stdin:{contents:"export {Scene,PerspectiveCamera,WebGLRenderer,BufferGeometry,Float32BufferAttribute,PointsMaterial,Points,AxesHelper,Color,Vector3} from 'three';",resolveDir:process.cwd(),loader:'ts'},bundle:true,format:'esm',platform:'browser',minify:true,outfile:'src/vendor/three-runtime.mjs'});
+await build({stdin:{contents:"export {default} from 'plotly.js-cartesian-dist-min';",resolveDir:process.cwd(),loader:'ts'},bundle:true,format:'esm',platform:'browser',minify:true,outfile:'src/vendor/plotly-runtime.mjs'});
+const licenses=['three','plotly.js-cartesian-dist-min','framer-motion','d3-scale','@radix-ui/react-slot','class-variance-authority','clsx','tailwind-merge','tailwindcss'];
+let text='Locally bundled open-source dependencies. See package-lock.json for exact versions.\n\n';for(const name of licenses){for(const path of ['LICENSE','LICENSE.md','LICENSE.txt','license']){try{const {readFile}=await import('node:fs/promises');text+='\n### '+name+'\n'+await readFile('node_modules/'+name+'/'+path,'utf8')+'\n';break}catch{}}}await writeFile('src/vendor/LIBRARY-LICENSES.txt',text);
+console.log('Built local D3/Radix, Motion, Three.js and Plotly runtimes.');

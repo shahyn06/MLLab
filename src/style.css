@@ -48,3 +48,9 @@ input[aria-label="Browser experiment name"]{display:block;width:100%;box-sizing:
 .ml-section-heading:focus { outline: 2px solid #428fba; outline-offset: 6px; }
 .ml-lesson-outline .ml-actions { align-items: stretch; }
 .ml-lesson-outline .ml-chip { text-align: left; }
+
+.ml-three-cloud { width: 100%; min-height: 320px; border: 1px solid #637986; border-radius: 12px; overflow: hidden; margin-top: 16px; background: #12232e; }
+.ml-three-cloud canvas { display: block; width: 100%; height: 320px; }
+.ml-plotly-landscape { width: 100%; height: 360px; min-width: 0; overflow: hidden; }
+
+.ml-app .ml-plotly-landscape .modebar-group{background:#12232e!important}.ml-app .ml-plotly-landscape .modebar-btn path{fill:#b7ccd8!important}.ml-app .ml-plotly-landscape .modebar-btn.active path,.ml-app .ml-plotly-landscape .modebar-btn:hover path{fill:#72dfb8!important}
