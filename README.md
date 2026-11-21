@@ -154,3 +154,9 @@ Snapshot import/restoration, cross-validation and model comparison run in a disp
 The hosted viewer cannot make generated Blob file downloads. Its export controls instead show the exact JSON/CSV as text inside the page with the viewer's supported copy control. The local source app retains direct file downloads. A displayed export is not described as a successful download.
 
 Worker checks: 47 engine parity/validation checks, 16 actual-browser worker checks (instances observed, main-thread heartbeat, cancellation, responsive states) and 62 re-run restore/import/history checks. Normal initial JavaScript is about 163 KB gzip, excluding deferred labs/editor; the portable target is about 426 KB gzip including deferred code and the worker source. Build warnings refer to uncompressed bundle size, not a failed build.
+
+### Reuse a dataset across workbenches
+
+Dataset Explorer can explicitly share a copy of its current table with the classical, structure-discovery and MLP workbenches for this open session. Choose feature columns, a distinct target column where required, and the first bounded number of rows. There is no silent scaling, imputation or removal of incomplete rows. Duplicate features, target-as-feature selection, missing/nonnumeric values and unsupported target/range values are rejected. This prevents accidental target-column leakage, not every statistical form of leakage. Whole-data preprocessing in the explorer remains exploratory; fit preprocessing on training data for actual modeling. Larger or unscaled datasets belong in the optional local backend.
+
+The MLP can train and restore custom shared numeric data with a genuine held-out partition. Session-shared tables are not persisted automatically or uploaded. This transfer UI passes 31 responsive/validation/training/restore checks, including an actual 12-row custom model and a 9/3 train/test split.
