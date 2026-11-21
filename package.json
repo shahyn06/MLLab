@@ -7,7 +7,7 @@
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
-    "test": "node tests/numerical.mjs && node tests/structure.mjs && node tests/optimization.mjs && node tests/sequence.mjs",
+    "test": "node tests/numerical.mjs && node tests/structure.mjs && node tests/optimization.mjs && node tests/sequence.mjs && node tests/snapshots.mjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
