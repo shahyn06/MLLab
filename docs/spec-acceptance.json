@@ -1,0 +1,3282 @@
+{
+  "date": "2026-11-21",
+  "completed": false,
+  "items": [
+    {
+      "id": "R001",
+      "line": 15,
+      "section": 1,
+      "context": "Project Overview",
+      "requirement": "Understand mathematical concepts visually.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "See implementation map below; individual acceptance remains open."
+    },
+    {
+      "id": "R002",
+      "line": 16,
+      "section": 1,
+      "context": "Project Overview",
+      "requirement": "Experiment with Machine Learning algorithms.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "See implementation map below; individual acceptance remains open."
+    },
+    {
+      "id": "R003",
+      "line": 17,
+      "section": 1,
+      "context": "Project Overview",
+      "requirement": "Modify model parameters in real time.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "See implementation map below; individual acceptance remains open."
+    },
+    {
+      "id": "R004",
+      "line": 18,
+      "section": 1,
+      "context": "Project Overview",
+      "requirement": "Visualize how algorithms work step by step.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "See implementation map below; individual acceptance remains open."
+    },
+    {
+      "id": "R005",
+      "line": 19,
+      "section": 1,
+      "context": "Project Overview",
+      "requirement": "Upload and explore their own datasets.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "See implementation map below; individual acceptance remains open."
+    },
+    {
+      "id": "R006",
+      "line": 20,
+      "section": 1,
+      "context": "Project Overview",
+      "requirement": "Train and evaluate models.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "See implementation map below; individual acceptance remains open."
+    },
+    {
+      "id": "R007",
+      "line": 21,
+      "section": 1,
+      "context": "Project Overview",
+      "requirement": "Compare different algorithms.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "See implementation map below; individual acceptance remains open."
+    },
+    {
+      "id": "R008",
+      "line": 22,
+      "section": 1,
+      "context": "Project Overview",
+      "requirement": "Save and revisit experiments.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "See implementation map below; individual acceptance remains open."
+    },
+    {
+      "id": "R009",
+      "line": 23,
+      "section": 1,
+      "context": "Project Overview",
+      "requirement": "Understand the mathematical foundations behind every algorithm.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "See implementation map below; individual acceptance remains open."
+    },
+    {
+      "id": "R010",
+      "line": 27,
+      "section": 1,
+      "context": "Project Overview",
+      "requirement": "1. Mathematical Understanding.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "See implementation map below; individual acceptance remains open."
+    },
+    {
+      "id": "R011",
+      "line": 28,
+      "section": 1,
+      "context": "Project Overview",
+      "requirement": "2. Programming and Implementation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "See implementation map below; individual acceptance remains open."
+    },
+    {
+      "id": "R012",
+      "line": 29,
+      "section": 1,
+      "context": "Project Overview",
+      "requirement": "3. Interactive Visual Experimentation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "See implementation map below; individual acceptance remains open."
+    },
+    {
+      "id": "R013",
+      "line": 43,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Simple Linear Regression.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R014",
+      "line": 44,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Multiple Linear Regression.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R015",
+      "line": 45,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Polynomial Regression.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R016",
+      "line": 46,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Ridge Regression.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R017",
+      "line": 47,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Lasso Regression.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R018",
+      "line": 48,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Elastic Net.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R019",
+      "line": 52,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Logistic Regression.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R020",
+      "line": 53,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "K-Nearest Neighbors (KNN).",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R021",
+      "line": 54,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Decision Trees.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R022",
+      "line": 55,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Random Forest.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R023",
+      "line": 56,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Support Vector Machines (SVM).",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R024",
+      "line": 57,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Naive Bayes.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R025",
+      "line": 58,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Gradient Boosting.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R026",
+      "line": 62,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Mathematical explanation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R027",
+      "line": 63,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Interactive visualization.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R028",
+      "line": 64,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Adjustable parameters.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R029",
+      "line": 65,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Dataset selection.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R030",
+      "line": 66,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Training controls.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R031",
+      "line": 67,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Prediction results.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R032",
+      "line": 68,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Evaluation metrics.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R033",
+      "line": 69,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Python implementation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R034",
+      "line": 70,
+      "section": 2,
+      "context": "A. Supervised Learning Lab",
+      "requirement": "Experiment saving.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; tests/numerical.mjs; source UI routes classical/regression."
+    },
+    {
+      "id": "R035",
+      "line": 76,
+      "section": 2,
+      "context": "B. Unsupervised Learning Lab",
+      "requirement": "K-Means Clustering.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts, classical-engine.ts; tests/structure.mjs; clustering/unsupervised routes."
+    },
+    {
+      "id": "R036",
+      "line": 77,
+      "section": 2,
+      "context": "B. Unsupervised Learning Lab",
+      "requirement": "Hierarchical Clustering.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts, classical-engine.ts; tests/structure.mjs; clustering/unsupervised routes."
+    },
+    {
+      "id": "R037",
+      "line": 78,
+      "section": 2,
+      "context": "B. Unsupervised Learning Lab",
+      "requirement": "DBSCAN.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts, classical-engine.ts; tests/structure.mjs; clustering/unsupervised routes."
+    },
+    {
+      "id": "R038",
+      "line": 79,
+      "section": 2,
+      "context": "B. Unsupervised Learning Lab",
+      "requirement": "Gaussian Mixture Models.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts, classical-engine.ts; tests/structure.mjs; clustering/unsupervised routes."
+    },
+    {
+      "id": "R039",
+      "line": 80,
+      "section": 2,
+      "context": "B. Unsupervised Learning Lab",
+      "requirement": "Principal Component Analysis (PCA).",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts, classical-engine.ts; tests/structure.mjs; clustering/unsupervised routes."
+    },
+    {
+      "id": "R040",
+      "line": 81,
+      "section": 2,
+      "context": "B. Unsupervised Learning Lab",
+      "requirement": "Anomaly Detection.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts, classical-engine.ts; tests/structure.mjs; clustering/unsupervised routes."
+    },
+    {
+      "id": "R041",
+      "line": 85,
+      "section": 2,
+      "context": "B. Unsupervised Learning Lab",
+      "requirement": "Display clusters using different visual colors.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts, classical-engine.ts; tests/structure.mjs; clustering/unsupervised routes."
+    },
+    {
+      "id": "R042",
+      "line": 86,
+      "section": 2,
+      "context": "B. Unsupervised Learning Lab",
+      "requirement": "Show cluster centroids.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts, classical-engine.ts; tests/structure.mjs; clustering/unsupervised routes."
+    },
+    {
+      "id": "R043",
+      "line": 87,
+      "section": 2,
+      "context": "B. Unsupervised Learning Lab",
+      "requirement": "Animate centroid movement.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts, classical-engine.ts; tests/structure.mjs; clustering/unsupervised routes."
+    },
+    {
+      "id": "R044",
+      "line": 88,
+      "section": 2,
+      "context": "B. Unsupervised Learning Lab",
+      "requirement": "Show how points are assigned to clusters.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts, classical-engine.ts; tests/structure.mjs; clustering/unsupervised routes."
+    },
+    {
+      "id": "R045",
+      "line": 89,
+      "section": 2,
+      "context": "B. Unsupervised Learning Lab",
+      "requirement": "Allow users to change the number of clusters.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts, classical-engine.ts; tests/structure.mjs; clustering/unsupervised routes."
+    },
+    {
+      "id": "R046",
+      "line": 90,
+      "section": 2,
+      "context": "B. Unsupervised Learning Lab",
+      "requirement": "Display dimensionality reduction in 2D and 3D.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts, classical-engine.ts; tests/structure.mjs; clustering/unsupervised routes."
+    },
+    {
+      "id": "R047",
+      "line": 96,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Artificial Neuron.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R048",
+      "line": 97,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Perceptron.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R049",
+      "line": 98,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Multi-Layer Perceptron (MLP).",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R050",
+      "line": 99,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Feedforward Neural Networks.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R051",
+      "line": 100,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Activation Functions.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R052",
+      "line": 101,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Forward Propagation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R053",
+      "line": 102,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Backpropagation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R054",
+      "line": 103,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Loss Functions.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R055",
+      "line": 104,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Gradient Descent.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R056",
+      "line": 105,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Convolutional Neural Networks (CNN).",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R057",
+      "line": 106,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Recurrent Neural Networks (RNN).",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R058",
+      "line": 107,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "LSTM.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R059",
+      "line": 115,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Add and remove layers.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R060",
+      "line": 116,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Change the number of neurons.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R061",
+      "line": 117,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Select activation functions.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R062",
+      "line": 118,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Visualize connections between neurons.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R063",
+      "line": 119,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Run forward propagation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R064",
+      "line": 120,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Visualize weight changes.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R065",
+      "line": 121,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Observe how information travels between layers.",
+      "status": "PARTIAL",
+      "evidence": "Actual activations/weights update with training, but no layer-by-layer propagation animation yet."
+    },
+    {
+      "id": "R066",
+      "line": 122,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Visualize backpropagation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R067",
+      "line": 123,
+      "section": 2,
+      "context": "C. Neural Networks & Deep Learning Lab",
+      "requirement": "Track loss reduction during training.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, convolution.tsx, sequence.tsx and their engines; numerical/sequence tests; bounded tiny-model scope."
+    },
+    {
+      "id": "R068",
+      "line": 129,
+      "section": 2,
+      "context": "D. Data Preprocessing Lab",
+      "requirement": "Missing Values Handling.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, pipeline-engine.ts; tests/pipeline.mjs; preprocessing/evaluation routes."
+    },
+    {
+      "id": "R069",
+      "line": 130,
+      "section": 2,
+      "context": "D. Data Preprocessing Lab",
+      "requirement": "Data Cleaning.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, pipeline-engine.ts; tests/pipeline.mjs; preprocessing/evaluation routes."
+    },
+    {
+      "id": "R070",
+      "line": 131,
+      "section": 2,
+      "context": "D. Data Preprocessing Lab",
+      "requirement": "Normalization.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, pipeline-engine.ts; tests/pipeline.mjs; preprocessing/evaluation routes."
+    },
+    {
+      "id": "R071",
+      "line": 132,
+      "section": 2,
+      "context": "D. Data Preprocessing Lab",
+      "requirement": "Standardization.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, pipeline-engine.ts; tests/pipeline.mjs; preprocessing/evaluation routes."
+    },
+    {
+      "id": "R072",
+      "line": 133,
+      "section": 2,
+      "context": "D. Data Preprocessing Lab",
+      "requirement": "Label Encoding.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, pipeline-engine.ts; tests/pipeline.mjs; preprocessing/evaluation routes."
+    },
+    {
+      "id": "R073",
+      "line": 134,
+      "section": 2,
+      "context": "D. Data Preprocessing Lab",
+      "requirement": "One-Hot Encoding.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, pipeline-engine.ts; tests/pipeline.mjs; preprocessing/evaluation routes."
+    },
+    {
+      "id": "R074",
+      "line": 135,
+      "section": 2,
+      "context": "D. Data Preprocessing Lab",
+      "requirement": "Feature Scaling.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, pipeline-engine.ts; tests/pipeline.mjs; preprocessing/evaluation routes."
+    },
+    {
+      "id": "R075",
+      "line": 136,
+      "section": 2,
+      "context": "D. Data Preprocessing Lab",
+      "requirement": "Feature Selection.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, pipeline-engine.ts; tests/pipeline.mjs; preprocessing/evaluation routes."
+    },
+    {
+      "id": "R076",
+      "line": 137,
+      "section": 2,
+      "context": "D. Data Preprocessing Lab",
+      "requirement": "Feature Engineering.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, pipeline-engine.ts; tests/pipeline.mjs; preprocessing/evaluation routes."
+    },
+    {
+      "id": "R077",
+      "line": 138,
+      "section": 2,
+      "context": "D. Data Preprocessing Lab",
+      "requirement": "Outlier Detection.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, pipeline-engine.ts; tests/pipeline.mjs; preprocessing/evaluation routes."
+    },
+    {
+      "id": "R078",
+      "line": 139,
+      "section": 2,
+      "context": "D. Data Preprocessing Lab",
+      "requirement": "Train/Test Splitting.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, pipeline-engine.ts; tests/pipeline.mjs; preprocessing/evaluation routes."
+    },
+    {
+      "id": "R079",
+      "line": 149,
+      "section": 2,
+      "context": "E. Model Evaluation Lab",
+      "requirement": "Accuracy.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, compute-engine.ts; tests/compute.mjs, pipeline.mjs; evaluation route."
+    },
+    {
+      "id": "R080",
+      "line": 150,
+      "section": 2,
+      "context": "E. Model Evaluation Lab",
+      "requirement": "Precision.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, compute-engine.ts; tests/compute.mjs, pipeline.mjs; evaluation route."
+    },
+    {
+      "id": "R081",
+      "line": 151,
+      "section": 2,
+      "context": "E. Model Evaluation Lab",
+      "requirement": "Recall.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, compute-engine.ts; tests/compute.mjs, pipeline.mjs; evaluation route."
+    },
+    {
+      "id": "R082",
+      "line": 152,
+      "section": 2,
+      "context": "E. Model Evaluation Lab",
+      "requirement": "F1 Score.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, compute-engine.ts; tests/compute.mjs, pipeline.mjs; evaluation route."
+    },
+    {
+      "id": "R083",
+      "line": 153,
+      "section": 2,
+      "context": "E. Model Evaluation Lab",
+      "requirement": "Confusion Matrix.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, compute-engine.ts; tests/compute.mjs, pipeline.mjs; evaluation route."
+    },
+    {
+      "id": "R084",
+      "line": 154,
+      "section": 2,
+      "context": "E. Model Evaluation Lab",
+      "requirement": "ROC Curve.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, compute-engine.ts; tests/compute.mjs, pipeline.mjs; evaluation route."
+    },
+    {
+      "id": "R085",
+      "line": 155,
+      "section": 2,
+      "context": "E. Model Evaluation Lab",
+      "requirement": "AUC.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, compute-engine.ts; tests/compute.mjs, pipeline.mjs; evaluation route."
+    },
+    {
+      "id": "R086",
+      "line": 156,
+      "section": 2,
+      "context": "E. Model Evaluation Lab",
+      "requirement": "Precision-Recall Curve.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, compute-engine.ts; tests/compute.mjs, pipeline.mjs; evaluation route."
+    },
+    {
+      "id": "R087",
+      "line": 160,
+      "section": 2,
+      "context": "E. Model Evaluation Lab",
+      "requirement": "MAE.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, compute-engine.ts; tests/compute.mjs, pipeline.mjs; evaluation route."
+    },
+    {
+      "id": "R088",
+      "line": 161,
+      "section": 2,
+      "context": "E. Model Evaluation Lab",
+      "requirement": "MSE.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, compute-engine.ts; tests/compute.mjs, pipeline.mjs; evaluation route."
+    },
+    {
+      "id": "R089",
+      "line": 162,
+      "section": 2,
+      "context": "E. Model Evaluation Lab",
+      "requirement": "RMSE.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, compute-engine.ts; tests/compute.mjs, pipeline.mjs; evaluation route."
+    },
+    {
+      "id": "R090",
+      "line": 163,
+      "section": 2,
+      "context": "E. Model Evaluation Lab",
+      "requirement": "R-squared Score.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, compute-engine.ts; tests/compute.mjs, pipeline.mjs; evaluation route."
+    },
+    {
+      "id": "R091",
+      "line": 167,
+      "section": 2,
+      "context": "E. Model Evaluation Lab",
+      "requirement": "Train/Test Split.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, compute-engine.ts; tests/compute.mjs, pipeline.mjs; evaluation route."
+    },
+    {
+      "id": "R092",
+      "line": 168,
+      "section": 2,
+      "context": "E. Model Evaluation Lab",
+      "requirement": "K-Fold Cross Validation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, compute-engine.ts; tests/compute.mjs, pipeline.mjs; evaluation route."
+    },
+    {
+      "id": "R093",
+      "line": 169,
+      "section": 2,
+      "context": "E. Model Evaluation Lab",
+      "requirement": "Stratified K-Fold.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, compute-engine.ts; tests/compute.mjs, pipeline.mjs; evaluation route."
+    },
+    {
+      "id": "R094",
+      "line": 170,
+      "section": 2,
+      "context": "E. Model Evaluation Lab",
+      "requirement": "Learning Curves.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, compute-engine.ts; tests/compute.mjs, pipeline.mjs; evaluation route."
+    },
+    {
+      "id": "R095",
+      "line": 178,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Batch Gradient Descent.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R096",
+      "line": 179,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Stochastic Gradient Descent.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R097",
+      "line": 180,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Mini-Batch Gradient Descent.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R098",
+      "line": 181,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Momentum.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R099",
+      "line": 182,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Nesterov Momentum.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R100",
+      "line": 183,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "RMSprop.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R101",
+      "line": 184,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Adam.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R102",
+      "line": 185,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Learning Rate Scheduling.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R103",
+      "line": 189,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Learning Rate.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R104",
+      "line": 190,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Number of Iterations.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R105",
+      "line": 191,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Batch Size.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R106",
+      "line": 192,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Initial Weights.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R107",
+      "line": 193,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Initial Bias.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R108",
+      "line": 197,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Loss Function.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R109",
+      "line": 198,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Gradient Direction.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R110",
+      "line": 199,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Parameter Updates.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R111",
+      "line": 200,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Convergence.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R112",
+      "line": 201,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Local and Global Minima.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R113",
+      "line": 202,
+      "section": 2,
+      "context": "F. Optimization Lab",
+      "requirement": "Optimization Paths.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/optimization.tsx, optimization-engine.ts; tests/optimization.mjs; optimization route."
+    },
+    {
+      "id": "R114",
+      "line": 212,
+      "section": 2,
+      "context": "G. Dataset Explorer",
+      "requirement": "Upload CSV and Excel files.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, data-engine.ts; tests/numerical.mjs; datasets route."
+    },
+    {
+      "id": "R115",
+      "line": 213,
+      "section": 2,
+      "context": "G. Dataset Explorer",
+      "requirement": "Preview datasets in interactive tables.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, data-engine.ts; tests/numerical.mjs; datasets route."
+    },
+    {
+      "id": "R116",
+      "line": 214,
+      "section": 2,
+      "context": "G. Dataset Explorer",
+      "requirement": "Display dataset dimensions.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, data-engine.ts; tests/numerical.mjs; datasets route."
+    },
+    {
+      "id": "R117",
+      "line": 215,
+      "section": 2,
+      "context": "G. Dataset Explorer",
+      "requirement": "Show column types.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, data-engine.ts; tests/numerical.mjs; datasets route."
+    },
+    {
+      "id": "R118",
+      "line": 216,
+      "section": 2,
+      "context": "G. Dataset Explorer",
+      "requirement": "Display missing values.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, data-engine.ts; tests/numerical.mjs; datasets route."
+    },
+    {
+      "id": "R119",
+      "line": 217,
+      "section": 2,
+      "context": "G. Dataset Explorer",
+      "requirement": "Statistical Summary.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, data-engine.ts; tests/numerical.mjs; datasets route."
+    },
+    {
+      "id": "R120",
+      "line": 218,
+      "section": 2,
+      "context": "G. Dataset Explorer",
+      "requirement": "Mean, Median, Mode.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, data-engine.ts; tests/numerical.mjs; datasets route."
+    },
+    {
+      "id": "R121",
+      "line": 219,
+      "section": 2,
+      "context": "G. Dataset Explorer",
+      "requirement": "Variance and Standard Deviation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, data-engine.ts; tests/numerical.mjs; datasets route."
+    },
+    {
+      "id": "R122",
+      "line": 220,
+      "section": 2,
+      "context": "G. Dataset Explorer",
+      "requirement": "Correlation Matrix.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, data-engine.ts; tests/numerical.mjs; datasets route."
+    },
+    {
+      "id": "R123",
+      "line": 221,
+      "section": 2,
+      "context": "G. Dataset Explorer",
+      "requirement": "Histograms.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, data-engine.ts; tests/numerical.mjs; datasets route."
+    },
+    {
+      "id": "R124",
+      "line": 222,
+      "section": 2,
+      "context": "G. Dataset Explorer",
+      "requirement": "Box Plots.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, data-engine.ts; tests/numerical.mjs; datasets route."
+    },
+    {
+      "id": "R125",
+      "line": 223,
+      "section": 2,
+      "context": "G. Dataset Explorer",
+      "requirement": "Scatter Plots.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, data-engine.ts; tests/numerical.mjs; datasets route."
+    },
+    {
+      "id": "R126",
+      "line": 224,
+      "section": 2,
+      "context": "G. Dataset Explorer",
+      "requirement": "Pair Plots.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, data-engine.ts; tests/numerical.mjs; datasets route."
+    },
+    {
+      "id": "R127",
+      "line": 225,
+      "section": 2,
+      "context": "G. Dataset Explorer",
+      "requirement": "Distribution Analysis.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, data-engine.ts; tests/numerical.mjs; datasets route."
+    },
+    {
+      "id": "R128",
+      "line": 226,
+      "section": 2,
+      "context": "G. Dataset Explorer",
+      "requirement": "Outlier Detection.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/datalab.tsx, data-engine.ts; tests/numerical.mjs; datasets route."
+    },
+    {
+      "id": "R129",
+      "line": 236,
+      "section": 2,
+      "context": "H. Experiment Manager",
+      "requirement": "Create experiments.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+    },
+    {
+      "id": "R130",
+      "line": 237,
+      "section": 2,
+      "context": "H. Experiment Manager",
+      "requirement": "Save model configurations.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+    },
+    {
+      "id": "R131",
+      "line": 238,
+      "section": 2,
+      "context": "H. Experiment Manager",
+      "requirement": "Save training results.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+    },
+    {
+      "id": "R132",
+      "line": 239,
+      "section": 2,
+      "context": "H. Experiment Manager",
+      "requirement": "Track hyperparameters.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+    },
+    {
+      "id": "R133",
+      "line": 240,
+      "section": 2,
+      "context": "H. Experiment Manager",
+      "requirement": "Compare multiple models.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+    },
+    {
+      "id": "R134",
+      "line": 241,
+      "section": 2,
+      "context": "H. Experiment Manager",
+      "requirement": "Compare performance metrics.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+    },
+    {
+      "id": "R135",
+      "line": 242,
+      "section": 2,
+      "context": "H. Experiment Manager",
+      "requirement": "View training history.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+    },
+    {
+      "id": "R136",
+      "line": 243,
+      "section": 2,
+      "context": "H. Experiment Manager",
+      "requirement": "Export results.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+    },
+    {
+      "id": "R137",
+      "line": 244,
+      "section": 2,
+      "context": "H. Experiment Manager",
+      "requirement": "Download trained models when supported.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+    },
+    {
+      "id": "R138",
+      "line": 248,
+      "section": 2,
+      "context": "H. Experiment Manager",
+      "requirement": "Experiment Name.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+    },
+    {
+      "id": "R139",
+      "line": 249,
+      "section": 2,
+      "context": "H. Experiment Manager",
+      "requirement": "Algorithm.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+    },
+    {
+      "id": "R140",
+      "line": 250,
+      "section": 2,
+      "context": "H. Experiment Manager",
+      "requirement": "Dataset.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+    },
+    {
+      "id": "R141",
+      "line": 251,
+      "section": 2,
+      "context": "H. Experiment Manager",
+      "requirement": "Hyperparameters.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+    },
+    {
+      "id": "R142",
+      "line": 252,
+      "section": 2,
+      "context": "H. Experiment Manager",
+      "requirement": "Training Configuration.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+    },
+    {
+      "id": "R143",
+      "line": 253,
+      "section": 2,
+      "context": "H. Experiment Manager",
+      "requirement": "Evaluation Metrics.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+    },
+    {
+      "id": "R144",
+      "line": 254,
+      "section": 2,
+      "context": "H. Experiment Manager",
+      "requirement": "Creation Date.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+    },
+    {
+      "id": "R145",
+      "line": 255,
+      "section": 2,
+      "context": "H. Experiment Manager",
+      "requirement": "Results.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+    },
+    {
+      "id": "R146",
+      "line": 267,
+      "section": 3,
+      "context": "Linear Algebra",
+      "requirement": "Scalars.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R147",
+      "line": 268,
+      "section": 3,
+      "context": "Linear Algebra",
+      "requirement": "Vectors.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R148",
+      "line": 269,
+      "section": 3,
+      "context": "Linear Algebra",
+      "requirement": "Matrices.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R149",
+      "line": 270,
+      "section": 3,
+      "context": "Linear Algebra",
+      "requirement": "Matrix Operations.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R150",
+      "line": 271,
+      "section": 3,
+      "context": "Linear Algebra",
+      "requirement": "Matrix Multiplication.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R151",
+      "line": 272,
+      "section": 3,
+      "context": "Linear Algebra",
+      "requirement": "Transpose.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R152",
+      "line": 273,
+      "section": 3,
+      "context": "Linear Algebra",
+      "requirement": "Inverse.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R153",
+      "line": 274,
+      "section": 3,
+      "context": "Linear Algebra",
+      "requirement": "Determinants.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R154",
+      "line": 275,
+      "section": 3,
+      "context": "Linear Algebra",
+      "requirement": "Eigenvalues.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R155",
+      "line": 276,
+      "section": 3,
+      "context": "Linear Algebra",
+      "requirement": "Eigenvectors.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R156",
+      "line": 277,
+      "section": 3,
+      "context": "Linear Algebra",
+      "requirement": "Singular Value Decomposition (SVD).",
+      "status": "REVIEW PRIORITY",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review. Verify a shared experiment is sufficient rather than assuming content cards satisfy interactivity."
+    },
+    {
+      "id": "R157",
+      "line": 278,
+      "section": 3,
+      "context": "Linear Algebra",
+      "requirement": "Vector Spaces.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R158",
+      "line": 279,
+      "section": 3,
+      "context": "Linear Algebra",
+      "requirement": "Dot Product.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R159",
+      "line": 283,
+      "section": 3,
+      "context": "Calculus",
+      "requirement": "Limits.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R160",
+      "line": 284,
+      "section": 3,
+      "context": "Calculus",
+      "requirement": "Derivatives.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R161",
+      "line": 285,
+      "section": 3,
+      "context": "Calculus",
+      "requirement": "Partial Derivatives.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R162",
+      "line": 286,
+      "section": 3,
+      "context": "Calculus",
+      "requirement": "Chain Rule.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R163",
+      "line": 287,
+      "section": 3,
+      "context": "Calculus",
+      "requirement": "Multivariable Calculus.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R164",
+      "line": 288,
+      "section": 3,
+      "context": "Calculus",
+      "requirement": "Gradients.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R165",
+      "line": 289,
+      "section": 3,
+      "context": "Calculus",
+      "requirement": "Directional Derivatives.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R166",
+      "line": 290,
+      "section": 3,
+      "context": "Calculus",
+      "requirement": "Jacobian.",
+      "status": "REVIEW PRIORITY",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review. Verify a shared experiment is sufficient rather than assuming content cards satisfy interactivity."
+    },
+    {
+      "id": "R167",
+      "line": 291,
+      "section": 3,
+      "context": "Calculus",
+      "requirement": "Hessian.",
+      "status": "REVIEW PRIORITY",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review. Verify a shared experiment is sufficient rather than assuming content cards satisfy interactivity."
+    },
+    {
+      "id": "R168",
+      "line": 292,
+      "section": 3,
+      "context": "Calculus",
+      "requirement": "Optimization.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R169",
+      "line": 296,
+      "section": 3,
+      "context": "Probability",
+      "requirement": "Basic Probability.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R170",
+      "line": 297,
+      "section": 3,
+      "context": "Probability",
+      "requirement": "Conditional Probability.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R171",
+      "line": 298,
+      "section": 3,
+      "context": "Probability",
+      "requirement": "Bayes' Theorem.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R172",
+      "line": 299,
+      "section": 3,
+      "context": "Probability",
+      "requirement": "Probability Distributions.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R173",
+      "line": 300,
+      "section": 3,
+      "context": "Probability",
+      "requirement": "Normal Distribution.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R174",
+      "line": 301,
+      "section": 3,
+      "context": "Probability",
+      "requirement": "Bernoulli Distribution.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R175",
+      "line": 302,
+      "section": 3,
+      "context": "Probability",
+      "requirement": "Binomial Distribution.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R176",
+      "line": 303,
+      "section": 3,
+      "context": "Probability",
+      "requirement": "Poisson Distribution.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R177",
+      "line": 304,
+      "section": 3,
+      "context": "Probability",
+      "requirement": "Gaussian Distribution.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R178",
+      "line": 308,
+      "section": 3,
+      "context": "Statistics",
+      "requirement": "Mean.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R179",
+      "line": 309,
+      "section": 3,
+      "context": "Statistics",
+      "requirement": "Median.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R180",
+      "line": 310,
+      "section": 3,
+      "context": "Statistics",
+      "requirement": "Mode.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R181",
+      "line": 311,
+      "section": 3,
+      "context": "Statistics",
+      "requirement": "Variance.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R182",
+      "line": 312,
+      "section": 3,
+      "context": "Statistics",
+      "requirement": "Standard Deviation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R183",
+      "line": 313,
+      "section": 3,
+      "context": "Statistics",
+      "requirement": "Covariance.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R184",
+      "line": 314,
+      "section": 3,
+      "context": "Statistics",
+      "requirement": "Correlation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R185",
+      "line": 315,
+      "section": 3,
+      "context": "Statistics",
+      "requirement": "Sampling.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R186",
+      "line": 316,
+      "section": 3,
+      "context": "Statistics",
+      "requirement": "Hypothesis Testing.",
+      "status": "REVIEW PRIORITY",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review. Verify a shared experiment is sufficient rather than assuming content cards satisfy interactivity."
+    },
+    {
+      "id": "R187",
+      "line": 317,
+      "section": 3,
+      "context": "Statistics",
+      "requirement": "Confidence Intervals.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R188",
+      "line": 318,
+      "section": 3,
+      "context": "Statistics",
+      "requirement": "Statistical Inference.",
+      "status": "REVIEW PRIORITY",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review. Verify a shared experiment is sufficient rather than assuming content cards satisfy interactivity."
+    },
+    {
+      "id": "R189",
+      "line": 322,
+      "section": 3,
+      "context": "Statistics",
+      "requirement": "Clear explanation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R190",
+      "line": 323,
+      "section": 3,
+      "context": "Statistics",
+      "requirement": "Mathematical equations.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R191",
+      "line": 324,
+      "section": 3,
+      "context": "Statistics",
+      "requirement": "Step-by-step examples.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R192",
+      "line": 325,
+      "section": 3,
+      "context": "Statistics",
+      "requirement": "Interactive visualizations.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R193",
+      "line": 326,
+      "section": 3,
+      "context": "Statistics",
+      "requirement": "Adjustable parameters.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R194",
+      "line": 327,
+      "section": 3,
+      "context": "Statistics",
+      "requirement": "Practical Machine Learning applications.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/mathlab.tsx and math-stories.ts; tests/education.mjs checks topic content/formula parsing. Each topic-specific interactive experience still needs direct acceptance review."
+    },
+    {
+      "id": "R195",
+      "line": 343,
+      "section": 4,
+      "context": "Linear Regression",
+      "requirement": "Add data points manually.",
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "src/labs.tsx, regression-tools.ts; tests/regression-tools.mjs; 19 point/residual UI checks and core training checks."
+    },
+    {
+      "id": "R196",
+      "line": 344,
+      "section": 4,
+      "context": "Linear Regression",
+      "requirement": "Generate random datasets.",
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "src/labs.tsx, regression-tools.ts; tests/regression-tools.mjs; 19 point/residual UI checks and core training checks."
+    },
+    {
+      "id": "R197",
+      "line": 345,
+      "section": 4,
+      "context": "Linear Regression",
+      "requirement": "Change slope and intercept.",
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "src/labs.tsx, regression-tools.ts; tests/regression-tools.mjs; 19 point/residual UI checks and core training checks."
+    },
+    {
+      "id": "R198",
+      "line": 346,
+      "section": 4,
+      "context": "Linear Regression",
+      "requirement": "Display the regression line.",
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "src/labs.tsx, regression-tools.ts; tests/regression-tools.mjs; 19 point/residual UI checks and core training checks."
+    },
+    {
+      "id": "R199",
+      "line": 347,
+      "section": 4,
+      "context": "Linear Regression",
+      "requirement": "Show prediction errors.",
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "src/labs.tsx, regression-tools.ts; tests/regression-tools.mjs; 19 point/residual UI checks and core training checks."
+    },
+    {
+      "id": "R200",
+      "line": 348,
+      "section": 4,
+      "context": "Linear Regression",
+      "requirement": "Visualize residuals.",
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "src/labs.tsx, regression-tools.ts; tests/regression-tools.mjs; 19 point/residual UI checks and core training checks."
+    },
+    {
+      "id": "R201",
+      "line": 349,
+      "section": 4,
+      "context": "Linear Regression",
+      "requirement": "Run Gradient Descent step by step.",
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "src/labs.tsx, regression-tools.ts; tests/regression-tools.mjs; 19 point/residual UI checks and core training checks."
+    },
+    {
+      "id": "R202",
+      "line": 350,
+      "section": 4,
+      "context": "Linear Regression",
+      "requirement": "Display the cost function.",
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "src/labs.tsx, regression-tools.ts; tests/regression-tools.mjs; 19 point/residual UI checks and core training checks."
+    },
+    {
+      "id": "R203",
+      "line": 354,
+      "section": 4,
+      "context": "K-Means",
+      "requirement": "Generate random points.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; actual assignments and centroid updates; source tests and clustering UI checks."
+    },
+    {
+      "id": "R204",
+      "line": 355,
+      "section": 4,
+      "context": "K-Means",
+      "requirement": "Choose the number of clusters.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; actual assignments and centroid updates; source tests and clustering UI checks."
+    },
+    {
+      "id": "R205",
+      "line": 356,
+      "section": 4,
+      "context": "K-Means",
+      "requirement": "Initialize centroids.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; actual assignments and centroid updates; source tests and clustering UI checks."
+    },
+    {
+      "id": "R206",
+      "line": 357,
+      "section": 4,
+      "context": "K-Means",
+      "requirement": "Animate assignment steps.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; actual assignments and centroid updates; source tests and clustering UI checks."
+    },
+    {
+      "id": "R207",
+      "line": 358,
+      "section": 4,
+      "context": "K-Means",
+      "requirement": "Animate centroid updates.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; actual assignments and centroid updates; source tests and clustering UI checks."
+    },
+    {
+      "id": "R208",
+      "line": 359,
+      "section": 4,
+      "context": "K-Means",
+      "requirement": "Display convergence.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx, classical-engine.ts; actual assignments and centroid updates; source tests and clustering UI checks."
+    },
+    {
+      "id": "R209",
+      "line": 363,
+      "section": 4,
+      "context": "Decision Trees",
+      "requirement": "Visualize the tree structure.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx and classical-engine.ts; tree split structure, criterion selection and impurity values."
+    },
+    {
+      "id": "R210",
+      "line": 364,
+      "section": 4,
+      "context": "Decision Trees",
+      "requirement": "Show splitting decisions.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx and classical-engine.ts; tree split structure, criterion selection and impurity values."
+    },
+    {
+      "id": "R211",
+      "line": 365,
+      "section": 4,
+      "context": "Decision Trees",
+      "requirement": "Change maximum depth.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/classical.tsx and classical-engine.ts; tree split structure, criterion selection and impurity values."
+    },
+    {
+      "id": "R212",
+      "line": 366,
+      "section": 4,
+      "context": "Decision Trees",
+      "requirement": "Show Gini Impurity and Entropy calculations.",
+      "status": "PARTIAL",
+      "evidence": "Both criteria are computed; fitted tree shows numeric impurity. Per-node expanded arithmetic/count explanation remains to be added or accepted."
+    },
+    {
+      "id": "R213",
+      "line": 370,
+      "section": 4,
+      "context": "Neural Networks",
+      "requirement": "Visualize neurons and connections.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, neural-engine.ts; actual weights, activations, biases and gradients."
+    },
+    {
+      "id": "R214",
+      "line": 371,
+      "section": 4,
+      "context": "Neural Networks",
+      "requirement": "Animate forward propagation.",
+      "status": "PARTIAL",
+      "evidence": "Actual activations/weights update with training, but no layer-by-layer propagation animation yet."
+    },
+    {
+      "id": "R215",
+      "line": 372,
+      "section": 4,
+      "context": "Neural Networks",
+      "requirement": "Display weights and biases.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, neural-engine.ts; actual weights, activations, biases and gradients."
+    },
+    {
+      "id": "R216",
+      "line": 373,
+      "section": 4,
+      "context": "Neural Networks",
+      "requirement": "Show activation values.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, neural-engine.ts; actual weights, activations, biases and gradients."
+    },
+    {
+      "id": "R217",
+      "line": 374,
+      "section": 4,
+      "context": "Neural Networks",
+      "requirement": "Visualize backpropagation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/neural.tsx, neural-engine.ts; actual weights, activations, biases and gradients."
+    },
+    {
+      "id": "R218",
+      "line": 378,
+      "section": 4,
+      "context": "PCA",
+      "requirement": "Display original data.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts; source structure tests and projection UI checks."
+    },
+    {
+      "id": "R219",
+      "line": 379,
+      "section": 4,
+      "context": "PCA",
+      "requirement": "Show principal component directions.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts; source structure tests and projection UI checks."
+    },
+    {
+      "id": "R220",
+      "line": 380,
+      "section": 4,
+      "context": "PCA",
+      "requirement": "Visualize dimensionality reduction.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts; source structure tests and projection UI checks."
+    },
+    {
+      "id": "R221",
+      "line": 381,
+      "section": 4,
+      "context": "PCA",
+      "requirement": "Compare original and transformed data.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts; source structure tests and projection UI checks."
+    },
+    {
+      "id": "R222",
+      "line": 393,
+      "section": 5,
+      "context": "Unified Algorithm Interface",
+      "requirement": "1. Overview - What is this algorithm?",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/lesson-sections.tsx; tests/sections.mjs and 160 UI checks verify all eleven headings/navigation. Semantic completeness still needs per-algorithm review."
+    },
+    {
+      "id": "R223",
+      "line": 394,
+      "section": 5,
+      "context": "Unified Algorithm Interface",
+      "requirement": "2. Mathematical Foundation - Equations and derivations.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/lesson-sections.tsx; tests/sections.mjs and 160 UI checks verify all eleven headings/navigation. Semantic completeness still needs per-algorithm review."
+    },
+    {
+      "id": "R224",
+      "line": 395,
+      "section": 5,
+      "context": "Unified Algorithm Interface",
+      "requirement": "3. How It Works - Step-by-step explanation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/lesson-sections.tsx; tests/sections.mjs and 160 UI checks verify all eleven headings/navigation. Semantic completeness still needs per-algorithm review."
+    },
+    {
+      "id": "R225",
+      "line": 396,
+      "section": 5,
+      "context": "Unified Algorithm Interface",
+      "requirement": "4. Interactive Simulation - Experiment with the algorithm.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/lesson-sections.tsx; tests/sections.mjs and 160 UI checks verify all eleven headings/navigation. Semantic completeness still needs per-algorithm review."
+    },
+    {
+      "id": "R226",
+      "line": 397,
+      "section": 5,
+      "context": "Unified Algorithm Interface",
+      "requirement": "5. Parameters - Modify hyperparameters.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/lesson-sections.tsx; tests/sections.mjs and 160 UI checks verify all eleven headings/navigation. Semantic completeness still needs per-algorithm review."
+    },
+    {
+      "id": "R227",
+      "line": 398,
+      "section": 5,
+      "context": "Unified Algorithm Interface",
+      "requirement": "6. Dataset - Choose built-in or uploaded data.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/lesson-sections.tsx; tests/sections.mjs and 160 UI checks verify all eleven headings/navigation. Semantic completeness still needs per-algorithm review."
+    },
+    {
+      "id": "R228",
+      "line": 399,
+      "section": 5,
+      "context": "Unified Algorithm Interface",
+      "requirement": "7. Training - Start, pause, resume, and reset.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/lesson-sections.tsx; tests/sections.mjs and 160 UI checks verify all eleven headings/navigation. Semantic completeness still needs per-algorithm review."
+    },
+    {
+      "id": "R229",
+      "line": 400,
+      "section": 5,
+      "context": "Unified Algorithm Interface",
+      "requirement": "8. Results - Visualize predictions and performance.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/lesson-sections.tsx; tests/sections.mjs and 160 UI checks verify all eleven headings/navigation. Semantic completeness still needs per-algorithm review."
+    },
+    {
+      "id": "R230",
+      "line": 401,
+      "section": 5,
+      "context": "Unified Algorithm Interface",
+      "requirement": "9. Python Code - Display equivalent Python implementation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/lesson-sections.tsx; tests/sections.mjs and 160 UI checks verify all eleven headings/navigation. Semantic completeness still needs per-algorithm review."
+    },
+    {
+      "id": "R231",
+      "line": 402,
+      "section": 5,
+      "context": "Unified Algorithm Interface",
+      "requirement": "10. Practical Applications - Real-world use cases.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/lesson-sections.tsx; tests/sections.mjs and 160 UI checks verify all eleven headings/navigation. Semantic completeness still needs per-algorithm review."
+    },
+    {
+      "id": "R232",
+      "line": 403,
+      "section": 5,
+      "context": "Unified Algorithm Interface",
+      "requirement": "11. Challenges - Small exercises to test understanding.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/lesson-sections.tsx; tests/sections.mjs and 160 UI checks verify all eleven headings/navigation. Semantic completeness still needs per-algorithm review."
+    },
+    {
+      "id": "R233",
+      "line": 413,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Modern scientific laboratory aesthetic.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R234",
+      "line": 414,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Clean and minimal interface.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R235",
+      "line": 415,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Professional desktop-first layout.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R236",
+      "line": 416,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Fully responsive design for tablets and smartphones.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R237",
+      "line": 417,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Dark Mode and Light Mode.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R238",
+      "line": 418,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Smooth transitions and subtle animations.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R239",
+      "line": 419,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Clear typography.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R240",
+      "line": 420,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Consistent spacing.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R241",
+      "line": 421,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Organized navigation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R242",
+      "line": 422,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Avoid unnecessary visual clutter.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R243",
+      "line": 426,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Primary background: Deep Navy / Charcoal.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R244",
+      "line": 427,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Accent colors: Cyan, Blue, and Violet.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R245",
+      "line": 428,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Light theme: White and soft gray.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R246",
+      "line": 429,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Charts must use distinguishable colors.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R247",
+      "line": 430,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Use clear mathematical typography.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R248",
+      "line": 431,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Use MathJax or KaTeX for mathematical equations.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R249",
+      "line": 437,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Dashboard.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R250",
+      "line": 438,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Mathematical Foundations.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R251",
+      "line": 439,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Supervised Learning.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R252",
+      "line": 440,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Unsupervised Learning.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R253",
+      "line": 441,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Neural Networks.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R254",
+      "line": 442,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Data Preprocessing.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R255",
+      "line": 443,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Model Evaluation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R256",
+      "line": 444,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Optimization.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R257",
+      "line": 445,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Dataset Explorer.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R258",
+      "line": 446,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Experiment Manager.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R259",
+      "line": 447,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Settings.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R260",
+      "line": 451,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Available laboratories.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R261",
+      "line": 452,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Recently opened experiments.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R262",
+      "line": 453,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Learning progress.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R263",
+      "line": 454,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Recommended experiments.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R264",
+      "line": 455,
+      "section": 6,
+      "context": "Website Design & User Experience",
+      "requirement": "Quick access to popular algorithms.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/App.tsx and style.css; theme/navigation/responsive UI tests. Preferences are device-local; preview state is not owner-persistence evidence."
+    },
+    {
+      "id": "R265",
+      "line": 465,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "React.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R266",
+      "line": 466,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "TypeScript.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R267",
+      "line": 467,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "Vite or Next.js.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R268",
+      "line": 468,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "Tailwind CSS.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R269",
+      "line": 469,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "shadcn/ui.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R270",
+      "line": 470,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "Framer Motion.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R271",
+      "line": 474,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "Plotly.js.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R272",
+      "line": 475,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "D3.js when custom visualizations are required.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R273",
+      "line": 476,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "Three.js for meaningful 3D scientific visualizations.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R274",
+      "line": 477,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "KaTeX or MathJax for equations.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R275",
+      "line": 483,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "JavaScript/TypeScript for lightweight browser-native algorithms.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R276",
+      "line": 484,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "Python backend using FastAPI.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R277",
+      "line": 485,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "NumPy.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R278",
+      "line": 486,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "Pandas.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R279",
+      "line": 487,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "Scikit-learn.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R280",
+      "line": 488,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "PyTorch for Deep Learning.",
+      "status": "SCOPE DECISION",
+      "evidence": "Equivalent educational PyTorch snippets exist, but no advanced server deep-learning trainer. Advanced server training is a recommendation question, not an implementation commitment."
+    },
+    {
+      "id": "R281",
+      "line": 489,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "ONNX Runtime Web where browser-side inference is useful.",
+      "status": "CONDITIONAL",
+      "evidence": "Not required for directly computed lightweight trainers. No ONNX runtime or pretrained inference is claimed."
+    },
+    {
+      "id": "R282",
+      "line": 499,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "FastAPI.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R283",
+      "line": 500,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "SQLite for an initial local prototype, or PostgreSQL for a production deployment.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R284",
+      "line": 501,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "User authentication if required.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R285",
+      "line": 502,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "Persistent experiment storage.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R286",
+      "line": 503,
+      "section": 7,
+      "context": "Technology Stack",
+      "requirement": "Dataset management.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+    },
+    {
+      "id": "R287",
+      "line": 513,
+      "section": 8,
+      "context": "Code Playground",
+      "requirement": "Python code editor.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/python-editor.tsx, backend/app; 52 backend tests and actual local API stdout/Matplotlib checks. Linux namespace/seccomp fail-closed runner, not a public execution service."
+    },
+    {
+      "id": "R288",
+      "line": 514,
+      "section": 8,
+      "context": "Code Playground",
+      "requirement": "Syntax highlighting.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/python-editor.tsx, backend/app; 52 backend tests and actual local API stdout/Matplotlib checks. Linux namespace/seccomp fail-closed runner, not a public execution service."
+    },
+    {
+      "id": "R289",
+      "line": 515,
+      "section": 8,
+      "context": "Code Playground",
+      "requirement": "Run code.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/python-editor.tsx, backend/app; 52 backend tests and actual local API stdout/Matplotlib checks. Linux namespace/seccomp fail-closed runner, not a public execution service."
+    },
+    {
+      "id": "R290",
+      "line": 516,
+      "section": 8,
+      "context": "Code Playground",
+      "requirement": "Display outputs.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/python-editor.tsx, backend/app; 52 backend tests and actual local API stdout/Matplotlib checks. Linux namespace/seccomp fail-closed runner, not a public execution service."
+    },
+    {
+      "id": "R291",
+      "line": 517,
+      "section": 8,
+      "context": "Code Playground",
+      "requirement": "Display charts.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/python-editor.tsx, backend/app; 52 backend tests and actual local API stdout/Matplotlib checks. Linux namespace/seccomp fail-closed runner, not a public execution service."
+    },
+    {
+      "id": "R292",
+      "line": 518,
+      "section": 8,
+      "context": "Code Playground",
+      "requirement": "Preloaded code examples.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/python-editor.tsx, backend/app; 52 backend tests and actual local API stdout/Matplotlib checks. Linux namespace/seccomp fail-closed runner, not a public execution service."
+    },
+    {
+      "id": "R293",
+      "line": 519,
+      "section": 8,
+      "context": "Code Playground",
+      "requirement": "Reset environment.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/python-editor.tsx, backend/app; 52 backend tests and actual local API stdout/Matplotlib checks. Linux namespace/seccomp fail-closed runner, not a public execution service."
+    },
+    {
+      "id": "R294",
+      "line": 520,
+      "section": 8,
+      "context": "Code Playground",
+      "requirement": "Copy code.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/python-editor.tsx, backend/app; 52 backend tests and actual local API stdout/Matplotlib checks. Linux namespace/seccomp fail-closed runner, not a public execution service."
+    },
+    {
+      "id": "R295",
+      "line": 521,
+      "section": 8,
+      "context": "Code Playground",
+      "requirement": "Download code.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/python-editor.tsx, backend/app; 52 backend tests and actual local API stdout/Matplotlib checks. Linux namespace/seccomp fail-closed runner, not a public execution service."
+    },
+    {
+      "id": "R296",
+      "line": 537,
+      "section": 9,
+      "context": "Educational Experience",
+      "requirement": "Beginner: Intuitive explanations and simple examples.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+    },
+    {
+      "id": "R297",
+      "line": 538,
+      "section": 9,
+      "context": "Educational Experience",
+      "requirement": "Intermediate: Equations, implementation, and experiments.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+    },
+    {
+      "id": "R298",
+      "line": 539,
+      "section": 9,
+      "context": "Educational Experience",
+      "requirement": "Advanced: Derivations, optimization, mathematical analysis, and advanced configurations.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+    },
+    {
+      "id": "R299",
+      "line": 543,
+      "section": 9,
+      "context": "Educational Experience",
+      "requirement": "What it is.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+    },
+    {
+      "id": "R300",
+      "line": 544,
+      "section": 9,
+      "context": "Educational Experience",
+      "requirement": "Why it exists.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+    },
+    {
+      "id": "R301",
+      "line": 545,
+      "section": 9,
+      "context": "Educational Experience",
+      "requirement": "How it works.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+    },
+    {
+      "id": "R302",
+      "line": 546,
+      "section": 9,
+      "context": "Educational Experience",
+      "requirement": "Its mathematical foundation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+    },
+    {
+      "id": "R303",
+      "line": 547,
+      "section": 9,
+      "context": "Educational Experience",
+      "requirement": "Where it is used.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+    },
+    {
+      "id": "R304",
+      "line": 548,
+      "section": 9,
+      "context": "Educational Experience",
+      "requirement": "Its limitations.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "src/math-stories.ts, algorithm-depth.tsx; education content/render checks. Review mathematical assumptions and interactive relevance individually."
+    },
+    {
+      "id": "R305",
+      "line": 556,
+      "section": 10,
+      "context": "Performance & Engineering Requirements",
+      "requirement": "Modular architecture.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "Source modules, compute worker and validation tests. Source production routes/lazy chunks checked; portable bundle intentionally embeds renderers. Final edge-case/accessibility audit open."
+    },
+    {
+      "id": "R306",
+      "line": 557,
+      "section": 10,
+      "context": "Performance & Engineering Requirements",
+      "requirement": "Reusable components.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "Source modules, compute worker and validation tests. Source production routes/lazy chunks checked; portable bundle intentionally embeds renderers. Final edge-case/accessibility audit open."
+    },
+    {
+      "id": "R307",
+      "line": 558,
+      "section": 10,
+      "context": "Performance & Engineering Requirements",
+      "requirement": "Reusable visualization components.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "Source modules, compute worker and validation tests. Source production routes/lazy chunks checked; portable bundle intentionally embeds renderers. Final edge-case/accessibility audit open."
+    },
+    {
+      "id": "R308",
+      "line": 559,
+      "section": 10,
+      "context": "Performance & Engineering Requirements",
+      "requirement": "Clean separation between frontend and ML backend.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "Source modules, compute worker and validation tests. Source production routes/lazy chunks checked; portable bundle intentionally embeds renderers. Final edge-case/accessibility audit open."
+    },
+    {
+      "id": "R309",
+      "line": 560,
+      "section": 10,
+      "context": "Performance & Engineering Requirements",
+      "requirement": "Type safety.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "Source modules, compute worker and validation tests. Source production routes/lazy chunks checked; portable bundle intentionally embeds renderers. Final edge-case/accessibility audit open."
+    },
+    {
+      "id": "R310",
+      "line": 561,
+      "section": 10,
+      "context": "Performance & Engineering Requirements",
+      "requirement": "Efficient dataset processing.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "Source modules, compute worker and validation tests. Source production routes/lazy chunks checked; portable bundle intentionally embeds renderers. Final edge-case/accessibility audit open."
+    },
+    {
+      "id": "R311",
+      "line": 562,
+      "section": 10,
+      "context": "Performance & Engineering Requirements",
+      "requirement": "Lazy loading for heavy modules.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "Source modules, compute worker and validation tests. Source production routes/lazy chunks checked; portable bundle intentionally embeds renderers. Final edge-case/accessibility audit open."
+    },
+    {
+      "id": "R312",
+      "line": 563,
+      "section": 10,
+      "context": "Performance & Engineering Requirements",
+      "requirement": "Responsive charts.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "Source modules, compute worker and validation tests. Source production routes/lazy chunks checked; portable bundle intentionally embeds renderers. Final edge-case/accessibility audit open."
+    },
+    {
+      "id": "R313",
+      "line": 564,
+      "section": 10,
+      "context": "Performance & Engineering Requirements",
+      "requirement": "Error handling.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "Source modules, compute worker and validation tests. Source production routes/lazy chunks checked; portable bundle intentionally embeds renderers. Final edge-case/accessibility audit open."
+    },
+    {
+      "id": "R314",
+      "line": 565,
+      "section": 10,
+      "context": "Performance & Engineering Requirements",
+      "requirement": "Input validation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "Source modules, compute worker and validation tests. Source production routes/lazy chunks checked; portable bundle intentionally embeds renderers. Final edge-case/accessibility audit open."
+    },
+    {
+      "id": "R315",
+      "line": 566,
+      "section": 10,
+      "context": "Performance & Engineering Requirements",
+      "requirement": "Loading and progress indicators.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "Source modules, compute worker and validation tests. Source production routes/lazy chunks checked; portable bundle intentionally embeds renderers. Final edge-case/accessibility audit open."
+    },
+    {
+      "id": "R316",
+      "line": 567,
+      "section": 10,
+      "context": "Performance & Engineering Requirements",
+      "requirement": "Clear empty states.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "Source modules, compute worker and validation tests. Source production routes/lazy chunks checked; portable bundle intentionally embeds renderers. Final edge-case/accessibility audit open."
+    },
+    {
+      "id": "R317",
+      "line": 568,
+      "section": 10,
+      "context": "Performance & Engineering Requirements",
+      "requirement": "Accessible UI.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "Source modules, compute worker and validation tests. Source production routes/lazy chunks checked; portable bundle intentionally embeds renderers. Final edge-case/accessibility audit open."
+    },
+    {
+      "id": "R318",
+      "line": 569,
+      "section": 10,
+      "context": "Performance & Engineering Requirements",
+      "requirement": "Persistent user preferences.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "Source modules, compute worker and validation tests. Source production routes/lazy chunks checked; portable bundle intentionally embeds renderers. Final edge-case/accessibility audit open."
+    },
+    {
+      "id": "R319",
+      "line": 583,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Website architecture.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R320",
+      "line": 584,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Dashboard.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R321",
+      "line": 585,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Navigation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R322",
+      "line": 586,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Dark/Light themes.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R323",
+      "line": 587,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Mathematical rendering.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R324",
+      "line": 588,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Reusable chart components.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R325",
+      "line": 592,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Linear Algebra.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R326",
+      "line": 593,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Calculus.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R327",
+      "line": 594,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Probability.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R328",
+      "line": 595,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Statistics.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R329",
+      "line": 596,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Interactive mathematical simulations.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R330",
+      "line": 600,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Linear Regression.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R331",
+      "line": 601,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Logistic Regression.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R332",
+      "line": 602,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "KNN.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R333",
+      "line": 603,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "K-Means.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R334",
+      "line": 604,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Decision Trees.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R335",
+      "line": 605,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "SVM.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R336",
+      "line": 609,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Dataset Explorer.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R337",
+      "line": 610,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Preprocessing.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R338",
+      "line": 611,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Evaluation Metrics.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R339",
+      "line": 612,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Model Comparison.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R340",
+      "line": 616,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Perceptron.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R341",
+      "line": 617,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "MLP.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R342",
+      "line": 618,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Backpropagation.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R343",
+      "line": 619,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Neural Network Visualizer.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R344",
+      "line": 620,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "CNN.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R345",
+      "line": 624,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Python Playground.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R346",
+      "line": 625,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Experiment Manager.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R347",
+      "line": 626,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Dataset Uploads.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R348",
+      "line": 627,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Model Export.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R349",
+      "line": 628,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "User Accounts.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate."
+    },
+    {
+      "id": "R350",
+      "line": 629,
+      "section": 11,
+      "context": "Development Strategy",
+      "requirement": "Cloud Persistence.",
+      "status": "SCOPE DECISION",
+      "evidence": "Not deployed. No-deployment/no-paid-resource boundary; local SQLite and browser snapshots are not cloud persistence."
+    },
+    {
+      "id": "R351",
+      "line": 637,
+      "section": 12,
+      "context": "Final Instructions",
+      "requirement": "1. Analyze the complete requirements.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+    },
+    {
+      "id": "R352",
+      "line": 638,
+      "section": 12,
+      "context": "Final Instructions",
+      "requirement": "2. Design the application architecture.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+    },
+    {
+      "id": "R353",
+      "line": 639,
+      "section": 12,
+      "context": "Final Instructions",
+      "requirement": "3. Define the folder structure.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+    },
+    {
+      "id": "R354",
+      "line": 640,
+      "section": 12,
+      "context": "Final Instructions",
+      "requirement": "4. Identify reusable components.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+    },
+    {
+      "id": "R355",
+      "line": 641,
+      "section": 12,
+      "context": "Final Instructions",
+      "requirement": "5. Design the database schema.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+    },
+    {
+      "id": "R356",
+      "line": 642,
+      "section": 12,
+      "context": "Final Instructions",
+      "requirement": "6. Define the communication between frontend and backend.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+    },
+    {
+      "id": "R357",
+      "line": 643,
+      "section": 12,
+      "context": "Final Instructions",
+      "requirement": "7. Plan the visualization engine.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+    },
+    {
+      "id": "R358",
+      "line": 649,
+      "section": 12,
+      "context": "Final Instructions",
+      "requirement": "Build a functional application, not just a UI prototype.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+    },
+    {
+      "id": "R359",
+      "line": 650,
+      "section": 12,
+      "context": "Final Instructions",
+      "requirement": "Do not create buttons that do nothing.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+    },
+    {
+      "id": "R360",
+      "line": 651,
+      "section": 12,
+      "context": "Final Instructions",
+      "requirement": "Do not use fake data as actual training results.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+    },
+    {
+      "id": "R361",
+      "line": 652,
+      "section": 12,
+      "context": "Final Instructions",
+      "requirement": "Do not replace interactive charts with static screenshots.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+    },
+    {
+      "id": "R362",
+      "line": 653,
+      "section": 12,
+      "context": "Final Instructions",
+      "requirement": "Ensure all mathematical formulas are correct.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+    },
+    {
+      "id": "R363",
+      "line": 654,
+      "section": 12,
+      "context": "Final Instructions",
+      "requirement": "Keep the code modular and maintainable.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+    },
+    {
+      "id": "R364",
+      "line": 655,
+      "section": 12,
+      "context": "Final Instructions",
+      "requirement": "Prioritize functionality and scientific accuracy over decorative design.",
+      "status": "MAPPED, REVIEW OPEN",
+      "evidence": "ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open."
+    }
+  ]
+}

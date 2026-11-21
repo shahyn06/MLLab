@@ -36,3 +36,7 @@ This is an implementation checklist, not a completion certificate. The full supp
 The hosted File provides browser workbenches and a setup-only local-execution page. It never connects to the viewer's loopback API. The local source app contains the full editor and backend client. Device-local snapshots are not cloud synchronization. Agent-preview persistence is not owner-persistence evidence. Model JSON is inspection data, not an executable trained-model format. Joblib exports from the optional backend must be treated as executable content and loaded only from trusted sources.
 
 Hosted generated exports now show their exact text in-page with the supported copy control. They do not claim a Blob file download. Source-app file downloads remain available. Verified hosted import/rebuild, copy result, CV and comparison; source worker test observed real workers and main-thread heartbeat.
+
+## Original-spec acceptance ledger
+
+`docs/SPEC_ACCEPTANCE.md` and its JSON companion map 364 original bullet/numbered requirements to source ownership. Mapped means review remains open, not a pass. Explicit next gaps are propagation animation, expanded tree impurity arithmetic, topic-specific interactive adequacy, settings-matched Python templates, and final edge/accessibility/export checks. Advanced PyTorch server work and cloud persistence require scope decisions. Clean npm ci/typecheck/tests/build and 52 local backend tests were rerun successfully. Tailwind generation is now deterministic across source directories.
