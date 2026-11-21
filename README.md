@@ -80,3 +80,14 @@ Small synthetic datasets and validated pasted rows are supported. Classification
 Scientific checks compare predictions/metrics with NumPy and scikit-learn; implementation-specific objective conventions are noted in the interface.
 
 References: https://scikit-learn.org/stable/supervised_learning.html and https://scikit-learn.org/stable/modules/clustering.html#k-means .
+
+## Phase 4: Dataset and evaluation tools
+
+- Local CSV and Excel (.xlsx, first worksheet) import. Browser limits: 3 MB, 5,000 rows, 40 columns. Missing cells, statistical summaries and pairwise correlations. Interactive table filtering, sorting and pagination.
+- Real numeric histogram, IQR box plot, scatter plot and pair plots.
+- Exploratory missing-value imputation, duplicate removal, scaling, label/one-hot encoding, selected-feature removal, square feature generation and IQR filtering. Reset preserves original data. Split before fitting preprocessing in actual model pipelines.
+- Seeded random train/test CSV exports. Classification threshold, confusion matrix, ROC/AUC and precision-recall/average precision. Regression metrics and residuals.
+- Real logistic-regression K-fold/stratified validation, nested-sample learning curves, and four-model comparison on the same fixed split. Browser demos, not claims of general algorithm superiority.
+- Excel parsing uses read-excel-file, including its worker-based browser parser. The standalone build inlines dynamic modules; the source app remains modular.
+
+Validation: 22 end-to-end checks plus 274 independent sklearn/NumPy numeric comparisons for this phase.
