@@ -7,7 +7,7 @@
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
-    "test": "node tests/numerical.mjs && node tests/structure.mjs && node tests/optimization.mjs && node tests/sequence.mjs && node tests/snapshots.mjs && node tests/compute.mjs",
+    "test": "node tests/numerical.mjs && node tests/structure.mjs && node tests/optimization.mjs && node tests/sequence.mjs && node tests/snapshots.mjs && node tests/compute.mjs && node tests/education.mjs",
     "typecheck": "tsc --noEmit",
     "build:portable": "vite build --mode portable",
     "prebuild": "node scripts/build-worker.mjs",

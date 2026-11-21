@@ -160,3 +160,9 @@ Worker checks: 47 engine parity/validation checks, 16 actual-browser worker chec
 Dataset Explorer can explicitly share a copy of its current table with the classical, structure-discovery and MLP workbenches for this open session. Choose feature columns, a distinct target column where required, and the first bounded number of rows. There is no silent scaling, imputation or removal of incomplete rows. Duplicate features, target-as-feature selection, missing/nonnumeric values and unsupported target/range values are rejected. This prevents accidental target-column leakage, not every statistical form of leakage. Whole-data preprocessing in the explorer remains exploratory; fit preprocessing on training data for actual modeling. Larger or unscaled datasets belong in the optional local backend.
 
 The MLP can train and restore custom shared numeric data with a genuine held-out partition. Session-shared tables are not persisted automatically or uploaded. This transfer UI passes 31 responsive/validation/training/restore checks, including an actual 12-row custom model and a 9/3 train/test split.
+
+## Mathematical learning levels
+
+All 43 named mathematical topics include a rendered equation, fixed worked calculation, ML connection and a suggested live-control experiment. Beginner focuses on meaning and examples, Intermediate adds reasoning and derivations, and Advanced adds assumptions and failure cases. The fixed example is explicitly separate from current simulation inputs.
+
+All 29 algorithm/update-rule lessons also provide explicit Beginner/Intermediate/Advanced depth, fixed worked calculations, derivations and challenges. This supplements their actual simulations and parameter/data/training/result controls; the final eleven-section interface audit remains open.
