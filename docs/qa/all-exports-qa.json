@@ -24,13 +24,13 @@
       "route": "classical",
       "label": "Export current snapshot",
       "filename": "ml-browser-experiment.json",
-      "bytes": 19438
+      "bytes": 19468
     },
     {
       "route": "clustering",
       "label": "Export current snapshot",
       "filename": "ml-browser-experiment.json",
-      "bytes": 19652
+      "bytes": 19682
     },
     {
       "route": "unsupervised",

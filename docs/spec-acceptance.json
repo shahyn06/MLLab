@@ -1160,8 +1160,8 @@
       "section": 2,
       "context": "H. Experiment Manager",
       "requirement": "Create experiments.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Inspected browser-experiments/snapshot validation and API workspace/SQLite schema. Existing 70 replay/import/history, 57 compare/export/delete and 38 exact export checks cover browser snapshots. New tests/browser/api-manager.mjs starts temporary loopback API/SQLite and source UI: 33 checks verify real CSV upload/summary, exact known linear holdout MSE, two actual model fits, required experiment fields/config, comparison, versioned JSON, joblib plus version metadata downloads, feature/target reopening, persistence after reconnect and confirmed deletion. Full manager view inspected in both themes at 320/390/1280. Backend 52 tests include restart persistence, 17 actual estimators, model reload and owner isolation. Browser snapshots replay validated state; local trained models download as trusted-source-only joblib. Server fits are synchronous, not pausable; no cloud persistence."
     },
     {
       "id": "R130",
@@ -1169,8 +1169,8 @@
       "section": 2,
       "context": "H. Experiment Manager",
       "requirement": "Save model configurations.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Inspected browser-experiments/snapshot validation and API workspace/SQLite schema. Existing 70 replay/import/history, 57 compare/export/delete and 38 exact export checks cover browser snapshots. New tests/browser/api-manager.mjs starts temporary loopback API/SQLite and source UI: 33 checks verify real CSV upload/summary, exact known linear holdout MSE, two actual model fits, required experiment fields/config, comparison, versioned JSON, joblib plus version metadata downloads, feature/target reopening, persistence after reconnect and confirmed deletion. Full manager view inspected in both themes at 320/390/1280. Backend 52 tests include restart persistence, 17 actual estimators, model reload and owner isolation. Browser snapshots replay validated state; local trained models download as trusted-source-only joblib. Server fits are synchronous, not pausable; no cloud persistence."
     },
     {
       "id": "R131",
@@ -1178,8 +1178,8 @@
       "section": 2,
       "context": "H. Experiment Manager",
       "requirement": "Save training results.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Inspected browser-experiments/snapshot validation and API workspace/SQLite schema. Existing 70 replay/import/history, 57 compare/export/delete and 38 exact export checks cover browser snapshots. New tests/browser/api-manager.mjs starts temporary loopback API/SQLite and source UI: 33 checks verify real CSV upload/summary, exact known linear holdout MSE, two actual model fits, required experiment fields/config, comparison, versioned JSON, joblib plus version metadata downloads, feature/target reopening, persistence after reconnect and confirmed deletion. Full manager view inspected in both themes at 320/390/1280. Backend 52 tests include restart persistence, 17 actual estimators, model reload and owner isolation. Browser snapshots replay validated state; local trained models download as trusted-source-only joblib. Server fits are synchronous, not pausable; no cloud persistence."
     },
     {
       "id": "R132",
@@ -1187,8 +1187,8 @@
       "section": 2,
       "context": "H. Experiment Manager",
       "requirement": "Track hyperparameters.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Inspected browser-experiments/snapshot validation and API workspace/SQLite schema. Existing 70 replay/import/history, 57 compare/export/delete and 38 exact export checks cover browser snapshots. New tests/browser/api-manager.mjs starts temporary loopback API/SQLite and source UI: 33 checks verify real CSV upload/summary, exact known linear holdout MSE, two actual model fits, required experiment fields/config, comparison, versioned JSON, joblib plus version metadata downloads, feature/target reopening, persistence after reconnect and confirmed deletion. Full manager view inspected in both themes at 320/390/1280. Backend 52 tests include restart persistence, 17 actual estimators, model reload and owner isolation. Browser snapshots replay validated state; local trained models download as trusted-source-only joblib. Server fits are synchronous, not pausable; no cloud persistence."
     },
     {
       "id": "R133",
@@ -1196,8 +1196,8 @@
       "section": 2,
       "context": "H. Experiment Manager",
       "requirement": "Compare multiple models.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Inspected browser-experiments/snapshot validation and API workspace/SQLite schema. Existing 70 replay/import/history, 57 compare/export/delete and 38 exact export checks cover browser snapshots. New tests/browser/api-manager.mjs starts temporary loopback API/SQLite and source UI: 33 checks verify real CSV upload/summary, exact known linear holdout MSE, two actual model fits, required experiment fields/config, comparison, versioned JSON, joblib plus version metadata downloads, feature/target reopening, persistence after reconnect and confirmed deletion. Full manager view inspected in both themes at 320/390/1280. Backend 52 tests include restart persistence, 17 actual estimators, model reload and owner isolation. Browser snapshots replay validated state; local trained models download as trusted-source-only joblib. Server fits are synchronous, not pausable; no cloud persistence."
     },
     {
       "id": "R134",
@@ -1205,8 +1205,8 @@
       "section": 2,
       "context": "H. Experiment Manager",
       "requirement": "Compare performance metrics.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Inspected browser-experiments/snapshot validation and API workspace/SQLite schema. Existing 70 replay/import/history, 57 compare/export/delete and 38 exact export checks cover browser snapshots. New tests/browser/api-manager.mjs starts temporary loopback API/SQLite and source UI: 33 checks verify real CSV upload/summary, exact known linear holdout MSE, two actual model fits, required experiment fields/config, comparison, versioned JSON, joblib plus version metadata downloads, feature/target reopening, persistence after reconnect and confirmed deletion. Full manager view inspected in both themes at 320/390/1280. Backend 52 tests include restart persistence, 17 actual estimators, model reload and owner isolation. Browser snapshots replay validated state; local trained models download as trusted-source-only joblib. Server fits are synchronous, not pausable; no cloud persistence."
     },
     {
       "id": "R135",
@@ -1214,8 +1214,8 @@
       "section": 2,
       "context": "H. Experiment Manager",
       "requirement": "View training history.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Inspected browser-experiments/snapshot validation and API workspace/SQLite schema. Existing 70 replay/import/history, 57 compare/export/delete and 38 exact export checks cover browser snapshots. New tests/browser/api-manager.mjs starts temporary loopback API/SQLite and source UI: 33 checks verify real CSV upload/summary, exact known linear holdout MSE, two actual model fits, required experiment fields/config, comparison, versioned JSON, joblib plus version metadata downloads, feature/target reopening, persistence after reconnect and confirmed deletion. Full manager view inspected in both themes at 320/390/1280. Backend 52 tests include restart persistence, 17 actual estimators, model reload and owner isolation. Browser snapshots replay validated state; local trained models download as trusted-source-only joblib. Server fits are synchronous, not pausable; no cloud persistence."
     },
     {
       "id": "R136",
@@ -1223,8 +1223,8 @@
       "section": 2,
       "context": "H. Experiment Manager",
       "requirement": "Export results.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Inspected browser-experiments/snapshot validation and API workspace/SQLite schema. Existing 70 replay/import/history, 57 compare/export/delete and 38 exact export checks cover browser snapshots. New tests/browser/api-manager.mjs starts temporary loopback API/SQLite and source UI: 33 checks verify real CSV upload/summary, exact known linear holdout MSE, two actual model fits, required experiment fields/config, comparison, versioned JSON, joblib plus version metadata downloads, feature/target reopening, persistence after reconnect and confirmed deletion. Full manager view inspected in both themes at 320/390/1280. Backend 52 tests include restart persistence, 17 actual estimators, model reload and owner isolation. Browser snapshots replay validated state; local trained models download as trusted-source-only joblib. Server fits are synchronous, not pausable; no cloud persistence."
     },
     {
       "id": "R137",
@@ -1232,8 +1232,8 @@
       "section": 2,
       "context": "H. Experiment Manager",
       "requirement": "Download trained models when supported.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Inspected browser-experiments/snapshot validation and API workspace/SQLite schema. Existing 70 replay/import/history, 57 compare/export/delete and 38 exact export checks cover browser snapshots. New tests/browser/api-manager.mjs starts temporary loopback API/SQLite and source UI: 33 checks verify real CSV upload/summary, exact known linear holdout MSE, two actual model fits, required experiment fields/config, comparison, versioned JSON, joblib plus version metadata downloads, feature/target reopening, persistence after reconnect and confirmed deletion. Full manager view inspected in both themes at 320/390/1280. Backend 52 tests include restart persistence, 17 actual estimators, model reload and owner isolation. Browser snapshots replay validated state; local trained models download as trusted-source-only joblib. Server fits are synchronous, not pausable; no cloud persistence."
     },
     {
       "id": "R138",
@@ -1241,8 +1241,8 @@
       "section": 2,
       "context": "H. Experiment Manager",
       "requirement": "Experiment Name.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Inspected browser-experiments/snapshot validation and API workspace/SQLite schema. Existing 70 replay/import/history, 57 compare/export/delete and 38 exact export checks cover browser snapshots. New tests/browser/api-manager.mjs starts temporary loopback API/SQLite and source UI: 33 checks verify real CSV upload/summary, exact known linear holdout MSE, two actual model fits, required experiment fields/config, comparison, versioned JSON, joblib plus version metadata downloads, feature/target reopening, persistence after reconnect and confirmed deletion. Full manager view inspected in both themes at 320/390/1280. Backend 52 tests include restart persistence, 17 actual estimators, model reload and owner isolation. Browser snapshots replay validated state; local trained models download as trusted-source-only joblib. Server fits are synchronous, not pausable; no cloud persistence."
     },
     {
       "id": "R139",
@@ -1250,8 +1250,8 @@
       "section": 2,
       "context": "H. Experiment Manager",
       "requirement": "Algorithm.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Inspected browser-experiments/snapshot validation and API workspace/SQLite schema. Existing 70 replay/import/history, 57 compare/export/delete and 38 exact export checks cover browser snapshots. New tests/browser/api-manager.mjs starts temporary loopback API/SQLite and source UI: 33 checks verify real CSV upload/summary, exact known linear holdout MSE, two actual model fits, required experiment fields/config, comparison, versioned JSON, joblib plus version metadata downloads, feature/target reopening, persistence after reconnect and confirmed deletion. Full manager view inspected in both themes at 320/390/1280. Backend 52 tests include restart persistence, 17 actual estimators, model reload and owner isolation. Browser snapshots replay validated state; local trained models download as trusted-source-only joblib. Server fits are synchronous, not pausable; no cloud persistence."
     },
     {
       "id": "R140",
@@ -1259,8 +1259,8 @@
       "section": 2,
       "context": "H. Experiment Manager",
       "requirement": "Dataset.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Inspected browser-experiments/snapshot validation and API workspace/SQLite schema. Existing 70 replay/import/history, 57 compare/export/delete and 38 exact export checks cover browser snapshots. New tests/browser/api-manager.mjs starts temporary loopback API/SQLite and source UI: 33 checks verify real CSV upload/summary, exact known linear holdout MSE, two actual model fits, required experiment fields/config, comparison, versioned JSON, joblib plus version metadata downloads, feature/target reopening, persistence after reconnect and confirmed deletion. Full manager view inspected in both themes at 320/390/1280. Backend 52 tests include restart persistence, 17 actual estimators, model reload and owner isolation. Browser snapshots replay validated state; local trained models download as trusted-source-only joblib. Server fits are synchronous, not pausable; no cloud persistence."
     },
     {
       "id": "R141",
@@ -1268,8 +1268,8 @@
       "section": 2,
       "context": "H. Experiment Manager",
       "requirement": "Hyperparameters.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Inspected browser-experiments/snapshot validation and API workspace/SQLite schema. Existing 70 replay/import/history, 57 compare/export/delete and 38 exact export checks cover browser snapshots. New tests/browser/api-manager.mjs starts temporary loopback API/SQLite and source UI: 33 checks verify real CSV upload/summary, exact known linear holdout MSE, two actual model fits, required experiment fields/config, comparison, versioned JSON, joblib plus version metadata downloads, feature/target reopening, persistence after reconnect and confirmed deletion. Full manager view inspected in both themes at 320/390/1280. Backend 52 tests include restart persistence, 17 actual estimators, model reload and owner isolation. Browser snapshots replay validated state; local trained models download as trusted-source-only joblib. Server fits are synchronous, not pausable; no cloud persistence."
     },
     {
       "id": "R142",
@@ -1277,8 +1277,8 @@
       "section": 2,
       "context": "H. Experiment Manager",
       "requirement": "Training Configuration.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Inspected browser-experiments/snapshot validation and API workspace/SQLite schema. Existing 70 replay/import/history, 57 compare/export/delete and 38 exact export checks cover browser snapshots. New tests/browser/api-manager.mjs starts temporary loopback API/SQLite and source UI: 33 checks verify real CSV upload/summary, exact known linear holdout MSE, two actual model fits, required experiment fields/config, comparison, versioned JSON, joblib plus version metadata downloads, feature/target reopening, persistence after reconnect and confirmed deletion. Full manager view inspected in both themes at 320/390/1280. Backend 52 tests include restart persistence, 17 actual estimators, model reload and owner isolation. Browser snapshots replay validated state; local trained models download as trusted-source-only joblib. Server fits are synchronous, not pausable; no cloud persistence."
     },
     {
       "id": "R143",
@@ -1286,8 +1286,8 @@
       "section": 2,
       "context": "H. Experiment Manager",
       "requirement": "Evaluation Metrics.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Inspected browser-experiments/snapshot validation and API workspace/SQLite schema. Existing 70 replay/import/history, 57 compare/export/delete and 38 exact export checks cover browser snapshots. New tests/browser/api-manager.mjs starts temporary loopback API/SQLite and source UI: 33 checks verify real CSV upload/summary, exact known linear holdout MSE, two actual model fits, required experiment fields/config, comparison, versioned JSON, joblib plus version metadata downloads, feature/target reopening, persistence after reconnect and confirmed deletion. Full manager view inspected in both themes at 320/390/1280. Backend 52 tests include restart persistence, 17 actual estimators, model reload and owner isolation. Browser snapshots replay validated state; local trained models download as trusted-source-only joblib. Server fits are synchronous, not pausable; no cloud persistence."
     },
     {
       "id": "R144",
@@ -1295,8 +1295,8 @@
       "section": 2,
       "context": "H. Experiment Manager",
       "requirement": "Creation Date.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Inspected browser-experiments/snapshot validation and API workspace/SQLite schema. Existing 70 replay/import/history, 57 compare/export/delete and 38 exact export checks cover browser snapshots. New tests/browser/api-manager.mjs starts temporary loopback API/SQLite and source UI: 33 checks verify real CSV upload/summary, exact known linear holdout MSE, two actual model fits, required experiment fields/config, comparison, versioned JSON, joblib plus version metadata downloads, feature/target reopening, persistence after reconnect and confirmed deletion. Full manager view inspected in both themes at 320/390/1280. Backend 52 tests include restart persistence, 17 actual estimators, model reload and owner isolation. Browser snapshots replay validated state; local trained models download as trusted-source-only joblib. Server fits are synchronous, not pausable; no cloud persistence."
     },
     {
       "id": "R145",
@@ -1304,8 +1304,8 @@
       "section": 2,
       "context": "H. Experiment Manager",
       "requirement": "Results.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/browser-experiments.tsx, snapshot-engine.ts, backend/app; tests/snapshots.mjs and backend/tests/test_api.py."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Inspected browser-experiments/snapshot validation and API workspace/SQLite schema. Existing 70 replay/import/history, 57 compare/export/delete and 38 exact export checks cover browser snapshots. New tests/browser/api-manager.mjs starts temporary loopback API/SQLite and source UI: 33 checks verify real CSV upload/summary, exact known linear holdout MSE, two actual model fits, required experiment fields/config, comparison, versioned JSON, joblib plus version metadata downloads, feature/target reopening, persistence after reconnect and confirmed deletion. Full manager view inspected in both themes at 320/390/1280. Backend 52 tests include restart persistence, 17 actual estimators, model reload and owner isolation. Browser snapshots replay validated state; local trained models download as trusted-source-only joblib. Server fits are synchronous, not pausable; no cloud persistence."
     },
     {
       "id": "R146",
@@ -1880,8 +1880,8 @@
       "section": 4,
       "context": "Decision Trees",
       "requirement": "Visualize the tree structure.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/classical.tsx and classical-engine.ts; tree split structure, criterion selection and impurity values."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Actual recursive node/split/depth rendering inspected in classical.tsx. Independent CART partition/criterion checks, 589 per-node class/weighted-impurity/gain checks and direct 17 criterion/depth/leaf/keyboard/responsive checks verify the displayed tree is fitted, not illustrative. Existing classical acceptance covers depth reset and actual fitting. Educational bounded axis-aligned binary CART only."
     },
     {
       "id": "R210",
@@ -1889,8 +1889,8 @@
       "section": 4,
       "context": "Decision Trees",
       "requirement": "Show splitting decisions.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/classical.tsx and classical-engine.ts; tree split structure, criterion selection and impurity values."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Actual recursive node/split/depth rendering inspected in classical.tsx. Independent CART partition/criterion checks, 589 per-node class/weighted-impurity/gain checks and direct 17 criterion/depth/leaf/keyboard/responsive checks verify the displayed tree is fitted, not illustrative. Existing classical acceptance covers depth reset and actual fitting. Educational bounded axis-aligned binary CART only."
     },
     {
       "id": "R211",
@@ -1898,8 +1898,8 @@
       "section": 4,
       "context": "Decision Trees",
       "requirement": "Change maximum depth.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/classical.tsx and classical-engine.ts; tree split structure, criterion selection and impurity values."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Actual recursive node/split/depth rendering inspected in classical.tsx. Independent CART partition/criterion checks, 589 per-node class/weighted-impurity/gain checks and direct 17 criterion/depth/leaf/keyboard/responsive checks verify the displayed tree is fitted, not illustrative. Existing classical acceptance covers depth reset and actual fitting. Educational bounded axis-aligned binary CART only."
     },
     {
       "id": "R212",
@@ -1908,7 +1908,7 @@
       "context": "Decision Trees",
       "requirement": "Show Gini Impurity and Entropy calculations.",
       "status": "VERIFIED, BOUNDED",
-      "evidence": "src/tree-arithmetic.tsx and tree-arithmetic-engine.ts expose actual per-node class counts, both numeric formulas, child weighted impurity and gain; 589 source parity/membership checks and 17 UI checks."
+      "evidence": "Actual recursive node/split/depth rendering inspected in classical.tsx. Independent CART partition/criterion checks, 589 per-node class/weighted-impurity/gain checks and direct 17 criterion/depth/leaf/keyboard/responsive checks verify the displayed tree is fitted, not illustrative. Existing classical acceptance covers depth reset and actual fitting. Educational bounded axis-aligned binary CART only."
     },
     {
       "id": "R213",
@@ -2384,8 +2384,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "React.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R266",
@@ -2393,8 +2393,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "TypeScript.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R267",
@@ -2402,8 +2402,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "Vite or Next.js.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R268",
@@ -2411,8 +2411,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "Tailwind CSS.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R269",
@@ -2420,8 +2420,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "shadcn/ui.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R270",
@@ -2429,8 +2429,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "Framer Motion.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R271",
@@ -2438,8 +2438,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "Plotly.js.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R272",
@@ -2447,8 +2447,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "D3.js when custom visualizations are required.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R273",
@@ -2456,8 +2456,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "Three.js for meaningful 3D scientific visualizations.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R274",
@@ -2465,8 +2465,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "KaTeX or MathJax for equations.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R275",
@@ -2474,8 +2474,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "JavaScript/TypeScript for lightweight browser-native algorithms.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R276",
@@ -2483,8 +2483,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "Python backend using FastAPI.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R277",
@@ -2492,8 +2492,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "NumPy.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R278",
@@ -2501,8 +2501,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "Pandas.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R279",
@@ -2510,8 +2510,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "Scikit-learn.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R280",
@@ -2537,8 +2537,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "FastAPI.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R283",
@@ -2546,8 +2546,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "SQLite for an initial local prototype, or PostgreSQL for a production deployment.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R284",
@@ -2555,8 +2555,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "User authentication if required.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R285",
@@ -2564,8 +2564,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "Persistent experiment storage.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R286",
@@ -2573,8 +2573,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "Dataset management.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Manifest/lock/source imports and runtime paths inspected: React/TypeScript/Vite; generated Tailwind and shadcn-style Radix Slot/CVA utility button source; real Framer Motion disclosure, D3 scales, Plotly contours, Three.js mesh and KaTeX. Python local FastAPI uses NumPy/Pandas/sklearn, SQLite, optional scrypt/token-hash local accounts and owner-scoped dataset/experiment storage. 52 backend tests include 17 actual estimators, downloaded model reload, restart persistence and owner isolation. Direct temporary local API UI tests verify actual upload/training/exports/persistence (33), Python execution/charts (14). Source worker/fallback lifecycle verified (16). Local-only prototype, not a deployed multi-tenant service; vendored runtimes retain licenses."
     },
     {
       "id": "R287",

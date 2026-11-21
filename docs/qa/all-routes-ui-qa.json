@@ -1,5 +1,5 @@
 {
-  "checks": 202,
+  "checks": 220,
   "errors": [],
   "rows": [
     {
@@ -150,37 +150,37 @@
       "route": "math",
       "theme": "dark",
       "width": 320,
-      "height": 6204
+      "height": 7311
     },
     {
       "route": "math",
       "theme": "dark",
       "width": 390,
-      "height": 5960
+      "height": 7067
     },
     {
       "route": "math",
       "theme": "dark",
       "width": 1280,
-      "height": 4026
+      "height": 4689
     },
     {
       "route": "math",
       "theme": "light",
       "width": 320,
-      "height": 6204
+      "height": 7311
     },
     {
       "route": "math",
       "theme": "light",
       "width": 390,
-      "height": 5960
+      "height": 7067
     },
     {
       "route": "math",
       "theme": "light",
       "width": 1280,
-      "height": 4026
+      "height": 4689
     },
     {
       "route": "classical",
@@ -222,37 +222,37 @@
       "route": "clustering",
       "theme": "dark",
       "width": 320,
-      "height": 5784
+      "height": 5898
     },
     {
       "route": "clustering",
       "theme": "dark",
       "width": 390,
-      "height": 5427
+      "height": 5518
     },
     {
       "route": "clustering",
       "theme": "dark",
       "width": 1280,
-      "height": 4492
+      "height": 4560
     },
     {
       "route": "clustering",
       "theme": "light",
       "width": 320,
-      "height": 5784
+      "height": 5898
     },
     {
       "route": "clustering",
       "theme": "light",
       "width": 390,
-      "height": 5427
+      "height": 5518
     },
     {
       "route": "clustering",
       "theme": "light",
       "width": 1280,
-      "height": 4492
+      "height": 4560
     },
     {
       "route": "unsupervised",

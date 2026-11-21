@@ -211,3 +211,12 @@ ML_TEST_PYTHON="$PWD/backend/.venv/bin/python" ML_QA_OUTPUT=/tmp/ml-qa node test
 ```
 
 The last three suites start and stop their own loopback servers (5177, 5178, and 5176/8127 respectively). Python acceptance needs the backend development environment installed as described in `backend/README.md`, with Linux isolation support. It creates a temporary SQLite data directory, verifies actual stdout and Matplotlib output, and removes the temporary environment. It does not deploy or use a public execution service. Route error recovery is tested by intentionally blocking a production lazy chunk; normal route tests now reject the error fallback after loading completes. Optimizer minima and gradient markers retain their intended colors in light mode.
+
+Additional local manager acceptance:
+
+```sh
+ML_TEST_PYTHON="$PWD/backend/.venv/bin/python" ML_QA_OUTPUT=/tmp/ml-qa node tests/browser/api-manager.mjs
+ML_QA_OUTPUT=/tmp/ml-qa node tests/browser/contrast.mjs
+```
+
+The manager suite uses temporary API 8128/UI 5179 and temporary SQLite; it uploads a known line, trains two real models, checks persistence and model/metadata downloads, then removes its data. The contrast sweep samples visible leaf text in both themes, excluding SVG/KaTeX, disabled controls and complex backgrounds. It is a regression check, not a full accessibility certification.
