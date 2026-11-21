@@ -229,3 +229,5 @@ ML_QA_OUTPUT=/tmp/ml-qa node tests/browser/keyboard-accessibility.mjs
 ```
 
 The automation covers 19 routes in both themes with disclosures open, plus direct keyboard scrolling and model-inspection controls. Incomplete automated results are retained for human review. A passing run is not a screen-reader or WCAG certification. `tests/ledger.mjs` also keeps the 55 normative prose obligations from being lost when generating the specification acceptance ledger.
+
+Latest acceptance increment: 5,120 reproducible source checks, 819 math-content UI checks and 785 algorithm lesson/interface checks. See SPEC_STATUS.md and the complete 419-row docs/SPEC_ACCEPTANCE.md; the full project is not yet accepted.

@@ -1,0 +1,172 @@
+{
+  "checks": 785,
+  "errors": [],
+  "records": [
+    {
+      "name": "Multiple Linear Regression",
+      "route": "classical",
+      "selector": "Algorithm",
+      "option": "Multiple Linear Regression"
+    },
+    {
+      "name": "Polynomial Regression",
+      "route": "classical",
+      "selector": "Algorithm",
+      "option": "Polynomial Regression"
+    },
+    {
+      "name": "Ridge Regression",
+      "route": "classical",
+      "selector": "Algorithm",
+      "option": "Ridge Regression"
+    },
+    {
+      "name": "Lasso Regression",
+      "route": "classical",
+      "selector": "Algorithm",
+      "option": "Lasso Regression"
+    },
+    {
+      "name": "Elastic Net",
+      "route": "classical",
+      "selector": "Algorithm",
+      "option": "Elastic Net"
+    },
+    {
+      "name": "Logistic Regression",
+      "route": "classical",
+      "selector": "Algorithm",
+      "option": "Logistic Regression"
+    },
+    {
+      "name": "K-Nearest Neighbors",
+      "route": "classical",
+      "selector": "Algorithm",
+      "option": "K-Nearest Neighbors"
+    },
+    {
+      "name": "Decision Tree",
+      "route": "classical",
+      "selector": "Algorithm",
+      "option": "Decision Tree"
+    },
+    {
+      "name": "Random Forest",
+      "route": "classical",
+      "selector": "Algorithm",
+      "option": "Random Forest"
+    },
+    {
+      "name": "Linear SVM",
+      "route": "classical",
+      "selector": "Algorithm",
+      "option": "Linear SVM"
+    },
+    {
+      "name": "Gaussian Naive Bayes",
+      "route": "classical",
+      "selector": "Algorithm",
+      "option": "Gaussian Naive Bayes"
+    },
+    {
+      "name": "Gradient Boosting",
+      "route": "classical",
+      "selector": "Algorithm",
+      "option": "Gradient Boosting"
+    },
+    {
+      "name": "K-Means",
+      "route": "classical",
+      "selector": "Algorithm",
+      "option": "K-Means"
+    },
+    {
+      "name": "Hierarchical Clustering",
+      "route": "unsupervised",
+      "selector": "Unsupervised algorithm",
+      "option": "Hierarchical Clustering"
+    },
+    {
+      "name": "DBSCAN",
+      "route": "unsupervised",
+      "selector": "Unsupervised algorithm",
+      "option": "DBSCAN"
+    },
+    {
+      "name": "Gaussian Mixture",
+      "route": "unsupervised",
+      "selector": "Unsupervised algorithm",
+      "option": "Gaussian Mixture"
+    },
+    {
+      "name": "PCA",
+      "route": "unsupervised",
+      "selector": "Unsupervised algorithm",
+      "option": "PCA"
+    },
+    {
+      "name": "Isolation Forest",
+      "route": "unsupervised",
+      "selector": "Unsupervised algorithm",
+      "option": "Isolation Forest"
+    },
+    {
+      "name": "MLP",
+      "route": "neural"
+    },
+    {
+      "name": "CNN",
+      "route": "cnn"
+    },
+    {
+      "name": "RNN",
+      "route": "sequence",
+      "selector": "Recurrent cell",
+      "option": "RNN"
+    },
+    {
+      "name": "LSTM",
+      "route": "sequence",
+      "selector": "Recurrent cell",
+      "option": "LSTM"
+    },
+    {
+      "name": "Gradient Descent",
+      "route": "optimization",
+      "selector": "Optimizer update rule",
+      "option": "Gradient Descent"
+    },
+    {
+      "name": "Momentum",
+      "route": "optimization",
+      "selector": "Optimizer update rule",
+      "option": "Momentum"
+    },
+    {
+      "name": "Nesterov",
+      "route": "optimization",
+      "selector": "Optimizer update rule",
+      "option": "Nesterov"
+    },
+    {
+      "name": "RMSprop",
+      "route": "optimization",
+      "selector": "Optimizer update rule",
+      "option": "RMSprop"
+    },
+    {
+      "name": "Adam",
+      "route": "optimization",
+      "selector": "Optimizer update rule",
+      "option": "Adam"
+    },
+    {
+      "name": "Linear Regression",
+      "route": "regression"
+    },
+    {
+      "name": "Perceptron",
+      "route": "perceptron"
+    }
+  ]
+}

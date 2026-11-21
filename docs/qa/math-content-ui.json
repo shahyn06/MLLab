@@ -1,0 +1,307 @@
+{
+  "checks": 819,
+  "errors": [],
+  "records": [
+    {
+      "area": "Linear Algebra",
+      "topic": "Scalars",
+      "control": "Scalar s",
+      "before": "2\t1\n1\t2",
+      "after": "4\t2\n2\t4"
+    },
+    {
+      "area": "Linear Algebra",
+      "topic": "Vectors",
+      "control": "Vector v1",
+      "before": "Determinant\n3\nRank\n2\nFirst-row dot v\n4\nSVD reconstruction error\n1.44e-15",
+      "after": "Determinant\n3\nRank\n2\nFirst-row dot v\n6\nSVD reconstruction error\n1.44e-15"
+    },
+    {
+      "area": "Linear Algebra",
+      "topic": "Matrices",
+      "control": "Matrix A 0",
+      "before": "Determinant\n3\nRank\n2\nFirst-row dot v\n4\nSVD reconstruction error\n1.44e-15",
+      "after": "Determinant\n-1\nRank\n2\nFirst-row dot v\n2\nSVD reconstruction error\n2.29e-16"
+    },
+    {
+      "area": "Linear Algebra",
+      "topic": "Matrix Operations",
+      "control": "Matrix A 0",
+      "before": "4\t1\n1\t3",
+      "after": "2\t1\n1\t3"
+    },
+    {
+      "area": "Linear Algebra",
+      "topic": "Matrix Multiplication",
+      "control": "Matrix A 0",
+      "before": "4\t1\n2\t2",
+      "after": "0\t1\n2\t2"
+    },
+    {
+      "area": "Linear Algebra",
+      "topic": "Transpose",
+      "control": "Matrix A 0",
+      "before": "2\t1\n1\t2",
+      "after": "0\t1\n1\t2"
+    },
+    {
+      "area": "Linear Algebra",
+      "topic": "Inverse",
+      "control": "Matrix A 0",
+      "before": "0.667\t-0.333\n-0.333\t0.667",
+      "after": "-2\t1\n1\t0"
+    },
+    {
+      "area": "Linear Algebra",
+      "topic": "Determinants",
+      "control": "Matrix A 0",
+      "before": "Determinant\n3\nRank\n2\nFirst-row dot v\n4\nSVD reconstruction error\n1.44e-15",
+      "after": "Determinant\n-1\nRank\n2\nFirst-row dot v\n2\nSVD reconstruction error\n2.29e-16"
+    },
+    {
+      "area": "Linear Algebra",
+      "topic": "Eigenvalues",
+      "control": "Matrix A 0",
+      "before": "Eigenstructure\n\nEigenvalues: 1, 3\n\nEigenvector columns\n0.707\t0.707\n-0.707\t0.707\n\nWorked example: with A=[[2,1],[1,2]] and v=[1,2], Av=[4,5], det(A)=3, eigenvalues are 3 and 1, and singular values are 3 and 1. Change an entry and compare.",
+      "after": "Eigenstructure\n\nEigenvalues: -0.414, 2.414\n\nEigenvector columns\n-0.924\t0.383\n0.383\t0.924\n\nWorked example: with A=[[2,1],[1,2]] and v=[1,2], Av=[4,5], det(A)=3, eigenvalues are 3 and 1, and singular values are 3 and 1. Change an entry and compare."
+    },
+    {
+      "area": "Linear Algebra",
+      "topic": "Eigenvectors",
+      "control": "Matrix A 0",
+      "before": "Eigenstructure\n\nEigenvalues: 1, 3\n\nEigenvector columns\n0.707\t0.707\n-0.707\t0.707\n\nWorked example: with A=[[2,1],[1,2]] and v=[1,2], Av=[4,5], det(A)=3, eigenvalues are 3 and 1, and singular values are 3 and 1. Change an entry and compare.",
+      "after": "Eigenstructure\n\nEigenvalues: -0.414, 2.414\n\nEigenvector columns\n-0.924\t0.383\n0.383\t0.924\n\nWorked example: with A=[[2,1],[1,2]] and v=[1,2], Av=[4,5], det(A)=3, eigenvalues are 3 and 1, and singular values are 3 and 1. Change an entry and compare."
+    },
+    {
+      "area": "Linear Algebra",
+      "topic": "Singular Value Decomposition (SVD)",
+      "control": "Matrix A 0",
+      "before": "Determinant\n3\nRank\n2\nFirst-row dot v\n4\nSVD reconstruction error\n1.44e-15",
+      "after": "Determinant\n-1\nRank\n2\nFirst-row dot v\n2\nSVD reconstruction error\n2.29e-16"
+    },
+    {
+      "area": "Linear Algebra",
+      "topic": "Vector Spaces",
+      "control": "Matrix A 0",
+      "before": "Determinant\n3\nRank\n2\nFirst-row dot v\n4\nSVD reconstruction error\n1.44e-15",
+      "after": "Determinant\n-1\nRank\n2\nFirst-row dot v\n2\nSVD reconstruction error\n2.29e-16"
+    },
+    {
+      "area": "Linear Algebra",
+      "topic": "Dot Product",
+      "control": "Matrix A 0",
+      "before": "Determinant\n3\nRank\n2\nFirst-row dot v\n4\nSVD reconstruction error\n1.44e-15",
+      "after": "Determinant\n-1\nRank\n2\nFirst-row dot v\n2\nSVD reconstruction error\n2.29e-16"
+    },
+    {
+      "area": "Calculus",
+      "topic": "Limits",
+      "control": "Difference-quotient h",
+      "before": "f(x,y)2Forward quotient2.1Forward absolute error1.000e-1Gradient(2, 2)Directional derivative2Symmetric quotient2Chain rule g′(x)4Numerical chain derivative4.04CurvaturePositive definite",
+      "after": "f(x,y)2Forward quotient2.01Forward absolute error1.000e-2Gradient(2, 2)Directional derivative2Symmetric quotient2Chain rule g′(x)4Numerical chain derivative4CurvaturePositive definite"
+    },
+    {
+      "area": "Calculus",
+      "topic": "Derivatives",
+      "control": "Position x",
+      "before": "f(x,y)2Forward quotient2.1Forward absolute error1.000e-1Gradient(2, 2)Directional derivative2Symmetric quotient2Chain rule g′(x)4Numerical chain derivative4.04CurvaturePositive definite",
+      "after": "f(x,y)5Forward quotient4.1Forward absolute error1.000e-1Gradient(4, 2)Directional derivative4Symmetric quotient4Chain rule g′(x)32Numerical chain derivative32.08CurvaturePositive definite"
+    },
+    {
+      "area": "Calculus",
+      "topic": "Partial Derivatives",
+      "control": "Coefficient b",
+      "before": "f(x,y)2Forward quotient2.1Forward absolute error1.000e-1Gradient(2, 2)Directional derivative2Symmetric quotient2Chain rule g′(x)4Numerical chain derivative4.04CurvaturePositive definite",
+      "after": "f(x,y)3Forward quotient3.1Forward absolute error1.000e-1Gradient(3, 3)Directional derivative3Symmetric quotient3Chain rule g′(x)8Numerical chain derivative8.04CurvaturePositive definite"
+    },
+    {
+      "area": "Calculus",
+      "topic": "Chain Rule",
+      "control": "Coefficient b",
+      "before": "f(x,y)2Forward quotient2.1Forward absolute error1.000e-1Gradient(2, 2)Directional derivative2Symmetric quotient2Chain rule g′(x)4Numerical chain derivative4.04CurvaturePositive definite",
+      "after": "f(x,y)3Forward quotient3.1Forward absolute error1.000e-1Gradient(3, 3)Directional derivative3Symmetric quotient3Chain rule g′(x)8Numerical chain derivative8.04CurvaturePositive definite"
+    },
+    {
+      "area": "Calculus",
+      "topic": "Multivariable Calculus",
+      "control": "Position y",
+      "before": "f(x,y)2Forward quotient2.1Forward absolute error1.000e-1Gradient(2, 2)Directional derivative2Symmetric quotient2Chain rule g′(x)4Numerical chain derivative4.04CurvaturePositive definite",
+      "after": "f(x,y)5Forward quotient2.1Forward absolute error1.000e-1Gradient(2, 4)Directional derivative2Symmetric quotient2Chain rule g′(x)4Numerical chain derivative4.04CurvaturePositive definite"
+    },
+    {
+      "area": "Calculus",
+      "topic": "Gradients",
+      "control": "Position x",
+      "before": "f(x,y)2Forward quotient2.1Forward absolute error1.000e-1Gradient(2, 2)Directional derivative2Symmetric quotient2Chain rule g′(x)4Numerical chain derivative4.04CurvaturePositive definite",
+      "after": "f(x,y)5Forward quotient4.1Forward absolute error1.000e-1Gradient(4, 2)Directional derivative4Symmetric quotient4Chain rule g′(x)32Numerical chain derivative32.08CurvaturePositive definite"
+    },
+    {
+      "area": "Calculus",
+      "topic": "Directional Derivatives",
+      "control": "Direction angle (radians)",
+      "before": "f(x,y)2Forward quotient2.1Forward absolute error1.000e-1Gradient(2, 2)Directional derivative2Symmetric quotient2Chain rule g′(x)4Numerical chain derivative4.04CurvaturePositive definite",
+      "after": "f(x,y)2Forward quotient2.1Forward absolute error1.000e-1Gradient(2, 2)Directional derivative2.764Symmetric quotient2Chain rule g′(x)4Numerical chain derivative4.04CurvaturePositive definite"
+    },
+    {
+      "area": "Calculus",
+      "topic": "Jacobian",
+      "control": "Position x",
+      "before": "f(x,y)2Forward quotient2.1Forward absolute error1.000e-1Gradient(2, 2)Directional derivative2Symmetric quotient2Chain rule g′(x)4Numerical chain derivative4.04CurvaturePositive definite",
+      "after": "f(x,y)5Forward quotient4.1Forward absolute error1.000e-1Gradient(4, 2)Directional derivative4Symmetric quotient4Chain rule g′(x)32Numerical chain derivative32.08CurvaturePositive definite"
+    },
+    {
+      "area": "Calculus",
+      "topic": "Hessian",
+      "control": "Coefficient a",
+      "before": "f(x,y)2Forward quotient2.1Forward absolute error1.000e-1Gradient(2, 2)Directional derivative2Symmetric quotient2Chain rule g′(x)4Numerical chain derivative4.04CurvaturePositive definite",
+      "after": "f(x,y)3Forward quotient4.2Forward absolute error2.000e-1Gradient(4, 2)Directional derivative4Symmetric quotient4Chain rule g′(x)16Numerical chain derivative16.16CurvaturePositive definite"
+    },
+    {
+      "area": "Calculus",
+      "topic": "Optimization",
+      "control": "Take a gradient step",
+      "before": "f(x,y)2Forward quotient2.1Forward absolute error1.000e-1Gradient(2, 2)Directional derivative2Symmetric quotient2Chain rule g′(x)4Numerical chain derivative4.04CurvaturePositive definite",
+      "after": "f(x,y)1.62Forward quotient1.9Forward absolute error1.000e-1Gradient(1.8, 1.8)Directional derivative1.8Symmetric quotient1.8Chain rule g′(x)2.916Numerical chain derivative2.952CurvaturePositive definite"
+    },
+    {
+      "area": "Probability",
+      "topic": "Basic Probability",
+      "control": "Success probability p",
+      "before": "Expected value5Variance2.5P(X ≤ cutoff)0.623Displayed mass1\nP(positive)0.059P(A | positive)0.161",
+      "after": "Expected value3Variance2.1P(X ≤ cutoff)0.953Displayed mass1\nP(positive)0.059P(A | positive)0.161"
+    },
+    {
+      "area": "Probability",
+      "topic": "Conditional Probability",
+      "control": "Prior P(A)",
+      "before": "Expected value5Variance2.5P(X ≤ cutoff)0.623Displayed mass1\nP(positive)0.059P(A | positive)0.161",
+      "after": "Expected value5Variance2.5P(X ≤ cutoff)0.623Displayed mass1\nP(positive)0.14P(A | positive)0.679"
+    },
+    {
+      "area": "Probability",
+      "topic": "Bayes' Theorem",
+      "control": "Prior P(A)",
+      "before": "Expected value5Variance2.5P(X ≤ cutoff)0.623Displayed mass1\nP(positive)0.059P(A | positive)0.161",
+      "after": "Expected value5Variance2.5P(X ≤ cutoff)0.623Displayed mass1\nP(positive)0.14P(A | positive)0.679"
+    },
+    {
+      "area": "Probability",
+      "topic": "Probability Distributions",
+      "control": "Distribution",
+      "before": "Expected value5Variance2.5P(X ≤ cutoff)0.623Displayed mass1\nP(positive)0.059P(A | positive)0.161",
+      "after": "Expected value0Variance1P(X ≤ cutoff)1Shown rangeμ ± 4σ\nP(positive)0.059P(A | positive)0.161"
+    },
+    {
+      "area": "Probability",
+      "topic": "Normal Distribution",
+      "control": "Mean μ (Normal)",
+      "before": "Expected value0Variance1P(X ≤ cutoff)1Shown rangeμ ± 4σ\nP(positive)0.059P(A | positive)0.161",
+      "after": "Expected value1Variance1P(X ≤ cutoff)1Shown rangeμ ± 4σ\nP(positive)0.059P(A | positive)0.161"
+    },
+    {
+      "area": "Probability",
+      "topic": "Gaussian Distribution",
+      "control": "Mean μ (Normal)",
+      "before": "Expected value0Variance1P(X ≤ cutoff)1Shown rangeμ ± 4σ\nP(positive)0.059P(A | positive)0.161",
+      "after": "Expected value1Variance1P(X ≤ cutoff)1Shown rangeμ ± 4σ\nP(positive)0.059P(A | positive)0.161"
+    },
+    {
+      "area": "Probability",
+      "topic": "Bernoulli Distribution",
+      "control": "Success probability p",
+      "before": "Expected value0.5Variance0.25P(X ≤ cutoff)1Displayed mass1\nP(positive)0.059P(A | positive)0.161",
+      "after": "Expected value0.3Variance0.21P(X ≤ cutoff)1Displayed mass1\nP(positive)0.059P(A | positive)0.161"
+    },
+    {
+      "area": "Probability",
+      "topic": "Binomial Distribution",
+      "control": "Success probability p",
+      "before": "Expected value5Variance2.5P(X ≤ cutoff)0.623Displayed mass1\nP(positive)0.059P(A | positive)0.161",
+      "after": "Expected value3Variance2.1P(X ≤ cutoff)0.953Displayed mass1\nP(positive)0.059P(A | positive)0.161"
+    },
+    {
+      "area": "Probability",
+      "topic": "Poisson Distribution",
+      "control": "Rate λ (Poisson)",
+      "before": "Expected value4Variance4P(X ≤ cutoff)0.785Displayed mass1\nP(positive)0.059P(A | positive)0.161",
+      "after": "Expected value2Variance2P(X ≤ cutoff)0.983Displayed mass1\nP(positive)0.059P(A | positive)0.161"
+    },
+    {
+      "area": "Statistics",
+      "topic": "Mean",
+      "control": "Statistics data x,y",
+      "before": "Mean3Median3Mode(s)No unique modeSample variance (n−1)2.5Population variance (n)2Sample SD1.581Sample covariance5Pearson correlation1\nMinimum / Q11 / 2Q3 / Maximum4 / 5Count5IQR2\n95% z interval[1.247, 4.753]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)0.894",
+      "after": "Mean3Median2Mode(s)No unique modeSample variance (n−1)7Population variance (n)4.667Sample SD2.646Sample covariance6Pearson correlation0.901\nMinimum / Q11 / 1.5Q3 / Maximum4 / 6Count3IQR2.5\n95% z interval[0.737, 5.263]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)1.155"
+    },
+    {
+      "area": "Statistics",
+      "topic": "Median",
+      "control": "Statistics data x,y",
+      "before": "Mean3Median3Mode(s)No unique modeSample variance (n−1)2.5Population variance (n)2Sample SD1.581Sample covariance5Pearson correlation1\nMinimum / Q11 / 2Q3 / Maximum4 / 5Count5IQR2\n95% z interval[1.247, 4.753]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)0.894",
+      "after": "Mean3Median2Mode(s)No unique modeSample variance (n−1)7Population variance (n)4.667Sample SD2.646Sample covariance6Pearson correlation0.901\nMinimum / Q11 / 1.5Q3 / Maximum4 / 6Count3IQR2.5\n95% z interval[0.737, 5.263]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)1.155"
+    },
+    {
+      "area": "Statistics",
+      "topic": "Mode",
+      "control": "Statistics data x,y",
+      "before": "Mean3Median3Mode(s)No unique modeSample variance (n−1)2.5Population variance (n)2Sample SD1.581Sample covariance5Pearson correlation1\nMinimum / Q11 / 2Q3 / Maximum4 / 5Count5IQR2\n95% z interval[1.247, 4.753]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)0.894",
+      "after": "Mean1.667Median1Mode(s)1Sample variance (n−1)1.333Population variance (n)0.889Sample SD1.155Sample covariance2.667Pearson correlation0.918\nMinimum / Q11 / 1Q3 / Maximum2 / 3Count3IQR1\n95% z interval[-0.597, 3.93]Two-sided z-test p-value2.482e-1z statistic-1.155Standard error (known σ)1.155"
+    },
+    {
+      "area": "Statistics",
+      "topic": "Variance",
+      "control": "Statistics data x,y",
+      "before": "Mean3Median3Mode(s)No unique modeSample variance (n−1)2.5Population variance (n)2Sample SD1.581Sample covariance5Pearson correlation1\nMinimum / Q11 / 2Q3 / Maximum4 / 5Count5IQR2\n95% z interval[1.247, 4.753]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)0.894",
+      "after": "Mean3Median2Mode(s)No unique modeSample variance (n−1)7Population variance (n)4.667Sample SD2.646Sample covariance6Pearson correlation0.901\nMinimum / Q11 / 1.5Q3 / Maximum4 / 6Count3IQR2.5\n95% z interval[0.737, 5.263]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)1.155"
+    },
+    {
+      "area": "Statistics",
+      "topic": "Standard Deviation",
+      "control": "Statistics data x,y",
+      "before": "Mean3Median3Mode(s)No unique modeSample variance (n−1)2.5Population variance (n)2Sample SD1.581Sample covariance5Pearson correlation1\nMinimum / Q11 / 2Q3 / Maximum4 / 5Count5IQR2\n95% z interval[1.247, 4.753]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)0.894",
+      "after": "Mean3Median2Mode(s)No unique modeSample variance (n−1)7Population variance (n)4.667Sample SD2.646Sample covariance6Pearson correlation0.901\nMinimum / Q11 / 1.5Q3 / Maximum4 / 6Count3IQR2.5\n95% z interval[0.737, 5.263]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)1.155"
+    },
+    {
+      "area": "Statistics",
+      "topic": "Covariance",
+      "control": "Statistics data x,y",
+      "before": "Mean3Median3Mode(s)No unique modeSample variance (n−1)2.5Population variance (n)2Sample SD1.581Sample covariance5Pearson correlation1\nMinimum / Q11 / 2Q3 / Maximum4 / 5Count5IQR2\n95% z interval[1.247, 4.753]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)0.894",
+      "after": "Mean3Median2Mode(s)No unique modeSample variance (n−1)7Population variance (n)4.667Sample SD2.646Sample covariance6Pearson correlation0.901\nMinimum / Q11 / 1.5Q3 / Maximum4 / 6Count3IQR2.5\n95% z interval[0.737, 5.263]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)1.155"
+    },
+    {
+      "area": "Statistics",
+      "topic": "Correlation",
+      "control": "Statistics data x,y",
+      "before": "Mean3Median3Mode(s)No unique modeSample variance (n−1)2.5Population variance (n)2Sample SD1.581Sample covariance5Pearson correlation1\nMinimum / Q11 / 2Q3 / Maximum4 / 5Count5IQR2\n95% z interval[1.247, 4.753]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)0.894",
+      "after": "Mean3Median2Mode(s)No unique modeSample variance (n−1)7Population variance (n)4.667Sample SD2.646Sample covariance6Pearson correlation0.901\nMinimum / Q11 / 1.5Q3 / Maximum4 / 6Count3IQR2.5\n95% z interval[0.737, 5.263]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)1.155"
+    },
+    {
+      "area": "Statistics",
+      "topic": "Sampling",
+      "control": "Draw bootstrap sample",
+      "before": "No bootstrap draw",
+      "after": "Bootstrap draw: 2, 2, 3, 4, 1. Mean: 2.4. The deterministic seed advances after each draw."
+    },
+    {
+      "area": "Statistics",
+      "topic": "Hypothesis Testing",
+      "control": "Known population σ (z-model assumption)",
+      "before": "Mean3Median3Mode(s)No unique modeSample variance (n−1)2.5Population variance (n)2Sample SD1.581Sample covariance5Pearson correlation1\nMinimum / Q11 / 2Q3 / Maximum4 / 5Count5IQR2\n95% z interval[1.247, 4.753]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)0.894",
+      "after": "Mean3Median3Mode(s)No unique modeSample variance (n−1)2.5Population variance (n)2Sample SD1.581Sample covariance5Pearson correlation1\nMinimum / Q11 / 2Q3 / Maximum4 / 5Count5IQR2\n95% z interval[0.37, 5.63]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)1.342"
+    },
+    {
+      "area": "Statistics",
+      "topic": "Confidence Intervals",
+      "control": "Known population σ (z-model assumption)",
+      "before": "Mean3Median3Mode(s)No unique modeSample variance (n−1)2.5Population variance (n)2Sample SD1.581Sample covariance5Pearson correlation1\nMinimum / Q11 / 2Q3 / Maximum4 / 5Count5IQR2\n95% z interval[1.247, 4.753]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)0.894",
+      "after": "Mean3Median3Mode(s)No unique modeSample variance (n−1)2.5Population variance (n)2Sample SD1.581Sample covariance5Pearson correlation1\nMinimum / Q11 / 2Q3 / Maximum4 / 5Count5IQR2\n95% z interval[0.37, 5.63]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)1.342"
+    },
+    {
+      "area": "Statistics",
+      "topic": "Statistical Inference",
+      "control": "Known population σ (z-model assumption)",
+      "before": "Mean3Median3Mode(s)No unique modeSample variance (n−1)2.5Population variance (n)2Sample SD1.581Sample covariance5Pearson correlation1\nMinimum / Q11 / 2Q3 / Maximum4 / 5Count5IQR2\n95% z interval[1.247, 4.753]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)0.894",
+      "after": "Mean3Median3Mode(s)No unique modeSample variance (n−1)2.5Population variance (n)2Sample SD1.581Sample covariance5Pearson correlation1\nMinimum / Q11 / 2Q3 / Maximum4 / 5Count5IQR2\n95% z interval[0.37, 5.63]Two-sided z-test p-value1.000e+0z statistic0Standard error (known σ)1.342"
+    }
+  ]
+}

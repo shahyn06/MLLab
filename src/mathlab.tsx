@@ -25,7 +25,7 @@ const notes:Record<string,string>={
 'Vector Spaces':'A real matrix maps R² to R². Its column span is all of R² exactly when rank is two; dependent columns collapse a dimension.',
 'Dot Product':'The dot product sums coordinatewise products. It measures alignment and is used by linear models and attention.',
 'Limits':'A limit describes nearby behavior, not necessarily the value at a point. Here the forward difference quotient approaches the derivative as positive h shrinks, until floating-point cancellation matters. The symmetric quotient is shown separately.',
-'Derivatives':'The derivative is the local slope. The gold tangent line touches the quadratic slice at the selected x.',
+'Derivatives':'The derivative is the local slope. The tangent line touches the quadratic slice at the selected x.',
 'Partial Derivatives':'A partial derivative changes one input while holding the others fixed. For f=ax²+bxy+cy², fₓ=2ax+by and fᵧ=bx+2cy.',
 'Chain Rule':'For g(t)=(at²+b)², multiply the outer derivative 2(at²+b) by the inner derivative 2at. The computed derivative is shown below.',
 'Multivariable Calculus':'The surface depends jointly on x and y. The plotted curve is a slice at the current y, not the complete surface.',

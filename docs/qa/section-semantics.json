@@ -1,0 +1,1040 @@
+[
+  {
+    "route": "classical",
+    "sections": [
+      {
+        "n": "1",
+        "title": "Overview · Logistic Regression",
+        "text": "Learn a linear decision boundary for a binary target using probabilistic predictions.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "2",
+        "title": "Mathematical Foundation",
+        "text": "p=σ(b+wTx)p=\\sigma(b+w^Tx)σ(z)=11+e−z\\sigma(z)=\\frac1{1+e^{-z}}L=−1n∑i[yilog⁡pi+(1−yi)log⁡(1−pi)]L=-\\frac1n\\sum_i[y_i\\log p_i+(1-y_i)\\log(1-p_i)]",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "3",
+        "title": "How It Works",
+        "text": "Steps and assumptionsCompute a linear score and pass it through the sigmoid.Average the binary cross-entropy gradients.Move the boundary using one gradient update per step.An affine boundary cannot solve XOR or concentric rings. This demo is unregularized.Reason through Logistic RegressionAlgorithm learning levelBeginnerIntermediateAdvancedWorked exampleAt z=0, p=0.5. With y=1 and x=2, dL/dw=(0.5−1)·2=−1. A rate 0.1 step from w=0 gives w=0.1.",
+        "controls": [
+          "Algorithm learning level"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "4",
+        "title": "Interactive Simulation",
+        "text": "",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "6",
+        "title": "Dataset",
+        "text": "Built-in datasetSeparated groupsXORRingsNoisy boundary",
+        "controls": [
+          "Built-in dataset"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "5",
+        "title": "Parameters",
+        "text": "Model learning rate0.08 Maximum training steps240Reproducible seedRegenerate with seedUse your own small datasetPaste x1,x2,target rows, no header. Features in [−3,3], 8–160 rows. This replaces the built-in data and resets training.Apply custom dataset67 training points / 23 held-out test points. The seeded split stays fixed during training.",
+        "controls": [
+          "Model learning rate",
+          "Maximum training steps",
+          "Reproducible seed",
+          "Regenerate with seed",
+          "Classical dataset rows",
+          "Apply custom dataset"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "7",
+        "title": "Training",
+        "text": "Start trainingOne training stepReset modelStep 0. Not fitted. Use Start or one step.",
+        "controls": [
+          "Start training",
+          "One training step",
+          "Reset model"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "8",
+        "title": "Results",
+        "text": "Data and decision regionsx1=-1.009, x2=-1.363, target=0x1=-1.364, x2=-1.654, target=0x1=0.682, x2=1.052, target=1x1=-1.646, x2=-0.493, target=0x1=1.627, x2=0.99, target=1x1=-0.54, x2=-1.032, target=0x1=-1.217, x2=-1.692, target=0x1=-1.217, x2=-0.88, target=0x1=-1.299, x2=-1.715, target=0x1=-1.115, x2=-1.552, target=0x1=-1.446, x2=-1.899, target=0x1=0.869, x2=1.191, target=1x1=1.18, x2=1.813, target=1x1=1.049, x2=0.11, target=1x1=-1.923, x2=-0.743, target=0x1=-1.067, x2=-1.645, target=0x1=1.728, x2=1.744, target=1x1=1.748, x2=0.53, target=1x1=1.454, x2=0.648, target=1x1=0.726, x2=0.168, target=1x1=-0.51, x2=-1.782, target=0x1=-0.905, x2=-1.338, target=0x1=0.523, x2=1.409, target=1x1=1.491, x2=1.841, target=1x1=1.761, x2=0.37, target=1x1=-0.553, x2=-0.972, target=0x1=-1.537, x2=-0.996, target=0x1=1.921, x2=0.889, target=1x1=-0.532, x2=-1.571, target=0x1=-1.364, x2=-0.604, target=0x1=-1.726, x2=-1.084, target=0x1=-0.739, x2=-0.267, target=0x1=-2.081, x2=-0.89, target=0x1=1.203, x2=0.188, target=1x1=0.93, x2=1.144, target=1x1=-0.539, x2=-0.918, target=0x1=0.73, x2=1.604, target=1x1=-0.981, x2=-0.949, target=0x1=-0.607, x2=-1.446, target=0x1=-1.651, x2=-1.334, target=0x1=-1.96, x2=-0.737, target=0x1=0.724, x2=0.274, target=1x1=1.574, x2=0.486, target=1x1=1.146, x2=0.148, target=1x1=-1.825, x2=-0.725, target=0x1=-1.079, x2=-0.64, target=0x1=-1.768, x2=-1.671, target=0x1=-1.554, x2=-0.428, target=0x1=-1.927, x2=-1.401, target=0x1=0.646, x2=1.509, target=1x1=-1.284, x2=-1.217, target=0x1=1.85, x2=1.885, target=1x1=-1.218, x2=-0.592, target=0x1=0.9, x2=0.2, target=1x1=1.468, x2=1.217, target=1x1=-1.598, x2=-0.657, target=0x1=1.084, x2=0.2, target=1x1=0.873, x2=1.602, target=1x1=-0.584, x2=-0.377, target=0x1=2.01, x2=0.52, target=1x1=-1.826, x2=-0.216, target=0x1=1.325, x2=1.188, target=1x1=-1.198, x2=-1.244, target=0x1=1.85, x2=0.181, target=1x1=-1.891, x2=-0.142, target=0x1=-1.365, x2=-1.365, target=0x1=1.704, x2=1.191, target=1x1=-1.377, x2=-1.198, target=0 (test)x1=1.032, x2=1.287, target=1 (test)x1=0.546, x2=1.89, target=1 (test)x1=1.899, x2=1.076, target=1 (test)x1=0.612, x2=1.784, target=1 (test)x1=1.378, x2=0.296, target=1 (test)x1=0.854, x2=0.396, target=1 (test)x1=-1.5, x2=-1.624, target=0 (test)x1=1.967, x2=1.766, target=1 (test)x1=1.771, x2=0.939, target=1 (test)x1=-0.599, x2=-0.411, target=0 (test)x1=1.647, x2=0.291, target=1 (test)x1=0.72, x2=1.244, target=1 (test)x1=0.832, x2=1.449, target=1 (test)x1=-1.448, x2=-0.502, target=0 (test)x1=0.901, x2=1.239, target=1 (test)x1=-0.751, x2=-1.329, target=0 (test)x1=-1.535, x2=-1.608, target=0 (test)x1=0.599, x2=0.121, target=1 (test)x1=1.417, x2=0.249, target=1 (test)x1=-2.024, x2=-0.369, target=0 (test)x1=1.714, x2=0.221, target=1 (test)x1=0.683, x2=0.322, target=1 (test)-3-30033Feature x1Feature x2Filled points: training. Hollow points: held-out test. Colors show true labels; the background shows model decisions.Learning curve · training log lossNo training result yet. Start training or run one step.Every plotted value is calculated after a real model update.",
+        "controls": [],
+        "charts": 1
+      },
+      {
+        "n": "9",
+        "title": "Python Code",
+        "text": "The standalone standard-library Python uses this selected dataset, exact split, configuration and displayed update count. Before training, it uses the selected maximum step budget. It reproduces this small trainer rather than silently substituting a different library solver.Read the code · PythonCopy this educational example into Python to run it. The live lab uses JavaScript in your browser, not a Python interpreter.# Standalone Python reproduction of this bounded browser trainer. # Uses the exact currently selected raw rows and split, not undefined X_train. # Standard library only. Floating-point rounding may differ at ties. import math, json algorithm = \"Logistic Regression\" c = json.loads(\"{\\\"rate\\\":0.08,\\\"k\\\":3,\\\"depth\\\":3,\\\"penalty\\\":0.1,\\\"l1\\\":0.5,\\\"degree\\\":3,\\\"criterion\\\":\\\"Gini\\\",\\\"seed\\\":17,\\\"maxSteps\\\":240,\\\"varianceFloor\\\":0.00001}\") train = [[-1.008934561163187,-1.3630503220018,0],[-1.3644398607313633,-1.6541595054324718,0],[0.6817621655762196,1.0521600775886326,1],[-1.645637059956789,-0.49320529489777976,0],[1.6265669263899327,0.9897152040619404,1],[-0.5403418429195881,-1.0319240921642632,0],[-1.2168989308178426,-1.6919996642973274,0],[-1.2172108985483647,-0.8798471426125616,0],[-1.2985991276800632,-1.714704513316974,0],[-1.1148733533918858,-1.5522016061004251,0],[-1.4464679576456547,-1.8994277989026158,0],[0.8685456164181233,1.1911117747891695,1],[1.1796910502016544,1.8134263735730203,1],[1.0488516129553318,0.10985863399691875,1],[-1.9230496682226659,-0.7427007732447237,0],[-1.0673749275505542,-1.645268871029839,0],[1.7280843384563924,1.7438251182902604,1],[1.7481898464262486,0.5295603339094668,1],[1.4541057713329792,0.6475788817275315,1],[0.7263457037508488,0.1677752178627997,1],[-0.5099008865654469,-1.7824392931070179,0],[-0.9054902620613575,-1.338342540105805,0],[0.5232681311666966,1.4092063773889094,1],[1.4910072661936284,1.8409034189302473,1],[1.7614259697496892,0.3700071525294334,1],[-0.553426144272089,-0.9719714601989835,0],[-1.5369437374174595,-0.9964180452283472,0],[1.9212844647467138,0.8890651900786907,1],[-0.5322860188782215,-1.5713475794997067,0],[-1.364079798012972,-0.6040886336471885,0],[-1.726188883930445,-1.0836050128098578,0],[-0.7390960343182087,-0.26741660474799567,0],[-2.0812248416244987,-0.8895207942929119,0],[1.2033221490681172,0.18762215976603325,1],[0.9295205838978291,1.1435739517677574,1],[-0.5387692011892795,-0.9177634326275438,0],[0.7304432548582555,1.6035644058603795,1],[-0.9812882550060749,-0.9493246340658515,0],[-0.6073641873896122,-1.4458441799040884,0],[-1.6511780686676503,-1.3341702969279141,0],[-1.9598284460604192,-0.7372787078376859,0],[0.7244896151125432,0.2735919576603919,1],[1.5741687662899495,0.48634472643025217,1],[1.1461699672043324,0.14766574134118848,1],[-1.8246095634996893,-0.7254725088831038,0],[-1.0787015862762928,-0.6402112634386867,0],[-1.7677433945238592,-1.6705687036272139,0],[-1.5543148763477803,-0.4283245363738387,0],[-1.9267017520964147,-1.4007244688924403,0],[0.6463908769190312,1.5086264577228576,1],[-1.2839015759527683,-1.2171295282896608,0],[1.8503525681793689,1.8845397107768804,1],[-1.2178490050137043,-0.5920318895485253,0],[0.9003129489719868,0.2002333969343454,1],[1.4678065605461599,1.2170145847368985,1],[-1.5981876946985722,-0.6566605573054403,0],[1.0836522199213505,0.20020751026459038,1],[0.8729194559156894,1.6019501720089466,1],[-0.5838047035038472,-0.37718985765241086,0],[2.009718865901232,0.51959462990053,1],[-1.8256320454180242,-0.215527014946565,0],[1.3246565170586109,1.187611458497122,1],[-1.197656685858965,-1.2444857166614383,0],[1.8504487432539465,0.18108272296376526,1],[-1.891430477052927,-0.14174623764120042,0],[-1.364680976420641,-1.365138787170872,0],[1.7041377522051335,1.1909102570731194,1]] test = [[-1.3767078615725041,-1.197522117709741,0],[1.0317778207361699,1.2866158333141358,1],[0.5464053191244602,1.8904649485368283,1],[1.8989358462393284,1.0755665589589625,1],[0.6124094374477863,1.7836485997308045,1],[1.3777931220829487,0.29602436129935084,1],[0.8540132381021976,0.39571841922588646,1],[-1.4996741004288197,-1.6235959650482983,0],[1.9669705189764501,1.7659090359229594,1],[1.770829076319933,0.9392164670396597,1],[-0.5992431201040744,-0.4113802877720445,0],[1.6472879000008107,0.29063980658538635,1],[0.720115552097559,1.2441969391424208,1],[0.8318150348961353,1.448502901988104,1],[-1.4475793607532979,-0.5024677672889084,0],[0.9012084133923054,1.238511906610802,1],[-0.7512965984642506,-1.3294561938848346,0],[-1.535124445706606,-1.6078161606099457,0],[0.5985504217445851,0.1207710572052747,1],[1.4168942220509053,0.2492515445221215,1],[-2.0236071653664114,-0.36912561520002785,0],[1.7137938030064106,0.22111525242216878,1],[0.6826297707855702,0.3215413086581975,1]] budget = 240 # No trained model yet: fit up to the selected maximum steps. reg = algorithm in ['Multiple Linear Regression','Polynomial Regression','Ridge Regression','Lasso Regression','Elastic Net'] cluster = algorithm == 'K-Means' def rng(seed): state = seed & 0xffffffff def random(): nonlocal state state = (1664525*state + 1013904223) & 0xffffffff return state / 4294967296 return random def mean(values): return sum(values)/max(1,len(values)) def sigmoid(z): return 1/(1+math.exp(-z)) if z>=0 else math.exp(z)/(1+math.exp(z)) def features(p): return [1]+[(p[0]/3)**(i+1) for i in range(c['degree'])] if algorithm=='Polynomial Regression' else [1,p[0]/3,p[1]/3] def distance(a,b): return sum((x-y)**2 for x,y in zip(a[:2],b[:2])) def impurity(rows, regression, criterion): p=mean([r[2] for r in rows]) if regression: return mean([(r[2]-p)**2 for r in rows]) return (0 if p in (0,1) else -p*math.log2(p)-(1-p)*math.log2(1-p)) if criterion=='Entropy' else 2*p*(1-p) def tree(rows, depth, regression=False, criterion='Gini', random=None): node={'value':mean([r[2] for r in rows]),'n':len(rows),'impurity':impurity(rows,regression,criterion)} if depth<=0 or len(rows)<4 or node['impurity']<1e-12: return node score=node['impurity']; best=None candidates=[int(random()*2)] if random else [0,1] for f in candidates: values=sorted(set(r[f] for r in rows)) for j in range(1,len(values)): cut=(values[j-1]+values[j])/2 left=[r for r in rows if r[f]<cut]; right=[r for r in rows if r[f]>=cut] if len(left)<2 or len(right)<2: continue value=(len(left)*impurity(left,regression,criterion)+len(right)*impurity(right,regression,criterion))/len(rows) if value<score-1e-12: score=value; best=(f,cut,left,right) if best: f,cut,left,right=best node.update(feature=f,cut=cut,left=tree(left,depth-1,regression,criterion,random),right=tree(right,depth-1,regression,criterion,random)) return node def tree_predict(t,p): if 'feature' not in t: return t['value'] return tree_predict(t['left'] if p[t['feature']]<t['cut'] else t['right'],p) weights=[0.0]*len(features(train[0])); forest=[]; fitted_tree=None; centers=[]; done=False; steps=0; history=[] if cluster: random=rng(c['seed']); remaining=train[:] for _ in range(min(c['k'],len(train))): point=remaining.pop(int(random()*len(remaining))); centers.append(point[:2]) def predict(p): if cluster: return min(range(len(centers)),key=lambda i:distance(p,centers[i])) if algorithm=='K-Nearest Neighbors': near=sorted(train,key=lambda r:distance(r,p))[:c['k']] return mean([r[2] for r in near]) if algorithm=='Decision Tree': return tree_predict(fitted_tree,p) if fitted_tree else .5 if algorithm=='Random Forest': return mean([tree_predict(t,p) for t in forest]) if forest else .5 if algorithm=='Gradient Boosting': return sigmoid(sum(c['rate']*tree_predict(t,p) for t in forest)) if algorithm=='Gaussian Naive Bayes': scores=[] for label in [0,1]: rows=[r for r in train if r[2]==label] if not rows: scores.append(-1e9); continue s=math.log(len(rows)/len(train)) for f in [0,1]: mu=mean([r[f] for r in rows]); var=max(c.get('varianceFloor',1e-5),mean([(r[f]-mu)**2 for r in rows])) s+=-.5*math.log(2*math.pi*var)-(p[f]-mu)**2/(2*var) scores.append(s) return sigmoid(scores[1]-scores[0]) z=sum(w*x for w,x in zip(weights,features(p))) return z if reg or algorithm=='Linear SVM' else sigmoid(z) def objective(): if cluster: return mean([distance(p,centers[predict(p)]) for p in train]) values=[] for p in train: z=predict(p) values.append((z-p[2])**2 if reg else max(0,1-(2*p[2]-1)*z) if algorithm=='Linear SVM' else -p[2]*math.log(max(1e-12,z))-(1-p[2])*math.log(max(1e-12,1-z))) return mean(values) for step in range(1,budget+1): if done: break old_weights=weights[:] if cluster: labels=[predict(p) for p in train]; old=[r[:] for r in centers] centers=[[mean([p[f] for i,p in enumerate(train) if labels[i]==j]) for f in [0,1]] if j in labels else center[:] for j,center in enumerate(centers)] done=sum(distance(a,b) for a,b in zip(centers,old))<1e-10 elif algorithm=='Decision Tree': fitted_tree=tree(train,c['depth'],False,c['criterion']); done=True elif algorithm=='Random Forest': random=rng(c['seed']+step*31); draw=[train[int(random()*len(train))] for _ in train] forest.append(tree(draw,c['depth'],False,'Gini',random)); done=step>=24 elif algorithm=='Gradient Boosting': residual=[p[:2]+[p[2]-predict(p)] for p in train] forest.append(tree(residual,c['depth'],True)); done=step>=min(80,c['maxSteps']) elif algorithm in ['K-Nearest Neighbors','Gaussian Naive Bayes']: done=True else: g=[0.0]*len(weights) for p in train: pred=predict(p); error=2*(pred-p[2]) if reg else (-(2*p[2]-1) if (2*p[2]-1)*pred<1 else 0) if algorithm=='Linear SVM' else pred-p[2] for j,v in enumerate(features(p)): g[j]+=error*v/len(train) for j,w in enumerate(old_weights): ridge=2*c['penalty']*(1-c['l1'] if algorithm=='Elastic Net' else 1)*w if j and algorithm in ['Ridge Regression','Elastic Net','Linear SVM'] else 0 z=w-c['rate']*(g[j]+ridge) soft=c['rate']*c['penalty']*(c['l1'] if algorithm=='Elastic Net' else 1) if j and algorithm in ['Lasso Regression','Elastic Net'] else 0 weights[j]=(1 if z>0 else -1 if z<0 else 0)*max(0,abs(z)-soft) done=sum((a-b)**2 for a,b in zip(weights,old_weights))<1e-14 or step>=c['maxSteps'] history.append(objective()); steps=step if step>=c['maxSteps']: done=True predictions=[predict(p) for p in test] result={'steps':steps,'weights':weights,'history':history,'centers':centers,'predictions':predictions} if test: result['test_mse']=mean([(p[2]-v)**2 for p,v in zip(test,predictions)]) if not reg: result['test_accuracy']=mean([int((v>=(0 if algorithm=='Linear SVM' else .5))==bool(p[2])) for p,v in zip(test,predictions)]) print(json.dumps(result)) Copy code",
+        "controls": [
+          "Copy code"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "10",
+        "title": "Practical Applications",
+        "text": "Applications: Binary classification and interpretable probability baselines. Limits: An affine boundary cannot solve XOR or concentric rings. This demo is unregularized.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "11",
+        "title": "Challenges",
+        "text": "CHECK YOUR UNDERSTANDINGWhich data should determine final generalization metrics?The training partition onlyA held-out test partitionThe same examples used to tune every settingReferences, implementation and scopescikit-learn supervised learning reference ↗K-Means reference ↗Lightweight TypeScript implementations train on small bounded datasets in your browser. Hyperparameter edits reset the fitted model. Save a browser snapshot below to inspect and rebuild this experiment later. Larger local-API jobs are a separate workspace. The classical Python program reproduces this bounded trainer and selected rows; floating-point ties can differ across runtimes.Save this browser experimentSave the actual current parameters, results, history and data on this device. No upload or cloud sync. At most 12 snapshots, total 2 MB in the local source app. Large models or histories can be exported as JSON instead. JSON exports contain your selected data. A snapshot can be restored safely in this lab; it is not an executable model format.Browser experiment nameCapture current experimentExport current snapshotOpen saved snapshotsSources and scopeThese are simplified educational tools using fictional examples. They are not production models or large-network training. Browser labs do not execute Python. The optional Local execution workspace connects only to your explicitly selected loopback API. Lab state is temporary and resets when you reopen the page. The theme preference is stored on this device when storage is available.Linear models and Perceptron reference ↗Gradient descent and loss-function reference ↗Lessons and lab explanations are written independently. Curriculum topic names follow your supplied reference image.",
+        "controls": [
+          "The training partition only",
+          "A held-out test partition",
+          "The same examples used to tune every setting",
+          "Browser experiment name",
+          "Capture current experiment",
+          "Export current snapshot"
+        ],
+        "charts": 0
+      }
+    ]
+  },
+  {
+    "route": "unsupervised",
+    "sections": [
+      {
+        "n": "1",
+        "title": "Overview · Hierarchical Clustering",
+        "text": "Start with one cluster per point, then repeatedly merge the closest pair of clusters. Watch the actual merge history grow.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "2",
+        "title": "Mathematical Foundation",
+        "text": "daverage(A,B)=1∣A∣∣B∣∑a∈A,b∈B∥a−b∥2d_{\\mathrm{average}}(A,B)=\\frac{1}{|A||B|}\\sum_{a\\in A,b\\in B}\\|a-b\\|_2",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "3",
+        "title": "How It Works",
+        "text": "Start with singleton clusters.Compute single, complete or average pairwise linkage.Merge the minimum-distance pair. Stop at the chosen cluster count.Agglomerative merges cannot be undone by later steps. Linkage changes the shape of the tree. There is no general out-of-sample prediction rule. This small demo computes exact distances, not a scalable linkage implementation.Reason through Hierarchical ClusteringAlgorithm learning levelBeginnerIntermediateAdvancedWorked exampleFor one-dimensional clusters A={0,2} and B={5}, single linkage=3, complete linkage=5 and average linkage=(5+3)/2=4.",
+        "controls": [
+          "Algorithm learning level"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "4",
+        "title": "Interactive Simulation",
+        "text": "",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "6",
+        "title": "Dataset",
+        "text": "Unlabelled datasetThree cloudsRingsCorrelated 3DCloud with outliers",
+        "controls": [
+          "Unlabelled dataset"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "5",
+        "title": "Parameters",
+        "text": "Standardize all features before fitting (population scale)60 synthetic points by default; seed 42. Three features are fitted. The 2D view displays features 1 and 2 only. Switch to the rotated 3D view to include feature 3. PCA always centers, even without scaling.Requested clusters / components3 LinkageSingleCompleteAverage Use your own three-feature dataPaste 8–100 rows: x1,x2,x3, no target or header. Each value must be in [-10,10]. Feature edits reset fitting.Apply unlabelled data",
+        "controls": [
+          "checkbox",
+          "Requested clusters / components",
+          "Linkage",
+          "Unsupervised custom rows",
+          "Apply unlabelled data"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "7",
+        "title": "Training",
+        "text": "Start structure learningOne structure stepReset structure0 real merges; 60 groups.Projection controls Rotated 3D viewRotation changes only the view, never the fitted distances. Point tooltips report original fitted coordinates and assignment.",
+        "controls": [
+          "Start structure learning",
+          "One structure step",
+          "Reset structure",
+          "checkbox"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "8",
+        "title": "Results",
+        "text": "Computed assignmentsPoint 18: 0.034, 1.715, -1.288; group 17Point 6: 0.34, 1.943, -1.274; group 5Point 36: -0.083, 2.076, -1.226; group 35Point 57: 0.363, 2.104, -1.057; group 56Point 3: -0.089, 1.205, -1.02; group 2Point 48: -0.726, 1.697, -0.994; group 47Point 33: 0.24, 2.17, -0.971; group 32Point 9: -0.14, 1.397, -0.901; group 8Point 24: 0.348, 2.099, -0.894; group 23Point 15: -0.49, 1.735, -0.772; group 14Point 21: -0.079, 2.024, -0.763; group 20Point 39: -0.483, 1.726, -0.751; group 38Point 27: -0.256, 1.58, -0.746; group 26Point 45: 0.293, 1.8, -0.714; group 44Point 12: -0.142, 1.779, -0.682; group 11Point 54: 0.192, 2.018, -0.635; group 53Point 1: -2.016, -1.29, -0.608; group 0Point 30: -0.198, 2.23, -0.599; group 29Point 60: 0.718, 1.635, -0.47; group 59Point 51: -0.238, 1.531, -0.445; group 50Point 43: -1.096, -0.676, -0.428; group 42Point 40: -1.999, -1.555, -0.393; group 39Point 7: -0.898, -1.493, -0.337; group 6Point 25: -2.112, -1.37, -0.231; group 24Point 42: -0.355, 1.516, -0.14; group 41Point 16: -2.11, -0.785, -0.109; group 15Point 22: -2.031, -0.62, -0.071; group 21Point 55: -1.194, -1.262, 0.042; group 54Point 31: -1.848, -1.675, 0.056; group 30Point 37: -0.907, -1.246, 0.072; group 36Point 10: -1.591, -1.302, 0.074; group 9Point 34: -1.456, -1.343, 0.119; group 33Point 52: -1.694, -1.543, 0.196; group 51Point 19: -2.054, -1.07, 0.241; group 18Point 49: -1.148, -1.211, 0.241; group 48Point 50: 1.652, -0.671, 0.297; group 49Point 13: -1.535, -0.521, 0.306; group 12Point 4: -2.782, -1.013, 0.331; group 3Point 58: -2.014, -1.467, 0.409; group 57Point 28: -1.911, -0.845, 0.485; group 27Point 26: 1.628, -1.1, 0.493; group 25Point 53: 2.027, -0.436, 0.566; group 52Point 46: -1.578, -1.034, 0.614; group 45Point 35: 1.502, -0.498, 0.631; group 34Point 44: 2.009, -1.343, 0.634; group 43Point 56: 1.644, -0.454, 0.656; group 55Point 20: 1.83, -0.494, 0.678; group 19Point 59: 2.215, -0.582, 0.72; group 58Point 14: 1.324, -1.2, 0.736; group 13Point 41: 1.487, -0.496, 0.758; group 40Point 32: 1.265, -0.858, 0.9; group 31Point 8: 1.507, -0.638, 0.909; group 7Point 17: 1.889, -1.51, 0.941; group 16Point 29: 1.791, -1.091, 1.032; group 28Point 11: 2.389, -1.268, 1.064; group 10Point 47: 1.637, -0.944, 1.151; group 46Point 5: 2.196, -0.673, 1.166; group 4Point 2: 1.324, -0.975, 1.205; group 1Point 23: 1.617, -0.321, 1.373; group 22Point 38: 1.592, -0.894, 1.426; group 37Feature 1Feature 2 · scale ±3.199Palette repeats after 8 groups; numbers in the table distinguish every group. Hollow points are not visited yet. Gray points are DBSCAN noise or forest outliers. Crosses are Gaussian component means.Assigned groups60Noise / outliers0SilhouetteUndefinedSilhouette excludes noise and is undefined for fewer than two non-noise groups. It measures separation, not correctness against hidden labels.Merge historyEach row is one exact merge, in chronological order. Child IDs 0–59 are individual points; later IDs are merged nodes.Actual agglomerative merge logNodeChildrenDistanceSizeInspect every point and computed assignment60 fitted data points. No target labels are used.PointFeature 1Feature 2Feature 3GroupStatus1-2.016-1.29-0.6080Computed21.324-0.9751.2051Computed3-0.0891.205-1.022Computed4-2.782-1.0130.3313Computed52.196-0.6731.1664Computed60.341.943-1.2745Computed7-0.898-1.493-0.3376Computed81.507-0.6380.9097Computed9-0.141.397-0.9018Computed10-1.591-1.3020.0749Computed112.389-1.2681.06410Computed12-0.1421.779-0.68211Computed13-1.535-0.5210.30612Computed141.324-1.20.73613Computed15-0.491.735-0.77214Computed16-2.11-0.785-0.10915Computed171.889-1.510.94116Computed180.0341.715-1.28817Computed19-2.054-1.070.24118Computed201.83-0.4940.67819Computed21-0.0792.024-0.76320Computed22-2.031-0.62-0.07121Computed231.617-0.3211.37322Computed240.3482.099-0.89423Computed25-2.112-1.37-0.23124Computed261.628-1.10.49325Computed27-0.2561.58-0.74626Computed28-1.911-0.8450.48527Computed291.791-1.0911.03228Computed30-0.1982.23-0.59929Computed31-1.848-1.6750.05630Computed321.265-0.8580.931Computed330.242.17-0.97132Computed34-1.456-1.3430.11933Computed351.502-0.4980.63134Computed36-0.0832.076-1.22635Computed37-0.907-1.2460.07236Computed381.592-0.8941.42637Computed39-0.4831.726-0.75138Computed40-1.999-1.555-0.39339Computed411.487-0.4960.75840Computed42-0.3551.516-0.1441Computed43-1.096-0.676-0.42842Computed442.009-1.3430.63443Computed450.2931.8-0.71444Computed46-1.578-1.0340.61445Computed471.637-0.9441.15146Computed48-0.7261.697-0.99447Computed49-1.148-1.2110.24148Computed501.652-0.6710.29749Computed51-0.2381.531-0.44550Computed52-1.694-1.5430.19651Computed532.027-0.4360.56652Computed540.1922.018-0.63553Computed55-1.194-1.2620.04254Computed561.644-0.4540.65655Computed570.3632.104-1.05756Computed58-2.014-1.4670.40957Computed592.215-0.5820.7258Computed600.7181.635-0.4759Computed",
+        "controls": [],
+        "charts": 1
+      },
+      {
+        "n": "9",
+        "title": "Python Code",
+        "text": "Selected-data scikit-learn equivalent with current controls, not the same step-by-step implementation. It fits its own complete estimator; library initialization, ties and stopping rules can differ.Read the code · PythonCopy this educational example into Python to run it. The live lab uses JavaScript in your browser, not a Python interpreter.# Requires NumPy and scikit-learn. Selected raw rows and visible controls. # Matching estimator family, not identical initialization/tie handling. import numpy as np from sklearn.preprocessing import StandardScaler X = np.array([[-2.015533535696769,-1.2900986146112614,-0.6077369709785869],[1.323508916585172,-0.9747131519264172,1.2054349221108245],[-0.08861084978699067,1.2054081721632601,-1.0197797189248303],[-2.7820954540006877,-1.013455335846639,0.3311217850842033],[2.196419388473736,-0.6733002929803598,1.1662857166873042],[0.3399916652373476,1.9433121843366439,-1.2740323052830411],[-0.8978564076467375,-1.4932559260154017,-0.3372321954896093],[1.5070963088116236,-0.6378676331403097,0.9090283204055213],[-0.13968434053585269,1.3966614980943186,-0.9012938200580579],[-1.5912976170579862,-1.301956971675683,0.07400249929814026],[2.3885893953133954,-1.2683246282052414,1.0640674910623675],[-0.14167133908743423,1.778613669952377,-0.6823060930553273],[-1.5353432469301482,-0.5214908712051377,0.30581944503806313],[1.3243763743169774,-1.2004341328985684,0.7360039125048243],[-0.4900238703526064,1.7347714767857574,-0.7721023877449383],[-2.110482748746632,-0.785050468895149,-0.10867103667858467],[1.8892572517919117,-1.5096327826172797,0.9414826824545834],[0.033736999730212644,1.7149980341637587,-1.2879892945391735],[-2.054131340310521,-1.0697688595259303,0.24086628770469454],[1.8300915009059673,-0.49412625360351375,0.677947018752145],[-0.07947902777055169,2.023568447287951,-0.7630873769120032],[-2.030656817056897,-0.6196318896319518,-0.07127294467196109],[1.6173835100721312,-0.32113686726804375,1.3730161252614614],[0.34771596402263366,2.099482922744595,-0.8936400836271733],[-2.11232250899869,-1.3701596144806316,-0.23057351312700639],[1.6276589843546545,-1.1000608734882484,0.4927877494222655],[-0.2559636394820988,1.579950452728215,-0.7462143266292276],[-1.910729663956574,-0.8447437642295355,0.48469109299024554],[1.7908504686364328,-1.0907042116797658,1.0320048344806354],[-0.19787810081595675,2.2298820323011306,-0.5987235877254007],[-1.8482285622672858,-1.6748862365862307,0.055737440690938465],[1.265439807953575,-0.8582728333077051,0.9003651317588751],[0.23976353571554046,2.170216752053683,-0.9711543551074961],[-1.4563363417273227,-1.3425072403603808,0.11866578007857849],[1.501914611474064,-0.4976209726812075,0.6310730558203436],[-0.08331566202197414,2.07561173293543,-1.2261665137072353],[-0.906819564682938,-1.2455113245383846,0.07198602435981474],[1.592373134721018,-0.8937756239729824,1.426224013017582],[-0.48328591918479946,1.726474685434253,-0.7513350523582636],[-1.9989211265104272,-1.5550398324985937,-0.39271172267060045],[1.487490380976369,-0.49611693522270583,0.7578869826543884],[-0.3548072213525392,1.5159125324397957,-0.13956221313635664],[-1.095707913818501,-0.6757598006721801,-0.4284515384786952],[2.009046771016439,-1.3433701303055599,0.6344691855505449],[0.29255995996456824,1.8000589261100077,-0.7137521783630939],[-1.577878028281729,-1.034284348525514,0.6140555295817041],[1.6371548043390982,-0.9443527305950173,1.1510043241505332],[-0.7259955664923684,1.6965390316738969,-0.9941538727076102],[-1.1480865480750846,-1.2105410517637911,0.24116823058840867],[1.6520691226945727,-0.6710682653383445,0.2966682625094471],[-0.23805624757592342,1.5306696977512633,-0.4447560789712308],[-1.6939048393804317,-1.5427292710000335,0.19562597337404403],[2.0274623129977787,-0.43560755915320654,0.5657451907979032],[0.19199504419754657,2.018297850402731,-0.6346393352890515],[-1.1936269398878,-1.2615355821406373,0.042095045817722575],[1.6436549028113718,-0.4543051171054512,0.6564340882248914],[0.36347390888738124,2.1043625819684824,-1.0572583907945843],[-2.0144561364168645,-1.4673323059630017,0.40926447404518296],[2.2154523926099055,-0.5820949955264526,0.720179183555861],[0.717648013956194,1.6351171365648973,-0.4697241122272821]], dtype=float) # No scaling selected. PCA will still center its input. from sklearn.cluster import AgglomerativeClustering model = AgglomerativeClustering(n_clusters=3, linkage=\"average\") labels = model.fit_predict(X) print(labels) Copy code",
+        "controls": [
+          "Copy code"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "10",
+        "title": "Practical Applications",
+        "text": "Clustering helps explore groups in unlabelled observations. PCA compresses correlated measurements and supports visualization. Anomaly ranking helps prioritize unusual observations for review, not automatically declare errors. Check scale, sampling and domain meaning before applying any discovered structure.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "11",
+        "title": "Challenges",
+        "text": "CHECK YOUR UNDERSTANDINGWhat does a strong silhouette score tell you?The discovered classes are certainly correctClusters are relatively compact and separated under the chosen distanceEvery unusual point is an errorSources, scope and persistenceClustering reference ↗PCA reference ↗Outlier detection reference ↗Small deterministic TypeScript implementations run in your browser. Configuration changes reset the model. Local API execution supports these estimator families on larger bounded datasets and saves results, but it is a separate workspace; browser state is not automatically saved.Save this browser experimentSave the actual current parameters, results, history and data on this device. No upload or cloud sync. At most 12 snapshots, total 2 MB in the local source app. Large models or histories can be exported as JSON instead. JSON exports contain your selected data. A snapshot can be restored safely in this lab; it is not an executable model format.Browser experiment nameCapture current experimentExport current snapshotOpen saved snapshotsSources and scopeThese are simplified educational tools using fictional examples. They are not production models or large-network training. Browser labs do not execute Python. The optional Local execution workspace connects only to your explicitly selected loopback API. Lab state is temporary and resets when you reopen the page. The theme preference is stored on this device when storage is available.Linear models and Perceptron reference ↗Gradient descent and loss-function reference ↗Lessons and lab explanations are written independently. Curriculum topic names follow your supplied reference image.",
+        "controls": [
+          "The discovered classes are certainly correct",
+          "Clusters are relatively compact and separated under the chosen distance",
+          "Every unusual point is an error",
+          "Browser experiment name",
+          "Capture current experiment",
+          "Export current snapshot"
+        ],
+        "charts": 0
+      }
+    ]
+  },
+  {
+    "route": "neural",
+    "sections": [
+      {
+        "n": "1",
+        "title": "Overview",
+        "text": "A real small feedforward network with adjustable hidden layers, full-batch binary-cross-entropy training and analytical backpropagation. No pretrained or invented training curve.Jump to a lesson sectionOverviewMathematical FoundationHow It WorksInteractive SimulationParametersDatasetTrainingResultsPython CodePractical ApplicationsChallengesThese sections point to real explanations, live inputs, training controls and computed results on this page. Python examples describe the same algorithm family; browser and Python implementation details can differ.",
+        "controls": [
+          "Overview",
+          "Mathematical Foundation",
+          "How It Works",
+          "Interactive Simulation",
+          "Parameters",
+          "Dataset",
+          "Training",
+          "Results",
+          "Python Code",
+          "Practical Applications",
+          "Challenges"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "2",
+        "title": "Mathematical Foundation",
+        "text": "Reason through MLPAlgorithm learning levelBeginnerIntermediateAdvancedWorked exampleA sigmoid output with score 0 predicts 0.5. For target 1, its cross-entropy delta is −0.5. If its incoming activation is 0.4, the outgoing-weight gradient is −0.2.",
+        "controls": [
+          "Algorithm learning level"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "3",
+        "title": "How It Works",
+        "text": "Scale the two input coordinates by the fixed factor 3.Compute layer scores and nonlinear activations from left to right.Compute binary cross entropy on training rows, propagate its analytical gradients backward, then update weights and biases.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "4",
+        "title": "Interactive Simulation",
+        "text": "Use a table from Dataset ExplorerNo shared table in this session. Import or prepare a table in Dataset Explorer, then choose Share current table with labs.Open Dataset Explorer ↗Network builder",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "6",
+        "title": "Dataset",
+        "text": "Neural datasetXORSeparated groupsRingsNoisy boundary",
+        "controls": [
+          "Neural dataset"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "5",
+        "title": "Parameters",
+        "text": "Hidden activationTanhSigmoidReLUNeural learning rate0.25Hidden layer 1 neurons4Hidden layer 2 neurons4Add hidden layerRemove hidden layerArchitecture: 2 → 4 → 4 → 1. Output: one sigmoid unit, binary classification. Features divided by 3. Seed 42. Changing architecture, activation or data resets weights.",
+        "controls": [
+          "Hidden activation",
+          "Neural learning rate",
+          "Hidden layer 1 neurons",
+          "Hidden layer 2 neurons",
+          "Add hidden layer",
+          "Remove hidden layer"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "7",
+        "title": "Training",
+        "text": "Start neural trainingOne neural epochReset neural networkEpoch 0. Paused. One epoch is one full-batch gradient update.",
+        "controls": [
+          "Start neural training",
+          "One neural epoch",
+          "Reset neural network"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "8",
+        "title": "Results",
+        "text": "Training BCE0.701Hold-out BCE0.724Training accuracy0.478Hold-out accuracy0.348Data and current predictions3-31.5-1.500-1.51.5-33Raw x1: 1.236, Raw x2: -2.38Raw x1: 2.216, Raw x2: 1.608Raw x1: -0.047, Raw x2: -1.452Raw x1: 2.124, Raw x2: -2.373Raw x1: -2.329, Raw x2: 1.722Raw x1: -2.252, Raw x2: -0.804Raw x1: 0.253, Raw x2: -1.597Raw x1: 0.71, Raw x2: 1.807Raw x1: -0.37, Raw x2: 1.235Raw x1: 2.4, Raw x2: 1.038Raw x1: -0.462, Raw x2: 0.448Raw x1: -1.363, Raw x2: 0.971Raw x1: 0.32, Raw x2: 0.927Raw x1: 0.605, Raw x2: 1.424Raw x1: 2.362, Raw x2: -2.309Raw x1: 2.123, Raw x2: 1.947Raw x1: 0.52, Raw x2: 0.989Raw x1: -0.622, Raw x2: -2.372Raw x1: -1.985, Raw x2: 2.108Raw x1: 1.057, Raw x2: 1.093Raw x1: -1.084, Raw x2: -0.051Raw x1: 0.482, Raw x2: -2.046Raw x1: -0.263, Raw x2: -1.865Raw x1Raw x2Held-out inputs colored by current predicted class. Blue = 1, gold = 0. Accuracy above compares with actual targets.Learning curveRun one epoch to begin a real training history.Forward and backward inspectionInspect training sample0Connection displayForwardBackward gradientsSample x1=-1.224, x2=0.205, target=0. Output p(1)=0.546. Node values are activations. Blue connections are positive, gold negative. Line width shows magnitude, bounded for readability.Weight=-0.495Weight=-0.824Weight=0.155Weight=-0.555Weight=-0.249Weight=-0.949Weight=-0.105Weight=-0.763Weight=0.647Weight=0.857Weight=0.612Weight=-0.001Weight=0.246Weight=0.626Weight=0.167Weight=-0.709Weight=-0.623Weight=0.78Weight=0.735Weight=0.675Weight=0.087Weight=-0.553Weight=0.087Weight=-0.417Weight=0.971Weight=0.704Weight=-0.755Weight=0.722-0.408Input0.068Input0.145Layer 1, bias 0-0.101Layer 1, bias 00.037Layer 1, bias 0-0.009Layer 1, bias 00.03Layer 2, bias 0-0.015Layer 2, bias 0-0.147Layer 2, bias 00.075Layer 2, bias 00.546Layer 3, bias 0Forward: left to rightExact weight, bias and gradient tableLayerNeuronBiasdL/dbWeightsdL/dw1000.708-0.495, -0.824-0.289, 0.0481100.1610.155, -0.555-0.066, 0.0111200.125-0.249, -0.949-0.051, 0.009130-0.708-0.105, -0.7630.289, -0.0482000.5290.647, 0.857, 0.612, -0.0010.077, -0.053, 0.019, -0.0052100.3840.246, 0.626, 0.167, -0.7090.056, -0.039, 0.014, -0.004220-0.403-0.623, 0.78, 0.735, 0.675-0.058, 0.041, -0.015, 0.0042300.3920.087, -0.553, 0.087, -0.4170.057, -0.039, 0.014, -0.0043000.5460.971, 0.704, -0.755, 0.7220.016, -0.008, -0.08, 0.041Layer-by-layer propagationCapture the currently inspected sample and parameters, then follow its real forward values and analytical backward deltas. Capturing pauses training. Playback only explains this fixed sample; it does not train or change any weight. Full-batch training averages gradients over all training rows.Capture propagation snapshotNo propagation snapshot yet. Select a training sample above, then capture it.What the network computesEach layer computes z=Wa+b, then an activation. Hidden activations allow nonlinear boundaries. With no hidden layer this is logistic regression, so it cannot solve XOR. Binary cross entropy and a sigmoid output give the output delta p−y. Hidden deltas use the chain rule: transpose weights times the next delta, multiplied by the activation derivative. Full-batch gradients are averaged across training examples before weights and biases are updated.ReLU has derivative 0 at and below zero by convention. Initialization matters; small networks can reach local solutions. This visualizer trains tiny two-feature models, not large deep-learning tasks. The held-out split contains 23 examples and not used in gradient updates.",
+        "controls": [
+          "Inspect training sample",
+          "Connection display",
+          "Capture propagation snapshot"
+        ],
+        "charts": 2
+      },
+      {
+        "n": "9",
+        "title": "Python Code",
+        "text": "Read the code · PythonCopy this educational example into Python to run it. The live lab uses JavaScript in your browser, not a Python interpreter.# Requires PyTorch. Equivalent architecture/data/settings; PyTorch initialization differs. import torch from torch import nn torch.manual_seed(42) X_train = torch.tensor([[-1.2239533651154488,0.20527107175439596],[-1.72353045665659,1.6469735535793006],[-1.3406958628911525,-0.6008390313945711],[1.6498013224918395,1.7266605934128165],[1.5804646152537316,-0.9559549181722105],[0.25042736786417663,-1.2051660171709955],[-2.010367956245318,-1.5420293738134205],[0.7583612494636327,2.4391033174470067],[-0.16538855037651956,-2.196475611999631],[1.1930574814323336,0.18462101928889751],[-2.1522344078402966,-1.7973705055192113],[-1.907034219475463,0.04616746911779046],[-2.2270923911128193,0.218022798653692],[1.1055729712825269,0.030363912228494883],[1.8565051478799433,0.41161472676321864],[1.050301349023357,-0.9666770324110985],[-2.1137378842104226,1.628624510485679],[1.5232202981133014,-0.5529430927708745],[-0.12797789531759918,-1.2258636625483632],[-0.49179670750163496,-1.7342142947018147],[0.9858461224939674,1.6973841353319585],[1.9091094483155757,1.584797347895801],[-1.322917394572869,2.104138459544629],[0.3541529702488333,-2.3468566965311766],[1.3438243872951716,0.46860235976055264],[2.202453288482502,-0.25964879896491766],[-2.4045762547757477,-1.1101407371461391],[-0.4083921841811389,2.1799657540395856],[-0.34867812297306955,-2.272301884368062],[1.1571264115627855,2.020546409767121],[0.4282842262182385,0.9819857776165009],[-0.8301583130378276,1.9143305742181838],[-0.1611345016863197,-1.2260795570909977],[-0.7367572153452784,0.3764672647230327],[-0.8165945892687887,-0.9283627662807703],[2.482471716357395,2.4140096572227776],[0.7399006641935557,-0.6665933574549854],[-1.2382741260807961,-2.0593747729435563],[0.725398933282122,0.8397612883709371],[-1.7989510099869221,2.25044138263911],[-2.387723821448162,0.18644386203959584],[-1.8685486738104373,0.1990655460394919],[-1.4211545756552368,-1.1397026688791811],[1.5286754386033863,-0.33521883422508836],[1.7660136183258146,-0.0016163592226803303],[-0.4806858522351831,-2.4378519039601088],[-0.20244805491529405,1.3317319843918085],[1.869068528758362,2.4731713766232133],[-1.9603595009539276,-1.217985472176224],[-1.656743964413181,-0.567024985793978],[1.704808211652562,2.0688408450223505],[0.011051850160583854,2.261228410061449],[-1.9131268456112593,-1.2823512172326446],[0.263951780507341,0.5177888460457325],[2.4514372379053384,-0.2512357523664832],[0.3783889312762767,-0.9838274912908673],[0.4674365499522537,1.0036491393111646],[2.393656038912013,1.4985098829492927],[-1.8532036349643022,2.3998509091325104],[0.38640599115751684,-1.38722867006436],[-0.26359357056207955,-1.907699981238693],[2.27939038653858,-1.536507005803287],[-1.5120993077289313,-0.9198576351627707],[0.5792689009103924,-1.2523722648620605],[0.15017055324278772,-1.1795236845500767],[2.249713387573138,0.3567900415509939],[0.9045903326477855,-0.5962095805443823]], dtype=torch.float32) y_train = torch.tensor([0,0,1,1,0,0,1,1,1,1,1,0,0,1,1,0,0,0,1,1,1,1,0,0,1,0,1,0,1,1,1,0,1,0,1,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,1,1,0,0,1,1,0,0,1,0,1,0,0,1,0], dtype=torch.float32) X = X_train / 3.0 y = y_train.reshape(-1, 1).float() model = nn.Sequential(nn.Linear(2,4), nn.Tanh(), nn.Linear(4,4), nn.Tanh(), nn.Linear(4,1)) optimizer = torch.optim.SGD(model.parameters(), lr=0.25) loss_fn = nn.BCEWithLogitsLoss() for epoch in range(1500): optimizer.zero_grad() loss = loss_fn(model(X), y) loss.backward() optimizer.step() # Different random initializers need not give identical curves.Copy code",
+        "controls": [
+          "Copy code"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "10",
+        "title": "Practical Applications",
+        "text": "Feedforward networks model nonlinear relationships in numeric features and provide building blocks for larger systems. This two-feature binary demonstration is useful for understanding capacity and backpropagation, not a claim of performance on real datasets. Compare held-out predictions when changing architecture.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "11",
+        "title": "Challenges",
+        "text": "CHECK YOUR UNDERSTANDINGWhich values are updated during training?Only neuron activationsWeights and biases using loss gradientsThe held-out target labelsSave this browser experimentSave the actual current parameters, results, history and data on this device. No upload or cloud sync. At most 12 snapshots, total 2 MB in the local source app. Large models or histories can be exported as JSON instead. JSON exports contain your selected data. A snapshot can be restored safely in this lab; it is not an executable model format.Browser experiment nameCapture current experimentExport current snapshotOpen saved snapshotsSources and scopeThese are simplified educational tools using fictional examples. They are not production models or large-network training. Browser labs do not execute Python. The optional Local execution workspace connects only to your explicitly selected loopback API. Lab state is temporary and resets when you reopen the page. The theme preference is stored on this device when storage is available.Linear models and Perceptron reference ↗Gradient descent and loss-function reference ↗Lessons and lab explanations are written independently. Curriculum topic names follow your supplied reference image.",
+        "controls": [
+          "Only neuron activations",
+          "Weights and biases using loss gradients",
+          "The held-out target labels",
+          "Browser experiment name",
+          "Capture current experiment",
+          "Export current snapshot"
+        ],
+        "charts": 0
+      }
+    ]
+  },
+  {
+    "route": "cnn",
+    "sections": [
+      {
+        "n": "1",
+        "title": "Overview",
+        "text": "A tiny CNN learns horizontal versus vertical lines from noisy 5×5 grayscale images. Both 3×3 filters and the output head are trained by real backpropagation.Jump to a lesson sectionOverviewMathematical FoundationHow It WorksInteractive SimulationParametersDatasetTrainingResultsPython CodePractical ApplicationsChallengesThese sections point to real explanations, live inputs, training controls and computed results on this page. Python examples describe the same algorithm family; browser and Python implementation details can differ.",
+        "controls": [
+          "Overview",
+          "Mathematical Foundation",
+          "How It Works",
+          "Interactive Simulation",
+          "Parameters",
+          "Dataset",
+          "Training",
+          "Results",
+          "Python Code",
+          "Practical Applications",
+          "Challenges"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "2",
+        "title": "Mathematical Foundation",
+        "text": "Reason through CNNAlgorithm learning levelBeginnerIntermediateAdvancedWorked exampleA 5×5 input with a valid 3×3 kernel and stride 1 produces a 3×3 feature map: (5−3)+1=3 positions along each axis. Nine activations are averaged per feature.",
+        "controls": [
+          "Algorithm learning level"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "3",
+        "title": "How It Works",
+        "text": "Slide each shared kernel across the image without flipping it.Apply ReLU and average each feature map.Compute a sigmoid score, then backpropagate cross entropy through the head, pooling and shared kernels.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "4",
+        "title": "Interactive Simulation",
+        "text": "Architecture and training",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "6",
+        "title": "Dataset",
+        "text": "5×5 input → two valid 3×3 cross-correlations → ReLU → global average pooling → sigmoid binary output. No padding; stride 1. Forty-four training images, sixteen held-out images. Vertical is class 1, horizontal class 0.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "5",
+        "title": "Parameters",
+        "text": "CNN learning rate0.5",
+        "controls": [
+          "CNN learning rate"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "7",
+        "title": "Training",
+        "text": "Start CNN trainingOne CNN epochReset CNNCNN epoch 0. Paused.",
+        "controls": [
+          "Start CNN training",
+          "One CNN epoch",
+          "Reset CNN"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "8",
+        "title": "Results",
+        "text": "Training BCE0.704Hold-out BCE0.706Hold-out accuracy0.5p(vertical), edited image0.536Edit the input imageInspect image index1Image 1 is training, actual label 1. Clicking a pixel toggles it between 0 and 1. The original dataset is unchanged by edits.Editable input0.1240.8930.0090.0030.0810.1240.9690.1020.0570.0880.1040.9420.1080.1490.0670.0150.8380.0670.0190.1150.0890.9610.0580.0320.041Learned kernel 1-0.248-0.4120.077-0.277-0.124-0.474-0.053-0.3820.374Kernel bias 0.1. Output weight 0.425.Pre-activation map 1-0.826-0.469-0.012-0.815-0.5860.01-0.795-0.477-0.059ReLU map 1000000.01000Global mean: 0.001Learned kernel 20.4950.353-00.1420.3610.096-0.409-0.360.45Kernel bias 0.1. Output weight 0.389.Pre-activation map 20.5220.3680.0820.5920.4440.2640.440.350.216ReLU map 20.5220.3680.0820.5920.4440.2640.440.350.216Global mean: 0.364Learning curveRun an epoch to calculate the first loss.The operation often called convolution in deep-learning libraries is cross-correlation: the kernel is not flipped. ReLU has derivative 0 at zero. Global pooling sends one ninth of its upstream gradient to each active map entry. Shared kernel gradients sum contributions from every window.This is a real trainable educational CNN, not image recognition on natural photographs. The simple fixed synthetic task does not measure real-world vision performance.",
+        "controls": [
+          "Inspect image index",
+          "Editable input pixel 0, value 0.124",
+          "Editable input pixel 1, value 0.893",
+          "Editable input pixel 2, value 0.009",
+          "Editable input pixel 3, value 0.003",
+          "Editable input pixel 4, value 0.081",
+          "Editable input pixel 5, value 0.124",
+          "Editable input pixel 6, value 0.969",
+          "Editable input pixel 7, value 0.102",
+          "Editable input pixel 8, value 0.057",
+          "Editable input pixel 9, value 0.088",
+          "Editable input pixel 10, value 0.104",
+          "Editable input pixel 11, value 0.942",
+          "Editable input pixel 12, value 0.108",
+          "Editable input pixel 13, value 0.149",
+          "Editable input pixel 14, value 0.067",
+          "Editable input pixel 15, value 0.015",
+          "Editable input pixel 16, value 0.838",
+          "Editable input pixel 17, value 0.067",
+          "Editable input pixel 18, value 0.019",
+          "Editable input pixel 19, value 0.115",
+          "Editable input pixel 20, value 0.089",
+          "Editable input pixel 21, value 0.961",
+          "Editable input pixel 22, value 0.058",
+          "Editable input pixel 23, value 0.032",
+          "Editable input pixel 24, value 0.041"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "9",
+        "title": "Python Code",
+        "text": "Read the code · PythonCopy this educational example into Python to run it. The live lab uses JavaScript in your browser, not a Python interpreter.# Requires PyTorch. Fixed original training images, not edited inspection pixels. import torch from torch import nn torch.manual_seed(42) X_train = torch.tensor([[0.01321875681169331,0.08659217973472551,0.0333831398980692,0.05634902956662699,0.003849585726857185,0.8894562571775169,0.8236920007504523,0.9747627411503346,0.9989268550649286,0.9706405447330326,0.07495150922331958,0.09630014196736737,0.12921842811629175,0.08947046647081151,0.013612523465417326,0.021031469700392335,0.1425132414791733,0.1386833168682642,0.13342034344095735,0.08257625548867509,0.02707748282700777,0.08251282103592529,0.03884501948487013,0.14146824938943608,0.12322514704428612],[0.12440920660737902,0.8933844579849393,0.009105731640011073,0.003368285356555134,0.08059331586118787,0.12449403967475518,0.9690664237365127,0.10213770997943357,0.05711371258366853,0.08784852678654716,0.10445957332849502,0.9422730788122863,0.10779271151404828,0.14854311713716015,0.0674629274290055,0.014688961312640457,0.8383188250474632,0.06710679241223261,0.01905016740784049,0.11531473161885514,0.08905807079281658,0.9609288119245321,0.05841170721687376,0.03236536273034289,0.040808919933624566],[0.04169577788561583,0.05009525060886517,0.1324299172265455,0.1433817115961574,0.02890478982590139,0.9742602059151978,0.9164645890705287,0.8673362164292485,0.8628654893487693,0.825871854601428,0.1469955272739753,0.015445909684058278,0.13822705303318797,0.12086026315810158,0.06494343497324735,0.10650904047070071,0.045999689027667046,0.01778897341573611,0.07638502407353372,0.017606194631662218,0.03652946348302066,0.09061427089618519,0.10467366857919842,0.07360198617679999,0.03145113391801715],[0.10414247119333594,0.9763643779326231,0.12254392043687402,0.10457538367481901,0.12592152405995874,0.06024609877495095,0.8306314282119275,0.01894353978568688,0.08097196638118476,0.09775083748390898,0.1481730995234102,0.8851925337221473,0.11205558890942484,0.06453965631080791,0.00683094346895814,0.01158786347368732,0.9651449804194272,0.1468096811673604,0.11995529648847877,0.02529768106760457,0.05798925042618066,0.8566344457212836,0.07348336055874824,0.12614424634957686,0.1370652253506705],[0.04740427094511688,0.07950511659728363,0.039614289463497696,0.060579424432944506,0.0018644428811967371,0.9295960265677423,0.8733362657018007,0.894880884187296,0.8509654534980655,0.9186974619980902,0.10510947417933493,0.08291855341522023,0.09053366538137197,0.034779124113265426,0.05697482905816287,0.06274823447456583,0.14039897262118756,0.03531247816281393,0.13812415378633885,0.14249140162719412,0.08570370124652982,0.1387275759712793,0.003803789592348039,0.03828139904653653,0.08115813215263187],[0.14283685230184345,0.146987921919208,0.9415236875414849,0.12241393845761195,0.04632135245483369,0.08460507796844467,0.10281562129966915,0.8099387036170811,0.050888862297870215,0.06892655835254118,0.11495195953175424,0.14584978917846456,0.8076566395349801,0.0863516679382883,0.04548517526127398,0.09676196799846366,0.10019283865112812,0.8935546199325473,0.038217613287270066,0.1081671891384758,0.07591091736685485,0.00514025999000296,0.968893407471478,0.10971379234688357,0.13561639229301362],[0.08053863057866692,0.14947415149072185,0.14742028971668333,0.0931508582434617,0.11772789401002227,0.00818722826661542,0.08154068395961075,0.09237806702731177,0.03742883205413818,0.11208511028671637,0.0036101924953982232,0.14107359865447505,0.06721053603105247,0.05289728353964165,0.08629401794169098,0.9141661188099534,0.8061257321387529,0.8815018523018807,0.9179163825698198,0.8139106236863882,0.02107888483442366,0.01618921497138217,0.03846043583471328,0.042367972049396484,0.08408571761101484],[0.14622139341663568,0.10028702145209535,0.919723659940064,0.05420649714069441,0.10506331028882414,0.041968700930010525,0.13732572169974447,0.9764299507718533,0.08326658529695123,0.09830160368001088,0.112275666045025,0.08843379114987328,0.8554985850118101,0.02207278328714892,0.03501123748719692,0.01548857238376513,0.051357282581739126,0.8882660869974643,0.11675478662364185,0.09661491337465122,0.12409513725433498,0.04374846786959097,0.9385211024433375,0.06394356811651959,0.0531293457141146],[0.07847567782737315,0.11304580421419813,0.10266983408946544,0.04099796338705346,0.12041703108698129,0.14408025346929207,0.1193161693168804,0.13214237628271802,0.024292187159880994,0.08824249684112147,0.07746466363314539,0.10464415726019069,0.00127371484413743,0.06561113378265872,0.007869775942526757,0.9656145737040789,0.8455083763226867,0.8773121146019549,0.9947714134119452,0.934123112494126,0.09077840968966484,0.017798885295633227,0.0749569098232314,0.08573371017118915,0.13933289456181228],[0.02302635109517723,0.9632891944143922,0.1451596579514444,0.11506182389566674,0.01783013062085956,0.03358188219135627,0.9571530176326632,0.13041645252378656,0.1310473517747596,0.12862307763425632,0.01370935644954443,0.9359391651581973,0.13957390717696397,0.09325393190374598,0.08641227870248258,0.13361744574503973,0.9523852775804699,0.11353366960538551,0.06681010024622082,0.11752253664890304,0.0357257112627849,0.8999331772793084,0.08934332658536732,0.0360947044682689,0.0233652412192896],[0.020837526395916937,0.11903435956919566,0.10277211132925003,0.034020515845622865,0.03454813132993877,0.013712162256706505,0.12229054032359271,0.14704232410294935,0.05993765769526362,0.06508540461072698,0.8246931550092995,0.8210554488468915,0.9682054666802288,0.8516395022626967,0.8897174096666277,0.0889042034628801,0.05467924643307924,0.10807921715313569,0.044342019106261434,0.034763045737054195,0.14411566606722773,0.1144707481493242,0.00747344980482012,0.12944656413746997,0.02758111814036965],[0.049298990867100656,0.9842443421948701,0.12067913305945693,0.06936598849715665,0.0074134255992248654,0.11765574569581076,0.8873526871204377,0.13405705575132743,0.006134674209170043,0.10399821469327435,0.013722518412396311,0.947160786530003,0.04155933579895645,0.03883095391793177,0.12898044129833577,0.1044623083085753,0.8121967029757798,0.12317576579516754,0.026970397168770432,0.03575754353078082,0.11055576887447387,0.8354613060597331,0.05826200377196073,0.14723871886963025,0.11393666721414775],[0.07708374573849142,0.1072855583508499,0.029424144350923595,0.00928591702831909,0.0764517587609589,0.09916178105631843,0.14902296436484902,0.035169596259947866,0.05762478564865887,0.13174202983500435,0.9168284087441863,0.8542785110417754,0.985805405676365,0.9900970458518714,0.9324601807631553,0.0971987891360186,0.1498968272935599,0.05186100873397663,0.030973118380643427,0.11528273642761633,0.08226237399503589,0.013484283036086708,0.011630838154815137,0.10628983959322795,0.13065911368466912],[0.115483055007644,0.06754679455189035,0.9514822416007519,0.019060564565006644,0.021642763609997926,0.056508127728011455,0.07671666420064867,0.8545183741953224,0.03301579768303781,0.006048554449807853,0.005505762342363596,0.1144731186912395,0.8710663084872068,0.07076119672274217,0.0663851183373481,0.12451067027868702,0.05885582745540887,0.9088072138372809,0.1311195708811283,0.03913110602879897,0.08967278252821416,0.02374797159573063,0.9037741059437394,0.030682198063004762,0.07114101892802864],[0.1489765710197389,0.0622868268401362,0.11585627363529055,0.1492829779512249,0.08428445854224265,0.9650202964898199,0.8562283120118082,0.8782650495413691,0.978801441937685,0.9173549197148532,0.03371397040318697,0.0819955607294105,0.046133317938074465,0.1464510693331249,0.05159191566053778,0.01882505257381126,0.10604561911895871,0.11957418067613616,0.14850014147814364,0.0834041029564105,0.09988371510989964,0.02630350162507966,0.12145268165040761,0.06033434065757319,0.053793242946267125],[0.12735565218608827,0.10236524449428543,0.044002046389505264,0.9222355829086155,0.0231409183004871,0.022444314218591898,0.007534897606819867,0.11084918776759878,0.8395720777101815,0.11989810079103336,0.07162939072586595,0.09700816796394064,0.10619037423748523,0.8241171280387789,0.007321757264435291,0.08342078007990494,0.1093726997030899,0.1283834816305898,0.8668951379135251,0.05748682870762423,0.14896475414279847,0.04279973757220432,0.11859256932511925,0.8424881200771779,0.13896379431243985],[0.04776290995068848,0.043095865671057255,0.13121631250251084,0.11797843779204413,0.044575998187065126,0.9317233606707305,0.8741340422071517,0.8138184536714107,0.8088109994307161,0.9760410071816296,0.0785194473573938,0.0685227618436329,0.13556796899065374,0.05899436386534944,0.12892316670622675,0.019471878034528343,0.06319561921991408,0.07349222340853885,0.028579294052906334,0.13484360984293745,0.045084011368453504,0.14943327099317685,0.05081011361908167,0.0897819978534244,0.015387167176231741],[0.11941531898919493,0.8256675808224827,0.13288660319522022,0.10859371988335624,0.0969990394776687,0.06159676242386922,0.8485117157921196,0.008206854213494806,0.04941991337109357,0.11671421545324846,0.0648875143378973,0.8336179792415351,0.01058295804541558,0.08365074129542335,0.08556496049277484,0.051274431974161414,0.8123893159441651,0.13000166685087605,0.009925150405615568,0.14638910318026319,0.10738132351543754,0.9772463061381131,0.116203603008762,0.03770835549803451,0.08584556181449443],[0.08341689649969339,0.09505634807283059,0.10318612426053732,0.06889496681978925,0.03005590564571321,0.9223401689436287,0.9169244880788029,0.9807329638395459,0.9838486146181822,0.8624609242659063,0.012882976583205164,0.07200735550140962,0.12882617977447808,0.13229930904926732,0.09280542761553079,0.08981193731306121,0.05036621913313866,0.11631278354907408,0.12144721846561879,0.11672668004175647,0.1125067006330937,0.05128149624215439,0.06794266796205192,0.10479973041219637,0.05667455708608031],[0.026815003319643437,0.12881082542007788,0.8994567347690463,0.05149128102930262,0.05996549588162452,0.052442556980531664,0.08256821539252997,0.9921819291543216,0.054629393736831844,0.0770199959515594,0.04417146532796323,0.09373522392706946,0.8786898682825268,0.07516242553247139,0.021769632864743472,0.03355438305297866,0.09486145523842424,0.9989212453830988,0.02488867272622883,0.1033798219752498,0.1335835485951975,0.09163561704335733,0.8811590537428856,0.0908587284036912,0.060306350025348364],[0.08078674147836863,0.036269477487076075,0.08742437122855336,0.13692940369946882,0.001103054266422987,0.09681301364907995,0.01695443072821945,0.10921808540588245,0.019020422408357263,0.10401946679921821,0.1383841646136716,0.03701376764802262,0.1270045207813382,0.035363752918783575,0.1362373341573402,0.8453979235608131,0.8259286569431424,0.9449118786957116,0.8920995737425983,0.8901974929962307,0.021932359132915736,0.14549591249087826,0.019149075052700935,0.049562292953487484,0.11108859968371688],[0.1494337196694687,0.04764301831601187,0.1304726555943489,0.9099511727225036,0.0922421398339793,0.13321735033532603,0.1454771045129746,0.06279965500580147,0.9082116368226707,0.016496887884568424,0.06771625718101859,0.03839443089673295,0.12549858035054057,0.8131575726438314,0.1168639259878546,0.11181512960465624,0.014015386370010674,0.09640773794380948,0.9672148205339909,0.07227220177883283,0.12207610763143747,0.06846541439881548,0.07931238426826893,0.9091124483849854,0.03402120920363814],[0.12498963000252843,0.04929015456000343,0.12992918563541025,0.11312997717177495,0.11066204463131725,0.07525013928534463,0.0735041341977194,0.05438565480289981,0.1174709927290678,0.039582547510508444,0.02530512500088662,0.14860229672631248,0.023368561221286655,0.03977705809520558,0.09303611798677593,0.906269512185827,0.9069847080856562,0.9684398713987321,0.8241535690613091,0.8667553700972349,0.022218520799651743,0.06874423624249175,0.08524172951001674,0.07522285653976724,0.11069205198436975],[0.0791806262684986,0.06734976855805143,0.8785590486600996,0.11076341002481058,0.050481743761338294,0.10994453754974529,0.06677518570795656,0.8685343097429723,0.08935388659592718,0.06349628161406144,0.13356384155340492,0.13877187726320697,0.9258823140524328,0.07950879017589614,0.004377729445695877,0.025515792856458573,0.11051459263544529,0.8502889473456889,0.04297063308767974,0.028450466052163392,0.047415673197247085,0.008838843635749072,0.8821506548672915,0.04950492965290323,0.028440694673918188],[0.07589841582812369,0.04601650350959972,0.10591451239306479,0.13915126210777087,0.08997013326734304,0.12148702010745183,0.06755455217789859,0.12637411257019265,0.10513609587214887,0.14539178452687337,0.09554978983942419,0.04934266348136589,0.0823415164835751,0.048135018779430536,0.07754402754362673,0.8771430016029627,0.9019567659124732,0.8329940540250391,0.8749896227382123,0.9490019174758345,0.04792504347860813,0.06840642612660304,0.14185857984703035,0.03803007410606369,0.09451159159652889],[0.04912527410779148,0.032294467545580116,0.9120020035654307,0.13664875725517048,0.10808035859372467,0.14429841547971592,0.10543657005764544,0.8562471976038069,0.08535380337852984,0.02497884331969544,0.04458691198378801,0.11508001066977158,0.9868937299586833,0.09980480385711417,0.07655045888386666,0.13798386409180238,0.026787603297270833,0.9610514475498348,0.005959862563759089,0.12564413702348246,0.04258920808788389,0.0870026808581315,0.8970207696780563,0.10789647084893658,0.05855002210009843],[0.029063862562179563,0.011241507867816835,0.05629387374501675,0.14560561993857846,0.07993845823220909,0.9967988850083203,0.9112820687703789,0.8327336093876512,0.9583795744925738,0.8084458458703012,0.12660814316477625,0.10491154514020308,0.025084692472591995,0.133148137119133,0.13834842082578688,0.09058523884741589,0.08010269086807965,0.06692738622659818,0.04296902425121516,0.05050194984069094,0.143468772014603,0.043147803016472606,0.03222618999425322,0.13431038026465103,0.021120214182883502],[0.0005477778380736708,0.12531611550366506,0.042568934010341765,0.9203916800674051,0.006358344038017094,0.10802007633028551,0.002963864430785179,0.11185184862697496,0.9116613485850394,0.11510033042868599,0.06291700447909533,0.1122907620971091,0.0161898864666,0.9415746843907983,0.036561890970915556,0.06697855914244429,0.02156677299644798,0.018232108501251787,0.9810843227431179,0.02214568705530837,0.035155933094210924,0.11494383736280724,0.12629652265459299,0.9397091097664089,0.11486064463388174],[0.03791618174873292,0.11783550559775903,0.030365305789746343,0.14602987346006557,0.06053131157532334,0.016810111014638095,0.03544683640357107,0.13077485006069764,0.14270747867412864,0.051350249920506026,0.880212168302387,0.8066571252886207,0.9986846357584,0.9905493452679366,0.9961457067169249,0.0597649379982613,0.11883175182156264,0.057110982493031766,0.04354440963361412,0.04385558747453615,0.05715124821290374,0.016841779521200806,0.09846772269811481,0.02153427548473701,0.07531142779625952],[0.10150265854317694,0.04812177753774449,0.9162216134369374,0.021239784511271863,0.0877238207263872,0.1281047855853103,0.10363658457063138,0.8284568348433823,0.12017345654312521,0.008162641420494764,0.1061206449754536,0.05198796285549179,0.9990429778583348,0.04494992945110425,0.016729795234277842,0.1478225322556682,0.0359130620257929,0.8999715717975051,0.020819877460598945,0.14194029938662425,0.012246716651134193,0.001443925069179386,0.8463812956586481,0.05502735424088314,0.09222800193820148],[0.14958961782976984,0.04402829358587041,0.13079121687915177,0.08568596601253375,0.017987208673730493,0.8585704495664687,0.8247782207094133,0.8150399307254702,0.9879044078290463,0.8316552377771587,0.13640596463810653,0.0736994401901029,0.0960926269646734,0.01530856891768053,0.1310878981137648,0.1190180103178136,0.03903445461764932,0.010982638655696065,0.11201856841798871,0.09300614859675989,0.14490321767516434,0.013810948852915316,0.005049594794400036,0.11218534464715048,0.0462089940905571],[0.03799010838847607,0.020575524063315243,0.05960168573074043,0.8418015421833843,0.1194122942397371,0.08447959431214258,0.03213261505588889,0.07648609938332811,0.9466483068652451,0.015148850006517021,0.07496729367412626,0.11991312095196917,0.023062772420234978,0.995563983405009,0.14001811277121304,0.1345706993364729,0.12872323847841471,0.08393847917905077,0.9099542738869787,0.0637164882500656,0.07301463636104018,0.0729990563238971,0.08963773073628545,0.8388853486161679,0.06158919108565897],[0.04421382998116314,0.1107595915091224,0.14446691789198665,0.0819143550354056,0.02722550444304943,0.8242576837074012,0.9681866564787924,0.9415889565367253,0.8050928870216012,0.8849832253064961,0.11273766739759594,0.051235179312061514,0.07225460512563586,0.08200694496044889,0.095470487116836,0.04797834738856181,0.14409714178182184,0.030334582936484365,0.007072547567076981,0.017649284738581628,0.0610896835103631,0.04085528306895867,0.07546055435668676,0.06465075997402892,0.1416559664066881],[0.13632842714432628,0.01060260561062023,0.087514213565737,0.9756609390955419,0.05389620100613683,0.059389935841318214,0.06836646613664925,0.07745630202116445,0.9820426329039038,0.12056097368476912,0.04013283625245094,0.09467330683255568,0.021465655672363936,0.8078909833449871,0.13969943183474243,0.08218492056475953,0.09031325227115303,0.0516468369285576,0.9155316043645144,0.06822632836410776,0.06463046239223331,0.10582362808054313,0.059940961981192226,0.8202025865670294,0.11821430933196098],[0.005015820823609829,0.14456661507720128,0.13037157438229768,0.13025888999691232,0.06428230642341078,0.04150962374405935,0.0918727763229981,0.018419234349858014,0.061466393340379,0.0837850902811624,0.06281044778879731,0.046015843783970924,0.05778471012599766,0.08003267218591645,0.0690804585115984,0.9141522856894881,0.9805508896708489,0.9168429642450064,0.8822735139168799,0.967966089071706,0.0012192569207400083,0.01903619068907574,0.10071692971978337,0.03285201833350584,0.0912267747335136],[0.06282138058450072,0.09392761200433597,0.8583756176754833,0.09166865871520713,0.009558126074261963,0.02521395682124421,0.04688807744532823,0.8833598412107677,0.14017871066462248,0.003779226669576019,0.102682371949777,0.06057989849941805,0.8546132530085743,0.12913326871348543,0.08951551029458642,0.14018329238751903,0.1301715310430154,0.8041594282258302,0.08961089593358337,0.061964043800253416,0.13541681275237352,0.005656840454321355,0.8503565669059754,0.008807072381023318,0.12756521876435725],[0.034076162008568646,0.10897750864969566,0.07299533060286194,0.038081924698781223,0.0011194347403943538,0.8833619344513863,0.8711562884040177,0.8681692921090871,0.9381614727899432,0.8727092748042197,0.039642816153354944,0.14396785906283185,0.08601675610989332,0.126374016108457,0.09457312531303615,0.06682187741389498,0.0709125594701618,0.013462266989517956,0.115370923303999,0.02152278487337753,0.14890155466273428,0.14568518368760122,0.06578780037816613,0.0738346629193984,0.0277061075437814],[0.03431423075962812,0.9071538212243468,0.04611528776586055,0.13477866497123614,0.09272144276183099,0.09492333264788612,0.9275812247768045,0.13903890374349429,0.11666383577976375,0.05666150719625875,0.08067604852840304,0.9801159146707505,0.06756069415714591,0.14985211923485622,0.03417959497310221,0.07573279888601973,0.8966345972381533,0.11263607366709039,0.1459309095516801,0.03263170622522011,0.12621473043691367,0.812787599535659,0.09474801546894014,0.025858633511234075,0.02735548282507807],[0.11608326667919755,0.13487938722828402,0.047436355403624474,0.08488841395592317,0.12265017894096672,0.12451190856518224,0.02001465589273721,0.08051005433080717,0.13359518274664878,0.1069715615012683,0.9650907927192748,0.9989646453876049,0.8735773975029588,0.8647922070231289,0.8956087681464852,0.024009466997813433,0.04346473133191466,0.017330451181624084,0.05466328875627369,0.09612723238533362,0.016896393382921815,0.10460590386064723,0.07753383975941687,0.05003573930589482,0.07437834050506353],[0.060732188145630056,0.841177734406665,0.011682636430487036,0.0758146523614414,0.11963212417904287,0.14690931726945564,0.8889841821044684,0.03219827605644241,0.020863045728765427,0.14660186920082197,0.11174169410951436,0.8383971137460322,0.0022287815110757945,0.09795491936383768,0.09756428785622119,0.1316540725179948,0.9072909482754767,0.08466887430986389,0.09342082212679088,0.0793607925181277,0.10857643245253712,0.9621843403670938,0.1022723483853042,0.06610624442109837,0.03190522470977157],[0.019929458806291222,0.017829737823922186,0.12976156000513583,0.09607774465112015,0.14332560170441866,0.9101163245271892,0.8222972140647471,0.9174547177273781,0.9612387584522367,0.9916263037826867,0.015388103225268422,0.06793123584939166,0.1257624045945704,0.10191797321895137,0.149782470962964,0.05288982357596978,0.11899798703379928,0.0097776306909509,0.14613605097401886,0.09565772468922659,0.00959853082895279,0.07993825856829062,0.11525357987266033,0.0004477358772419393,0.10297126206569374],[0.12819503566715865,0.8362054309342057,0.06910451492294668,0.07811231376836077,0.08448547662701457,0.07339277736609802,0.9308740003034472,0.0694265175727196,0.10957292702514677,0.11176672837464138,0.14895799588412045,0.858012282056734,0.10575305975507944,0.04719901954522356,0.1334187091793865,0.06230701423482969,0.9577059010975063,0.046678440913092346,0.017271060962229967,0.04815835176268592,0.06587798071559518,0.8416810960043222,0.055155141698196526,0.09764538650633767,0.12238465764094143],[0.06549258939921855,0.08777993019903078,0.07372473764698952,0.05434205116471275,0.13812513942830265,0.13311709138797595,0.06195276661310345,0.11425687194569036,0.10518559617921709,0.039890407270286234,0.8874290254898369,0.8458670653868468,0.9242266355082394,0.9876829465385527,0.8038006789050997,0.1292010791483335,0.011679575778543949,0.08128297679359094,0.13235754787456244,0.1327861019759439,0.07180170393548906,0.11665341585176064,0.11243084783200175,0.09239775863243267,0.11459784591570496],[0.068801674596034,0.14281715940451248,0.8902239894494415,0.0999389445525594,0.007091544871218502,0.1391369609045796,0.13525989130139351,0.9413048639427871,0.09440097163897007,0.012727552594151348,0.11489197569899261,0.051260561600793154,0.828945008199662,0.10274035268230364,0.12095870738849043,0.1278260229737498,0.046300576790235935,0.8039892845321447,0.08328709700144828,0.04054653161438182,0.050945624825544655,0.051572935644071546,0.9014841921627522,0.01662997469538823,0.0440400370163843]], dtype=torch.float32).reshape(-1,1,5,5) y_train = torch.tensor([0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1], dtype=torch.float32) model = nn.Sequential(nn.Conv2d(1,2,3), nn.ReLU(), nn.AdaptiveAvgPool2d(1), nn.Flatten(), nn.Linear(2,1)) optimizer = torch.optim.SGD(model.parameters(), lr=0.5) loss_fn = nn.BCEWithLogitsLoss() for epoch in range(1000): optimizer.zero_grad() loss = loss_fn(model(X_train), y_train.reshape(-1,1).float()) loss.backward() optimizer.step() # Evaluate held-out images separately. Initial weights can differ.Copy code",
+        "controls": [
+          "Copy code"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "10",
+        "title": "Practical Applications",
+        "text": "Shared local filters are useful for spatial patterns such as edges, textures and image features. This tiny line-orientation task shows the mechanics only. Natural-image recognition requires different data, validation, capacity and resources.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "11",
+        "title": "Challenges",
+        "text": "Set one input pixel at a time. Predict which map entries can change, then compare the computed maps. After training, compare responses to a horizontal and vertical stroke. Why does global averaging remove some position information?Save this browser experimentSave the actual current parameters, results, history and data on this device. No upload or cloud sync. At most 12 snapshots, total 2 MB in the local source app. Large models or histories can be exported as JSON instead. JSON exports contain your selected data. A snapshot can be restored safely in this lab; it is not an executable model format.Browser experiment nameCapture current experimentExport current snapshotOpen saved snapshotsSources and scopeThese are simplified educational tools using fictional examples. They are not production models or large-network training. Browser labs do not execute Python. The optional Local execution workspace connects only to your explicitly selected loopback API. Lab state is temporary and resets when you reopen the page. The theme preference is stored on this device when storage is available.Linear models and Perceptron reference ↗Gradient descent and loss-function reference ↗Lessons and lab explanations are written independently. Curriculum topic names follow your supplied reference image.",
+        "controls": [
+          "Browser experiment name",
+          "Capture current experiment",
+          "Export current snapshot"
+        ],
+        "charts": 0
+      }
+    ]
+  },
+  {
+    "route": "sequence",
+    "sections": [
+      {
+        "n": "1",
+        "title": "Overview",
+        "text": "Train an actual scalar RNN or independently parameterized LSTM. The target is an exponential moving average: y_t=0.65y_previous+0.35x_t, starting at zero. Full backpropagation through time learns every recurrent, gate and output parameter.Jump to a lesson sectionOverviewMathematical FoundationHow It WorksInteractive SimulationParametersDatasetTrainingResultsPython CodePractical ApplicationsChallengesThese sections point to real explanations, live inputs, training controls and computed results on this page. Python examples describe the same algorithm family; browser and Python implementation details can differ.",
+        "controls": [
+          "Overview",
+          "Mathematical Foundation",
+          "How It Works",
+          "Interactive Simulation",
+          "Parameters",
+          "Dataset",
+          "Training",
+          "Results",
+          "Python Code",
+          "Practical Applications",
+          "Challenges"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "2",
+        "title": "Mathematical Foundation",
+        "text": "Reason through RNNAlgorithm learning levelBeginnerIntermediateAdvancedWorked exampleIf x=1, previous h=0, Wx=0.5 and bias=0, then h=tanh(0.5)≈0.46212. With output weight 2 and zero output bias, prediction≈0.92423.",
+        "controls": [
+          "Algorithm learning level"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "3",
+        "title": "How It Works",
+        "text": "Start hidden state and any cell state at zero for each sequence.Process inputs in time order with the same shared recurrent parameters.Accumulate MSE across training sequences, walk the unrolled graph backward, clip the global gradient and update parameters.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "4",
+        "title": "Interactive Simulation",
+        "text": "Architecture and training",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "5",
+        "title": "Parameters",
+        "text": "Recurrent cellRNNLSTMSequence learning rate0.15Global gradient clip norm1",
+        "controls": [
+          "Recurrent cell",
+          "Sequence learning rate",
+          "Global gradient clip norm"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "6",
+        "title": "Dataset",
+        "text": "One input, one hidden unit, one linear output. 5 independent parameters. Initial h is zero for each sequence. Seed 42 creates 24 sequences of 8 values in [−1,1]: 18 training and 6 held out. Every update uses only the training set.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "7",
+        "title": "Training",
+        "text": "Start sequence trainingOne sequence epochReset sequence modelSequence epoch 0. Paused.",
+        "controls": [
+          "Start sequence training",
+          "One sequence epoch",
+          "Reset sequence model"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "8",
+        "title": "Results",
+        "text": "Training MSE0.102Held-out MSE0.091Last raw gradient norm0Last clip multiplier1Inspect a sequenceSequence sample index18Sample 18 is held out. Move the slider to inspect a different real sequence.Custom inputs, 2–30 comma-separated values in [−1,1]0.8,-0.4,0.2,1,0,-0.6,0.3,0.5Apply custom sequenceUse dataset sequenceTarget versus current predictions1.15510.5782.7504.5-0.5786.25-1.1558Sequence time step: 1, Smoothed signal / prediction: 0.053Sequence time step: 2, Smoothed signal / prediction: -0.103Sequence time step: 3, Smoothed signal / prediction: 0.034Sequence time step: 4, Smoothed signal / prediction: 0.14Sequence time step: 5, Smoothed signal / prediction: 0.068Sequence time step: 6, Smoothed signal / prediction: -0.127Sequence time step: 7, Smoothed signal / prediction: 0.072Sequence time step: 8, Smoothed signal / prediction: 0.051Sequence time stepSmoothed signal / predictionDots: true moving average. Line: current model prediction. Both are recalculated from the real parameters after each epoch. No teacher forcing, input at each step is x_t only.Sequence learning curveRun an epoch to compute the first point.MSE averages over all 144 training time steps. The held-out loss never contributes gradients. Global norm clipping rescales the complete gradient without changing its direction.Unroll the actual recurrent stateInspect sequence time step0Next sequence stepFirst sequence stepInspect recurrent step 1: t=1h=0.044x=0.151ŷ=-0.15Inspect recurrent step 2: t=2h=0.171x=-0.394ŷ=-0.189Inspect recurrent step 3: t=3h=-0.071x=0.29ŷ=-0.115Inspect recurrent step 4: t=4h=0.026x=0.336ŷ=-0.145Inspect recurrent step 5: t=5h=0.091x=-0.064ŷ=-0.164Inspect recurrent step 6: t=6h=0.176x=-0.49ŷ=-0.19Inspect recurrent step 7: t=7h=-0.115x=0.442ŷ=-0.102Inspect recurrent step 8: t=8h=0.133x=0.012ŷ=-0.177At step 1: previous h=0; target=0.053, prediction=-0.15.Exact states, targets and gatestxtargetpredictionhcfigo10.1510.053-0.150.0440n/an/an/an/a2-0.394-0.103-0.1890.1710n/an/an/an/a30.290.034-0.115-0.0710n/an/an/an/a40.3360.14-0.1450.0260n/an/an/an/a5-0.0640.068-0.1640.0910n/an/an/an/a6-0.49-0.127-0.190.1760n/an/an/an/a70.4420.072-0.102-0.1150n/an/an/an/a80.0120.051-0.1770.1330n/an/an/an/aLearned parameters and full BPTT gradientGradients below are recomputed on the training set at the current parameters, before clipping. The norm and multiplier above belong to the last applied update.ParameterCurrent valueCurrent dL/dθWx-0.2720.042Uh-0.453-0.007bh0.0850.08Wy-0.3050.015by-0.137-0.374Equations and backward flowWhy recurrence? A feedforward model receiving only the current independent input cannot know the preceding signal history. A recurrent hidden state carries information from earlier inputs. This tiny scalar architecture is intentionally restrictive; it is not a language model. A single scalar RNN cannot reliably copy an arbitrary previous input while also encoding a new input. The smooth-memory task is better suited to this architecture.ht=tanh⁡(Wxxt+Uhht−1+bh)h_t=\\tanh(W_xx_t+U_hh_{t-1}+b_h)y^t=Wyht+by\\hat y_t=W_yh_t+b_yL=1NT∑n,t(y^n,t−yn,t)2L=\\frac1{NT}\\sum_{n,t}(\\hat y_{n,t}-y_{n,t})^2θ←θ−ηmin⁡(1,τ/∥∇L∥2)∇L\\theta\\leftarrow\\theta-\\eta\\min(1,\\tau/\\|\\nabla L\\|_2)\\nabla LAdvanced: full BPTT derivationThe output derivative is 2(ŷ−y)/(NT). It contributes dy·h to dWy, dy to dby, and dy·Wy to dh. Walk time steps backward and add the future dh before differentiating the current cell. Sum parameter gradients over all time steps and sequences.dat=dht(1−ht2)d a_t=d h_t(1-h_t^2)dht−1=Uhdatd h_{t-1}=U_h d a_tdWx=∑tdatxtdW_x=\\sum_t d a_t x_tdUh=∑tdatht−1dU_h=\\sum_t d a_t h_{t-1}Full BPTT here has no truncation. Saturating tanh and sigmoid derivatives can shrink gradients. Repeated recurrent multiplication can also enlarge them. Clipping limits an update's norm, but does not solve vanishing gradients. LSTM's additive cell path helps memory when the learned forget gate remains near one, not by guaranteeing unlimited memory.",
+        "controls": [
+          "Sequence sample index",
+          "Custom sequence values",
+          "Apply custom sequence",
+          "Use dataset sequence",
+          "Inspect sequence time step",
+          "Next sequence step",
+          "First sequence step",
+          "Inspect recurrent step 1: t=1h=0.044x=0.151ŷ=-0.15",
+          "Inspect recurrent step 2: t=2h=0.171x=-0.394ŷ=-0.189",
+          "Inspect recurrent step 3: t=3h=-0.071x=0.29ŷ=-0.115",
+          "Inspect recurrent step 4: t=4h=0.026x=0.336ŷ=-0.145",
+          "Inspect recurrent step 5: t=5h=0.091x=-0.064ŷ=-0.164",
+          "Inspect recurrent step 6: t=6h=0.176x=-0.49ŷ=-0.19",
+          "Inspect recurrent step 7: t=7h=-0.115x=0.442ŷ=-0.102",
+          "Inspect recurrent step 8: t=8h=0.133x=0.012ŷ=-0.177"
+        ],
+        "charts": 1
+      },
+      {
+        "n": "10",
+        "title": "Practical Applications",
+        "text": "Applications include sequence regression, sensor streams and short temporal patterns. Limits: synthetic fixed-length task, scalar state, full-batch SGD, no dropout or stacked cells. A lower training loss alone is not evidence of generalization. PyTorch is better suited to larger models and real datasets.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "9",
+        "title": "Python Code",
+        "text": "Read the code · PythonCopy this educational example into Python to run it. The live lab uses JavaScript in your browser, not a Python interpreter.# Requires PyTorch. Equivalent scalar architecture/settings; initialization differs. import torch from torch import nn torch.manual_seed(42) X = torch.tensor([[-0.49530965043231845,-0.8237499091774225,0.15456239646300673,-0.554891468025744,-0.24867960577830672,-0.9486721903085709,-0.10543742822483182,-0.7630799924954772],[0.7476274115033448,0.9892685506492853,0.7064054473303258,-0.0006465436890721321,0.28400189289823174,0.7229123748838902,0.19293955294415355,-0.818499687127769],[-0.7195804039947689,0.900176553055644,0.8491108915768564,0.7789379125460982,0.10101673984900117,-0.6389668956398964,0.10017094714567065,-0.4820664068683982],[0.8862433251924813,0.6430019605904818,-0.689412182662636,0.6587894214317203,-0.06615542015060782,-0.8785902447998524,-0.9550895285792649,0.07457754481583834],[0.6599205289967358,0.6906642373651266,0.3618361330591142,-0.23848383221775293,0.1713136904872954,0.39279431104660034,0.4227307881228626,0.4372361535206437],[0.9805748951621354,-0.10049430094659328,-0.8041471824981272,-0.6168117495253682,-0.10524276783689857,-0.7459977678954601,0.5375297549180686,0.18744094390422106],[0.6092881192453206,-0.2211772371083498,-0.5684618302620947,-0.45588106755167246,-0.9618305019102991,-0.44405629485845566,-0.33206332521513104,0.7657322296872735],[0.911756154615432,-0.6146028023213148,0.7426020591519773,0.16464589070528746,-0.3266378357075155,-0.3713451065123081,-0.7412814539857209,0.9599403636530042],[-0.7940545375458896,0.8430273737758398,0.6114701754413545,-0.13408753369003534,0.4201205396093428,-0.3866708129644394,-0.7628136877901852,0.018466987647116184],[-0.7652507382445037,-0.5129404868930578,0.20819027861580253,0.39564891438931227,-0.018640184309333563,-0.5806515477597713,-0.5453988877125084,0.38856628257781267],[0.7636437793262303,0.6339189391583204,0.39433844899758697,0.6789536541327834,-0.19671868300065398,-0.6936857178807259,-0.7474194695241749,0.07962621841579676],[0.3033444997854531,0.9756413269788027,-0.14807466277852654,0.4940745187923312,-0.13947124918922782,-0.9089207537472248,-0.845495153684169,0.6514498041942716],[0.9574624155648053,0.5994039531797171,-0.6626975857652724,-0.2268099943175912,-0.43365554278716445,-0.020221859216690063,0.6819232846610248,0.8275363380089402],[-0.6048397230915725,-0.3679430540651083,0.06006822129711509,-0.4718094738200307,-0.19227434089407325,-0.9751407615840435,0.2959602656774223,-0.26663734298199415],[-0.05119115812703967,-0.4903454650193453,0.18697461998090148,0.40145965572446585,0.10558071220293641,0.207115538418293,-0.536278345156461,-0.24033561255782843],[-0.16335687367245555,0.8719863016158342,-0.5291669578291476,0.8416553838178515,0.8998853550292552,0.14271601662039757,0.8497010129503906,-0.9492828054353595],[-0.48958134604617953,0.08210842870175838,0.0044207400642335415,0.9044913640245795,0.9598389589227736,0.4152368754148483,0.6321858461014926,-0.3823819672688842],[0.128067706245929,0.3708749506622553,-0.9006129638291895,-0.3214818360283971,-0.08097922196611762,0.5326927937567234,0.9446638557128608,-0.9234336046501994]], dtype=torch.float32).unsqueeze(-1) y = torch.tensor([[-0.17335837765131146,-0.40099541368545033,-0.20655018013349036,-0.3284696308957791,-0.3005431221046637,-0.5273882959760312,-0.3797054922631114,-0.5138865673444394],[0.2616695940261707,0.5163292288442608,0.5828559053143836,0.3786300481631741,0.3455101938204443,0.47760095719265033,0.37796946570567647,-0.040794737786029434],[-0.2518531413981691,0.15135725166066546,0.3955710256313323,0.5297494360515004,0.3796929923806257,0.023162031573443015,0.05011515202372269,-0.1361483935885196],[0.31018516381736844,0.4266710426879581,0.03604191381525018,0.25400354148101467,0.1419479049099468,-0.2152404474884829,-0.4741876258702566,-0.2821198161301234],[0.2309721851488575,0.39186440342455164,0.38135450879664856,0.16441108944160804,0.1668269998075986,0.2459155587412492,0.3078008890248139,0.35310323159835433],[0.34320121330674735,0.18790778331807814,-0.15931145471759373,-0.3194365579003148,-0.24446873137811911,-0.4200038941591885,-0.0848671169821485,0.010440704328080842],[0.21325084173586217,0.06120101414038798,-0.15918098140048098,-0.263026011553398,-0.5076075831783133,-0.48536463226636317,-0.43170917479843196,-0.01260468322843511],[0.3191146541154012,-0.00768645563744938,0.25491452453884994,0.22332050269710307,0.030835084255486575,-0.10992798251324155,-0.3309016975286093,0.12089302388495538],[-0.27791908814106137,0.11441217352985403,0.2883824741988792,0.14051797143775913,0.2383788702978134,0.019611481156024957,-0.25423732797514853,-0.1587908175073559],[-0.2678377583855763,-0.3536237133631948,-0.15698881617054578,0.03643438952540452,0.017158288683246193,-0.19207515407180994,-0.3157384608460544,-0.06923180064770096],[0.2672753227641806,0.39560058850212954,0.39515883967553966,0.49448702473557493,0.2525650270278948,-0.0786227336901224,-0.3127015912320408,-0.17538685785529765],[0.10617057492490857,0.41048533814377147,0.21498933782096716,0.3126691511609446,0.1544200110383843,-0.21774925663657885,-0.43746032060323536,-0.05634177692410794],[0.3351118454476818,0.42761408315389415,0.04600499903218591,-0.04948024864023606,-0.183941601591661,-0.12663969176042117,0.1563573499870849,0.39126999579473426],[-0.21169390308205038,-0.26638110592612063,-0.15212384139798812,-0.264013812745703,-0.23890499759763262,-0.49658751499287646,-0.21919579175827192,-0.2358003346865747],[-0.017916905344463885,-0.18326690123067235,-0.053682368806621514,0.10561733977925905,0.10560452012754612,0.14113337652930752,-0.09596072606071146,-0.1464919363347024],[-0.057174905785359435,0.2680315168050583,-0.010987949316913714,0.2874372172802541,0.5017940654924045,0.3761167483872021,0.541871240984318,0.019967324737430958],[-0.17135347111616284,-0.08264180617989042,-0.052169914994447036,0.2826615326622123,0.5196736318534088,0.48312076709991264,0.5352935447504656,0.21410711554369324],[0.04482369718607515,0.1589416359027382,-0.21190247400343648,-0.2502552507121727,-0.1910086406510534,0.06228686139166846,0.37111880940408576,-0.08197453551491399]], dtype=torch.float32).unsqueeze(-1) cell = nn.RNN(input_size=1, hidden_size=1, batch_first=True) head = nn.Linear(1, 1) params = list(cell.parameters()) + list(head.parameters()) optimizer = torch.optim.SGD(params, lr=0.15) # X: [18,8,1]; y_t = .65*y_previous + .35*X_t, initial y=0 # X and y contain training sequences only. for epoch in range(1200): optimizer.zero_grad() states, _ = cell(X) # zero initial state for every batch loss = nn.functional.mse_loss(head(states), y) loss.backward() # full BPTT nn.utils.clip_grad_norm_(params, max_norm=1.0) optimizer.step() # PyTorch has two gate-bias vectors; this lab combines each pair into one.Copy code",
+        "controls": [
+          "Copy code"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "11",
+        "title": "Challenges",
+        "text": "CHECK YOUR UNDERSTANDINGWhy must backward propagation walk time in reverse?To change the target labelsEarlier states affect later predictions, so their gradients include future lossesBecause a sequence must be sorted before trainingSave this browser experimentSave the actual current parameters, results, history and data on this device. No upload or cloud sync. At most 12 snapshots, total 2 MB in the local source app. Large models or histories can be exported as JSON instead. JSON exports contain your selected data. A snapshot can be restored safely in this lab; it is not an executable model format.Browser experiment nameCapture current experimentExport current snapshotOpen saved snapshotsSources and scopeThese are simplified educational tools using fictional examples. They are not production models or large-network training. Browser labs do not execute Python. The optional Local execution workspace connects only to your explicitly selected loopback API. Lab state is temporary and resets when you reopen the page. The theme preference is stored on this device when storage is available.Linear models and Perceptron reference ↗Gradient descent and loss-function reference ↗Lessons and lab explanations are written independently. Curriculum topic names follow your supplied reference image.",
+        "controls": [
+          "To change the target labels",
+          "Earlier states affect later predictions, so their gradients include future losses",
+          "Because a sequence must be sorted before training",
+          "Browser experiment name",
+          "Capture current experiment",
+          "Export current snapshot"
+        ],
+        "charts": 0
+      }
+    ]
+  },
+  {
+    "route": "optimization",
+    "sections": [
+      {
+        "n": "1",
+        "title": "Overview",
+        "text": "Compare gradient sampling, optimizer memory and learning-rate schedules. The data fit, parameter path and loss curve update from the same real calculation.Jump to a lesson sectionOverviewMathematical FoundationHow It WorksInteractive SimulationParametersDatasetTrainingResultsPython CodePractical ApplicationsChallengesThese sections point to real explanations, live inputs, training controls and computed results on this page. Python examples describe the same algorithm family; browser and Python implementation details can differ.",
+        "controls": [
+          "Overview",
+          "Mathematical Foundation",
+          "How It Works",
+          "Interactive Simulation",
+          "Parameters",
+          "Dataset",
+          "Training",
+          "Results",
+          "Python Code",
+          "Practical Applications",
+          "Challenges"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "2",
+        "title": "Mathematical Foundation",
+        "text": "Reason through Gradient DescentAlgorithm learning levelBeginnerIntermediateAdvancedWorked exampleFor J=(w−3)² at w=0, gradient=−6. With α=0.1, next w=0.6 and loss falls from 9 to 5.76.",
+        "controls": [
+          "Algorithm learning level"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "3",
+        "title": "How It Works",
+        "text": "Choose the full regression loss or analytic double-well objective.Evaluate the selected sampled or full gradient, including Nesterov look-ahead when selected.Update optimizer memory and parameters, then compute the full objective and record the actual path.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "4",
+        "title": "Interactive Simulation",
+        "text": "Objective and update rule",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "6",
+        "title": "Dataset",
+        "text": "Optimization objectiveLinear regressionTilted double wellJ(w,b)=1n∑i(wxi+b−yi)2J(w,b)=\\frac1n\\sum_i(wx_i+b-y_i)^260 seeded synthetic observations, with true generating slope 1.6 and bias -0.7 plus bounded noise. The contour surface uses full-dataset MSE, regardless of batch sampling. This is a convex quadratic with one global minimum.",
+        "controls": [
+          "Optimization objective"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "5",
+        "title": "Parameters",
+        "text": "Optimizer update ruleGradient DescentMomentumNesterovRMSpropAdamθt+1=θt−ηtgt\\theta_{t+1}=\\theta_t-\\eta_tg_tGradient samplingBatchStochasticMini-batchBatch: all 60 observations per update. One update is not necessarily one epoch. Seeds are fixed for a fair reset comparison.Optimizer learning rate0.04Optimizer iteration limit300 Learning rate scheduleConstantInverse timeStep decayCosineStep decay halves the rate every 50 updates. Cosine decays to zero over the chosen update budget. Inverse time uses rate/(1+decay×step). RMSprop uses the squared-gradient decay directly; Adam additionally uses first-moment memory and bias correction.Initial optimizer weight-1.5Initial optimizer bias1.5Every optimizer or objective edit resets its state and moment accumulators. Lower the learning rate if the loss rises or updates diverge. Adaptive optimizers do not guarantee a global minimum.",
+        "controls": [
+          "Optimizer update rule",
+          "Gradient sampling",
+          "Optimizer learning rate",
+          "Optimizer iteration limit",
+          "Learning rate schedule",
+          "Initial optimizer weight",
+          "Initial optimizer bias"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "7",
+        "title": "Training",
+        "text": "Start optimizationOne optimizer updateReset optimizerUpdate 0. Ready. No update has run.",
+        "controls": [
+          "Start optimization",
+          "One optimizer update",
+          "Reset optimizer"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "8",
+        "title": "Results",
+        "text": "Full objective18.116Full gradient norm9.618Weight w-1.5Bias b1.5Parameter landscape and actual path Show 3D loss surfacew=-3, b=-3, objective=34.547w=-2.8, b=-3, objective=32.063w=-2.6, b=-3, objective=29.69w=-2.4, b=-3, objective=27.427w=-2.2, b=-3, objective=25.275w=-2, b=-3, objective=23.232w=-1.8, b=-3, objective=21.3w=-1.6, b=-3, objective=19.478w=-1.4, b=-3, objective=17.767w=-1.2, b=-3, objective=16.165w=-1, b=-3, objective=14.674w=-0.8, b=-3, objective=13.293w=-0.6, b=-3, objective=12.023w=-0.4, b=-3, objective=10.863w=-0.2, b=-3, objective=9.813w=0, b=-3, objective=8.873w=0.2, b=-3, objective=8.044w=0.4, b=-3, objective=7.325w=0.6, b=-3, objective=6.716w=0.8, b=-3, objective=6.218w=1, b=-3, objective=5.83w=1.2, b=-3, objective=5.552w=1.4, b=-3, objective=5.384w=1.6, b=-3, objective=5.327w=1.8, b=-3, objective=5.38w=2, b=-3, objective=5.543w=2.2, b=-3, objective=5.816w=2.4, b=-3, objective=6.2w=2.6, b=-3, objective=6.694w=2.8, b=-3, objective=7.299w=-3, b=-2.8, objective=33.665w=-2.8, b=-2.8, objective=31.182w=-2.6, b=-2.8, objective=28.808w=-2.4, b=-2.8, objective=26.545w=-2.2, b=-2.8, objective=24.393w=-2, b=-2.8, objective=22.35w=-1.8, b=-2.8, objective=20.418w=-1.6, b=-2.8, objective=18.596w=-1.4, b=-2.8, objective=16.885w=-1.2, b=-2.8, objective=15.283w=-1, b=-2.8, objective=13.792w=-0.8, b=-2.8, objective=12.412w=-0.6, b=-2.8, objective=11.141w=-0.4, b=-2.8, objective=9.981w=-0.2, b=-2.8, objective=8.931w=0, b=-2.8, objective=7.992w=0.2, b=-2.8, objective=7.162w=0.4, b=-2.8, objective=6.443w=0.6, b=-2.8, objective=5.834w=0.8, b=-2.8, objective=5.336w=1, b=-2.8, objective=4.948w=1.2, b=-2.8, objective=4.67w=1.4, b=-2.8, objective=4.502w=1.6, b=-2.8, objective=4.445w=1.8, b=-2.8, objective=4.498w=2, b=-2.8, objective=4.661w=2.2, b=-2.8, objective=4.935w=2.4, b=-2.8, objective=5.318w=2.6, b=-2.8, objective=5.812w=2.8, b=-2.8, objective=6.417w=-3, b=-2.6, objective=32.863w=-2.8, b=-2.6, objective=30.38w=-2.6, b=-2.6, objective=28.006w=-2.4, b=-2.6, objective=25.743w=-2.2, b=-2.6, objective=23.591w=-2, b=-2.6, objective=21.548w=-1.8, b=-2.6, objective=19.616w=-1.6, b=-2.6, objective=17.794w=-1.4, b=-2.6, objective=16.083w=-1.2, b=-2.6, objective=14.481w=-1, b=-2.6, objective=12.99w=-0.8, b=-2.6, objective=11.61w=-0.6, b=-2.6, objective=10.339w=-0.4, b=-2.6, objective=9.179w=-0.2, b=-2.6, objective=8.129w=0, b=-2.6, objective=7.19w=0.2, b=-2.6, objective=6.36w=0.4, b=-2.6, objective=5.641w=0.6, b=-2.6, objective=5.033w=0.8, b=-2.6, objective=4.534w=1, b=-2.6, objective=4.146w=1.2, b=-2.6, objective=3.868w=1.4, b=-2.6, objective=3.7w=1.6, b=-2.6, objective=3.643w=1.8, b=-2.6, objective=3.696w=2, b=-2.6, objective=3.859w=2.2, b=-2.6, objective=4.133w=2.4, b=-2.6, objective=4.516w=2.6, b=-2.6, objective=5.011w=2.8, b=-2.6, objective=5.615w=-3, b=-2.4, objective=32.141w=-2.8, b=-2.4, objective=29.658w=-2.6, b=-2.4, objective=27.284w=-2.4, b=-2.4, objective=25.022w=-2.2, b=-2.4, objective=22.869w=-2, b=-2.4, objective=20.826w=-1.8, b=-2.4, objective=18.894w=-1.6, b=-2.4, objective=17.072w=-1.4, b=-2.4, objective=15.361w=-1.2, b=-2.4, objective=13.76w=-1, b=-2.4, objective=12.269w=-0.8, b=-2.4, objective=10.888w=-0.6, b=-2.4, objective=9.617w=-0.4, b=-2.4, objective=8.457w=-0.2, b=-2.4, objective=7.407w=0, b=-2.4, objective=6.468w=0.2, b=-2.4, objective=5.638w=0.4, b=-2.4, objective=4.919w=0.6, b=-2.4, objective=4.311w=0.8, b=-2.4, objective=3.812w=1, b=-2.4, objective=3.424w=1.2, b=-2.4, objective=3.146w=1.4, b=-2.4, objective=2.978w=1.6, b=-2.4, objective=2.921w=1.8, b=-2.4, objective=2.974w=2, b=-2.4, objective=3.137w=2.2, b=-2.4, objective=3.411w=2.4, b=-2.4, objective=3.795w=2.6, b=-2.4, objective=4.289w=2.8, b=-2.4, objective=4.893w=-3, b=-2.2, objective=31.499w=-2.8, b=-2.2, objective=29.016w=-2.6, b=-2.2, objective=26.643w=-2.4, b=-2.2, objective=24.38w=-2.2, b=-2.2, objective=22.227w=-2, b=-2.2, objective=20.184w=-1.8, b=-2.2, objective=18.252w=-1.6, b=-2.2, objective=16.43w=-1.4, b=-2.2, objective=14.719w=-1.2, b=-2.2, objective=13.118w=-1, b=-2.2, objective=11.627w=-0.8, b=-2.2, objective=10.246w=-0.6, b=-2.2, objective=8.975w=-0.4, b=-2.2, objective=7.815w=-0.2, b=-2.2, objective=6.765w=0, b=-2.2, objective=5.826w=0.2, b=-2.2, objective=4.996w=0.4, b=-2.2, objective=4.277w=0.6, b=-2.2, objective=3.669w=0.8, b=-2.2, objective=3.17w=1, b=-2.2, objective=2.782w=1.2, b=-2.2, objective=2.504w=1.4, b=-2.2, objective=2.337w=1.6, b=-2.2, objective=2.279w=1.8, b=-2.2, objective=2.332w=2, b=-2.2, objective=2.495w=2.2, b=-2.2, objective=2.769w=2.4, b=-2.2, objective=3.153w=2.6, b=-2.2, objective=3.647w=2.8, b=-2.2, objective=4.251w=-3, b=-2, objective=30.938w=-2.8, b=-2, objective=28.454w=-2.6, b=-2, objective=26.081w=-2.4, b=-2, objective=23.818w=-2.2, b=-2, objective=21.665w=-2, b=-2, objective=19.623w=-1.8, b=-2, objective=17.69w=-1.6, b=-2, objective=15.869w=-1.4, b=-2, objective=14.157w=-1.2, b=-2, objective=12.556w=-1, b=-2, objective=11.065w=-0.8, b=-2, objective=9.684w=-0.6, b=-2, objective=8.414w=-0.4, b=-2, objective=7.253w=-0.2, b=-2, objective=6.203w=0, b=-2, objective=5.264w=0.2, b=-2, objective=4.435w=0.4, b=-2, objective=3.716w=0.6, b=-2, objective=3.107w=0.8, b=-2, objective=2.608w=1, b=-2, objective=2.22w=1.2, b=-2, objective=1.942w=1.4, b=-2, objective=1.775w=1.6, b=-2, objective=1.717w=1.8, b=-2, objective=1.77w=2, b=-2, objective=1.933w=2.2, b=-2, objective=2.207w=2.4, b=-2, objective=2.591w=2.6, b=-2, objective=3.085w=2.8, b=-2, objective=3.689w=-3, b=-1.8, objective=30.456w=-2.8, b=-1.8, objective=27.972w=-2.6, b=-1.8, objective=25.599w=-2.4, b=-1.8, objective=23.336w=-2.2, b=-1.8, objective=21.183w=-2, b=-1.8, objective=19.141w=-1.8, b=-1.8, objective=17.209w=-1.6, b=-1.8, objective=15.387w=-1.4, b=-1.8, objective=13.675w=-1.2, b=-1.8, objective=12.074w=-1, b=-1.8, objective=10.583w=-0.8, b=-1.8, objective=9.202w=-0.6, b=-1.8, objective=7.932w=-0.4, b=-1.8, objective=6.771w=-0.2, b=-1.8, objective=5.722w=0, b=-1.8, objective=4.782w=0.2, b=-1.8, objective=3.953w=0.4, b=-1.8, objective=3.234w=0.6, b=-1.8, objective=2.625w=0.8, b=-1.8, objective=2.126w=1, b=-1.8, objective=1.738w=1.2, b=-1.8, objective=1.46w=1.4, b=-1.8, objective=1.293w=1.6, b=-1.8, objective=1.235w=1.8, b=-1.8, objective=1.288w=2, b=-1.8, objective=1.452w=2.2, b=-1.8, objective=1.725w=2.4, b=-1.8, objective=2.109w=2.6, b=-1.8, objective=2.603w=2.8, b=-1.8, objective=3.207w=-3, b=-1.6, objective=30.054w=-2.8, b=-1.6, objective=27.57w=-2.6, b=-1.6, objective=25.197w=-2.4, b=-1.6, objective=22.934w=-2.2, b=-1.6, objective=20.781w=-2, b=-1.6, objective=18.739w=-1.8, b=-1.6, objective=16.807w=-1.6, b=-1.6, objective=14.985w=-1.4, b=-1.6, objective=13.273w=-1.2, b=-1.6, objective=11.672w=-1, b=-1.6, objective=10.181w=-0.8, b=-1.6, objective=8.8w=-0.6, b=-1.6, objective=7.53w=-0.4, b=-1.6, objective=6.37w=-0.2, b=-1.6, objective=5.32w=0, b=-1.6, objective=4.38w=0.2, b=-1.6, objective=3.551w=0.4, b=-1.6, objective=2.832w=0.6, b=-1.6, objective=2.223w=0.8, b=-1.6, objective=1.725w=1, b=-1.6, objective=1.336w=1.2, b=-1.6, objective=1.058w=1.4, b=-1.6, objective=0.891w=1.6, b=-1.6, objective=0.833w=1.8, b=-1.6, objective=0.886w=2, b=-1.6, objective=1.05w=2.2, b=-1.6, objective=1.323w=2.4, b=-1.6, objective=1.707w=2.6, b=-1.6, objective=2.201w=2.8, b=-1.6, objective=2.805w=-3, b=-1.4, objective=29.732w=-2.8, b=-1.4, objective=27.248w=-2.6, b=-1.4, objective=24.875w=-2.4, b=-1.4, objective=22.612w=-2.2, b=-1.4, objective=20.459w=-2, b=-1.4, objective=18.417w=-1.8, b=-1.4, objective=16.485w=-1.6, b=-1.4, objective=14.663w=-1.4, b=-1.4, objective=12.951w=-1.2, b=-1.4, objective=11.35w=-1, b=-1.4, objective=9.859w=-0.8, b=-1.4, objective=8.478w=-0.6, b=-1.4, objective=7.208w=-0.4, b=-1.4, objective=6.048w=-0.2, b=-1.4, objective=4.998w=0, b=-1.4, objective=4.058w=0.2, b=-1.4, objective=3.229w=0.4, b=-1.4, objective=2.51w=0.6, b=-1.4, objective=1.901w=0.8, b=-1.4, objective=1.403w=1, b=-1.4, objective=1.014w=1.2, b=-1.4, objective=0.737w=1.4, b=-1.4, objective=0.569w=1.6, b=-1.4, objective=0.512w=1.8, b=-1.4, objective=0.565w=2, b=-1.4, objective=0.728w=2.2, b=-1.4, objective=1.001w=2.4, b=-1.4, objective=1.385w=2.6, b=-1.4, objective=1.879w=2.8, b=-1.4, objective=2.483w=-3, b=-1.2, objective=29.49w=-2.8, b=-1.2, objective=27.006w=-2.6, b=-1.2, objective=24.633w=-2.4, b=-1.2, objective=22.37w=-2.2, b=-1.2, objective=20.217w=-2, b=-1.2, objective=18.175w=-1.8, b=-1.2, objective=16.243w=-1.6, b=-1.2, objective=14.421w=-1.4, b=-1.2, objective=12.709w=-1.2, b=-1.2, objective=11.108w=-1, b=-1.2, objective=9.617w=-0.8, b=-1.2, objective=8.236w=-0.6, b=-1.2, objective=6.966w=-0.4, b=-1.2, objective=5.806w=-0.2, b=-1.2, objective=4.756w=0, b=-1.2, objective=3.816w=0.2, b=-1.2, objective=2.987w=0.4, b=-1.2, objective=2.268w=0.6, b=-1.2, objective=1.659w=0.8, b=-1.2, objective=1.161w=1, b=-1.2, objective=0.773w=1.2, b=-1.2, objective=0.495w=1.4, b=-1.2, objective=0.327w=1.6, b=-1.2, objective=0.27w=1.8, b=-1.2, objective=0.323w=2, b=-1.2, objective=0.486w=2.2, b=-1.2, objective=0.759w=2.4, b=-1.2, objective=1.143w=2.6, b=-1.2, objective=1.637w=2.8, b=-1.2, objective=2.242w=-3, b=-1, objective=29.328w=-2.8, b=-1, objective=26.844w=-2.6, b=-1, objective=24.471w=-2.4, b=-1, objective=22.208w=-2.2, b=-1, objective=20.055w=-2, b=-1, objective=18.013w=-1.8, b=-1, objective=16.081w=-1.6, b=-1, objective=14.259w=-1.4, b=-1, objective=12.547w=-1.2, b=-1, objective=10.946w=-1, b=-1, objective=9.455w=-0.8, b=-1, objective=8.074w=-0.6, b=-1, objective=6.804w=-0.4, b=-1, objective=5.644w=-0.2, b=-1, objective=4.594w=0, b=-1, objective=3.654w=0.2, b=-1, objective=2.825w=0.4, b=-1, objective=2.106w=0.6, b=-1, objective=1.497w=0.8, b=-1, objective=0.999w=1, b=-1, objective=0.611w=1.2, b=-1, objective=0.333w=1.4, b=-1, objective=0.165w=1.6, b=-1, objective=0.108w=1.8, b=-1, objective=0.161w=2, b=-1, objective=0.324w=2.2, b=-1, objective=0.597w=2.4, b=-1, objective=0.981w=2.6, b=-1, objective=1.475w=2.8, b=-1, objective=2.08w=-3, b=-0.8, objective=29.246w=-2.8, b=-0.8, objective=26.763w=-2.6, b=-0.8, objective=24.389w=-2.4, b=-0.8, objective=22.126w=-2.2, b=-0.8, objective=19.974w=-2, b=-0.8, objective=17.931w=-1.8, b=-0.8, objective=15.999w=-1.6, b=-0.8, objective=14.177w=-1.4, b=-0.8, objective=12.466w=-1.2, b=-0.8, objective=10.864w=-1, b=-0.8, objective=9.373w=-0.8, b=-0.8, objective=7.993w=-0.6, b=-0.8, objective=6.722w=-0.4, b=-0.8, objective=5.562w=-0.2, b=-0.8, objective=4.512w=0, b=-0.8, objective=3.572w=0.2, b=-0.8, objective=2.743w=0.4, b=-0.8, objective=2.024w=0.6, b=-0.8, objective=1.415w=0.8, b=-0.8, objective=0.917w=1, b=-0.8, objective=0.529w=1.2, b=-0.8, objective=0.251w=1.4, b=-0.8, objective=0.083w=1.6, b=-0.8, objective=0.026w=1.8, b=-0.8, objective=0.079w=2, b=-0.8, objective=0.242w=2.2, b=-0.8, objective=0.516w=2.4, b=-0.8, objective=0.899w=2.6, b=-0.8, objective=1.393w=2.8, b=-0.8, objective=1.998w=-3, b=-0.6, objective=29.244w=-2.8, b=-0.6, objective=26.761w=-2.6, b=-0.6, objective=24.387w=-2.4, b=-0.6, objective=22.124w=-2.2, b=-0.6, objective=19.972w=-2, b=-0.6, objective=17.929w=-1.8, b=-0.6, objective=15.997w=-1.6, b=-0.6, objective=14.175w=-1.4, b=-0.6, objective=12.464w=-1.2, b=-0.6, objective=10.862w=-1, b=-0.6, objective=9.371w=-0.8, b=-0.6, objective=7.991w=-0.6, b=-0.6, objective=6.72w=-0.4, b=-0.6, objective=5.56w=-0.2, b=-0.6, objective=4.51w=0, b=-0.6, objective=3.571w=0.2, b=-0.6, objective=2.741w=0.4, b=-0.6, objective=2.022w=0.6, b=-0.6, objective=1.413w=0.8, b=-0.6, objective=0.915w=1, b=-0.6, objective=0.527w=1.2, b=-0.6, objective=0.249w=1.4, b=-0.6, objective=0.081w=1.6, b=-0.6, objective=0.024w=1.8, b=-0.6, objective=0.077w=2, b=-0.6, objective=0.24w=2.2, b=-0.6, objective=0.514w=2.4, b=-0.6, objective=0.897w=2.6, b=-0.6, objective=1.392w=2.8, b=-0.6, objective=1.996w=-3, b=-0.4, objective=29.322w=-2.8, b=-0.4, objective=26.839w=-2.6, b=-0.4, objective=24.465w=-2.4, b=-0.4, objective=22.202w=-2.2, b=-0.4, objective=20.05w=-2, b=-0.4, objective=18.007w=-1.8, b=-0.4, objective=16.075w=-1.6, b=-0.4, objective=14.253w=-1.4, b=-0.4, objective=12.542w=-1.2, b=-0.4, objective=10.94w=-1, b=-0.4, objective=9.449w=-0.8, b=-0.4, objective=8.069w=-0.6, b=-0.4, objective=6.798w=-0.4, b=-0.4, objective=5.638w=-0.2, b=-0.4, objective=4.588w=0, b=-0.4, objective=3.649w=0.2, b=-0.4, objective=2.819w=0.4, b=-0.4, objective=2.1w=0.6, b=-0.4, objective=1.492w=0.8, b=-0.4, objective=0.993w=1, b=-0.4, objective=0.605w=1.2, b=-0.4, objective=0.327w=1.4, b=-0.4, objective=0.159w=1.6, b=-0.4, objective=0.102w=1.8, b=-0.4, objective=0.155w=2, b=-0.4, objective=0.318w=2.2, b=-0.4, objective=0.592w=2.4, b=-0.4, objective=0.976w=2.6, b=-0.4, objective=1.47w=2.8, b=-0.4, objective=2.074w=-3, b=-0.2, objective=29.48w=-2.8, b=-0.2, objective=26.997w=-2.6, b=-0.2, objective=24.624w=-2.4, b=-0.2, objective=22.361w=-2.2, b=-0.2, objective=20.208w=-2, b=-0.2, objective=18.165w=-1.8, b=-0.2, objective=16.233w=-1.6, b=-0.2, objective=14.411w=-1.4, b=-0.2, objective=12.7w=-1.2, b=-0.2, objective=11.099w=-1, b=-0.2, objective=9.608w=-0.8, b=-0.2, objective=8.227w=-0.6, b=-0.2, objective=6.956w=-0.4, b=-0.2, objective=5.796w=-0.2, b=-0.2, objective=4.746w=0, b=-0.2, objective=3.807w=0.2, b=-0.2, objective=2.977w=0.4, b=-0.2, objective=2.258w=0.6, b=-0.2, objective=1.65w=0.8, b=-0.2, objective=1.151w=1, b=-0.2, objective=0.763w=1.2, b=-0.2, objective=0.485w=1.4, b=-0.2, objective=0.317w=1.6, b=-0.2, objective=0.26w=1.8, b=-0.2, objective=0.313w=2, b=-0.2, objective=0.476w=2.2, b=-0.2, objective=0.75w=2.4, b=-0.2, objective=1.134w=2.6, b=-0.2, objective=1.628w=2.8, b=-0.2, objective=2.232w=-3, b=0, objective=29.718w=-2.8, b=0, objective=27.235w=-2.6, b=0, objective=24.862w=-2.4, b=0, objective=22.599w=-2.2, b=0, objective=20.446w=-2, b=0, objective=18.404w=-1.8, b=0, objective=16.471w=-1.6, b=0, objective=14.65w=-1.4, b=0, objective=12.938w=-1.2, b=0, objective=11.337w=-1, b=0, objective=9.846w=-0.8, b=0, objective=8.465w=-0.6, b=0, objective=7.195w=-0.4, b=0, objective=6.034w=-0.2, b=0, objective=4.984w=0, b=0, objective=4.045w=0.2, b=0, objective=3.216w=0.4, b=0, objective=2.497w=0.6, b=0, objective=1.888w=0.8, b=0, objective=1.389w=1, b=0, objective=1.001w=1.2, b=0, objective=0.723w=1.4, b=0, objective=0.556w=1.6, b=0, objective=0.498w=1.8, b=0, objective=0.551w=2, b=0, objective=0.714w=2.2, b=0, objective=0.988w=2.4, b=0, objective=1.372w=2.6, b=0, objective=1.866w=2.8, b=0, objective=2.47w=-3, b=0.2, objective=30.037w=-2.8, b=0.2, objective=27.553w=-2.6, b=0.2, objective=25.18w=-2.4, b=0.2, objective=22.917w=-2.2, b=0.2, objective=20.764w=-2, b=0.2, objective=18.722w=-1.8, b=0.2, objective=16.79w=-1.6, b=0.2, objective=14.968w=-1.4, b=0.2, objective=13.256w=-1.2, b=0.2, objective=11.655w=-1, b=0.2, objective=10.164w=-0.8, b=0.2, objective=8.783w=-0.6, b=0.2, objective=7.513w=-0.4, b=0.2, objective=6.352w=-0.2, b=0.2, objective=5.303w=0, b=0.2, objective=4.363w=0.2, b=0.2, objective=3.534w=0.4, b=0.2, objective=2.815w=0.6, b=0.2, objective=2.206w=0.8, b=0.2, objective=1.707w=1, b=0.2, objective=1.319w=1.2, b=0.2, objective=1.041w=1.4, b=0.2, objective=0.874w=1.6, b=0.2, objective=0.816w=1.8, b=0.2, objective=0.869w=2, b=0.2, objective=1.033w=2.2, b=0.2, objective=1.306w=2.4, b=0.2, objective=1.69w=2.6, b=0.2, objective=2.184w=2.8, b=0.2, objective=2.788w=-3, b=0.4, objective=30.435w=-2.8, b=0.4, objective=27.951w=-2.6, b=0.4, objective=25.578w=-2.4, b=0.4, objective=23.315w=-2.2, b=0.4, objective=21.162w=-2, b=0.4, objective=19.12w=-1.8, b=0.4, objective=17.188w=-1.6, b=0.4, objective=15.366w=-1.4, b=0.4, objective=13.654w=-1.2, b=0.4, objective=12.053w=-1, b=0.4, objective=10.562w=-0.8, b=0.4, objective=9.181w=-0.6, b=0.4, objective=7.911w=-0.4, b=0.4, objective=6.751w=-0.2, b=0.4, objective=5.701w=0, b=0.4, objective=4.761w=0.2, b=0.4, objective=3.932w=0.4, b=0.4, objective=3.213w=0.6, b=0.4, objective=2.604w=0.8, b=0.4, objective=2.105w=1, b=0.4, objective=1.717w=1.2, b=0.4, objective=1.439w=1.4, b=0.4, objective=1.272w=1.6, b=0.4, objective=1.214w=1.8, b=0.4, objective=1.267w=2, b=0.4, objective=1.431w=2.2, b=0.4, objective=1.704w=2.4, b=0.4, objective=2.088w=2.6, b=0.4, objective=2.582w=2.8, b=0.4, objective=3.186w=-3, b=0.6, objective=30.913w=-2.8, b=0.6, objective=28.429w=-2.6, b=0.6, objective=26.056w=-2.4, b=0.6, objective=23.793w=-2.2, b=0.6, objective=21.64w=-2, b=0.6, objective=19.598w=-1.8, b=0.6, objective=17.666w=-1.6, b=0.6, objective=15.844w=-1.4, b=0.6, objective=14.132w=-1.2, b=0.6, objective=12.531w=-1, b=0.6, objective=11.04w=-0.8, b=0.6, objective=9.659w=-0.6, b=0.6, objective=8.389w=-0.4, b=0.6, objective=7.229w=-0.2, b=0.6, objective=6.179w=0, b=0.6, objective=5.239w=0.2, b=0.6, objective=4.41w=0.4, b=0.6, objective=3.691w=0.6, b=0.6, objective=3.082w=0.8, b=0.6, objective=2.584w=1, b=0.6, objective=2.195w=1.2, b=0.6, objective=1.918w=1.4, b=0.6, objective=1.75w=1.6, b=0.6, objective=1.693w=1.8, b=0.6, objective=1.745w=2, b=0.6, objective=1.909w=2.2, b=0.6, objective=2.182w=2.4, b=0.6, objective=2.566w=2.6, b=0.6, objective=3.06w=2.8, b=0.6, objective=3.664w=-3, b=0.8, objective=31.471w=-2.8, b=0.8, objective=28.987w=-2.6, b=0.8, objective=26.614w=-2.4, b=0.8, objective=24.351w=-2.2, b=0.8, objective=22.198w=-2, b=0.8, objective=20.156w=-1.8, b=0.8, objective=18.224w=-1.6, b=0.8, objective=16.402w=-1.4, b=0.8, objective=14.69w=-1.2, b=0.8, objective=13.089w=-1, b=0.8, objective=11.598w=-0.8, b=0.8, objective=10.217w=-0.6, b=0.8, objective=8.947w=-0.4, b=0.8, objective=7.787w=-0.2, b=0.8, objective=6.737w=0, b=0.8, objective=5.797w=0.2, b=0.8, objective=4.968w=0.4, b=0.8, objective=4.249w=0.6, b=0.8, objective=3.64w=0.8, b=0.8, objective=3.142w=1, b=0.8, objective=2.754w=1.2, b=0.8, objective=2.476w=1.4, b=0.8, objective=2.308w=1.6, b=0.8, objective=2.251w=1.8, b=0.8, objective=2.304w=2, b=0.8, objective=2.467w=2.2, b=0.8, objective=2.74w=2.4, b=0.8, objective=3.124w=2.6, b=0.8, objective=3.618w=2.8, b=0.8, objective=4.223w=-3, b=1, objective=32.109w=-2.8, b=1, objective=29.625w=-2.6, b=1, objective=27.252w=-2.4, b=1, objective=24.989w=-2.2, b=1, objective=22.836w=-2, b=1, objective=20.794w=-1.8, b=1, objective=18.862w=-1.6, b=1, objective=17.04w=-1.4, b=1, objective=15.328w=-1.2, b=1, objective=13.727w=-1, b=1, objective=12.236w=-0.8, b=1, objective=10.855w=-0.6, b=1, objective=9.585w=-0.4, b=1, objective=8.425w=-0.2, b=1, objective=7.375w=0, b=1, objective=6.435w=0.2, b=1, objective=5.606w=0.4, b=1, objective=4.887w=0.6, b=1, objective=4.278w=0.8, b=1, objective=3.78w=1, b=1, objective=3.392w=1.2, b=1, objective=3.114w=1.4, b=1, objective=2.946w=1.6, b=1, objective=2.889w=1.8, b=1, objective=2.942w=2, b=1, objective=3.105w=2.2, b=1, objective=3.378w=2.4, b=1, objective=3.762w=2.6, b=1, objective=4.256w=2.8, b=1, objective=4.861w=-3, b=1.2, objective=32.827w=-2.8, b=1.2, objective=30.344w=-2.6, b=1.2, objective=27.97w=-2.4, b=1.2, objective=25.707w=-2.2, b=1.2, objective=23.555w=-2, b=1.2, objective=21.512w=-1.8, b=1.2, objective=19.58w=-1.6, b=1.2, objective=17.758w=-1.4, b=1.2, objective=16.047w=-1.2, b=1.2, objective=14.445w=-1, b=1.2, objective=12.954w=-0.8, b=1.2, objective=11.574w=-0.6, b=1.2, objective=10.303w=-0.4, b=1.2, objective=9.143w=-0.2, b=1.2, objective=8.093w=0, b=1.2, objective=7.153w=0.2, b=1.2, objective=6.324w=0.4, b=1.2, objective=5.605w=0.6, b=1.2, objective=4.996w=0.8, b=1.2, objective=4.498w=1, b=1.2, objective=4.11w=1.2, b=1.2, objective=3.832w=1.4, b=1.2, objective=3.664w=1.6, b=1.2, objective=3.607w=1.8, b=1.2, objective=3.66w=2, b=1.2, objective=3.823w=2.2, b=1.2, objective=4.097w=2.4, b=1.2, objective=4.48w=2.6, b=1.2, objective=4.974w=2.8, b=1.2, objective=5.579w=-3, b=1.4, objective=33.625w=-2.8, b=1.4, objective=31.142w=-2.6, b=1.4, objective=28.768w=-2.4, b=1.4, objective=26.505w=-2.2, b=1.4, objective=24.353w=-2, b=1.4, objective=22.31w=-1.8, b=1.4, objective=20.378w=-1.6, b=1.4, objective=18.556w=-1.4, b=1.4, objective=16.845w=-1.2, b=1.4, objective=15.243w=-1, b=1.4, objective=13.752w=-0.8, b=1.4, objective=12.372w=-0.6, b=1.4, objective=11.101w=-0.4, b=1.4, objective=9.941w=-0.2, b=1.4, objective=8.891w=0, b=1.4, objective=7.952w=0.2, b=1.4, objective=7.122w=0.4, b=1.4, objective=6.403w=0.6, b=1.4, objective=5.794w=0.8, b=1.4, objective=5.296w=1, b=1.4, objective=4.908w=1.2, b=1.4, objective=4.63w=1.4, b=1.4, objective=4.462w=1.6, b=1.4, objective=4.405w=1.8, b=1.4, objective=4.458w=2, b=1.4, objective=4.621w=2.2, b=1.4, objective=4.895w=2.4, b=1.4, objective=5.278w=2.6, b=1.4, objective=5.772w=2.8, b=1.4, objective=6.377w=-3, b=1.6, objective=34.503w=-2.8, b=1.6, objective=32.02w=-2.6, b=1.6, objective=29.646w=-2.4, b=1.6, objective=27.383w=-2.2, b=1.6, objective=25.231w=-2, b=1.6, objective=23.188w=-1.8, b=1.6, objective=21.256w=-1.6, b=1.6, objective=19.434w=-1.4, b=1.6, objective=17.723w=-1.2, b=1.6, objective=16.121w=-1, b=1.6, objective=14.63w=-0.8, b=1.6, objective=13.25w=-0.6, b=1.6, objective=11.979w=-0.4, b=1.6, objective=10.819w=-0.2, b=1.6, objective=9.769w=0, b=1.6, objective=8.83w=0.2, b=1.6, objective=8w=0.4, b=1.6, objective=7.281w=0.6, b=1.6, objective=6.673w=0.8, b=1.6, objective=6.174w=1, b=1.6, objective=5.786w=1.2, b=1.6, objective=5.508w=1.4, b=1.6, objective=5.34w=1.6, b=1.6, objective=5.283w=1.8, b=1.6, objective=5.336w=2, b=1.6, objective=5.499w=2.2, b=1.6, objective=5.773w=2.4, b=1.6, objective=6.157w=2.6, b=1.6, objective=6.651w=2.8, b=1.6, objective=7.255w=-3, b=1.8, objective=35.461w=-2.8, b=1.8, objective=32.978w=-2.6, b=1.8, objective=30.605w=-2.4, b=1.8, objective=28.342w=-2.2, b=1.8, objective=26.189w=-2, b=1.8, objective=24.146w=-1.8, b=1.8, objective=22.214w=-1.6, b=1.8, objective=20.392w=-1.4, b=1.8, objective=18.681w=-1.2, b=1.8, objective=17.08w=-1, b=1.8, objective=15.589w=-0.8, b=1.8, objective=14.208w=-0.6, b=1.8, objective=12.937w=-0.4, b=1.8, objective=11.777w=-0.2, b=1.8, objective=10.727w=0, b=1.8, objective=9.788w=0.2, b=1.8, objective=8.958w=0.4, b=1.8, objective=8.239w=0.6, b=1.8, objective=7.631w=0.8, b=1.8, objective=7.132w=1, b=1.8, objective=6.744w=1.2, b=1.8, objective=6.466w=1.4, b=1.8, objective=6.298w=1.6, b=1.8, objective=6.241w=1.8, b=1.8, objective=6.294w=2, b=1.8, objective=6.457w=2.2, b=1.8, objective=6.731w=2.4, b=1.8, objective=7.115w=2.6, b=1.8, objective=7.609w=2.8, b=1.8, objective=8.213w=-3, b=2, objective=36.499w=-2.8, b=2, objective=34.016w=-2.6, b=2, objective=31.643w=-2.4, b=2, objective=29.38w=-2.2, b=2, objective=27.227w=-2, b=2, objective=25.185w=-1.8, b=2, objective=23.252w=-1.6, b=2, objective=21.431w=-1.4, b=2, objective=19.719w=-1.2, b=2, objective=18.118w=-1, b=2, objective=16.627w=-0.8, b=2, objective=15.246w=-0.6, b=2, objective=13.975w=-0.4, b=2, objective=12.815w=-0.2, b=2, objective=11.765w=0, b=2, objective=10.826w=0.2, b=2, objective=9.997w=0.4, b=2, objective=9.277w=0.6, b=2, objective=8.669w=0.8, b=2, objective=8.17w=1, b=2, objective=7.782w=1.2, b=2, objective=7.504w=1.4, b=2, objective=7.337w=1.6, b=2, objective=7.279w=1.8, b=2, objective=7.332w=2, b=2, objective=7.495w=2.2, b=2, objective=7.769w=2.4, b=2, objective=8.153w=2.6, b=2, objective=8.647w=2.8, b=2, objective=9.251w=-3, b=2.2, objective=37.618w=-2.8, b=2.2, objective=35.134w=-2.6, b=2.2, objective=32.761w=-2.4, b=2.2, objective=30.498w=-2.2, b=2.2, objective=28.345w=-2, b=2.2, objective=26.303w=-1.8, b=2.2, objective=24.37w=-1.6, b=2.2, objective=22.549w=-1.4, b=2.2, objective=20.837w=-1.2, b=2.2, objective=19.236w=-1, b=2.2, objective=17.745w=-0.8, b=2.2, objective=16.364w=-0.6, b=2.2, objective=15.094w=-0.4, b=2.2, objective=13.933w=-0.2, b=2.2, objective=12.884w=0, b=2.2, objective=11.944w=0.2, b=2.2, objective=11.115w=0.4, b=2.2, objective=10.396w=0.6, b=2.2, objective=9.787w=0.8, b=2.2, objective=9.288w=1, b=2.2, objective=8.9w=1.2, b=2.2, objective=8.622w=1.4, b=2.2, objective=8.455w=1.6, b=2.2, objective=8.397w=1.8, b=2.2, objective=8.45w=2, b=2.2, objective=8.613w=2.2, b=2.2, objective=8.887w=2.4, b=2.2, objective=9.271w=2.6, b=2.2, objective=9.765w=2.8, b=2.2, objective=10.369w=-3, b=2.4, objective=38.816w=-2.8, b=2.4, objective=36.332w=-2.6, b=2.4, objective=33.959w=-2.4, b=2.4, objective=31.696w=-2.2, b=2.4, objective=29.543w=-2, b=2.4, objective=27.501w=-1.8, b=2.4, objective=25.569w=-1.6, b=2.4, objective=23.747w=-1.4, b=2.4, objective=22.035w=-1.2, b=2.4, objective=20.434w=-1, b=2.4, objective=18.943w=-0.8, b=2.4, objective=17.562w=-0.6, b=2.4, objective=16.292w=-0.4, b=2.4, objective=15.131w=-0.2, b=2.4, objective=14.082w=0, b=2.4, objective=13.142w=0.2, b=2.4, objective=12.313w=0.4, b=2.4, objective=11.594w=0.6, b=2.4, objective=10.985w=0.8, b=2.4, objective=10.486w=1, b=2.4, objective=10.098w=1.2, b=2.4, objective=9.82w=1.4, b=2.4, objective=9.653w=1.6, b=2.4, objective=9.595w=1.8, b=2.4, objective=9.648w=2, b=2.4, objective=9.812w=2.2, b=2.4, objective=10.085w=2.4, b=2.4, objective=10.469w=2.6, b=2.4, objective=10.963w=2.8, b=2.4, objective=11.567w=-3, b=2.6, objective=40.094w=-2.8, b=2.6, objective=37.61w=-2.6, b=2.6, objective=35.237w=-2.4, b=2.6, objective=32.974w=-2.2, b=2.6, objective=30.821w=-2, b=2.6, objective=28.779w=-1.8, b=2.6, objective=26.847w=-1.6, b=2.6, objective=25.025w=-1.4, b=2.6, objective=23.313w=-1.2, b=2.6, objective=21.712w=-1, b=2.6, objective=20.221w=-0.8, b=2.6, objective=18.84w=-0.6, b=2.6, objective=17.57w=-0.4, b=2.6, objective=16.41w=-0.2, b=2.6, objective=15.36w=0, b=2.6, objective=14.42w=0.2, b=2.6, objective=13.591w=0.4, b=2.6, objective=12.872w=0.6, b=2.6, objective=12.263w=0.8, b=2.6, objective=11.765w=1, b=2.6, objective=11.376w=1.2, b=2.6, objective=11.098w=1.4, b=2.6, objective=10.931w=1.6, b=2.6, objective=10.874w=1.8, b=2.6, objective=10.926w=2, b=2.6, objective=11.09w=2.2, b=2.6, objective=11.363w=2.4, b=2.6, objective=11.747w=2.6, b=2.6, objective=12.241w=2.8, b=2.6, objective=12.845w=-3, b=2.8, objective=41.452w=-2.8, b=2.8, objective=38.968w=-2.6, b=2.8, objective=36.595w=-2.4, b=2.8, objective=34.332w=-2.2, b=2.8, objective=32.179w=-2, b=2.8, objective=30.137w=-1.8, b=2.8, objective=28.205w=-1.6, b=2.8, objective=26.383w=-1.4, b=2.8, objective=24.671w=-1.2, b=2.8, objective=23.07w=-1, b=2.8, objective=21.579w=-0.8, b=2.8, objective=20.198w=-0.6, b=2.8, objective=18.928w=-0.4, b=2.8, objective=17.768w=-0.2, b=2.8, objective=16.718w=0, b=2.8, objective=15.778w=0.2, b=2.8, objective=14.949w=0.4, b=2.8, objective=14.23w=0.6, b=2.8, objective=13.621w=0.8, b=2.8, objective=13.123w=1, b=2.8, objective=12.734w=1.2, b=2.8, objective=12.457w=1.4, b=2.8, objective=12.289w=1.6, b=2.8, objective=12.232w=1.8, b=2.8, objective=12.285w=2, b=2.8, objective=12.448w=2.2, b=2.8, objective=12.721w=2.4, b=2.8, objective=13.105w=2.6, b=2.8, objective=13.599w=2.8, b=2.8, objective=14.204Global minimumNormalized full negative-gradient directionWeight w [-3,3]; vertical axis = bias b [-3,3]Contours: 0.15, 0.5, 1, 2, 4, 8, 16, 32Gold: actual parameter path and current point. Pink arrow: normalized full negative-gradient direction (not necessarily the momentum or adaptive update direction). White cross: global minimum. Purple cross: higher local minimum, when present. Paths outside [-3,3] are clipped, but the numeric loss and parameters remain visible. 3D height uses log(1+loss−min(0,grid minimum)) for readability; it is not a linear z axis.Global minimum: w=1.604, b=-0.695, objective=0.015.Full objective after each updateNo optimization results yet. Start or run one update.Every loss is evaluated on the full objective after a parameter update. Stochastic loss can rise even when its sampled gradient is correct. A budget ending is not proof of convergence.Data and current fitted line6-2.23-1.100-31.1-62.2Feature x: -2, Observed target and current prediction: -3.999Feature x: -1.932, Observed target and current prediction: -3.956Feature x: -1.864, Observed target and current prediction: -3.652Feature x: -1.797, Observed target and current prediction: -3.686Feature x: -1.729, Observed target and current prediction: -3.516Feature x: -1.661, Observed target and current prediction: -3.547Feature x: -1.593, Observed target and current prediction: -3.27Feature x: -1.525, Observed target and current prediction: -3.293Feature x: -1.458, Observed target and current prediction: -2.883Feature x: -1.39, Observed target and current prediction: -2.726Feature x: -1.322, Observed target and current prediction: -2.674Feature x: -1.254, Observed target and current prediction: -2.707Feature x: -1.186, Observed target and current prediction: -2.542Feature x: -1.119, Observed target and current prediction: -2.345Feature x: -1.051, Observed target and current prediction: -2.343Feature x: -0.983, Observed target and current prediction: -2.437Feature x: -0.915, Observed target and current prediction: -2.308Feature x: -0.847, Observed target and current prediction: -1.876Feature x: -0.78, Observed target and current prediction: -1.778Feature x: -0.712, Observed target and current prediction: -1.683Feature x: -0.644, Observed target and current prediction: -1.71Feature x: -0.576, Observed target and current prediction: -1.75Feature x: -0.508, Observed target and current prediction: -1.494Feature x: -0.441, Observed target and current prediction: -1.501Feature x: -0.373, Observed target and current prediction: -1.119Feature x: -0.305, Observed target and current prediction: -1.06Feature x: -0.237, Observed target and current prediction: -1.218Feature x: -0.169, Observed target and current prediction: -0.839Feature x: -0.102, Observed target and current prediction: -0.876Feature x: -0.034, Observed target and current prediction: -0.93Feature x: 0.034, Observed target and current prediction: -0.837Feature x: 0.102, Observed target and current prediction: -0.522Feature x: 0.169, Observed target and current prediction: -0.297Feature x: 0.237, Observed target and current prediction: -0.182Feature x: 0.305, Observed target and current prediction: -0.139Feature x: 0.373, Observed target and current prediction: -0.151Feature x: 0.441, Observed target and current prediction: 0.039Feature x: 0.508, Observed target and current prediction: 0.192Feature x: 0.576, Observed target and current prediction: 0.307Feature x: 0.644, Observed target and current prediction: 0.418Feature x: 0.712, Observed target and current prediction: 0.635Feature x: 0.78, Observed target and current prediction: 0.527Feature x: 0.847, Observed target and current prediction: 0.495Feature x: 0.915, Observed target and current prediction: 0.641Feature x: 0.983, Observed target and current prediction: 0.852Feature x: 1.051, Observed target and current prediction: 0.832Feature x: 1.119, Observed target and current prediction: 1.197Feature x: 1.186, Observed target and current prediction: 1.236Feature x: 1.254, Observed target and current prediction: 1.429Feature x: 1.322, Observed target and current prediction: 1.371Feature x: 1.39, Observed target and current prediction: 1.41Feature x: 1.458, Observed target and current prediction: 1.541Feature x: 1.525, Observed target and current prediction: 1.548Feature x: 1.593, Observed target and current prediction: 1.76Feature x: 1.661, Observed target and current prediction: 1.891Feature x: 1.729, Observed target and current prediction: 2.219Feature x: 1.797, Observed target and current prediction: 2.357Feature x: 1.864, Observed target and current prediction: 2.16Feature x: 1.932, Observed target and current prediction: 2.54Feature x: 2, Observed target and current prediction: 2.533Feature xObserved target and current predictionThe same current weight and bias generate this line and the point on the loss landscape. The dataset is synthetic, not a fitted real-world claim.Interactive contour · PlotlyOpen the actual 41×41 full-objective grid with the same computed optimizer path. Color shows unmodified loss, not the logarithmic height used by the separate SVG surface. Grid range is [−3,3] on both parameters; points outside it may be off-screen until you zoom out.Open interactive contourInspect exact update historyActual parameter updates, up to the configured maximumUpdatewbFull objectiveRateWhy optimizer memory existsMomentum accumulates velocity to smooth changes in direction. Nesterov measures the gradient at a look-ahead location. RMSprop rescales coordinates by recent squared gradients. Adam combines first and second moments with startup bias correction. These are update rules, not substitutes for checking data scale, loss shape or validation performance.Batch gradients are deterministic on this fixed dataset. Stochastic and mini-batch sampling trade per-update work for noisy estimates. The appropriate rate can differ across methods. A tiny gradient can indicate a local stationary point rather than a good solution.",
+        "controls": [
+          "checkbox",
+          "Open interactive contour"
+        ],
+        "charts": 2
+      },
+      {
+        "n": "9",
+        "title": "Python Code",
+        "text": "Read the code · PythonCopy this educational example into Python to run it. The live lab uses JavaScript in your browser, not a Python interpreter.import numpy as np # X, y must contain only training observations for the regression objective. # Use your actual data; this template does not reproduce the browser RNG. theta = np.array([-1.5, 1.5], dtype=float) m = np.zeros(2) v = np.zeros(2) base_rate, beta1, beta2 = 0.04, 0.9, 0.999 rng = np.random.default_rng(42) def gradient(theta, indices=None): w, b = theta xx, yy = (X, y) if indices is None else (X[indices], y[indices]) error = w * xx + b - yy return np.array([2*np.mean(error*xx), 2*np.mean(error)]) def objective(theta): w, b = theta return np.mean((w * X + b - y)**2) for step in range(300): rate = base_rate indices = None g = gradient(theta, indices) delta = rate*g candidate = theta - delta loss = objective(candidate) if not np.isfinite(loss) or np.any(np.abs(candidate) > 30): print('Rejected unstable update; lower the rate.') break theta = candidate print(step+1, theta.copy(), loss) if np.linalg.norm(gradient(theta)) < 1e-5: break # The browser uses this update convention. NumPy and browser sampling seeds differ. Copy code",
+        "controls": [
+          "Copy code"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "10",
+        "title": "Practical Applications",
+        "text": "These rules optimize model parameters in regression and neural training. The two-parameter workbench isolates update behavior, stochasticity and conditioning. A low objective on one task does not rank optimizers universally, and the analytic double well is not an empirical dataset.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "11",
+        "title": "Challenges",
+        "text": "CHECK YOUR UNDERSTANDINGIf a stochastic update increases the full loss, is the implementation necessarily wrong?Yes, every update must decrease the full lossNo, the sampled gradient can differ from the full gradientYes, stochastic methods always use all observationsReferences and limitationsStochastic gradient descent reference ↗Educational two-parameter optimizers, not a general autodiff framework. All calculations run in the browser. No optimizer history is saved automatically. Numerical convergence uses the full gradient norm; noisy methods may reach the budget without satisfying it.Save this browser experimentSave the actual current parameters, results, history and data on this device. No upload or cloud sync. At most 12 snapshots, total 2 MB in the local source app. Large models or histories can be exported as JSON instead. JSON exports contain your selected data. A snapshot can be restored safely in this lab; it is not an executable model format.Browser experiment nameCapture current experimentExport current snapshotOpen saved snapshotsSources and scopeThese are simplified educational tools using fictional examples. They are not production models or large-network training. Browser labs do not execute Python. The optional Local execution workspace connects only to your explicitly selected loopback API. Lab state is temporary and resets when you reopen the page. The theme preference is stored on this device when storage is available.Linear models and Perceptron reference ↗Gradient descent and loss-function reference ↗Lessons and lab explanations are written independently. Curriculum topic names follow your supplied reference image.",
+        "controls": [
+          "Yes, every update must decrease the full loss",
+          "No, the sampled gradient can differ from the full gradient",
+          "Yes, stochastic methods always use all observations",
+          "Browser experiment name",
+          "Capture current experiment",
+          "Export current snapshot"
+        ],
+        "charts": 0
+      }
+    ]
+  },
+  {
+    "route": "regression",
+    "sections": [
+      {
+        "n": "1",
+        "title": "Overview",
+        "text": "Fit a single affine relation to paired numeric observations. All residuals and training curves use the current inputs.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "2",
+        "title": "Mathematical Foundation",
+        "text": "Reason through Linear RegressionAlgorithm learning levelBeginnerIntermediateAdvancedWorked exampleFor points (1,3),(2,5), zero slope/intercept yield errors −3,−5. The slope gradient is −13 and bias gradient −8. A rate 0.1 step gives m=1.3,b=0.8.",
+        "controls": [
+          "Algorithm learning level"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "3",
+        "title": "How It Works",
+        "text": "Predict from the current slope and intercept.Compute mean squared residuals and both parameter gradients.Subtract a stable gradient step, or compare with the exact least-squares fit.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "4",
+        "title": "Interactive Simulation",
+        "text": "",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "8",
+        "title": "Results · Data and learning line",
+        "text": "15-11117335-17Signed residual y − prediction: 2Signed residual y − prediction: 3Signed residual y − prediction: 4Signed residual y − prediction: 5Signed residual y − prediction: 6x: 1, y: 3x: 2, y: 5x: 3, y: 7x: 4, y: 9x: 5, y: 11xy● Blue: observed dataGreen line: model predictionDashed pink: residual y − prediction Show residual segmentsMean squared error18Current modelŷ = 1x + 0Learning curve: error over time1.0500.78850.525100.26215020IterationMSEThe data plot shows predictions. This plot records training error after each real gradient-descent update, not a decorative animation.Training steps0Training stateReady",
+        "controls": [
+          "checkbox"
+        ],
+        "charts": 2
+      },
+      {
+        "n": "7",
+        "title": "Training",
+        "text": "Start trainingOne regression updateRestart from zeroStable automatic learning rate: 0.067. Pause, change the line, or use the instant exact fit to compare. The two plots update together.",
+        "controls": [
+          "Start training",
+          "One regression update",
+          "Restart from zero"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "5",
+        "title": "Parameters",
+        "text": "Slope · m1Intercept · b0Find best fitReset labPredict at xPrediction: 6 arbitrary unitsPredicting outside your observed x range is extrapolation. A fitted line does not guarantee a reliable real-world prediction.",
+        "controls": [
+          "Slope · m",
+          "Intercept · b",
+          "Find best fit",
+          "Reset lab",
+          "number"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "6",
+        "title": "Dataset",
+        "text": "Add an observation or generate dataAt most 30 observations, coordinates between −100 and 100. Adding or generating pauses training, clears its curve and retains the current line.New point xNew point yAdd data pointRegression random seed42Generate random regression dataSeeded generation is reproducible. Reusing a seed returns the same synthetic observations, not unseen real data.Prediction errors and residuals (5 observations)Current training rows, signed residual = observed − predictedxObserved yPredicted yResidualSquared residual13124252393734164945255115636Mean of the squared residuals: 18. These are training errors, not held-out evaluation.Try your own dataEnter one x,y point per line. Inputs stay in your browser. Do not enter sensitive data.1,3 2,5 3,7 4,9 5,11Apply dataUnderstand the resultThe ideaThe model predicts ŷ = mx + b. The difference between a prediction and its observed value is a residual. Square the residuals and take their mean: MSE = Σ(ŷ − y)² / n. Lower is better on the same data, but training error alone does not tell you how well a model generalizes.Worked example: practice and scoreOur fictional observations are (1,3), (2,5), (3,7).For each extra unit of x, y rises by two. So m = 2.Substitute: 3 = 2 × 1 + b, which gives b = 1.At x = 4, the prediction is ŷ = 9. The error on the three observed points is zero.",
+        "controls": [
+          "New regression point x",
+          "New regression point y",
+          "Add data point",
+          "Regression random seed",
+          "Generate random regression data",
+          "Regression data x,y",
+          "Apply data"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "9",
+        "title": "Python Code",
+        "text": "Read the code · PythonCopy this educational example into Python to run it. The live lab uses JavaScript in your browser, not a Python interpreter.# Ordinary least squares, one input feature x = [1,2,3,4,5] y = [3,5,7,9,11] x_mean = sum(x) / len(x) y_mean = sum(y) / len(y) den = sum((v - x_mean)**2 for v in x) if den == 0: raise ValueError(\"x must vary\") m = sum((a-x_mean)*(b-y_mean) for a,b in zip(x,y)) / den b = y_mean - m*x_mean pred = [m*a+b for a in x] mse = sum((p-t)**2 for p,t in zip(pred,y)) / len(y) print(m, b, mse) # Computed least-squares result for the selected observationsCopy code",
+        "controls": [
+          "Copy code"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "10",
+        "title": "Practical Applications",
+        "text": "Simple regression is a useful calibration and trend baseline when a linear relation is plausible. It does not establish causality. Residual patterns, outliers and held-out data should guide whether the model is appropriate.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "11",
+        "title": "Challenges",
+        "text": "CHECK YOUR UNDERSTANDINGWith slope 2 and intercept 1, what is the prediction at x = 3?579Save this browser experimentSave the actual current parameters, results, history and data on this device. No upload or cloud sync. At most 12 snapshots, total 2 MB in the local source app. Large models or histories can be exported as JSON instead. JSON exports contain your selected data. A snapshot can be restored safely in this lab; it is not an executable model format.Browser experiment nameCapture current experimentExport current snapshotOpen saved snapshotsSources and scopeThese are simplified educational tools using fictional examples. They are not production models or large-network training. Browser labs do not execute Python. The optional Local execution workspace connects only to your explicitly selected loopback API. Lab state is temporary and resets when you reopen the page. The theme preference is stored on this device when storage is available.Linear models and Perceptron reference ↗Gradient descent and loss-function reference ↗Lessons and lab explanations are written independently. Curriculum topic names follow your supplied reference image.",
+        "controls": [
+          "5",
+          "7",
+          "9",
+          "Browser experiment name",
+          "Capture current experiment",
+          "Export current snapshot"
+        ],
+        "charts": 0
+      }
+    ]
+  },
+  {
+    "route": "perceptron",
+    "sections": [
+      {
+        "n": "1",
+        "title": "Overview",
+        "text": "A binary linear threshold unit learns from classification mistakes. The live predictions are training-set results, not held-out generalization metrics.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "2",
+        "title": "Mathematical Foundation",
+        "text": "Reason through PerceptronAlgorithm learning levelBeginnerIntermediateAdvancedWorked exampleWith x=(1,1), target 0, zero weights and zero bias, the ≥0 rule predicts 1. At η=0.1, both weights and the bias become −0.1.",
+        "controls": [
+          "Algorithm learning level"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "3",
+        "title": "How It Works",
+        "text": "Visit each selected truth-table row in its displayed order.Threshold the weighted input score at zero.For a mistake, add the rate-scaled target-minus-prediction times the inputs and update the bias.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "4",
+        "title": "Interactive Simulation",
+        "text": "",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "8",
+        "title": "Results · Training predictions",
+        "text": "1.4-0.40.950.050.50.50.050.95-0.41.4x₁: 0, x₂: 0x₁: 0, x₂: 1x₁: 1, x₂: 0x₁: 1, x₂: 1x₁x₂● Blue: class 1● Gold: class 0No boundary is drawn when both feature weights are zero. The bias alone determines the prediction.Correct training predictions1 / 4Training epochs0",
+        "controls": [],
+        "charts": 1
+      },
+      {
+        "n": "6",
+        "title": "Dataset",
+        "text": "Choose the fixed four-point AND or XOR truth table. These are synthetic, binary examples, not uploaded data.ANDXOR",
+        "controls": [
+          "AND",
+          "XOR"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "5",
+        "title": "Parameters",
+        "text": "Weight · w₁0Weight · w₂0Bias · b0Learning rate · η0.5",
+        "controls": [
+          "Weight · w₁",
+          "Weight · w₂",
+          "Bias · b",
+          "Learning rate · η"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "7",
+        "title": "Training",
+        "text": "Start perceptron trainingTrain one epochReset trainingNo training yet. Paused.Current predictions · inputs and scores are dimensionlessx₁x₂TargetPredictionResult0001Wrong0101Wrong1001Wrong1111CorrectAND is linearly separable. Train for several epochs and watch the predictions settle. Accuracy here is measured on four training points, not unseen test data.Understand the resultPredict, compare, updateCompute z = w₁x₁ + w₂x₂ + b. Predict 1 if z ≥ 0, otherwise predict 0. For a mistake, compute e = target − prediction. Update w ← w + ηex and b ← b + ηe. One epoch visits all four points, using the updated weights for each next point.Worked example: the first pointStart with zero weights and learning rate 0.5.For AND, point (0,0) has target 0. Its score is zero, so the model predicts 1.The error is e = 0 − 1 = −1.Feature weights stay at zero because both inputs are zero. The new bias is b = −0.5.",
+        "controls": [
+          "Start perceptron training",
+          "Train one epoch",
+          "Reset training"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "9",
+        "title": "Python Code",
+        "text": "Read the code · PythonCopy this educational example into Python to run it. The live lab uses JavaScript in your browser, not a Python interpreter.# One online training epoch, labels are 0 and 1 data = [[0,0,0],[0,1,0],[1,0,0],[1,1,1]] w1, w2, b = 0, 0, 0 # Current parameters eta = 0.5 for x1, x2, target in data: z = w1*x1 + w2*x2 + b pred = int(z >= 0) error = target - pred w1 += eta * error * x1 w2 += eta * error * x2 b += eta * error print(w1, w2, b)Copy code",
+        "controls": [
+          "Copy code"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "10",
+        "title": "Practical Applications",
+        "text": "A perceptron illustrates online linear classification and motivates multilayer networks. It fits separable patterns, but a single linear threshold cannot represent XOR. The four training predictions are not a real-world accuracy estimate.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "11",
+        "title": "Challenges",
+        "text": "CHECK YOUR UNDERSTANDINGWhy can a single Perceptron not solve XOR?The learning rate is always too lowThe two classes cannot be separated by a straight lineThere are too few training pointsSave this browser experimentSave the actual current parameters, results, history and data on this device. No upload or cloud sync. At most 12 snapshots, total 2 MB in the local source app. Large models or histories can be exported as JSON instead. JSON exports contain your selected data. A snapshot can be restored safely in this lab; it is not an executable model format.Browser experiment nameCapture current experimentExport current snapshotOpen saved snapshotsSources and scopeThese are simplified educational tools using fictional examples. They are not production models or large-network training. Browser labs do not execute Python. The optional Local execution workspace connects only to your explicitly selected loopback API. Lab state is temporary and resets when you reopen the page. The theme preference is stored on this device when storage is available.Linear models and Perceptron reference ↗Gradient descent and loss-function reference ↗Lessons and lab explanations are written independently. Curriculum topic names follow your supplied reference image.",
+        "controls": [
+          "The learning rate is always too low",
+          "The two classes cannot be separated by a straight line",
+          "There are too few training points",
+          "Browser experiment name",
+          "Capture current experiment",
+          "Export current snapshot"
+        ],
+        "charts": 0
+      }
+    ]
+  },
+  {
+    "route": "gradient",
+    "sections": [
+      {
+        "n": "1",
+        "title": "Overview",
+        "text": "Optimize one known scalar quadratic and inspect every real parameter update.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "2",
+        "title": "Mathematical Foundation",
+        "text": "Reason through Gradient DescentAlgorithm learning levelBeginnerIntermediateAdvancedWorked exampleFor J=(w−3)² at w=0, gradient=−6. With α=0.1, next w=0.6 and loss falls from 9 to 5.76.",
+        "controls": [
+          "Algorithm learning level"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "3",
+        "title": "How It Works",
+        "text": "Differentiate f(w)=(w−3)² to obtain 2(w−3).Multiply the derivative by the selected positive rate.Subtract that displacement and record the newly computed loss.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "6",
+        "title": "Dataset",
+        "text": "This is an analytic objective, not a fitted dataset. The initial position is −3 and the exact optimum is w=3. No train/test metric is appropriate for this demonstration.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "4",
+        "title": "Interactive Simulation",
+        "text": "",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "8",
+        "title": "Results · Objective and current weight",
+        "text": "85-663.75-1.542.5321.257.5012w: -3, f(w): 36wf(w)The curve is f(w) = (w − 3)². Blue marks the current weight. If the point leaves the plot, follow its value in the readouts.Current weight · w-3Loss · f(w)36Derivative · f′(w)-12Steps taken0Learning curve: loss after each step37.8028.352.518.959.457.5010Step: 0, Loss: 36StepLoss",
+        "controls": [],
+        "charts": 2
+      },
+      {
+        "n": "5",
+        "title": "Parameters",
+        "text": "Learning rate · α0.1",
+        "controls": [
+          "Learning rate · α"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "7",
+        "title": "Training",
+        "text": "Animate learningTake one stepTake 10 stepsReset positionw ← w − α · 2(w − 3)The minimum is at w = 3, where both the loss and derivative are zero.Try α = 0.1, reset, then try α = 1.1. For this function, rates strictly between zero and one converge. At one, the position oscillates; above one, it diverges from this starting point.Step history (1 position)StepWeightLoss0-336Understand the resultMove against the gradientThe derivative points toward increasing function values. To move downhill, use w_next = w − αf′(w). An oversized step can overshoot the minimum and increase the loss. Convergence conditions depend on the function; the rate limits in this lab apply only to this quadratic.Worked example: your first stepStart at w = −3, with α = 0.1.The derivative is 2(−3 − 3) = −12.The next weight is −3 − 0.1 × (−12) = −1.8.The loss falls from 36 to 23.04.",
+        "controls": [
+          "Animate learning",
+          "Take one step",
+          "Take 10 steps",
+          "Reset position"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "9",
+        "title": "Python Code",
+        "text": "Read the code · PythonCopy this educational example into Python to run it. The live lab uses JavaScript in your browser, not a Python interpreter.# Gradient descent on f(w) = (w - 3)**2 w = -3 # Current position alpha = 0.1 for step in range(10): gradient = 2 * (w - 3) w = w - alpha * gradient print(step + 1, w, (w - 3)**2)Copy code",
+        "controls": [
+          "Copy code"
+        ],
+        "charts": 0
+      },
+      {
+        "n": "10",
+        "title": "Practical Applications",
+        "text": "Gradient descent trains differentiable models by reducing an objective. This exactly solvable quadratic isolates stability; it does not demonstrate stochasticity, nonconvex optimization or neural generalization. Use the optimizer workbench for multidimensional objectives.",
+        "controls": [],
+        "charts": 0
+      },
+      {
+        "n": "11",
+        "title": "Challenges",
+        "text": "CHECK YOUR UNDERSTANDINGWith a negative derivative and a positive learning rate, what happens to the weight in the next step?It increasesIt decreasesIt always stays fixedSave this browser experimentSave the actual current parameters, results, history and data on this device. No upload or cloud sync. At most 12 snapshots, total 2 MB in the local source app. Large models or histories can be exported as JSON instead. JSON exports contain your selected data. A snapshot can be restored safely in this lab; it is not an executable model format.Browser experiment nameCapture current experimentExport current snapshotOpen saved snapshotsSources and scopeThese are simplified educational tools using fictional examples. They are not production models or large-network training. Browser labs do not execute Python. The optional Local execution workspace connects only to your explicitly selected loopback API. Lab state is temporary and resets when you reopen the page. The theme preference is stored on this device when storage is available.Linear models and Perceptron reference ↗Gradient descent and loss-function reference ↗Lessons and lab explanations are written independently. Curriculum topic names follow your supplied reference image.",
+        "controls": [
+          "It increases",
+          "It decreases",
+          "It always stays fixed",
+          "Browser experiment name",
+          "Capture current experiment",
+          "Export current snapshot"
+        ],
+        "charts": 0
+      }
+    ]
+  }
+]
