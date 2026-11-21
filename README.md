@@ -134,3 +134,9 @@ The sequence lab learns `y_t = 0.65*y_previous + 0.35*x_t` from 18 seeded eight-
 The local execution workspace uses CodeMirror for highlighted Python editing, line numbers, undo/redo and indentation. Three preloaded examples, reset, copy and `.py` download are included. Examples run through the isolated process backend, not in the editor. Every run creates a fresh environment. The hosted `/execution` route remains setup-only and makes no loopback requests.
 
 Validation for this increment: 45 recurrent numerical checks, 24 sequence UI checks at 320/390/1280 in both themes, 40 re-run local API UI checks and 15 editor checks including all three examples executed in the actual sandbox. Browser source build and TypeScript checking pass. The optional server does not claim PyTorch CNN/RNN/LSTM support; those educational training labs currently run in the browser.
+
+### Device-local browser snapshots
+
+Training workbenches include explicit capture of actual model state, parameters, history, metrics and data. Snapshots can be inspected, exported, compared without ranking unrelated tasks, or deleted after confirmation. Opening a fresh lab does **not** yet restore a saved snapshot. In the local source app the store is bounded to 12 records and 2 MB. In the hosted viewer it is bounded to 14 KB total; large snapshots require JSON export instead. Signed-in viewer storage is device-local, not cloud synchronization. Preview and anonymous sessions may be memory-only, and the actual storage-status caption remains visible. The dashboard review checklist is self-reported, not inferred mastery.
+
+Snapshot validation: 57 persistence, metrics, comparison, export, deletion and responsive checks; nine initial-model capture smoke checks. Full saved-model restoration remains unfinished.
