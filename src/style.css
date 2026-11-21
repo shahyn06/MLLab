@@ -58,3 +58,10 @@ input[aria-label="Browser experiment name"]{display:block;width:100%;box-sizing:
 .ml-theme-light .ml-plot svg line[stroke="#e89dbe"]{stroke:#aa476f}
 
 .ml-theme-light{--pc-one:#885000;--pc-two:#8437a8;--pc-three:#2356a0}
+
+.ml-app a.ml-btn:not(.ml-secondary){color:#092a21}.ml-theme-light .ml-number{color:#466e60}
+.ml-app pre:focus-visible,.ml-table-wrap:focus-visible{outline:3px solid #8abfff;outline-offset:3px}
+
+.ml-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+.ml-sequence-chain button{position:relative}

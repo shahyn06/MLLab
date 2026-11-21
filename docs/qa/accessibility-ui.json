@@ -1,0 +1,477 @@
+{
+  "engine": "axe-core 4.14.1",
+  "results": [
+    {
+      "route": "/",
+      "theme": "dark",
+      "passes": 22,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/",
+      "theme": "light",
+      "passes": 22,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/math",
+      "theme": "dark",
+      "passes": 27,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 21
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/math",
+      "theme": "light",
+      "passes": 27,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 21
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/classical",
+      "theme": "dark",
+      "passes": 29,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 19
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/classical",
+      "theme": "light",
+      "passes": 29,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 19
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/clustering",
+      "theme": "dark",
+      "passes": 29,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 25
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/clustering",
+      "theme": "light",
+      "passes": 29,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 25
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/unsupervised",
+      "theme": "dark",
+      "passes": 31,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 18
+        },
+        {
+          "id": "th-has-data-cells",
+          "nodes": 1
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/unsupervised",
+      "theme": "light",
+      "passes": 31,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 18
+        },
+        {
+          "id": "th-has-data-cells",
+          "nodes": 1
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/neural",
+      "theme": "dark",
+      "passes": 31,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 30
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/neural",
+      "theme": "light",
+      "passes": 31,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 30
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/cnn",
+      "theme": "dark",
+      "passes": 29,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/cnn",
+      "theme": "light",
+      "passes": 29,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/sequence",
+      "theme": "dark",
+      "passes": 31,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 40
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/sequence",
+      "theme": "light",
+      "passes": 31,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 32
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/preprocessing",
+      "theme": "dark",
+      "passes": 28,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 30
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/preprocessing",
+      "theme": "light",
+      "passes": 28,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 30
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/evaluation",
+      "theme": "dark",
+      "passes": 27,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 30
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/evaluation",
+      "theme": "light",
+      "passes": 27,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 30
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/optimization",
+      "theme": "dark",
+      "passes": 29,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 23
+        },
+        {
+          "id": "th-has-data-cells",
+          "nodes": 1
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/optimization",
+      "theme": "light",
+      "passes": 29,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 23
+        },
+        {
+          "id": "th-has-data-cells",
+          "nodes": 1
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/datasets",
+      "theme": "dark",
+      "passes": 27,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 74
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/datasets",
+      "theme": "light",
+      "passes": 27,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 74
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/browser-experiments",
+      "theme": "dark",
+      "passes": 23,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/browser-experiments",
+      "theme": "light",
+      "passes": 23,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/execution",
+      "theme": "dark",
+      "passes": 23,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/execution",
+      "theme": "light",
+      "passes": 23,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/curriculum",
+      "theme": "dark",
+      "passes": 21,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 7
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/curriculum",
+      "theme": "light",
+      "passes": 21,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 7
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/settings",
+      "theme": "dark",
+      "passes": 18,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/settings",
+      "theme": "light",
+      "passes": 18,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/regression",
+      "theme": "dark",
+      "passes": 30,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 32
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/regression",
+      "theme": "light",
+      "passes": 30,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 32
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/perceptron",
+      "theme": "dark",
+      "passes": 30,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 19
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/perceptron",
+      "theme": "light",
+      "passes": 30,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 19
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/gradient",
+      "theme": "dark",
+      "passes": 30,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 32
+        }
+      ],
+      "violations": []
+    },
+    {
+      "route": "/gradient",
+      "theme": "light",
+      "passes": 30,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 32
+        }
+      ],
+      "violations": []
+    }
+  ]
+}

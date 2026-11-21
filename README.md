@@ -220,3 +220,12 @@ ML_QA_OUTPUT=/tmp/ml-qa node tests/browser/contrast.mjs
 ```
 
 The manager suite uses temporary API 8128/UI 5179 and temporary SQLite; it uploads a known line, trains two real models, checks persistence and model/metadata downloads, then removes its data. The contrast sweep samples visible leaf text in both themes, excluding SVG/KaTeX, disabled controls and complex backgrounds. It is a regression check, not a full accessibility certification.
+
+Accessibility regression checks use the locked development-only `axe-core` package:
+
+```sh
+ML_QA_OUTPUT=/tmp/ml-qa node tests/browser/accessibility.mjs
+ML_QA_OUTPUT=/tmp/ml-qa node tests/browser/keyboard-accessibility.mjs
+```
+
+The automation covers 19 routes in both themes with disclosures open, plus direct keyboard scrolling and model-inspection controls. Incomplete automated results are retained for human review. A passing run is not a screen-reader or WCAG certification. `tests/ledger.mjs` also keeps the 55 normative prose obligations from being lost when generating the specification acceptance ledger.
