@@ -43,3 +43,8 @@ html,body,#root{margin:0;min-height:100%}body{background:#0a121a}.ml-app{--ds-pa
 
 .ml-progress-row{display:flex;align-items:center;gap:10px;margin:12px 0;flex-wrap:wrap}.ml-progress-row input{width:auto}.ml-progress-row a{margin-left:auto}.ml-status-grid .ml-panel .ml-panel{padding:0;border:0;background:none}
 input[aria-label="Browser experiment name"]{display:block;width:100%;box-sizing:border-box;min-height:44px;padding:10px 12px;color:#e5f1f7;background:#0b1b25;border:1px solid #496578;border-radius:7px;font:inherit}.ml-theme-light input[aria-label="Browser experiment name"]{color:#19394c;background:#f5f9fc;border-color:#8ca9bd}
+
+.ml-section-heading { scroll-margin-top: 24px; margin-top: 28px; }
+.ml-section-heading:focus { outline: 2px solid #428fba; outline-offset: 6px; }
+.ml-lesson-outline .ml-actions { align-items: stretch; }
+.ml-lesson-outline .ml-chip { text-align: left; }

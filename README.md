@@ -174,3 +174,7 @@ Evaluation includes a separate raw-row pipeline: seeded split before training-me
 ### Shared raw tables and per-fold fitting
 
 The fitted pipeline can now load explicit feature/target columns from the session-shared Explorer table, preserving missing feature cells. Share the raw table, not an already globally transformed version. K-fold and stratified K-fold controls fit a fresh imputer, scaler and model inside every fold, expose the fitted means/scales and source-row membership, and support classification or regression. Single-split and per-fold results are separate, configuration edits clear stale results, and cancellation discards partial folds.
+
+## Consistent algorithm sections
+
+All training workspaces expose the eleven requested lesson sections with working jump/focus navigation. To preserve useful side-by-side live results and controls, sections follow the local simulation layout rather than forcing every plot below every control. Perceptron supports start/pause/resume, one epoch and reset with a 200-epoch cap. Optimizer Python templates now match selected method/objective/schedule; MLP architecture/activation/rate and CNN rate are reflected in their templates. They do not promise identical random initialization or sampling across Python and browser engines.
