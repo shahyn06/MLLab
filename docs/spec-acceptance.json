@@ -2519,8 +2519,8 @@
       "section": 7,
       "context": "Technology Stack",
       "requirement": "PyTorch for Deep Learning.",
-      "status": "SCOPE DECISION",
-      "evidence": "Equivalent educational PyTorch snippets exist, but no advanced server deep-learning trainer. Advanced server training is a recommendation question, not an implementation commitment."
+      "status": "RECOMMENDATION ONLY",
+      "evidence": "Educational PyTorch snippets are syntax-checked only; advanced server training is a written recommendation, not an implementation commitment."
     },
     {
       "id": "R281",
@@ -3149,8 +3149,8 @@
       "section": 11,
       "context": "Development Strategy",
       "requirement": "Cloud Persistence.",
-      "status": "SCOPE DECISION",
-      "evidence": "Not deployed. No-deployment/no-paid-resource boundary; local SQLite and browser snapshots are not cloud persistence."
+      "status": "OUTSIDE SCOPE",
+      "evidence": "Cloud persistence is outside this implementation. Local SQLite and browser snapshots are not cloud persistence."
     },
     {
       "id": "R351",

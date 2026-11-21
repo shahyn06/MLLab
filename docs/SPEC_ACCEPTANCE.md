@@ -1,10 +1,10 @@
 # Original specification acceptance ledger
 
-This is a line-addressed review ledger, not a completion certificate. It includes every dash bullet and the numbered workflow/interface requirements. Source references map likely implementation ownership; they are not proof of full acceptance. Only the explicitly bounded regression visualization checks are marked verified. All other mappings require final item-by-item review.
+This is a line-addressed review ledger, not a completion certificate. It includes every dash bullet and the numbered workflow/interface requirements. Source references map likely implementation ownership; they are not proof of full acceptance. Explicitly bounded regression, propagation and tree arithmetic checks are marked verified. Other mappings require final item-by-item review.
 
 ## Latest verification
 
-- Clean dependency installation: npm ci, typecheck, all 1,611 source checks and normal production build passed in a separate directory. Zero npm audit findings at this check.
+- Clean dependency installation: npm ci was verified in a separate directory before this increment. Current source: typecheck, all 3,381 checks and normal production build pass. Zero npm audit findings at dependency update.
 - Backend: 52 tests passed with one non-failing Starlette test-client deprecation warning. No server deployment.
 - Production: 20 route/lazy-chunk checks. Regression: 19 point/residual UI checks, 36 source checks with 4,000 real optimization steps. Library checks exercise actual Plotly and WebGL, not screenshots alone.
 - Tailwind utility generation now excludes automatic directory scanning; independent source directories produce identical generated CSS hashes.
@@ -14,17 +14,18 @@ This is a line-addressed review ledger, not a completion certificate. It include
 1. Propagation playback implemented and bounded checks passed. Continue final integration/replay and all-route checks.
 2. Numeric tree impurity arithmetic implemented and bounded checks passed. Continue final integration checks.
 3. All 43 math topics directly exercised with changing numeric output. Final content/visual checks remain; shared family workbenches are explicitly labeled.
-4. Python now uses selected data/settings. Classical programs executed with browser parity across 26 variants; math/structure examples executed. Three PyTorch examples syntax-checked only because PyTorch is not installed; no runtime pass is claimed. Remaining state/replay/storage/keyboard/all-route checks remain.
-5. PyTorch advanced server execution: recommend only if needed for larger training. Requires a separate scope decision; no commitment made.
-6. Cloud persistence: not configured; cannot be closed under the current no-deployment boundary.
+4. Python now uses selected data/settings. Classical programs executed with browser parity across 26 variants; math/structure examples executed. Three PyTorch examples syntax-checked only because PyTorch is not installed; no runtime pass is claimed. Current checks: 36 storage, 70 replay/import/history, 57 comparison/export/delete, 38 exact-content exports and 202 route/labels/keyboard/empty-state checks. Complete light-theme routes visually inspected at 320/390/1280; all route tops in both themes. Semantic acceptance remains open.
+5. PyTorch advanced server execution: recommend only if needed for larger training. Written recommendation only; outside implementation scope.
+6. Cloud persistence: outside this implementation; local SQLite is not cloud persistence.
 
 ## Status counts
 
 - MAPPED, REVIEW OPEN: 301
 - VERIFIED, BOUNDED: 11
 - INTERACTION VERIFIED, REVIEW OPEN: 49
-- SCOPE DECISION: 2
+- RECOMMENDATION ONLY: 1
 - CONDITIONAL: 1
+- OUTSIDE SCOPE: 1
 
 ## Item ledger
 
@@ -309,7 +310,7 @@ This is a line-addressed review ledger, not a completion certificate. It include
 | R277 / 485 | Technology Stack | NumPy. | MAPPED, REVIEW OPEN | package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary. |
 | R278 / 486 | Technology Stack | Pandas. | MAPPED, REVIEW OPEN | package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary. |
 | R279 / 487 | Technology Stack | Scikit-learn. | MAPPED, REVIEW OPEN | package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary. |
-| R280 / 488 | Technology Stack | PyTorch for Deep Learning. | SCOPE DECISION | Equivalent educational PyTorch snippets exist, but no advanced server deep-learning trainer. Advanced server training is a recommendation question, not an implementation commitment. |
+| R280 / 488 | Technology Stack | PyTorch for Deep Learning. | RECOMMENDATION ONLY | Educational PyTorch snippets are syntax-checked only; advanced server training is a written recommendation, not an implementation commitment. |
 | R281 / 489 | Technology Stack | ONNX Runtime Web where browser-side inference is useful. | CONDITIONAL | Not required for directly computed lightweight trainers. No ONNX runtime or pretrained inference is claimed. |
 | R282 / 499 | Technology Stack | FastAPI. | MAPPED, REVIEW OPEN | package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary. |
 | R283 / 500 | Technology Stack | SQLite for an initial local prototype, or PostgreSQL for a production deployment. | MAPPED, REVIEW OPEN | package.json, package-lock.json, src/vendor, backend/pyproject.toml; clean npm ci/typecheck/test/build verified 2026-11-21. See documented local-only backend boundary. |
@@ -379,7 +380,7 @@ This is a line-addressed review ledger, not a completion certificate. It include
 | R347 / 626 | Development Strategy | Dataset Uploads. | MAPPED, REVIEW OPEN | SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate. |
 | R348 / 627 | Development Strategy | Model Export. | MAPPED, REVIEW OPEN | SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate. |
 | R349 / 628 | Development Strategy | User Accounts. | MAPPED, REVIEW OPEN | SPEC_STATUS.md maps implemented phases and explicit remaining scope. A phase name is not a completion certificate. |
-| R350 / 629 | Development Strategy | Cloud Persistence. | SCOPE DECISION | Not deployed. No-deployment/no-paid-resource boundary; local SQLite and browser snapshots are not cloud persistence. |
+| R350 / 629 | Development Strategy | Cloud Persistence. | OUTSIDE SCOPE | Cloud persistence is outside this implementation. Local SQLite and browser snapshots are not cloud persistence. |
 | R351 / 637 | Final Instructions | 1. Analyze the complete requirements. | MAPPED, REVIEW OPEN | ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open. |
 | R352 / 638 | Final Instructions | 2. Design the application architecture. | MAPPED, REVIEW OPEN | ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open. |
 | R353 / 639 | Final Instructions | 3. Define the folder structure. | MAPPED, REVIEW OPEN | ARCHITECTURE.md, backend/ARCHITECTURE.md, source tests and documented operating limits. Whole-project acceptance remains open. |

@@ -147,7 +147,7 @@ Version-1 imports support all nine browser training routes. JSON files are limit
 
 ### Build targets, workers and hosted exports
 
-`npm run build` creates a normal route-chunked site in `dist/`. Heavy labs and the Python editor load on demand. `npm run portable` builds the separately inlined `dist-portable/` target and packages `ml-lab.html` plus `ml-lab-source.zip`. Python 3 is used only by the packaging script; normal web builds need Node. The portable HTML is larger by design and does not need a web server.
+`npm run build` creates a normal route-chunked site in `dist/`. Heavy labs and the Python editor load on demand. `npm run portable` builds the separately inlined `dist-portable/` target and packages `ml-lab.html` plus `ml-lab-source.zip`. Python 3 is used by the packaging script and the selected-data classical parity tests; normal web builds need Node. The portable HTML is larger by design and does not need a web server.
 
 Snapshot import/restoration, cross-validation and model comparison run in a disposable Web Worker in the source app. Progress is real per-fit progress, cancellation terminates the worker, and stale results are discarded on reset/unmount. If workers are unavailable, a clearly labeled bounded in-page fallback is used. The hosted viewer uses the bounded in-page path explicitly; it does not claim off-thread execution. The tiny live training ticks remain bounded browser computations.
 
@@ -182,3 +182,15 @@ All training workspaces expose the eleven requested lesson sections with working
 ## Visualization and UI library alignment
 
 Shared SVG coordinate maps use D3 linear scales. Buttons use a source-owned Radix Slot/CVA shadcn/ui pattern with locally generated Tailwind utilities, retaining the ML Lab palette. Framer Motion animates the lesson navigator and honors reduced-motion preferences. The optimizer has an on-demand Plotly contour with an actual 41×41 objective grid and real parameter path. Three.js renders the real three-feature cloud on demand, with camera controls, geometry updates and disposal. WebGL failure retains the existing SVG and numeric alternatives. Heavy renderers are lazy chunks in the normal build; portable output intentionally embeds them. Exact package versions and bundled licenses are included. No CDN or remote runtime is needed.
+
+## Storage and release audit
+
+Unreadable or malformed device storage starts from defaults with an explicit read-failure status. Writes denied by security policy or quota preserve the current session and show that it is session-only. Snapshot lists, recent history and review marks are shape-checked, bounded and deduplicated before rendering; unsafe routes are not offered. Restoring still uses the full snapshot validator and deterministic replay, not list-shape validation.
+
+Latest checks: 15 storage source checks, 36 denied-read/denied-write/quota/corrupt-state and delete-confirmation browser checks, 70 actual-step snapshot replay/import/history checks, 57 snapshot comparison/export/delete checks, 38 complete JSON/CSV export checks, and 202 all-route content/labels/keyboard/empty-state/viewport checks. The viewport sweep covered all 18 routes in both themes at 320/390/1280 pixels. Keyboard reachability and section-focus checks are bounded automated checks, not a full assistive-technology audit.
+
+PyTorch is a recommendation for a future advanced server trainer, not installed runtime support. MLP/CNN/RNN-LSTM templates reflect selected data and controls but were syntax-checked only. Browser models are intentionally tiny and computed directly. No cloud persistence, paid infrastructure, or public Python execution endpoint is configured.
+
+### Reproducible browser QA
+
+After `npm ci` and `npm run portable`, run `node tests/browser/storage.mjs`, `node tests/browser/restore.mjs`, `node tests/browser/exports.mjs` and `node tests/browser/all-routes.mjs`. Install Chrome separately and set `CHROME_BIN` if needed. `ML_LAB_URL` defaults to the generated portable HTML; `ML_QA_OUTPUT` selects an existing output directory. The restore suite generates its own replay fixtures. These tests write only local test data and screenshots. Python 3 is required for the classical code parity tests in `npm test`.

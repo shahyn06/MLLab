@@ -1,0 +1,84 @@
+{
+  "checks": 38,
+  "errors": [],
+  "exports": [
+    {
+      "route": "regression",
+      "label": "Export current snapshot",
+      "filename": "ml-browser-experiment.json",
+      "bytes": 507
+    },
+    {
+      "route": "perceptron",
+      "label": "Export current snapshot",
+      "filename": "ml-browser-experiment.json",
+      "bytes": 565
+    },
+    {
+      "route": "gradient",
+      "label": "Export current snapshot",
+      "filename": "ml-browser-experiment.json",
+      "bytes": 362
+    },
+    {
+      "route": "classical",
+      "label": "Export current snapshot",
+      "filename": "ml-browser-experiment.json",
+      "bytes": 19438
+    },
+    {
+      "route": "clustering",
+      "label": "Export current snapshot",
+      "filename": "ml-browser-experiment.json",
+      "bytes": 19652
+    },
+    {
+      "route": "unsupervised",
+      "label": "Export current snapshot",
+      "filename": "ml-browser-experiment.json",
+      "bytes": 15630
+    },
+    {
+      "route": "neural",
+      "label": "Export current snapshot",
+      "filename": "ml-browser-experiment.json",
+      "bytes": 20550
+    },
+    {
+      "route": "cnn",
+      "label": "Export current snapshot",
+      "filename": "ml-browser-experiment.json",
+      "bytes": 51374
+    },
+    {
+      "route": "sequence",
+      "label": "Export current snapshot",
+      "filename": "ml-browser-experiment.json",
+      "bytes": 14108
+    },
+    {
+      "route": "datasets",
+      "label": "Export current CSV",
+      "filename": "ml-lab-dataset.csv",
+      "bytes": 642
+    },
+    {
+      "route": "preprocessing",
+      "label": "Export current CSV",
+      "filename": "ml-lab-dataset.csv",
+      "bytes": 642
+    },
+    {
+      "route": "evaluation",
+      "label": "Export evaluation JSON",
+      "filename": "evaluation.json",
+      "bytes": 1555
+    },
+    {
+      "route": "optimization",
+      "label": "Export current snapshot",
+      "filename": "ml-browser-experiment.json",
+      "bytes": 5300
+    }
+  ]
+}
