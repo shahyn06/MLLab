@@ -15,7 +15,7 @@ This is an implementation checklist, not a completion certificate. The full supp
 - Resource-limited isolated Python process execution, real stdout/stderr and PNG charts. CodeMirror editor, runnable examples, copy/reset/download.
 - Explicit snapshots from nine browser training routes, saved configuration/model/history/data inspection, export, comparison and confirmed deletion. Local app: 12 records/2 MB; hosted viewer: 14 KB total. Large states can be exported without storing them. Hosted previews are memory-only and show that status.
 - Device-local theme and an explicitly self-reported six-workbench review checklist. No mastery is inferred from visits.
-- TypeScript checking and 4,112 reproducible source checks pass. Current browser suites: 36 storage/failure/confirmation, 70 actual-step replay/import/history, 57 comparison/export/delete, 38 exact-content exports and 202 all-route/labels/keyboard/empty-state checks. Source evidence lives in docs/qa; reproducible browser scripts live in tests/browser.
+- TypeScript checking and 4,542 reproducible source checks pass. Current browser suites: 36 storage/failure/confirmation, 70 actual-step replay/import/history, 57 comparison/export/delete, 38 exact-content exports and 202 all-route/labels/keyboard/empty-state checks. Source evidence lives in docs/qa; reproducible browser scripts live in tests/browser.
 
 - Simple regression now supports individual bounded numeric point addition, reproducible random-data generation, visible residual segments/table, one computed gradient step, and Python OLS code derived from the selected observations. Edits pause training and clear stale history.
 
@@ -68,3 +68,13 @@ K-Means now visibly alternates assignment with fixed centroids, then centroid mo
 PCA draws PC1/PC2/PC3 arrows in the centered and optionally standardized input feature space. Each extends plus/minus one component standard deviation; the 3D view rotates arrows and points together. PC3 can project to zero in 2D, explicitly explained. This is separate from the transformed PC-coordinate chart.
 
 588 new exact engine/replay/direction checks, 13 K-Means phase UI checks and 11 PCA arrow/rotation/scaling checks pass, with updated areas visually checked in both themes at all three widths. Existing classical interaction and nine-route replay suites were rerun. Semantic acceptance of these visualization requirements is bounded to the implemented small models. Remaining ledger items stay open.
+
+## Semantic acceptance: structure, neural and data workspaces
+
+Inspected the engines and educational assumptions for all structure estimators, bounded MLP/CNN/scalar RNN/LSTM, explorer/preprocessing and evaluation workspaces. Added 430 independent source checks: 165 unsupervised, 131 deep-learning and 134 data/statistics/metrics. Added reproducible browser suites with 85 structure, 30 deep-learning and 42 data/evaluation checks. These include real CSV/XLSX import, every preprocessing operation, exact phase controls, layer editing, prediction/gradient changes, per-fold fitting and held-out evaluation.
+
+Derived columns now reject name collisions: repeated squaring and one-hot names overlapping another feature produce a visible error without overwriting or corrupting the table. The two-row Excel fixture is part of the tests, not an external dependency.
+
+Re-ran the local backend: all 52 tests passed in 50.46 seconds with no skips. One non-failing Starlette test-client deprecation warning remains. This includes actual isolated stdout, sklearn and Matplotlib plus fail-closed/resource/ownership/persistence checks, not public-service approval. No deployment or cloud persistence. PyTorch is still recommendation-only.
+
+These are bounded semantic acceptances, not a whole-project completion. Educational depth, remaining engineering/interaction requirements and the full final ledger still require closure.
