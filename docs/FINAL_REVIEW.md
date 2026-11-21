@@ -28,7 +28,7 @@ This establishes that an architecture plan was recorded in the foundational comm
 ## Efficient continuation
 
 - Preserve the working publication and repository. Do not change deployment, spend money, or enable public execution.
-- Resolve the universal-interface and advanced-backend interpretation through the parent before claiming whole-project completion. Continue independent code/test work meanwhile.
+- Resolve the universal-interface and advanced-backend interpretation with the user before claiming whole-project completion. Independent code/test work can continue meanwhile.
 - Complete an actual control/effect inventory and chart-accessibility/manual review.
 - Apply final ledger decisions individually using the recorded evidence, retaining historical unknowns and scope exceptions rather than deleting them.
 - Rerun affected interaction tests, visually inspect changed views, and publish only the exact inspected revision. Never send the requested completion signal while substantive requirements remain unimplemented or unresolved.
