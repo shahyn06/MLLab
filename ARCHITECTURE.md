@@ -2,7 +2,7 @@
 
 ## Release boundary
 
-This first foundation release is a client-side React + TypeScript application, with a Vite source build and a self-contained HTML export. It contains three real computations: simple linear regression, an online Perceptron and gradient descent on a quadratic. All other algorithm entries are explicit roadmap items. It is not a completed implementation of the full project specification.
+The current phases 1–3 release is a client-side React + TypeScript application, with a Vite source build and a self-contained HTML export. It contains the original three demonstrations, mathematical workbenches, twelve supervised estimators and K-Means. Unbuilt algorithm entries remain explicit roadmap items. It is not a completed implementation of the full project specification.
 
 The official project name is **ML Lab - Machine Learning Laboratory**. All content is in English. The latest complete project specification overrides the earlier curriculum-image summary.
 
@@ -15,6 +15,9 @@ src/
   labs.tsx             Initial working algorithms and their lesson content
   dashboard.tsx        Lab-family catalogue and release status
   curriculum.ts        Reference-image topic names
+  mathlab.tsx          Four mathematical workbenches
+  classical-engine.ts  Pure deterministic small-data ML engine
+  classical.tsx        Training lifecycle, boundary plots and held-out results
   Math.tsx             KaTeX-generated MathML, fixed trusted formulas
   ui.tsx               Portable UI and routing primitives
   vendor/              KaTeX runtime and license

@@ -2,7 +2,7 @@
 
 An English-language, browser-based Machine Learning learning website. Change parameters, inspect the results and understand the model.
 
-## Implemented phases 1 and 2
+## Implemented phases 1–3
 
 - **Linear Regression:** adjustable slope and intercept, editable x/y data, ordinary least-squares fit, actual animated gradient-descent training with pause/restart/convergence, paired data and learning-curve plots, mean squared error and predictions.
 - **Perceptron:** online training on AND and XOR, adjustable weights and bias, a decision-boundary plot and prediction table.
@@ -48,7 +48,7 @@ Deploy the contents of `dist` to a static host. There is no backend, database, A
 
 ## Scope and limitations
 
-Three algorithm labs and four mathematical workbenches are built. The remaining curriculum is a roadmap, not completed course material. Topic names follow the aibdaya.com concept-map image supplied for the project. The request described 217 topics; the total has not been reconciled item by item. The project does not copy paid course content or access a course account.
+Three original algorithm labs, four mathematical workbenches, a 12-estimator supervised workbench and K-Means are built. The remaining curriculum is a roadmap, not completed course material. Topic names follow the aibdaya.com concept-map image supplied for the project. The request described 217 topics; the total has not been reconciled item by item. The project does not copy paid course content or access a course account.
 
 Lab state is temporary and resets when the page is reopened. Theme preferences are saved locally when browser storage is available. Displayed Python code is educational and is not executed by the website. Examples are fictional and are not production models. Do not enter sensitive data. This source application does not transmit lab inputs to a service.
 
@@ -69,4 +69,14 @@ The workbenches use the MIT-licensed ml-matrix runtime. See src/vendor/MATRIX-LI
 
 ## Next phases
 
-Classical ML, dataset processing and evaluation, neural networks, and advanced execution/persistence remain in progress. The full specification is not yet complete.
+Dataset processing and evaluation, remaining unsupervised models, neural networks, and advanced execution/persistence remain in progress. The full specification is not yet complete.
+
+## Classical ML workbench
+
+Twelve estimators: multiple/polynomial linear regression, Ridge, Lasso, Elastic Net, logistic regression, KNN, CART decision tree, random forest, linear SVM, Gaussian Naive Bayes and gradient-tree boosting. Separate K-Means uses real alternating assignment and centroid updates. Iterative models support step, start, pause, continue and reset. Noniterative estimators correctly finish in one fit rather than inventing loss histories.
+
+Small synthetic datasets and validated pasted rows are supported. Classification/regression use a seeded 75/25 train/test split. Metrics come from held-out data. Limits: 160 rows, 2 bounded input features, linear SVM only, small tree ensembles. Large-data training and experiment persistence are not provided by this client-only release.
+
+Scientific checks compare predictions/metrics with NumPy and scikit-learn; implementation-specific objective conventions are noted in the interface.
+
+References: https://scikit-learn.org/stable/supervised_learning.html and https://scikit-learn.org/stable/modules/clustering.html#k-means .
