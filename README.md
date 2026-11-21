@@ -69,7 +69,7 @@ The workbenches use the MIT-licensed ml-matrix runtime. See src/vendor/MATRIX-LI
 
 ## Next phases
 
-Remaining unsupervised visualizations, sequence training, optimizer families and full-specification coverage remain in progress. The full specification is not yet complete.
+Sequence training, richer educational coverage, engineering requirements and full-specification checks remain in progress. The full specification is not yet complete.
 
 ## Classical ML workbench
 
@@ -115,3 +115,14 @@ Set `ML_LAB_AUTH_ENABLED=true` before starting the backend for optional local ac
 The hosted page's Local execution route explains setup only. It never tries to call your computer, and it does not host the API. The self-contained HTML contains browser labs and the local API client, but the supported API integration is the Vite development origin above, not a file URL.
 
 Phase 6 integration checks: 40 actual frontend/API checks passed, covering uploads, fits, persistence UI, comparison, deletion, downloads and isolated Python/Matplotlib. Registration/login/logout UI checks passed separately. Backend regression: 52 tests passed after the runner startup correction. No cloud service or paid resource was created.
+
+
+## Structure and projection workbench
+
+Five real bounded browser methods complement K-Means: agglomerative clustering with single/complete/average linkage and a merge log; DBSCAN with core/border/noise expansion; diagonal Gaussian-mixture EM with responsibilities and actual likelihood; three-feature PCA with variance/loadings; and a small seeded isolation forest with corrected path lengths. All accept 8–100 custom three-feature rows. Rotatable orthographic 3D and 2D views share the same fitted geometry. Noise is excluded from silhouette. PCA is descriptive, not clustering. Library comparisons checked linkage distances/partitions, DBSCAN labels/core sets, PCA components/variance, mixture posterior/likelihood and silhouette. Isolation forest is an educational implementation, not a bit-for-bit sklearn clone.
+
+## Optimizer landscape
+
+Batch, stochastic and mini-batch gradients combine with plain GD, Momentum, Nesterov, RMSprop or Adam. Configure rate schedules, batch size, initial weight/bias and iteration budget. Actual parameter paths are overlaid on computed contours or a rotatable loss mesh with disclosed nonlinear height scaling. A seeded linear-regression task has a known OLS optimum; a tilted double well demonstrates distinct local and global minima. Every displayed loss is computed on the full objective. Iteration exhaustion and divergence are not called convergence.
+
+`npm test` now runs 543 reproducible checks across the original numerical/parser suite, structure engines and optimizer engines. Additional UI suites checked all five structure modes and both optimizer views at 320/390/1280 pixels in both themes, with real step/pause/reset behavior.
