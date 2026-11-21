@@ -28,7 +28,7 @@ npm run build
 npm run preview
 ```
 
-Deploy the contents of `dist` to a static host. There is no backend, database, API key or subscription requirement. Hash routing works without server rewrite rules. The relative Vite base also supports project subpaths, such as GitHub Pages.
+Deploy the contents of `dist` to a static host. The browser labs need no backend, database, API key or subscription. An optional local backend is included separately. Hash routing works without server rewrite rules. The relative Vite base also supports project subpaths, such as GitHub Pages.
 
 `ml-lab.html` is a self-contained copy. Download and open it in a modern browser, not a messaging app's document preview. It works without installation or an internet connection. The editable application is in `src`.
 
@@ -69,7 +69,7 @@ The workbenches use the MIT-licensed ml-matrix runtime. See src/vendor/MATRIX-LI
 
 ## Next phases
 
-Dataset processing and evaluation, remaining unsupervised models, neural networks, and advanced execution/persistence remain in progress. The full specification is not yet complete.
+Remaining unsupervised models, sequence training, and advanced execution/persistence remain in progress. The full specification is not yet complete.
 
 ## Classical ML workbench
 
@@ -91,3 +91,11 @@ References: https://scikit-learn.org/stable/supervised_learning.html and https:/
 - Excel parsing uses read-excel-file, including its worker-based browser parser. The standalone build inlines dynamic modules; the source app remains modular.
 
 Validation: 22 end-to-end checks plus 274 independent sklearn/NumPy numeric comparisons for this phase.
+
+## Phase 5: Deep-learning workbenches
+
+A trainable small MLP builder and two-filter CNN use actual forward/backpropagation and held-out metrics. MLP architecture has 0–4 hidden layers, with 1–8 neurons each. The CNN trains two 3×3 filters on synthetic 5×5 line images, not natural-image recognition. Scalar RNN/LSTM cells currently compute forward states only; sequence training remains incomplete. Run `npm test` for 120 reproducible numerical gradient, recurrent formula, parser, metric and convergence checks.
+
+## Optional local backend
+
+The `backend/` directory contains a separate FastAPI/SQLite service and security documentation. It has been independently tested with 52 passing tests. It is not deployed by opening the hosted page. Follow `backend/README.md` to run it locally. The browser client integration is still in progress. No cloud persistence is included.

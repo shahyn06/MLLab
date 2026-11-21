@@ -1,0 +1,19 @@
+[project]
+name = "ml-lab-backend"
+version = "0.1.0"
+description = "Local ML Lab API with persistent experiments and isolated Python runs"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.115,<1", "uvicorn>=0.30,<1", "python-multipart>=0.0.20,<1",
+  "numpy>=1.26,<3", "scikit-learn>=1.5,<2", "openpyxl>=3.1,<4",
+  "matplotlib>=3.9,<4", "pandas>=2.2,<3"
+]
+[project.optional-dependencies]
+test = ["pytest>=8,<10", "httpx>=0.27,<1"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[tool.setuptools.packages.find]
+include = ["app*"]
