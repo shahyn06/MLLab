@@ -1826,8 +1826,8 @@
       "section": 4,
       "context": "K-Means",
       "requirement": "Generate random points.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/classical.tsx, classical-engine.ts; actual assignments and centroid updates; source tests and clustering UI checks."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Direct semantic inspection and executable tests: tests/phase-directions.mjs adds 588 exact assignment/centroid/phase replay and known PCA direction checks. K-Means alternates visible fixed-centroid assignment and assigned-mean update every 700ms, with manual phase, pause, membership counts and movement segments; 13 phase UI checks. PCA original fitted-input coordinates have three +/-1SD principal arrows, actual loadings, rotated 3D and transformed coordinates; 11 arrow/rotation/scaling UI checks. Both updated views inspected at 320/390/1280 in both themes. Small educational bounds apply."
     },
     {
       "id": "R204",
@@ -1835,8 +1835,8 @@
       "section": 4,
       "context": "K-Means",
       "requirement": "Choose the number of clusters.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/classical.tsx, classical-engine.ts; actual assignments and centroid updates; source tests and clustering UI checks."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Direct semantic inspection and executable tests: tests/phase-directions.mjs adds 588 exact assignment/centroid/phase replay and known PCA direction checks. K-Means alternates visible fixed-centroid assignment and assigned-mean update every 700ms, with manual phase, pause, membership counts and movement segments; 13 phase UI checks. PCA original fitted-input coordinates have three +/-1SD principal arrows, actual loadings, rotated 3D and transformed coordinates; 11 arrow/rotation/scaling UI checks. Both updated views inspected at 320/390/1280 in both themes. Small educational bounds apply."
     },
     {
       "id": "R205",
@@ -1844,8 +1844,8 @@
       "section": 4,
       "context": "K-Means",
       "requirement": "Initialize centroids.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/classical.tsx, classical-engine.ts; actual assignments and centroid updates; source tests and clustering UI checks."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Direct semantic inspection and executable tests: tests/phase-directions.mjs adds 588 exact assignment/centroid/phase replay and known PCA direction checks. K-Means alternates visible fixed-centroid assignment and assigned-mean update every 700ms, with manual phase, pause, membership counts and movement segments; 13 phase UI checks. PCA original fitted-input coordinates have three +/-1SD principal arrows, actual loadings, rotated 3D and transformed coordinates; 11 arrow/rotation/scaling UI checks. Both updated views inspected at 320/390/1280 in both themes. Small educational bounds apply."
     },
     {
       "id": "R206",
@@ -1853,8 +1853,8 @@
       "section": 4,
       "context": "K-Means",
       "requirement": "Animate assignment steps.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/classical.tsx, classical-engine.ts; actual assignments and centroid updates; source tests and clustering UI checks."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Direct semantic inspection and executable tests: tests/phase-directions.mjs adds 588 exact assignment/centroid/phase replay and known PCA direction checks. K-Means alternates visible fixed-centroid assignment and assigned-mean update every 700ms, with manual phase, pause, membership counts and movement segments; 13 phase UI checks. PCA original fitted-input coordinates have three +/-1SD principal arrows, actual loadings, rotated 3D and transformed coordinates; 11 arrow/rotation/scaling UI checks. Both updated views inspected at 320/390/1280 in both themes. Small educational bounds apply."
     },
     {
       "id": "R207",
@@ -1862,8 +1862,8 @@
       "section": 4,
       "context": "K-Means",
       "requirement": "Animate centroid updates.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/classical.tsx, classical-engine.ts; actual assignments and centroid updates; source tests and clustering UI checks."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Direct semantic inspection and executable tests: tests/phase-directions.mjs adds 588 exact assignment/centroid/phase replay and known PCA direction checks. K-Means alternates visible fixed-centroid assignment and assigned-mean update every 700ms, with manual phase, pause, membership counts and movement segments; 13 phase UI checks. PCA original fitted-input coordinates have three +/-1SD principal arrows, actual loadings, rotated 3D and transformed coordinates; 11 arrow/rotation/scaling UI checks. Both updated views inspected at 320/390/1280 in both themes. Small educational bounds apply."
     },
     {
       "id": "R208",
@@ -1871,8 +1871,8 @@
       "section": 4,
       "context": "K-Means",
       "requirement": "Display convergence.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/classical.tsx, classical-engine.ts; actual assignments and centroid updates; source tests and clustering UI checks."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Direct semantic inspection and executable tests: tests/phase-directions.mjs adds 588 exact assignment/centroid/phase replay and known PCA direction checks. K-Means alternates visible fixed-centroid assignment and assigned-mean update every 700ms, with manual phase, pause, membership counts and movement segments; 13 phase UI checks. PCA original fitted-input coordinates have three +/-1SD principal arrows, actual loadings, rotated 3D and transformed coordinates; 11 arrow/rotation/scaling UI checks. Both updated views inspected at 320/390/1280 in both themes. Small educational bounds apply."
     },
     {
       "id": "R209",
@@ -1961,8 +1961,8 @@
       "section": 4,
       "context": "PCA",
       "requirement": "Display original data.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts; source structure tests and projection UI checks."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Direct semantic inspection and executable tests: tests/phase-directions.mjs adds 588 exact assignment/centroid/phase replay and known PCA direction checks. K-Means alternates visible fixed-centroid assignment and assigned-mean update every 700ms, with manual phase, pause, membership counts and movement segments; 13 phase UI checks. PCA original fitted-input coordinates have three +/-1SD principal arrows, actual loadings, rotated 3D and transformed coordinates; 11 arrow/rotation/scaling UI checks. Both updated views inspected at 320/390/1280 in both themes. Small educational bounds apply."
     },
     {
       "id": "R219",
@@ -1970,8 +1970,8 @@
       "section": 4,
       "context": "PCA",
       "requirement": "Show principal component directions.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts; source structure tests and projection UI checks."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Direct semantic inspection and executable tests: tests/phase-directions.mjs adds 588 exact assignment/centroid/phase replay and known PCA direction checks. K-Means alternates visible fixed-centroid assignment and assigned-mean update every 700ms, with manual phase, pause, membership counts and movement segments; 13 phase UI checks. PCA original fitted-input coordinates have three +/-1SD principal arrows, actual loadings, rotated 3D and transformed coordinates; 11 arrow/rotation/scaling UI checks. Both updated views inspected at 320/390/1280 in both themes. Small educational bounds apply."
     },
     {
       "id": "R220",
@@ -1979,8 +1979,8 @@
       "section": 4,
       "context": "PCA",
       "requirement": "Visualize dimensionality reduction.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts; source structure tests and projection UI checks."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Direct semantic inspection and executable tests: tests/phase-directions.mjs adds 588 exact assignment/centroid/phase replay and known PCA direction checks. K-Means alternates visible fixed-centroid assignment and assigned-mean update every 700ms, with manual phase, pause, membership counts and movement segments; 13 phase UI checks. PCA original fitted-input coordinates have three +/-1SD principal arrows, actual loadings, rotated 3D and transformed coordinates; 11 arrow/rotation/scaling UI checks. Both updated views inspected at 320/390/1280 in both themes. Small educational bounds apply."
     },
     {
       "id": "R221",
@@ -1988,8 +1988,8 @@
       "section": 4,
       "context": "PCA",
       "requirement": "Compare original and transformed data.",
-      "status": "MAPPED, REVIEW OPEN",
-      "evidence": "src/unsupervised.tsx, unsupervised-engine.ts; source structure tests and projection UI checks."
+      "status": "VERIFIED, BOUNDED",
+      "evidence": "Direct semantic inspection and executable tests: tests/phase-directions.mjs adds 588 exact assignment/centroid/phase replay and known PCA direction checks. K-Means alternates visible fixed-centroid assignment and assigned-mean update every 700ms, with manual phase, pause, membership counts and movement segments; 13 phase UI checks. PCA original fitted-input coordinates have three +/-1SD principal arrows, actual loadings, rotated 3D and transformed coordinates; 11 arrow/rotation/scaling UI checks. Both updated views inspected at 320/390/1280 in both themes. Small educational bounds apply."
     },
     {
       "id": "R222",

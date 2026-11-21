@@ -7,7 +7,7 @@
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
-    "test": "node tests/numerical.mjs && node tests/structure.mjs && node tests/optimization.mjs && node tests/sequence.mjs && node tests/snapshots.mjs && node tests/compute.mjs && node tests/education.mjs && node tests/pipeline.mjs && node tests/sections.mjs && node tests/libraries.mjs && node tests/regression-tools.mjs && node tests/propagation.mjs && node tests/tree-arithmetic.mjs && node tests/classical-python.mjs && node tests/storage.mjs && node tests/classical-acceptance.mjs && node tests/math-acceptance.mjs",
+    "test": "node tests/numerical.mjs && node tests/structure.mjs && node tests/optimization.mjs && node tests/sequence.mjs && node tests/snapshots.mjs && node tests/compute.mjs && node tests/education.mjs && node tests/pipeline.mjs && node tests/sections.mjs && node tests/libraries.mjs && node tests/regression-tools.mjs && node tests/propagation.mjs && node tests/tree-arithmetic.mjs && node tests/classical-python.mjs && node tests/storage.mjs && node tests/classical-acceptance.mjs && node tests/math-acceptance.mjs && node tests/phase-directions.mjs",
     "typecheck": "tsc --noEmit",
     "build:portable": "vite build --mode portable",
     "prebuild": "npm run libraries && node scripts/build-worker.mjs",

@@ -56,3 +56,5 @@ input[aria-label="Browser experiment name"]{display:block;width:100%;box-sizing:
 .ml-app .ml-plotly-landscape .modebar-group{background:#12232e!important}.ml-app .ml-plotly-landscape .modebar-btn path{fill:#b7ccd8!important}.ml-app .ml-plotly-landscape .modebar-btn.active path,.ml-app .ml-plotly-landscape .modebar-btn:hover path{fill:#72dfb8!important}
 
 .ml-theme-light .ml-plot svg line[stroke="#e89dbe"]{stroke:#aa476f}
+
+.ml-theme-light{--pc-one:#885000;--pc-two:#8437a8;--pc-three:#2356a0}
