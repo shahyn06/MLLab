@@ -166,3 +166,7 @@ The MLP can train and restore custom shared numeric data with a genuine held-out
 All 43 named mathematical topics include a rendered equation, fixed worked calculation, ML connection and a suggested live-control experiment. Beginner focuses on meaning and examples, Intermediate adds reasoning and derivations, and Advanced adds assumptions and failure cases. The fixed example is explicitly separate from current simulation inputs.
 
 All 29 algorithm/update-rule lessons also provide explicit Beginner/Intermediate/Advanced depth, fixed worked calculations, derivations and challenges. This supplements their actual simulations and parameter/data/training/result controls; the final eleven-section interface audit remains open.
+
+## Fitted preprocessing pipeline
+
+Evaluation includes a separate raw-row pipeline: seeded split before training-mean imputation and Standardize/Min-max/None fitting, identical transforms applied to train and hold-out, then an actual logistic or multiple linear fit. It exposes fitted means/centers/scales and source-row indices. Training columns that are entirely missing are rejected, constant-scale divisors use one, test outliers are never silently clipped, and transformed magnitudes beyond 30 are rejected. This pipeline uses pasted two-feature rows, 12–200 examples, and is separate from exploratory whole-table transforms and the synthetic CV demo.
