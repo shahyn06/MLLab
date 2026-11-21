@@ -2,7 +2,7 @@
 
 An English-language, browser-based Machine Learning learning website. Change parameters, inspect the results and understand the model.
 
-## Implemented phases 1–3
+## Core browser workspaces
 
 - **Linear Regression:** adjustable slope and intercept, editable x/y data, ordinary least-squares fit, actual animated gradient-descent training with pause/restart/convergence, paired data and learning-curve plots, mean squared error and predictions.
 - **Perceptron:** online training on AND and XOR, adjustable weights and bias, a decision-boundary plot and prediction table.
@@ -10,7 +10,7 @@ An English-language, browser-based Machine Learning learning website. Change par
 - Each lab includes an explanation, worked example, educational Python code and a quiz with feedback.
 - A searchable roadmap covers 15 curriculum sections. Unbuilt topics are labeled Planned.
 - Dashboard, nine lab families, sidebar, Settings, light/dark themes and rendered equations. Planned labs are clearly marked.
-- Responsive design. All lab calculations run locally in the browser.
+- Responsive design. Browser workbenches calculate locally; the optional Local execution workspace sends explicit requests to your own API.
 
 ## Development
 
@@ -48,9 +48,9 @@ Deploy the contents of `dist` to a static host. The browser labs need no backend
 
 ## Scope and limitations
 
-Three original algorithm labs, four mathematical workbenches, a 12-estimator supervised workbench and K-Means are built. The remaining curriculum is a roadmap, not completed course material. Topic names follow the aibdaya.com concept-map image supplied for the project. The request described 217 topics; the total has not been reconciled item by item. The project does not copy paid course content or access a course account.
+Three original algorithm labs, four mathematical workbenches, a 12-estimator supervised workbench, K-Means, dataset/evaluation tools and small neural-network workbenches are built. The remaining curriculum is a roadmap, not completed course material. Topic names follow the aibdaya.com concept-map image supplied for the project. The request described 217 topics; the total has not been reconciled item by item. The project does not copy paid course content or access a course account.
 
-Lab state is temporary and resets when the page is reopened. Theme preferences are saved locally when browser storage is available. Displayed Python code is educational and is not executed by the website. Examples are fictional and are not production models. Do not enter sensitive data. This source application does not transmit lab inputs to a service.
+Lab state is temporary and resets when the page is reopened. Theme preferences are saved locally when browser storage is available. Python snippets in the browser lessons are educational. Only the optional local API workspace executes Python, after checking isolation capability. Examples are fictional and are not production models. Do not enter sensitive data. Browser workbenches do not upload their inputs. The Local execution workspace sends selected uploads, training configurations and Python to the explicit loopback API you connect.
 
 ## Educational references
 
@@ -59,7 +59,7 @@ Lab state is temporary and resets when the page is reopened. Theme preferences a
 
 The regression lab uses MSE without a one-half factor. The gradient-descent lab optimizes `f(w) = (w - 3)^2`; its stated convergence interval applies to that function, not arbitrary objectives.
 
-See `ARCHITECTURE.md` for the complete six-phase plan, future API boundary and proposed data model. These are designs, not implemented services.
+See `ARCHITECTURE.md` for the six-phase plan and current application boundaries. The backend API is implemented locally; cloud deployment is not.
 
 ## Mathematical foundations
 
@@ -69,13 +69,13 @@ The workbenches use the MIT-licensed ml-matrix runtime. See src/vendor/MATRIX-LI
 
 ## Next phases
 
-Remaining unsupervised models, sequence training, and advanced execution/persistence remain in progress. The full specification is not yet complete.
+Remaining unsupervised visualizations, sequence training, optimizer families and full-specification coverage remain in progress. The full specification is not yet complete.
 
 ## Classical ML workbench
 
 Twelve estimators: multiple/polynomial linear regression, Ridge, Lasso, Elastic Net, logistic regression, KNN, CART decision tree, random forest, linear SVM, Gaussian Naive Bayes and gradient-tree boosting. Separate K-Means uses real alternating assignment and centroid updates. Iterative models support step, start, pause, continue and reset. Noniterative estimators correctly finish in one fit rather than inventing loss histories.
 
-Small synthetic datasets and validated pasted rows are supported. Classification/regression use a seeded 75/25 train/test split. Metrics come from held-out data. Limits: 160 rows, 2 bounded input features, linear SVM only, small tree ensembles. Large-data training and experiment persistence are not provided by this client-only release.
+Small synthetic datasets and validated pasted rows are supported. Classification/regression use a seeded 75/25 train/test split. Metrics come from held-out data. Limits: 160 rows, 2 bounded input features, linear SVM only, small tree ensembles. Browser workbenches do not persist models automatically. The separate local API provides bounded server fitting and explicit experiment persistence.
 
 Scientific checks compare predictions/metrics with NumPy and scikit-learn; implementation-specific objective conventions are noted in the interface.
 
@@ -98,4 +98,20 @@ A trainable small MLP builder and two-filter CNN use actual forward/backpropagat
 
 ## Optional local backend
 
-The `backend/` directory contains a separate FastAPI/SQLite service and security documentation. It has been independently tested with 52 passing tests. It is not deployed by opening the hosted page. Follow `backend/README.md` to run it locally. The browser client integration is still in progress. No cloud persistence is included.
+The `backend/` directory contains a separate FastAPI/SQLite service and security documentation. It has been independently tested with 52 passing tests. It is not deployed by opening the hosted page. Follow `backend/README.md` to run it locally. The source app has a Local execution workspace connected through an explicit loopback URL. No cloud persistence is included.
+
+
+### Connect the local UI
+
+1. Follow `backend/README.md` to start the API on `127.0.0.1:8000`.
+2. In a second terminal at the repository root, run `npm ci` and `npm run dev`.
+3. Open `http://localhost:5173/#/execution` and click **Connect local API**. Keep the default loopback URL unless you changed the local API port. The UI rejects non-loopback URLs.
+4. Upload CSV/XLSX, choose features/target and train. Results come from real held-out predictions. The API saves the experiment and fitted artifact in local SQLite.
+5. Use Experiments to inspect, compare, reopen configuration, export JSON, download model plus metadata, or confirm deletion. The list currently loads the first 50 records. Joblib is executable serialization: load only trusted models.
+6. Python is enabled only when the API isolation self-test succeeds. Each run is a fresh process. No network, package installs or persistent kernel.
+
+Set `ML_LAB_AUTH_ENABLED=true` before starting the backend for optional local accounts. Register and sign in from Connect. The token stays in page memory and is discarded on refresh/disconnect. No email verification or password recovery is provided. This is not an internet-facing identity service.
+
+The hosted page's Local execution route explains setup only. It never tries to call your computer, and it does not host the API. The self-contained HTML contains browser labs and the local API client, but the supported API integration is the Vite development origin above, not a file URL.
+
+Phase 6 integration checks: 40 actual frontend/API checks passed, covering uploads, fits, persistence UI, comparison, deletion, downloads and isolated Python/Matplotlib. Registration/login/logout UI checks passed separately. Backend regression: 52 tests passed after the runner startup correction. No cloud service or paid resource was created.

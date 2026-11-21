@@ -6,7 +6,7 @@ Environment: Linux x86_64, Python 3.10.12, dedicated virtualenv; Bubblewrap, prl
 
 Command: `pytest -q`
 
-**Result: 52 passed, 0 failed, 0 skipped in 47.41 seconds.**
+**Result: 52 passed, 0 failed, 0 skipped in 48.62 seconds.**
 
 Coverage includes:
 
@@ -31,4 +31,11 @@ Observed caveats:
 - The installed FastAPI/Starlette test bridge emits a deprecation warning about the future replacement of its httpx adapter. It did not fail tests; the exact working versions are locked.
 - This local host's font stack emits a non-fatal `write cache: No such file or directory` message on stderr during Matplotlib startup. PNG output and computations were verified correct. Runtime status is based on exceptions/exit status, not the mere presence of warning text. The frontend should display stderr as diagnostics, not replace a successful run with a fabricated failure.
 - Passing boundary tests is not an independent security audit. This is a local loopback prototype, not approved for public hostile multi-tenant hosting.
-- CNN/RNN/LSTM and cloud persistence are not implemented. Capability responses disclose both limits.
+- Backend CNN/RNN/LSTM estimators and cloud persistence are not implemented. The separate browser app has a tiny MLP/CNN trainer and forward-only sequence cells.
+
+
+## Frontend integration verification
+
+The source app was exercised against a fresh running local API and temporary SQLite database. 40 end-to-end checks passed: upload/preview/summary, linear and Ridge fits with held-out R2 above 0.99 on known linear data, saved records, comparison, confirmed deletion, JSON export, fitted model and metadata downloads, Python stdout 6 and a real Matplotlib chart. No JavaScript page errors were observed. Optional-account registration, password-field clearing, login, logout and 401 after logout passed in a separate run. Four tabs were inspected at 320, 390 and 1280 pixels in dark and light themes.
+
+The regression was repeated after raising the launcher RLIMIT_NPROC ceiling to 1024 to account for host-UID process counting. User-code process/network/write seccomp restrictions and other resource limits were retained. All 52 tests passed, including denied process creation and fail-closed startup.

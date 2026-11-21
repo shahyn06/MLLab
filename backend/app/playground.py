@@ -106,7 +106,7 @@ def command(settings, work):
     # Mount only system runtime files and the virtualenv, never the app, home,
     # current directory, database, credentials, or other host temporary files.
     args = [prlimit, f'--as={settings.playground_memory_mb*1024*1024}',
-            f'--cpu={settings.playground_seconds}', '--fsize=1048576', '--nofile=64', '--nproc=32', '--core=0', '--',
+            f'--cpu={settings.playground_seconds}', '--fsize=1048576', '--nofile=64', '--nproc=1024', '--core=0', '--',
             bwrap, '--unshare-all', '--die-with-parent', '--new-session', '--cap-drop', 'ALL',
             '--clearenv', '--setenv', 'PATH', '/usr/bin', '--setenv', 'HOME', '/work',
             '--setenv', 'LANG', 'C.UTF-8', '--setenv', 'OPENBLAS_NUM_THREADS', '1',

@@ -2,7 +2,7 @@
 
 ## Release boundary
 
-The current phases 1–3 release is a client-side React + TypeScript application, with a Vite source build and a self-contained HTML export. It contains the original three demonstrations, mathematical workbenches, twelve supervised estimators and K-Means. Unbuilt algorithm entries remain explicit roadmap items. It is not a completed implementation of the full project specification.
+The current incremental phases 1–6 source is a client-side React + TypeScript application, with a Vite source build and a self-contained HTML export. It contains the original three demonstrations, mathematical workbenches, twelve supervised estimators and K-Means. Unbuilt algorithm entries remain explicit roadmap items. It is not a completed implementation of the full project specification.
 
 The official project name is **ML Lab - Machine Learning Laboratory**. All content is in English. The latest complete project specification overrides the earlier curriculum-image summary.
 
@@ -59,7 +59,7 @@ Add Plotly for dense exploratory charts and 3D surfaces when implemented, D3 for
 
 ## Future execution boundary
 
-Small deterministic examples run in TypeScript. Large datasets and advanced neural-network training will use an explicitly configured FastAPI service. No such server runs in this release. No paid hosting or resource reservation is authorized.
+Small deterministic examples run in TypeScript. Large datasets and advanced neural-network training will use an explicitly configured FastAPI service. The separate backend implements bounded local fitting, uploads, SQLite persistence, model exports, optional accounts and isolated Python. It is not hosted by the File. No paid hosting or resource reservation is authorized.
 
 Proposed versioned endpoints:
 
@@ -88,7 +88,7 @@ SQLite is sufficient for a single-user local prototype. PostgreSQL and object st
 
 ## Python execution safety
 
-The future playground requires an isolated process/container or browser runtime with memory, CPU, output and wall-clock limits. Never execute arbitrary learner code inside the main API process. No Run Python button is shown before an actual isolated execution path exists.
+The local playground runs in a fresh Bubblewrap process with namespaces, seccomp, memory, CPU, output and wall-clock limits. It never evaluates learner code inside the API process. The UI checks the capability self-test before enabling Run. It fails closed when isolation is unavailable. See backend/SECURITY.md.
 
 ## Engineering sequence
 
@@ -100,3 +100,8 @@ Phase 5: expand the Perceptron into MLP, forward/backpropagation visualizers, th
 Phase 6: isolated Python playground, experiment persistence, model exports and optional accounts/cloud storage.
 
 Before persistent cloud data or compute is enabled, confirm the user's deployment, privacy and cost choices. No fake training, dead controls or silent paid services.
+
+
+## Current Phase 6 transport
+
+`api-client.ts` handles explicit loopback fetches, page-memory bearer sessions, structured errors and downloads. `api-workspace.tsx` provides connection, datasets/training, experiments and Python views. The hosted build selects its setup-only branch and exposes no local connection controls. All API actions are explicit, with no automatic upload from browser workbenches. SQLite is local persistence, not cloud synchronization. Reopening an experiment restores configuration for review, not a running kernel or optimizer state.

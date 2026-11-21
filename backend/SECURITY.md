@@ -16,7 +16,7 @@ Isolation combines:
 - Read-only system runtime and dedicated virtualenv mounts. App/database/home/host temporary directories are absent.
 - Cleared environment, no credentials, dropped capabilities, new session, death with parent.
 - Seccomp rules installed before user code. Process creation/execution, sockets, filesystem mutation, namespace changes, ptrace, io_uring and several other high-risk interfaces are denied. Existing files may be opened only for reading. This intentionally prevents package installation, saving files, subprocess tools and multiprocessing.
-- Kernel hard limits: 512 MiB address space, 8 seconds CPU, 1 MiB per output file, 64 file descriptors, and 32 process ceiling. Seccomp further prevents user code from creating any child process/thread.
+- Kernel hard limits: 512 MiB address space, 8 seconds CPU, 1 MiB per output file, 64 file descriptors, and a 1024-process launcher ceiling (per host UID). Seccomp further prevents user code from creating any child process/thread.
 - Parent wall-clock timeout of 10 seconds, process-group kill and fresh per-run namespaces.
 - One active run per API process. Returned stdout and stderr each have a 64 KiB cap. Python text capture uses a stricter 30,000-character bound each. Charts: up to four PNGs, at most 150 KB binary each. Raw output capture is bounded by the file-size hard limit.
 
@@ -34,3 +34,8 @@ Linux namespaces and seccomp share the host kernel; they are not a VM and do not
 - Passwords are scrypt hashes with random salts; tokens are high-entropy and stored hashed. Logout revokes the token. SQLite remains private local data and is not encrypted by this app.
 - Only server-created models are downloadable. No untrusted pickle/joblib model import endpoint exists.
 - Preserve the SQLite database and its WAL/SHM consistently when backing it up. Do not ship runtime databases, tokens or uploaded data in source archives.
+
+
+### Launcher process ceiling
+
+The launcher ceiling is 1024 because Linux RLIMIT_NPROC counts processes/threads across the host UID before the new namespace starts. A ceiling of 32 prevented Bubblewrap startup when the local API and browser were running together. This is not the learner-code process boundary: seccomp still blocks clone, fork, vfork and exec before learner code runs. CPU, wall, address-space and output limits are unchanged. The 52-test regression and actual API-to-UI Python/chart run passed after this adjustment. This does not make the runner suitable for public multi-tenant hosting.

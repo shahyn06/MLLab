@@ -7,7 +7,7 @@ Runnable, local-only FastAPI API for Phase 6 of ML Lab. No cloud account, paid A
 Python 3.10+ is required. Install Python dependencies into a **dedicated virtualenv**, not a shared environment containing private packages or secrets:
 
 ```sh
-cd ml-lab-backend
+cd backend
 python3 -m venv .venv
 . .venv/bin/activate
 pip install -r requirements.lock.txt
