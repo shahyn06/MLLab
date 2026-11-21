@@ -69,7 +69,7 @@ The workbenches use the MIT-licensed ml-matrix runtime. See src/vendor/MATRIX-LI
 
 ## Next phases
 
-Sequence training, richer educational coverage, engineering requirements and full-specification checks remain in progress. The full specification is not yet complete.
+Richer educational coverage, engineering requirements and full-specification checks remain in progress. The full specification is not yet complete.
 
 ## Classical ML workbench
 
@@ -94,7 +94,7 @@ Validation: 22 end-to-end checks plus 274 independent sklearn/NumPy numeric comp
 
 ## Phase 5: Deep-learning workbenches
 
-A trainable small MLP builder and two-filter CNN use actual forward/backpropagation and held-out metrics. MLP architecture has 0–4 hidden layers, with 1–8 neurons each. The CNN trains two 3×3 filters on synthetic 5×5 line images, not natural-image recognition. Scalar RNN/LSTM cells currently compute forward states only; sequence training remains incomplete. Run `npm test` for 120 reproducible numerical gradient, recurrent formula, parser, metric and convergence checks.
+A trainable small MLP builder and two-filter CNN use actual forward/backpropagation and held-out metrics. MLP architecture has 0–4 hidden layers, with 1–8 neurons each. The CNN trains two 3×3 filters on synthetic 5×5 line images, not natural-image recognition. Scalar RNN and LSTM train on a synthetic moving-average memory task using full BPTT, independent LSTM gates, global norm clipping, parameter/gradient inspection and a six-sequence hold-out set. This is not a language model. `npm test` now runs 588 numerical/parser checks, including finite differences for every recurrent parameter. `npm run typecheck` checks the TypeScript source.
 
 ## Optional local backend
 
@@ -125,4 +125,12 @@ Five real bounded browser methods complement K-Means: agglomerative clustering w
 
 Batch, stochastic and mini-batch gradients combine with plain GD, Momentum, Nesterov, RMSprop or Adam. Configure rate schedules, batch size, initial weight/bias and iteration budget. Actual parameter paths are overlaid on computed contours or a rotatable loss mesh with disclosed nonlinear height scaling. A seeded linear-regression task has a known OLS optimum; a tilted double well demonstrates distinct local and global minima. Every displayed loss is computed on the full objective. Iteration exhaustion and divergence are not called convergence.
 
-`npm test` now runs 543 reproducible checks across the original numerical/parser suite, structure engines and optimizer engines. Additional UI suites checked all five structure modes and both optimizer views at 320/390/1280 pixels in both themes, with real step/pause/reset behavior.
+`npm test` now runs 588 reproducible checks across the original numerical/parser suite, structure engines and optimizer engines. Additional UI suites checked all five structure modes and both optimizer views at 320/390/1280 pixels in both themes, with real step/pause/reset behavior.
+
+### Sequence training and Python editor
+
+The sequence lab learns `y_t = 0.65*y_previous + 0.35*x_t` from 18 seeded eight-step training sequences. Six additional sequences are held out. Both scalar cells use a linear output, full time-unrolled gradients and a 1,200-epoch maximum; an MSE threshold can stop earlier. Custom inspection sequences do not change the training set. Exact LSTM gate/state values and all parameter gradients are available. At seed 42 after 1,200 full-batch epochs, RNN training/hold-out MSE is approximately 0.00023/0.00053; LSTM is 0.00099/0.00138. These synthetic task scores are not general-purpose sequence performance.
+
+The local execution workspace uses CodeMirror for highlighted Python editing, line numbers, undo/redo and indentation. Three preloaded examples, reset, copy and `.py` download are included. Examples run through the isolated process backend, not in the editor. Every run creates a fresh environment. The hosted `/execution` route remains setup-only and makes no loopback requests.
+
+Validation for this increment: 45 recurrent numerical checks, 24 sequence UI checks at 320/390/1280 in both themes, 40 re-run local API UI checks and 15 editor checks including all three examples executed in the actual sandbox. Browser source build and TypeScript checking pass. The optional server does not claim PyTorch CNN/RNN/LSTM support; those educational training labs currently run in the browser.

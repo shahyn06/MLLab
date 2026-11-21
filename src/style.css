@@ -38,3 +38,5 @@ html,body,#root{margin:0;min-height:100%}body{background:#0a121a}.ml-app{--ds-pa
 .ml-theme-light .ml-options button:hover{background:#dcefe3;color:#244f38;border-color:#448a61}
 
 .ml-landscape svg polyline[stroke="#ffd38b"]{stroke:#ffd38b}.ml-landscape svg line[stroke="#ff829f"]{stroke:#ff829f}.ml-landscape svg path[stroke="#f7ffff"]{stroke:#f7ffff}.ml-landscape svg path[stroke="#dd9be7"]{stroke:#dd9be7}
+
+.ml-sequence-chain{display:flex;gap:12px;overflow-x:auto;padding:12px 2px;max-width:100%}.ml-sequence-chain button{flex:0 0 116px;display:grid;gap:6px;padding:12px;background:var(--ml-panel);border:1px solid #56758a;border-radius:10px;color:inherit;cursor:pointer}.ml-sequence-chain .ml-selected{border:2px solid #69cba8}.ml-theme-light .ml-sequence-chain button{background:#f2f7fb;color:#19394c}.ml-sequence-chain small{font-size:12px}

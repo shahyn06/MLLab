@@ -105,3 +105,9 @@ Before persistent cloud data or compute is enabled, confirm the user's deploymen
 ## Current Phase 6 transport
 
 `api-client.ts` handles explicit loopback fetches, page-memory bearer sessions, structured errors and downloads. `api-workspace.tsx` provides connection, datasets/training, experiments and Python views. The hosted build selects its setup-only branch and exposes no local connection controls. All API actions are explicit, with no automatic upload from browser workbenches. SQLite is local persistence, not cloud synchronization. Reopening an experiment restores configuration for review, not a running kernel or optimizer state.
+
+## Python editor and sequence release
+
+Local Python editing uses CodeMirror 6. The hosted setup-only workspace does not import the editor packages because it never exposes an editor or execution connection. That hosted adapter omits the unused component, while the repository contains the full editor. The source Vite build currently inlines dynamic imports for the downloadable one-file HTML; this increases bundle size. Route chunking and worker execution remain performance work, not completed claims.
+
+The browser sequence engine has analytical full BPTT for scalar RNN and LSTM, independent gate parameters, a linear output, global norm clipping and fresh zero state per sequence. The synthetic exponential moving-average targets are deterministic, not predictions disguised as training data. Held-out sequences never enter gradients. UI inspection inputs are separate from training. The local FastAPI training API continues to list deep-learning models as unsupported.
