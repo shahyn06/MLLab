@@ -17,6 +17,8 @@ This is an implementation checklist, not a completion certificate. The full supp
 - Device-local theme and an explicitly self-reported six-workbench review checklist. No mastery is inferred from visits.
 - TypeScript checking, 971 reproducible numerical/parser/replay/compute/pipeline checks and 569 educational/lesson-section/code-template checks and 35 library/scale/lifecycle checks. Recent UI checks include sequence 24, local API 40, Python editor 15, snapshots 57 and nine initial-model capture smoke checks.
 
+- Simple regression now supports individual bounded numeric point addition, reproducible random-data generation, visible residual segments/table, one computed gradient step, and Python OLS code derived from the selected observations. Edits pause training and clear stale history.
+
 ## Not finished, next priorities
 
 1. **Restore saved browser state: implemented for nine training routes.** Schema-version-1 snapshots are validated, learned states are replayed deterministically and metrics recomputed. Legacy inspection-only exports are rejected for restoration. Manual parameter controls are range-checked, not misrepresented as trained models. Check worker-based replay responsiveness and additional boundary inputs in the final audit.

@@ -54,3 +54,5 @@ input[aria-label="Browser experiment name"]{display:block;width:100%;box-sizing:
 .ml-plotly-landscape { width: 100%; height: 360px; min-width: 0; overflow: hidden; }
 
 .ml-app .ml-plotly-landscape .modebar-group{background:#12232e!important}.ml-app .ml-plotly-landscape .modebar-btn path{fill:#b7ccd8!important}.ml-app .ml-plotly-landscape .modebar-btn.active path,.ml-app .ml-plotly-landscape .modebar-btn:hover path{fill:#72dfb8!important}
+
+.ml-theme-light .ml-plot svg line[stroke="#e89dbe"]{stroke:#aa476f}
