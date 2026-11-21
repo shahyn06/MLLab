@@ -193,4 +193,6 @@ PyTorch is a recommendation for a future advanced server trainer, not installed 
 
 ### Reproducible browser QA
 
-After `npm ci` and `npm run portable`, run `node tests/browser/storage.mjs`, `node tests/browser/restore.mjs`, `node tests/browser/exports.mjs` and `node tests/browser/all-routes.mjs`. Install Chrome separately and set `CHROME_BIN` if needed. `ML_LAB_URL` defaults to the generated portable HTML; `ML_QA_OUTPUT` selects an existing output directory. The restore suite generates its own replay fixtures. These tests write only local test data and screenshots. Python 3 is required for the classical code parity tests in `npm test`.
+After `npm ci` and `npm run portable`, run `node tests/browser/storage.mjs`, `node tests/browser/restore.mjs`, `node tests/browser/exports.mjs` and `node tests/browser/all-routes.mjs
+node tests/browser/classical.mjs
+node tests/browser/math-repair.mjs`. Install Chrome separately and set `CHROME_BIN` if needed. `ML_LAB_URL` defaults to the generated portable HTML; `ML_QA_OUTPUT` selects an existing output directory. The restore suite generates its own replay fixtures. These tests write only local test data and screenshots. Python 3 is required for the classical code parity tests in `npm test`.

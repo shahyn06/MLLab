@@ -15,7 +15,7 @@ This is an implementation checklist, not a completion certificate. The full supp
 - Resource-limited isolated Python process execution, real stdout/stderr and PNG charts. CodeMirror editor, runnable examples, copy/reset/download.
 - Explicit snapshots from nine browser training routes, saved configuration/model/history/data inspection, export, comparison and confirmed deletion. Local app: 12 records/2 MB; hosted viewer: 14 KB total. Large states can be exported without storing them. Hosted previews are memory-only and show that status.
 - Device-local theme and an explicitly self-reported six-workbench review checklist. No mastery is inferred from visits.
-- TypeScript checking and 3,381 reproducible source checks pass. Current browser suites: 36 storage/failure/confirmation, 70 actual-step replay/import/history, 57 comparison/export/delete, 38 exact-content exports and 202 all-route/labels/keyboard/empty-state checks. Source evidence lives in docs/qa; reproducible browser scripts live in tests/browser.
+- TypeScript checking and 3,522 reproducible source checks pass. Current browser suites: 36 storage/failure/confirmation, 70 actual-step replay/import/history, 57 comparison/export/delete, 38 exact-content exports and 202 all-route/labels/keyboard/empty-state checks. Source evidence lives in docs/qa; reproducible browser scripts live in tests/browser.
 
 - Simple regression now supports individual bounded numeric point addition, reproducible random-data generation, visible residual segments/table, one computed gradient step, and Python OLS code derived from the selected observations. Edits pause training and clear stale history.
 
@@ -50,3 +50,9 @@ Direct math interaction audit exercised all 43 topic controls and changed actual
 ## Storage and visual audit increment
 
 Device storage reads and writes now handle denial, quota, malformed JSON, oversize collections and unsafe history routes without a render crash. Session-only state is clearly labeled. Four browser suites were rerun from the checked-in configurable scripts. All 18 route tops were inspected in both themes at 320/390/1280; complete light-theme routes were visually inspected at those widths. Dark-theme full-page content was not separately inspected. CNN paused wording was corrected, rebuilt and re-inspected at all three widths. Basic keyboard reachability is not a full assistive-technology certification. The semantic item-by-item acceptance ledger remains open.
+
+## Semantic acceptance, supervised models and math repair
+
+The supervised-model entries now have scoped acceptance evidence: 91 independent arithmetic/partition checks and 201 direct algorithm UI checks. These cover all 13 classical workbench choices, real fitting/query/results, eleven lesson sections, three learning levels, selected-data Python and snapshots. This is bounded educational acceptance, not production-model certification. The all-algorithms adjustable-parameters item remains open because Naive Bayes currently has a fixed variance floor.
+
+Math content review found and fixed two real teaching/control mismatches: the algebra workbench now accepts B and computes A+B, AB and BA, with matching Python; Limits now exposes a positive-h forward quotient, absolute error and approach curve, separately from the quadratic-exact symmetric quotient. The chain rule has a numerical check and the bootstrap prompt names its actual advancing-seed button. Added 50 independent math known-answer checks and 20 UI repair checks. Updated algebra and calculus full contents inspected in both themes at 320/390/1280. Other semantic ledger items remain open.

@@ -1,0 +1,149 @@
+{
+  "checks": 201,
+  "errors": [],
+  "rows": [
+    {
+      "algorithm": "Multiple Linear Regression",
+      "sections": 11,
+      "levels": 3,
+      "actualSteps": 1,
+      "prediction": true,
+      "heldOut": true,
+      "snapshot": true,
+      "reset": true,
+      "datasetChange": true
+    },
+    {
+      "algorithm": "Polynomial Regression",
+      "sections": 11,
+      "levels": 3,
+      "actualSteps": 1,
+      "prediction": true,
+      "heldOut": true,
+      "snapshot": true,
+      "reset": true,
+      "datasetChange": true
+    },
+    {
+      "algorithm": "Ridge Regression",
+      "sections": 11,
+      "levels": 3,
+      "actualSteps": 1,
+      "prediction": true,
+      "heldOut": true,
+      "snapshot": true,
+      "reset": true,
+      "datasetChange": true
+    },
+    {
+      "algorithm": "Lasso Regression",
+      "sections": 11,
+      "levels": 3,
+      "actualSteps": 1,
+      "prediction": true,
+      "heldOut": true,
+      "snapshot": true,
+      "reset": true,
+      "datasetChange": true
+    },
+    {
+      "algorithm": "Elastic Net",
+      "sections": 11,
+      "levels": 3,
+      "actualSteps": 1,
+      "prediction": true,
+      "heldOut": true,
+      "snapshot": true,
+      "reset": true,
+      "datasetChange": true
+    },
+    {
+      "algorithm": "Logistic Regression",
+      "sections": 11,
+      "levels": 3,
+      "actualSteps": 1,
+      "prediction": true,
+      "heldOut": true,
+      "snapshot": true,
+      "reset": true,
+      "datasetChange": true
+    },
+    {
+      "algorithm": "K-Nearest Neighbors",
+      "sections": 11,
+      "levels": 3,
+      "actualSteps": 1,
+      "prediction": true,
+      "heldOut": true,
+      "snapshot": true,
+      "reset": true,
+      "datasetChange": true
+    },
+    {
+      "algorithm": "Decision Tree",
+      "sections": 11,
+      "levels": 3,
+      "actualSteps": 1,
+      "prediction": true,
+      "heldOut": true,
+      "snapshot": true,
+      "reset": true,
+      "datasetChange": true
+    },
+    {
+      "algorithm": "Random Forest",
+      "sections": 11,
+      "levels": 3,
+      "actualSteps": 1,
+      "prediction": true,
+      "heldOut": true,
+      "snapshot": true,
+      "reset": true,
+      "datasetChange": true
+    },
+    {
+      "algorithm": "Linear SVM",
+      "sections": 11,
+      "levels": 3,
+      "actualSteps": 1,
+      "prediction": true,
+      "heldOut": true,
+      "snapshot": true,
+      "reset": true,
+      "datasetChange": true
+    },
+    {
+      "algorithm": "Gaussian Naive Bayes",
+      "sections": 11,
+      "levels": 3,
+      "actualSteps": 1,
+      "prediction": true,
+      "heldOut": true,
+      "snapshot": true,
+      "reset": true,
+      "datasetChange": true
+    },
+    {
+      "algorithm": "Gradient Boosting",
+      "sections": 11,
+      "levels": 3,
+      "actualSteps": 1,
+      "prediction": true,
+      "heldOut": true,
+      "snapshot": true,
+      "reset": true,
+      "datasetChange": true
+    },
+    {
+      "algorithm": "K-Means",
+      "sections": 11,
+      "levels": 3,
+      "actualSteps": 1,
+      "prediction": true,
+      "heldOut": false,
+      "snapshot": true,
+      "reset": true,
+      "datasetChange": true
+    }
+  ]
+}
