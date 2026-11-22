@@ -1,6 +1,31 @@
 {
-  "date": "2026-11-21",
-  "completed": false,
+  "date": "2026-11-22",
+  "completed": true,
+  "closure": {
+    "state": "CLOSED BY USER ACCEPTANCE",
+    "date": "2026-11-22",
+    "basis": "The 18 non-fully-closed rows were presented to the project owner on 2026-11-21 and the choice was restated on 2026-11-22; he answered \"close the project\" on his verified WhatsApp line (message wamid.HBgMMjAxMTQwNjYxMzgwFQIAEhggQUMwOUUzOTUyNTRGQjk2RDA2NTMzN0YzQkZCRTg1RjIA). Each accepted row keeps its declared status; acceptance is recorded, not silently waived. See docs/FINAL_DISPOSITION.md.",
+    "accepted_rows": [
+      "R227",
+      "R228",
+      "P031",
+      "P032",
+      "R351",
+      "R352",
+      "R353",
+      "R354",
+      "R355",
+      "R356",
+      "R357",
+      "P052",
+      "P053",
+      "R317",
+      "P039",
+      "R280",
+      "R281",
+      "R350"
+    ]
+  },
   "items": [
     {
       "id": "R001",

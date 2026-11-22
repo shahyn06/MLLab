@@ -32,3 +32,7 @@ This establishes that an architecture plan was recorded in the foundational comm
 - Complete an actual control/effect inventory and chart-accessibility/manual review.
 - Apply final ledger decisions individually using the recorded evidence, retaining historical unknowns and scope exceptions rather than deleting them.
 - Rerun affected interaction tests, visually inspect changed views, and publish only the exact inspected revision. Never send the requested completion signal while substantive requirements remain unimplemented or unresolved.
+
+## Owner acceptance and closure (2026-11-22)
+
+The continuation items above that required a user decision are now resolved. The 18 non-fully-closed rows were presented to the project owner on 2026-11-21 in a plain-language WhatsApp summary, with an explicit choice: accept them as declared and close the project, or have any item actually implemented. On 2026-11-22 at 09:05 EET he answered "قفل المشروع" ("close the project"). The project is therefore closed by owner acceptance, not by silent waiver: the 18 rows keep their declared statuses (four interface exceptions, nine historical-order unverifiable, manual assistive-technology review open, bounded local backend, PyTorch recommendation-only, ONNX not implemented, cloud persistence not deployed). The manual assistive-technology review remains genuinely unperformed; the owner accepts delivery without it. Full record in docs/FINAL_DISPOSITION.md; machine-readable closure in docs/spec-acceptance.json.

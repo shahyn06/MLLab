@@ -1,6 +1,6 @@
 # Final individual dispositions
 
-Review date: 2026-11-21. The project is not marked complete.
+Review date: 2026-11-21. Closure recorded 2026-11-22: the project is closed by owner acceptance of the 18 declared rows below, not by silent waiver.
 
 ## Ledger state
 
@@ -68,7 +68,13 @@ Direct commit inspection corrected an earlier note: `7eb3470` contains the archi
 - R281, ONNX: no runtime is implemented; the chosen direct lightweight trainers do not require pretrained ONNX inference, and no inference capability is claimed.
 - R350, cloud persistence: no cloud service is deployed; local SQLite and browser snapshots are not cloud persistence.
 
-These are 18 non-fully-closed ledger rows. They are not silently waived. A user-facing decision about these boundaries belongs before any whole-project completion signal.
+These are 18 non-fully-closed ledger rows. They were presented to the project owner before any completion signal, and on 2026-11-22 he explicitly accepted them as declared and closed the project. They are not silently waived; each keeps its declared status.
+
+## Owner acceptance and closure
+
+The 18 rows above were presented to the project owner on his verified WhatsApp line (+201140661380). On 2026-11-21 they were summarized for him in plain language, grouped as here: the four universal-interface exceptions, the bounded local sklearn/Python backend with PyTorch as recommendation-only, the unperformed human assistive-technology review, the nine historically unverifiable planning-order rows, and unimplemented ONNX and cloud persistence. He was asked explicitly whether to accept them as declared and close the project, or to have any item actually implemented. On 2026-11-22 at 09:05 EET, after the choice was restated, he answered "قفل المشروع" ("close the project"; message wamid.HBgMMjAxMTQwNjYxMzgwFQIAEhggQUMwOUUzOTUyNTRGQjk2RDA2NTMzN0YzQkZCRTg1RjIA).
+
+Final state: CLOSED BY USER ACCEPTANCE. The owner accepted the four interface exceptions as deliberate design, P039 as a bounded local backend rather than a large/advanced training service, R280 as recommendation-only, R281 ONNX as not implemented, R350 cloud persistence as not deployed, R317 human assistive-technology acceptance as remaining open, and the nine planning-order rows as historically unverifiable. R317 remains an open real-world review item in substance; the closure records that the owner accepts delivery without it. The ledger `completed` flag is true only with this qualification, and the per-row statuses above are unchanged.
 
 ## Feasible accessibility layer completed
 
@@ -80,4 +86,4 @@ Bespoke scientific diagrams retain their dedicated computed tables/readouts. The
 
 Source tests: 5,350 checks. Typecheck, production and standalone builds pass. The latest runtime effects and direct regressions are checked into `tests/browser/` with QA records in `docs/qa/`. API suites use disposable temporary databases and their own loopback processes; Python suites require the documented supported Linux isolation prerequisites. No public execution endpoint, cloud deployment or paid resource was added.
 
-Hosted application generation 35 remains PRIVATE. No application change is made by this documentation/audit disposition increment. The GitHub repository contains the full source and reproducible review evidence. The ledger's `completed` flag remains false.
+Hosted application generation 35 remains PRIVATE. No application change is made by this documentation/audit closure increment. The GitHub repository contains the full source and reproducible review evidence. With the owner acceptance recorded above, the ledger's `completed` flag is true, qualified as closed by user acceptance of the 18 declared rows, which keep their non-verified statuses.
