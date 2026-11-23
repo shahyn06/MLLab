@@ -73,7 +73,7 @@ export const en = {
   "try1": "Change one parameter while keeping the data fixed. Predict the result before running.",
   "try2": "Reset the model, then test a much smaller and a much larger learning rate.",
   "try3": "Use a difficult dataset or setting. Find a limitation and explain why it happens.",
-  "sourceApp": "Browser labs run locally. Optional accounts and Python execution require your separately running API.",
+  "sourceApp": "Browser labs and Python run on this device. Optional accounts require your separately running API.",
   "notFound": "This page does not exist.",
   "back": "Back to learning map",
   "username": "Username",

@@ -1,0 +1,2201 @@
+{
+  "errors": [],
+  "rows": [
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/courses",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/courses",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/courses",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/courses",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/courses",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/courses",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/progress",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/progress",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/progress",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/progress",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/progress",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/progress",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/account",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/account",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/account",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/account",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/account",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/account",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/python",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/python",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/python",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/python",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/python",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/python",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/math",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/math",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/math",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/math",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/math",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/math",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-variables",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-variables",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-variables",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-variables",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-variables",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-variables",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-branches",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-branches",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-branches",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-branches",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-branches",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-branches",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-collections",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-collections",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-collections",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-collections",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-collections",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-collections",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-functions",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-functions",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-functions",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-functions",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-functions",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-functions",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-arrays",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-arrays",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-arrays",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-arrays",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-arrays",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-arrays",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-indexing",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-indexing",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-indexing",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-indexing",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-indexing",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-indexing",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-broadcasting",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-broadcasting",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-broadcasting",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-broadcasting",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-broadcasting",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-broadcasting",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-linear-algebra",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-linear-algebra",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-linear-algebra",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-linear-algebra",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-linear-algebra",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/numpy/numpy-linear-algebra",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-creating",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-creating",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-creating",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-creating",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-creating",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-creating",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-selection",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-selection",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-selection",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-selection",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-selection",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-selection",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-summaries",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-summaries",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-summaries",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-summaries",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-summaries",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-summaries",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-grouping",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-grouping",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-grouping",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-grouping",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-grouping",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-grouping",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-missing-merging",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-missing-merging",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-missing-merging",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-missing-merging",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-missing-merging",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/pandas/pandas-missing-merging",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-line",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-line",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-line",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-line",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-line",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-line",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-scatter",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-scatter",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-scatter",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-scatter",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-scatter",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-scatter",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-distributions",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-distributions",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-distributions",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-distributions",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-distributions",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-distributions",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-categories",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-categories",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-categories",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-categories",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-categories",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/visualization/visualization-categories",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-vectors",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-vectors",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-vectors",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-vectors",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-vectors",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-vectors",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-matrices",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-matrices",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-matrices",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-matrices",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-matrices",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-matrices",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-calculus",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-calculus",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-calculus",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-calculus",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-calculus",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-calculus",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-probability",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-probability",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-probability",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-probability",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-probability",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/math/math-probability",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-summary",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-summary",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-summary",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-summary",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-summary",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-summary",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-normal",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-normal",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-normal",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-normal",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-normal",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-normal",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-sampling",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-sampling",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-sampling",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-sampling",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-sampling",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-sampling",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-inference",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-inference",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-inference",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-inference",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-inference",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-inference",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-prediction",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-prediction",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-prediction",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-prediction",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-prediction",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-prediction",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-gradient",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-gradient",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-gradient",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-gradient",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-gradient",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-gradient",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-classification",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-classification",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-classification",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-classification",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-classification",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-classification",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-multiclass",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-multiclass",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-multiclass",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-multiclass",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-multiclass",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/intro-ml/intro-ml-multiclass",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-splits",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-splits",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-splits",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-splits",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-splits",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-splits",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-metrics",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-metrics",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-metrics",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-metrics",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-metrics",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-metrics",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-cross-validation",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-cross-validation",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-cross-validation",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-cross-validation",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-cross-validation",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-cross-validation",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-leakage",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-leakage",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-leakage",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-leakage",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-leakage",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/evaluation/evaluation-leakage",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-trees",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-trees",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-trees",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-trees",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-trees",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-trees",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-neighbors",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-neighbors",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-neighbors",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-neighbors",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-neighbors",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-neighbors",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-clusters",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-clusters",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-clusters",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-clusters",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-clusters",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-clusters",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-pca",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-pca",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-pca",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-pca",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-pca",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-pca",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-forward",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-forward",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-forward",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-forward",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-forward",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-forward",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-backprop",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-backprop",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-backprop",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-backprop",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-backprop",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-backprop",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-convolution",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-convolution",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-convolution",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-convolution",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-convolution",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-convolution",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-sequences",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-sequences",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-sequences",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-sequences",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-sequences",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-sequences",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/project/0",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/project/0",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/project/0",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/project/0",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/project/0",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/project/0",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/project/1",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/project/1",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/project/1",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/project/1",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/project/1",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/project/1",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/project/2",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/project/2",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/project/2",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/project/2",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/project/2",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/project/2",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/project/3",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/project/3",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/project/3",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/project/3",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/project/3",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/project/3",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/project/4",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/project/4",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/project/4",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/project/4",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/project/4",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/project/4",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/project/5",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/project/5",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/project/5",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/project/5",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/project/5",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/project/5",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    }
+  ]
+}

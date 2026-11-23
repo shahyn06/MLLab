@@ -15,6 +15,7 @@ class ExerciseResult(BaseModel):
 
 class LearningProgress(BaseModel):
     model_config = ConfigDict(extra='forbid')
+    savedExperiments: list[dict] = Field(default_factory=list, max_length=12)
     version: Literal[1] = 1
     completedUnits: list[str] = Field(default_factory=list, max_length=500)
     lastVisitedUnit: str | None = Field(default=None, max_length=100)

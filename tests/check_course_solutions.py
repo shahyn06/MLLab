@@ -4,7 +4,7 @@ os.chdir(root)
 # Original in-browser fixtures are reproduced here for checker parity.
 pathlib.Path('data').mkdir(exist_ok=True)
 pathlib.Path('data/reviews.csv').write_text('item,rating,units,note\ntea,4,2,fresh\ncoffee,5,3,\ntea,3,1,mild\njuice,2,4,sour\ncoffee,4,2,\njuice,5,1,sweet\n')
-rows=json.load(open('docs/qa-expansion/exercise-checks.json'));failed=[];checks=0
+rows=json.load(open(sys.argv[1] if len(sys.argv)>1 else 'docs/qa-expansion/exercise-checks.json'));failed=[];checks=0
 for row in rows:
  for correct,code in [(True,row['solution']),(False,row['wrong'])]:
   g={};out=io.StringIO()

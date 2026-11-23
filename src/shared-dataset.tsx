@@ -1,6 +1,6 @@
 import React,{createContext,useContext,useEffect,useState} from 'react';
 import type {Table} from './data-engine';
-import {Button} from './components';
+const Button=({children,onClick,secondary=false,disabled=false}:any)=><button type="button" className={'ml-btn '+(secondary?'ml-secondary':'')} onClick={onClick} disabled={disabled}>{children}</button>;
 import {Link} from './ui';
 export const Shared=createContext<{table:Table|null,publish:(t:Table)=>void}>({table:null,publish:()=>{}});
 export function DatasetProvider({children}:{children:React.ReactNode}){const [table,T]=useState<Table|null>(null);return <Shared.Provider value={{table,publish:t=>T(JSON.parse(JSON.stringify(t)))}}>{children}</Shared.Provider>}

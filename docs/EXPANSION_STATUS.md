@@ -38,3 +38,13 @@ Runtime is pinned to 314.0.8. Python is in a module worker; learner code is loca
 - Matplotlib must use Agg inside the worker. Native Pyodide browser backend expects window and fails there. Corrected to Agg and collect PNGs inline.
 - Full backend suite passes 55 tests.
 - English and Arabic Pandas exercise mobile screenshots visually inspected; no horizontal overflow.
+
+## Integration update
+- Every map unit now opens a specific real lesson. Unit lessonId/codeId/taskIds/quizId are populated from the shared lesson metadata. All map states reflect checked exercise completion rather than review checkboxes.
+- Added six distinct level projects with dataset, steps, expected results and independent self-check criteria.
+- Initial bundle reduced to about 300 KB (93 KB gzip), with courses, advanced labs, Plotly and Three.js deferred.
+- 366 route/language/viewport layout checks passed with zero page errors and no horizontal overflow. This is geometry coverage, not a claim that every pixel has been manually inspected.
+- Account browser workflow passed register/login/opt-in merge/save/navigate/reload/logout.
+- Portable build succeeds. Python execution is intentionally disabled in portable mode.
+- Static-host workflow/config is ready but manual-only; no deployment enabled or triggered. See STATIC_DEPLOYMENT.md.
+- Snapshot integration now scopes browser snapshots to the logged-in progress document, with guest-to-account merge preserving IDs and existing guest data. Needs final backend round-trip and UI QA.
