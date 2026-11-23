@@ -4,7 +4,8 @@ export type RunResult={stdout:string;stderr:string;figures:string[];check?:{pass
 const workerSource=`let py=null;let busy=false;
 self.onmessage=async({data:m})=>{if(busy)return;busy=true;try{
  if(!py){self.postMessage({id:m.id,state:'loading'});const mod=await import('${PYODIDE_URL}pyodide.mjs');py=await mod.loadPyodide({indexURL:'${PYODIDE_URL}'});}
- if(m.packages.length){self.postMessage({id:m.id,state:'packages'});await py.loadPackage(m.packages);}
+ if(m.packages.length){self.postMessage({id:m.id,state:'packages'});await py.loadPackage(m.packages.filter(p=>p!=='seaborn'));if(m.packages.includes('seaborn')){await py.loadPackage('micropip');await py.runPythonAsync("import micropip\\nawait micropip.install('seaborn==0.13.2', deps=False)");}}
+ if(m.packages.includes('matplotlib'))await py.runPythonAsync("import matplotlib\\nmatplotlib.use('Agg', force=True)\\nimport matplotlib.pyplot as __worker_plt\\n__worker_plt.show = lambda *args, **kwargs: None");
  py.FS.mkdirTree('/home/pyodide/data');for(const [name,text]of Object.entries(m.files||{}))py.FS.writeFile('/home/pyodide/data/'+name,text);
  self.postMessage({id:m.id,state:'running'});
  const globals=py.runPython('dict()');

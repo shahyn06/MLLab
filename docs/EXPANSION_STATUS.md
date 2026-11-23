@@ -30,3 +30,11 @@ Pyodide reference checked 23 November 2026:
 https://pyodide.org/en/stable/usage/webworker.html
 https://pyodide.org/en/stable/usage/downloading-and-deploying.html
 Runtime is pinned to 314.0.8. Python is in a module worker; learner code is local, not sent to a Python server. Runtime downloads go to jsDelivr. Do not execute untrusted code.
+
+## Runtime QA update
+- Real Pandas tutorial output, correct DataFrame checker and wrong-type rejection verified in Chromium.
+- Infinite-loop Stop verified: worker terminates and editor text remains.
+- Seaborn is not in Pyodide's built-in package index. Runtime now loads it with pinned micropip (0.13.2, dependencies already loaded), not loadPackage.
+- Matplotlib must use Agg inside the worker. Native Pyodide browser backend expects window and fails there. Corrected to Agg and collect PNGs inline.
+- Full backend suite passes 55 tests.
+- English and Arabic Pandas exercise mobile screenshots visually inspected; no horizontal overflow.
