@@ -80,8 +80,8 @@ def create_app(settings=None):
     @app.put(prefix + '/progress', response_model=LearningProgress, tags=['progress'])
     def put_progress(payload: LearningProgress, user: Owner):
         document = payload.model_dump_json()
-        if len(document.encode()) > 256000:
-            raise HTTPException(413, 'Progress exceeds 256 KB')
+        if len(document.encode()) > 2200000:
+            raise HTTPException(413, 'Progress and snapshots exceed 2.2 MB')
         with store.connect() as db:
             db.execute('INSERT INTO learning_progress VALUES (?,?,?) ON CONFLICT(owner) DO UPDATE SET document=excluded.document, updated_at=excluded.updated_at', (user, document, now()))
         return payload

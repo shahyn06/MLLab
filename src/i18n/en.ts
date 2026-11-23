@@ -96,7 +96,7 @@ export const en = {
   "backendSetup": "Run the backend locally and enable accounts. See backend/INTEGRATION.md.",
   "syncHint": "Account progress sync is explicit. Save after learning, or reload account progress before switching devices.",
   "reload": "Reload account progress",
-  "snapshotHint": "Browser snapshots remain in the existing device-local experiment manager; API experiments already belong to your account.",
+  "snapshotHint": "While signed in, browser snapshots are included when you save account progress. Guest snapshots remain on this device. API experiments use their own account store.",
   "visits": "Last visited unit",
   "progressEmpty": "Choose an available unit to begin.",
   "plannedCount": "Planned lessons are excluded from completion percentages.",

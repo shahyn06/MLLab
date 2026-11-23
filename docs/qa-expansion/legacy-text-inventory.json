@@ -1,0 +1,3298 @@
+[
+  {
+    "file": "algorithm-depth.tsx",
+    "text": "Reason through"
+  },
+  {
+    "file": "algorithm-depth.tsx",
+    "text": "Algorithm learning level"
+  },
+  {
+    "file": "algorithm-depth.tsx",
+    "text": "Worked example"
+  },
+  {
+    "file": "algorithm-depth.tsx",
+    "text": "Derivation"
+  },
+  {
+    "file": "algorithm-depth.tsx",
+    "text": "Challenge"
+  },
+  {
+    "file": "algorithm-depth.tsx",
+    "text": "Use the real controls below to test the reasoning. Keep the held-out partition out of fitting, and do not read an unsupervised geometry score as label accuracy. A fixed calculation here is separate from the current live model."
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Local execution workspace"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "The hosted learning page runs browser labs only. It does not connect to your computer or host a Python process."
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "The editable source includes the FastAPI/SQLite backend and a local UI for dataset uploads, real server training, experiments, model exports, accounts and isolated Python. Run both locally as explained in the repository README. No cloud service has been deployed."
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Open the source repository ↗"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "OPTIONAL LOCAL BACKEND"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Run, save and revisit."
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Explicitly connect to your own local API. Requests on this page send your selected data or code to that process. Browser-only labs remain separate. This is local SQLite persistence, not cloud storage."
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Connection"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Loopback API base URL"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Connect local API"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Disconnect"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Active connection:"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Start the source frontend with"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "npm run dev"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "and backend with"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "uvicorn app.main:app --host 127.0.0.1 --port 8000"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "from its installed environment. The default CORS origin is http://localhost:5173. See backend/README.md for sandbox prerequisites and optional accounts."
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Verified server capabilities"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Local account"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "No email recovery. Passwords and session tokens stay in page memory only. Connect only to a backend you control."
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Username"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Password"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Create local account"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Sign in locally"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Sign out"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Upload and inspect"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "CSV or .xlsx, up to the server's current limits. Upload stores a copy in local SQLite."
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Upload selected dataset"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Refresh stored datasets"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Stored dataset"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Choose a dataset"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "rows)"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Columns:"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": ". Stored rows:"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Preview dataset"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Dataset summary"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Export stored CSV"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Real server training"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Fit once and save actual results. Supervised metrics are held-out. Unsupervised results use full data. No invented progress or server pause control."
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Algorithm"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Experiment name"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Feature names, comma separated"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Target column"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Hyperparameters, JSON object"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Seed 42, test fraction 0.2. Parameter names and bounded ranges are in backend/INTEGRATION.md."
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Train and save experiment"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Saved experiments"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Refresh experiments"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "loaded records, up to the API's first 50. Select two to ten for a same-context comparison. Scores across unrelated tasks are not ranked."
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Joblib model files can execute code when loaded. Load only your own trusted models. Downloads include separate library-version and feature-order metadata."
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Inspect results"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Reopen configuration"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Export JSON"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Download fitted model"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Delete record"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Delete this saved experiment and its model?"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Confirm deletion"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Keep record"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Compare selected experiments"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Isolated Python"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Each run is fresh. No network, package installs, subprocesses or persistent kernel. Resource limits apply. Source and output are never treated as HTML. Sandbox availability is checked by the API."
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Load example (replaces editor contents)"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Choose example"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Python source. CodeMirror provides highlighting, line numbers, undo/redo and indentation. Escape then Tab moves focus out of the editor."
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Loading Python editor…"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Copy Python code"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Download Python code"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Reset Python editor"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Run isolated Python"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Clear editor and output"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "stdout"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "stderr"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Actual API response"
+  },
+  {
+    "file": "api-workspace.tsx",
+    "text": "Close response"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Restored"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": ". Opened paused; current metrics are recomputed from the validated model and data."
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Save this browser experiment"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Save the actual current parameters, results, history and data on this device. No upload or cloud sync. At most 12 snapshots, total"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": ". Large models or histories can be exported as JSON instead. JSON exports contain your selected data. A snapshot can be restored safely in this lab; it is not an executable model format."
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Browser experiment name"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Capture current experiment"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Export current snapshot"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Open saved snapshots"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Loading saved snapshots…"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "DEVICE-LOCAL EXPERIMENT MANAGER"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Revisit an actual experiment."
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "These are explicit snapshots of browser models, separate from the local API's SQLite experiments. Saved data stays in this browser's storage. Clearing site data deletes it; download anything you need to keep."
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Import a browser snapshot"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Choose a schema-version-1 JSON export, at most 2 MB. Import never runs code. Learned parameters, metrics and histories are rebuilt from validated configuration, original data and update count. Manual line/perceptron/quadratic parameters are range-checked and their current scores recomputed. Old inspection-only exports remain readable as JSON but are not restorable."
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Cancel rebuilding"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Rebuilt"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": ". Ready to open paused with recomputed metrics."
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Open rebuilt experiment"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "No browser snapshots yet"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Run a workbench and choose Capture current experiment. No example results have been inserted into your history."
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Open the classical workbench"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Inspect saved state"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Download snapshot JSON"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Prepare restoration"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Open fresh lab"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Delete snapshot"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Prepare restoration rebuilds supported learned models and their history. Open rebuilt experiment then opens it paused. Current metrics are recomputed, never trusted from the JSON. Open fresh lab uses defaults. Manual regression trace is cleared because it cannot be independently reconstructed."
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Confirm snapshot deletion"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Keep snapshot"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Selected model metrics"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Only compare scores with the same dataset, split, task, metric definition and training budget. Different contexts are listed, never ranked."
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Experiment"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Algorithm"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Saved metrics"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Configuration"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Your review checklist"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "workbenches marked reviewed by you on this device. This is self-reported review, not a test score or proof of mastery."
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Open ↗"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "saved browser snapshots."
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Recently opened experiments"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "No saved experiment has been restored yet."
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Recently captured experiments ↗"
+  },
+  {
+    "file": "browser-experiments.tsx",
+    "text": "Recommended next experiment: compare a linear model with the MLP on XOR, then inspect why a nonlinear hidden layer changes the result."
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Centroid"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "movement from previous location"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Feature x1"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Feature x2"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "· impurity="
+  },
+  {
+    "file": "classical.tsx",
+    "text": "True"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "False"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "CLASSICAL ML / COMPUTED EXPERIMENTS"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Watch a model take shape."
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Train a small model, inspect its predictions and challenge it on data it did not fit. All values below are computed, never prerecorded."
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Steps and assumptions"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "The learning curve shows unpenalized training MSE. The selected penalty still affects weight updates."
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Absolute variance floor"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Use max(class population variance, floor) for each feature. Increasing this can soften overconfident scores on nearly constant classes. Edits clear the fitted state."
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Reproducible seed"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Regenerate with seed"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Use your own small dataset"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Paste"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "rows, no header. Features in [−3,3], 8–160 rows. This replaces the built-in data and resets training."
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Apply custom dataset"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "training points"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Reset model"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Step"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Learning curve ·"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "No training result yet. Start training or run one step."
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Current K-Means phase:"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Completed centroid updates:"
+  },
+  {
+    "file": "classical.tsx",
+    "text": ". Each timed phase lasts 0.7 seconds; Pause freezes it for inspection."
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Actual assignment membership and centroid coordinates"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Centroid"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Assigned points"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Current x1"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Current x2"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Held-out test results"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Confusion counts: TP="
+  },
+  {
+    "file": "classical.tsx",
+    "text": ". A metric with a zero denominator is reported as 0."
+  },
+  {
+    "file": "classical.tsx",
+    "text": "First 8 held-out predictions."
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Actual"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Inspect the fitted tree and split impurities"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Inspect the latest fitted tree ("
+  },
+  {
+    "file": "classical.tsx",
+    "text": "total)"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Predict a new point"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Output:"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "The standalone standard-library Python uses this selected dataset, exact split, configuration and displayed update count. Before training, it uses the selected maximum step budget. It reproduces this small trainer rather than silently substituting a different library solver."
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Applications:"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Limits:"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "References, implementation and scope"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "scikit-learn supervised learning reference ↗"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "K-Means reference ↗"
+  },
+  {
+    "file": "classical.tsx",
+    "text": "Lightweight TypeScript implementations train on small bounded datasets in your browser. Hyperparameter edits reset the fitted model. Save a browser snapshot below to inspect and rebuild this experiment later. Larger local-API jobs are a separate workspace. The classical Python program reproduces this bounded trainer and selected rows; floating-point ties can differ across runtimes."
+  },
+  {
+    "file": "comparison.tsx",
+    "text": "Compare real model fits"
+  },
+  {
+    "file": "comparison.tsx",
+    "text": "Four estimators train on the same seeded 67-row training partition and are evaluated on the same untouched 23-row test partition. Synthetic data seed 17, default settings. These results do not establish which algorithm is best in general."
+  },
+  {
+    "file": "comparison.tsx",
+    "text": "Comparison task"
+  },
+  {
+    "file": "comparison.tsx",
+    "text": "Classification"
+  },
+  {
+    "file": "comparison.tsx",
+    "text": "Regression"
+  },
+  {
+    "file": "comparison.tsx",
+    "text": "Cancel comparison"
+  },
+  {
+    "file": "comparison.tsx",
+    "text": "Same data, same split, separately fitted models."
+  },
+  {
+    "file": "comparison.tsx",
+    "text": "Algorithm"
+  },
+  {
+    "file": "comparison.tsx",
+    "text": "Updates"
+  },
+  {
+    "file": "comparison.tsx",
+    "text": "Computed training histories"
+  },
+  {
+    "file": "comparison.tsx",
+    "text": "Use a validation set or nested CV for model selection; comparing repeatedly on a final test set leaks information. One-shot estimators have one actual training objective, not invented histories."
+  },
+  {
+    "file": "components.tsx",
+    "text": "Read the code · Python"
+  },
+  {
+    "file": "components.tsx",
+    "text": "Copy this educational example into Python to run it. The live lab uses JavaScript in your browser, not a Python interpreter."
+  },
+  {
+    "file": "components.tsx",
+    "text": "CHECK YOUR UNDERSTANDING"
+  },
+  {
+    "file": "components.tsx",
+    "text": "data points"
+  },
+  {
+    "file": "components.tsx",
+    "text": "ranges from"
+  },
+  {
+    "file": "components.tsx",
+    "text": "ranges from"
+  },
+  {
+    "file": "components.tsx",
+    "text": ". Exact plotted values are available in the chart data table immediately after this chart."
+  },
+  {
+    "file": "components.tsx",
+    "text": "View chart data:"
+  },
+  {
+    "file": "components.tsx",
+    "text": "versus"
+  },
+  {
+    "file": "components.tsx",
+    "text": "Data points and line coordinates are separate series. No plotted values are omitted. Scroll the table horizontally if needed."
+  },
+  {
+    "file": "components.tsx",
+    "text": "Plotted coordinates"
+  },
+  {
+    "file": "components.tsx",
+    "text": "Series"
+  },
+  {
+    "file": "components.tsx",
+    "text": "Index"
+  },
+  {
+    "file": "components.tsx",
+    "text": "Data"
+  },
+  {
+    "file": "components.tsx",
+    "text": "Line"
+  },
+  {
+    "file": "components.tsx",
+    "text": "Residual endpoint"
+  },
+  {
+    "file": "components.tsx",
+    "text": "No plotted values yet."
+  },
+  {
+    "file": "components.tsx",
+    "text": "LAB"
+  },
+  {
+    "file": "components.tsx",
+    "text": "/ READY TO EXPLORE"
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "CONVOLUTIONAL NEURAL NETWORK"
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "Learn a visual feature."
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "A tiny CNN learns horizontal versus vertical lines from noisy 5×5 grayscale images. Both 3×3 filters and the output head are trained by real backpropagation."
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "Slide each shared kernel across the image without flipping it."
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "Apply ReLU and average each feature map."
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "Compute a sigmoid score, then backpropagate cross entropy through the head, pooling and shared kernels."
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "Architecture and training"
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "5×5 input → two valid 3×3 cross-correlations → ReLU → global average pooling → sigmoid binary output. No padding; stride 1. Forty-four training images, sixteen held-out images. Vertical is class 1, horizontal class 0."
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "One CNN epoch"
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "Reset CNN"
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "CNN epoch"
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "Edit the input image"
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "Image"
+  },
+  {
+    "file": "convolution.tsx",
+    "text": ", actual label"
+  },
+  {
+    "file": "convolution.tsx",
+    "text": ". Clicking a pixel toggles it between 0 and 1. The original dataset is unchanged by edits."
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "Kernel bias"
+  },
+  {
+    "file": "convolution.tsx",
+    "text": ". Output weight"
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "Global mean:"
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "Learning curve"
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "Run an epoch to calculate the first loss."
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "The operation often called convolution in deep-learning libraries is cross-correlation: the kernel is not flipped. ReLU has derivative 0 at zero. Global pooling sends one ninth of its upstream gradient to each active map entry. Shared kernel gradients sum contributions from every window."
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "This is a real trainable educational CNN, not image recognition on natural photographs. The simple fixed synthetic task does not measure real-world vision performance."
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "Shared local filters are useful for spatial patterns such as edges, textures and image features. This tiny line-orientation task shows the mechanics only. Natural-image recognition requires different data, validation, capacity and resources."
+  },
+  {
+    "file": "convolution.tsx",
+    "text": "Set one input pixel at a time. Predict which map entries can change, then compare the computed maps. After training, compare responses to a horizontal and vertical stroke. Why does global averaging remove some position information?"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "WORKSPACE"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Dashboard"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Settings"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Reference topic map"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Incremental learning release."
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Only ready labs run."
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "OPEN INTERACTIVE LAB ↗"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Planned topics ("
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "YOUR WORKSPACE"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Settings"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Choose your reading theme. Your preference is device-local when storage is available, not synchronized to other devices."
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Execution and privacy"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Browser workbenches compute in your browser. The hosted page has no Python service or cloud experiment store. The local source app has an optional loopback API workspace for execution, storage and uploads."
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Model controls and quiz answers are temporary. No account or paid service is needed for the self-contained HTML copy."
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "LABORATORY"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Load your saved experiments"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "The local source app can save actual experiments through its local API. Open Local execution to connect. Browser workbench state is not automatically saved."
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "DASHBOARD / INCREMENTAL RELEASE"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Build intuition. Test ideas."
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "A scientific workspace for mathematical understanding, implementation and live experimentation. Start with a working laboratory."
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "workspace entries"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "lab families"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Phase 6"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "integration in progress"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Start an experiment"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Your experiments"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Open device-local browser snapshots ↗"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "The separate local execution workspace loads API experiments. Neither store is cloud-synchronized."
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Explore the laboratories"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "What this release does, and does not do"
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "The sidebar, responsive layouts, light/dark themes, equation renderer and reusable plots form the foundation. Browser workspaces include mathematical foundations, twelve classical supervised estimators, K-Means, data exploration, preprocessing, evaluation scalar RNN/LSTM training with full BPTT, structure discovery, optimizers and the original demonstrations."
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Browser CSV/Excel import and evaluation are ready. The optional local source app adds dataset training, saved experiments, model exports and isolated Python. These require a locally running API, not the hosted page. Cloud persistence is not deployed. Planned items are not training buttons."
+  },
+  {
+    "file": "dashboard.tsx",
+    "text": "Remaining: educational coverage, engineering refinements and full-specification checks. Local execution is available in the source app; cloud services are not deployed."
+  },
+  {
+    "file": "data-guide.tsx",
+    "text": "Understand the data concepts in this workspace"
+  },
+  {
+    "file": "data-guide.tsx",
+    "text": "Use this guide beside the real controls and computed results below. Worked examples are fixed calculations, separate from your current table or model."
+  },
+  {
+    "file": "data-guide.tsx",
+    "text": "Data concept"
+  },
+  {
+    "file": "data-guide.tsx",
+    "text": "Data learning level"
+  },
+  {
+    "file": "data-guide.tsx",
+    "text": "What and why"
+  },
+  {
+    "file": "data-guide.tsx",
+    "text": "Worked example"
+  },
+  {
+    "file": "data-guide.tsx",
+    "text": "Calculation and reasoning"
+  },
+  {
+    "file": "data-guide.tsx",
+    "text": "Where it is used"
+  },
+  {
+    "file": "data-guide.tsx",
+    "text": "Assumptions and limitations"
+  },
+  {
+    "file": "data-guide.tsx",
+    "text": "Important limits:"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Filter table rows"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "matching rows. Page"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": ". Select a column header to sort."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "No rows match this filter. Clear the filter to show your data."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Missing"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Previous rows"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Next rows"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "No numeric values."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Frequency"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Value (8 bins)"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Whiskers: most extreme points within 1.5 IQR"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "DATASET & PREPROCESSING LAB"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Know your data before you fit."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Import, inspect and transform a real table. Everything here stays in your browser. The starting survey is explicitly fictional."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Choose a dataset"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Import CSV or Excel (.xlsx)"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Read selected file"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Header row required. Up to 3 MB, 5,000 rows and 40 columns. Excel uses the first worksheet; cached formula values only. No macros are executed."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Paste CSV"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Load pasted CSV"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Restore fictional survey"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Export current CSV"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Reading your file..."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Interactive preview"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Column summary"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Sample variance uses n−1. Missing cells are excluded from summaries. Undefined values are shown as \"Not finite\"."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Distribution histogram"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Box plot"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Scatter plot"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "First 500 pairwise-complete numeric points;"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "pairs available."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Correlation matrix"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Pearson correlation, pairwise-complete rows. Correlation does not show causation."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Feature"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Pair plots (first four numeric columns)"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Transform one step at a time"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "This is an exploratory transformation tool. To avoid data leakage in modeling, split first and fit imputation, scaling and encoding on training data only. Standardization here uses sample standard deviation."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Apply transformation"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Reset to raw data"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Label encoding uses alphabetical category order and does not imply an ordinal relationship. One-hot encoding preserves missing cells as missing. Removing IQR outliers is not always appropriate for your domain."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Raw data"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Processed data"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Reproducible train/test split"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Split seed"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "This random split is not stratified and is unsuitable for chronological data. No row appears in both partitions."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Export training partition"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Export test partition"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Training row indices:"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "EVALUATION LAB"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Measure what your model gets right."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Paste real held-out predictions or inspect these explicitly labeled example predictions. Every metric and curve is calculated from the rows below."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Calculate metrics"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Confusion matrix"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Actual / predicted"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Negative"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Positive"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Negative"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Positive"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Predicted positive means score ≥ threshold. Undefined precision/recall/F1 is shown as 0. AUC requires both actual classes. Scores need not be calibrated probabilities."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "ROC curve"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Precision-recall curve"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Tied scores enter together. ROC AUC uses trapezoids; average precision uses recall increments times precision and is not the trapezoidal PR area. Changing the classification threshold changes the confusion matrix, not AUC."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Actual versus predicted"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Residuals"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "R² is undefined for constant actual targets and may be negative. Lower error is better, but scale and problem context matter."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Export evaluation JSON"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "K-fold validation and learning curves"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Run real logistic regression fits on a fixed seeded synthetic binary dataset. Each fold trains a fresh model for 120 updates. Fold assignment is deterministic; stratification distributes each class across folds."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Stratified folds"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Cancel validation"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Fold"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Test rows"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Accuracy"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Learning curve · test accuracy"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Learning curve uses a separate fixed 25-point hold-out and nested training subsets, not the CV folds. Accuracy need not improve monotonically."
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Training rows"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Training accuracy"
+  },
+  {
+    "file": "datalab.tsx",
+    "text": "Hold-out accuracy"
+  },
+  {
+    "file": "export-panel.tsx",
+    "text": "Generated content:"
+  },
+  {
+    "file": "export-panel.tsx",
+    "text": "This hosted viewer cannot create a file download. Your generated text is shown below. Copy it and save it in your own text editor, or use the local source app for direct downloads. Nothing has been uploaded to another service."
+  },
+  {
+    "file": "export-panel.tsx",
+    "text": "Close generated content"
+  },
+  {
+    "file": "lab-boundary.tsx",
+    "text": "This workspace could not open."
+  },
+  {
+    "file": "lab-boundary.tsx",
+    "text": "Reload the page to try again. Unsaved session changes may be lost. You can still use the navigation to open another workspace."
+  },
+  {
+    "file": "lab-boundary.tsx",
+    "text": "Reload this page"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Fit a single affine relation to paired numeric observations. All residuals and training curves use the current inputs."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Predict from the current slope and intercept."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Compute mean squared residuals and both parameter gradients."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Subtract a stable gradient step, or compare with the exact least-squares fit."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "● Blue: observed data"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Green line: model prediction"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Dashed pink: residual y − prediction"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Show residual segments"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Learning curve: error over time"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "The data plot shows predictions. This plot records training error after each real gradient-descent update, not a decorative animation."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "One regression update"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Restart from zero"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Stable automatic learning rate:"
+  },
+  {
+    "file": "labs.tsx",
+    "text": ". Pause, change the line, or use the instant exact fit to compare. The two plots update together."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Find best fit"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Reset lab"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Predict at x"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Prediction:"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "arbitrary units"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Predicting outside your observed x range is extrapolation. A fitted line does not guarantee a reliable real-world prediction."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Add an observation or generate data"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "At most 30 observations, coordinates between −100 and 100. Adding or generating pauses training, clears its curve and retains the current line."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "New point x"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "New point y"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Add data point"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Generate random regression data"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Seeded generation is reproducible. Reusing a seed returns the same synthetic observations, not unseen real data."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Prediction errors and residuals ("
+  },
+  {
+    "file": "labs.tsx",
+    "text": "observations)"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Current training rows, signed residual = observed − predicted"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Observed y"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Predicted y"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Residual"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Squared residual"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Mean of the squared residuals:"
+  },
+  {
+    "file": "labs.tsx",
+    "text": ". These are training errors, not held-out evaluation."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Try your own data"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Enter one"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "point per line. Inputs stay in your browser. Do not enter sensitive data."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Apply data"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "The idea"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "The model predicts"
+  },
+  {
+    "file": "labs.tsx",
+    "text": ". The difference between a prediction and its observed value is a residual. Square the residuals and take their mean:"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "MSE = Σ(ŷ − y)² / n"
+  },
+  {
+    "file": "labs.tsx",
+    "text": ". Lower is better on the same data, but training error alone does not tell you how well a model generalizes."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Worked example: practice and score"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Our fictional observations are"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "For each extra unit of x, y rises by two. So"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Substitute:"
+  },
+  {
+    "file": "labs.tsx",
+    "text": ", which gives"
+  },
+  {
+    "file": "labs.tsx",
+    "text": ", the prediction is"
+  },
+  {
+    "file": "labs.tsx",
+    "text": ". The error on the three observed points is zero."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Simple regression is a useful calibration and trend baseline when a linear relation is plausible. It does not establish causality. Residual patterns, outliers and held-out data should guide whether the model is appropriate."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "A binary linear threshold unit learns from classification mistakes. The live predictions are training-set results, not held-out generalization metrics."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Visit each selected truth-table row in its displayed order."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Threshold the weighted input score at zero."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "For a mistake, add the rate-scaled target-minus-prediction times the inputs and update the bias."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "● Blue: class 1"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "● Gold: class 0"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "No boundary is drawn when both feature weights are zero. The bias alone determines the prediction."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Choose the fixed four-point AND or XOR truth table. These are synthetic, binary examples, not uploaded data."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Train one epoch"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Reset training"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Current predictions · inputs and scores are dimensionless"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Target"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Prediction"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Result"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Accuracy here is measured on four training points, not unseen test data."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Predict, compare, update"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Compute"
+  },
+  {
+    "file": "labs.tsx",
+    "text": ". Predict 1 if"
+  },
+  {
+    "file": "labs.tsx",
+    "text": ", otherwise predict 0. For a mistake, compute"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "e = target − prediction"
+  },
+  {
+    "file": "labs.tsx",
+    "text": ". Update"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "and"
+  },
+  {
+    "file": "labs.tsx",
+    "text": ". One epoch visits all four points, using the updated weights for each next point."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Worked example: the first point"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Start with zero weights and learning rate"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "For AND, point"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "has target 0. Its score is zero, so the model predicts 1."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "The error is"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Feature weights stay at zero because both inputs are zero. The new bias is"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "A perceptron illustrates online linear classification and motivates multilayer networks. It fits separable patterns, but a single linear threshold cannot represent XOR. The four training predictions are not a real-world accuracy estimate."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Optimize one known scalar quadratic and inspect every real parameter update."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Differentiate f(w)=(w−3)² to obtain 2(w−3)."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Multiply the derivative by the selected positive rate."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Subtract that displacement and record the newly computed loss."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "This is an analytic objective, not a fitted dataset. The initial position is −3 and the exact optimum is w=3. No train/test metric is appropriate for this demonstration."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "The curve is"
+  },
+  {
+    "file": "labs.tsx",
+    "text": ". Blue marks the current weight. If the point leaves the plot, follow its value in the readouts."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Learning curve: loss after each step"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Take one step"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Take 10 steps"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Reset position"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "The minimum is at"
+  },
+  {
+    "file": "labs.tsx",
+    "text": ", where both the loss and derivative are zero."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Try"
+  },
+  {
+    "file": "labs.tsx",
+    "text": ", reset, then try"
+  },
+  {
+    "file": "labs.tsx",
+    "text": ". For this function, rates strictly between zero and one converge. At one, the position oscillates; above one, it diverges from this starting point."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Stopped at the numerical safety limit or 200 steps. Reduce the rate and reset the position."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Step history ("
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Step"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Weight"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Loss"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Move against the gradient"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "The derivative points toward increasing function values. To move downhill, use"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "w_next = w − αf′(w)"
+  },
+  {
+    "file": "labs.tsx",
+    "text": ". An oversized step can overshoot the minimum and increase the loss. Convergence conditions depend on the function; the rate limits in this lab apply only to this quadratic."
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Worked example: your first step"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Start at"
+  },
+  {
+    "file": "labs.tsx",
+    "text": ", with"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "The derivative is"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "The next weight is"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "The loss falls from"
+  },
+  {
+    "file": "labs.tsx",
+    "text": "Gradient descent trains differentiable models by reducing an objective. This exactly solvable quadratic isolates stability; it does not demonstrate stochasticity, nonconvex optimization or neural generalization. Use the optimizer workbench for multidimensional objectives."
+  },
+  {
+    "file": "lesson-sections.tsx",
+    "text": "Jump to a lesson section"
+  },
+  {
+    "file": "lesson-sections.tsx",
+    "text": "These sections point to real explanations, live inputs, training controls and computed results on this page. Python examples describe the same algorithm family; browser and Python implementation details can differ."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Change the linear map"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Second map B for addition and composition"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Reset algebra"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Vector before and after A"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Blue: v. Gold: Av. The green segment points from the origin to Av."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Singular matrix: no inverse."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Eigenstructure"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Eigenvalues:"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "This matrix has complex eigenvectors. They are not drawn in this real 2D plane."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Worked example: with A=[[2,1],[1,2]] and v=[1,2], Av=[4,5], det(A)=3, eigenvalues are 3 and 1, and singular values are 3 and 1. Change an entry and compare."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Applications: linear model predictions, embeddings and PCA. This is a real 2×2 workbench, not a general complex-matrix solver."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Quadratic slice and tangent"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Blue samples show f(x,y) at the current y. The straight line is the derivative tangent at x. Change x to move the tangency point."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Adjust the function and point"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Take a gradient step (α=0.05)"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "The next gradient step would leave this bounded [−3,3] coordinate workbench. Change the function or reset. This is a domain guard, not convergence."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Reset calculus"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Finite-difference approach to the derivative"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "The curve is computed at decreasing positive h. The gold point uses the selected h. Its limiting target is the analytical x derivative"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": ". For a=0 this family is affine in x, so the quotient is already exact at every h."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Worked example: a=c=1,b=0,x=y=1 gives f=2, gradient=(2,2), Hessian=2I and a 0.05 gradient step to (0.9,0.9). The chain example is a separate composition g(t)=(at²+b)². Both quotients hold y fixed. For a quadratic the forward quotient is fₓ+ah and visibly approaches fₓ as h shrinks. The symmetric quotient is algebraically exact for this family; numerical cancellation can still occur. The numerical chain derivative uses the same h and need not equal its analytical value at finite h."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Applications: backpropagation, local sensitivity and optimization. The plotted slice alone cannot establish global convexity."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Distribution explorer"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Distribution parameters"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Parameters are labeled for their distribution. Normal uses a numerical CDF approximation. Discrete mass is truncated only for the Poisson display; its omitted tail is very small."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Bayesian signal experiment"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Worked example: prior 0.01, sensitivity 0.95 and false-positive rate 0.05 give evidence 0.059 and posterior about 0.161. This is a fictional signal, not a diagnostic tool."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Applications: calibrated classifiers, likelihoods, uncertainty and generative models. Independence and constant-rate assumptions should be checked for the chosen model."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Paired observations"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Statistics data x,y"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Apply statistics data"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "x frequency distribution (8 equal bins)"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "A frequency polygon joins the bin counts. Counts are computed from x, including the largest value in the last bin."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Quartiles and inference"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Assumes independent sampling and a known population σ with a Normal sampling distribution for the mean. It is not a general-purpose small-sample test. Quartiles use linear interpolation at (n−1)p."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Draw bootstrap sample"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Bootstrap draw:"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": ". Mean:"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": ". The deterministic seed advances after each draw."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Worked example: x=1,2,3,4,5 gives mean=median=3, sample variance=2.5 and sample SD≈1.581. With y=2x, correlation=1."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Applications: exploratory data analysis, scaling and uncertainty checks. Descriptive association is not causal evidence."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "MATHEMATICAL FOUNDATIONS / INTERACTIVE WORKBENCHES"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Make the mathematics visible."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Change the inputs, inspect each calculation and connect it to machine learning. Every listed topic has a guided explanation and a shared working simulation."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Worked example"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Machine learning connection"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Derivation and reasoning"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Assumptions and limits"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Try it in the workbench"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "The controls below calculate actual values. The worked example above is a separate fixed calculation. Beginner focuses on meaning and examples; Intermediate adds derivations; Advanced adds assumptions and failure cases."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "Mathematical references and limits"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "These small real-valued workbenches are educational, not symbolic algebra software or automatic statistical advice."
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "NumPy eigenvalue conventions ↗"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "NumPy SVD conventions ↗"
+  },
+  {
+    "file": "mathlab.tsx",
+    "text": "SciPy statistics reference ↗"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "NEURAL NETWORK LAB"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Build a network. See it learn."
+  },
+  {
+    "file": "neural.tsx",
+    "text": "A real small feedforward network with adjustable hidden layers, full-batch binary-cross-entropy training and analytical backpropagation. No pretrained or invented training curve."
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Scale the two input coordinates by the fixed factor 3."
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Compute layer scores and nonlinear activations from left to right."
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Compute binary cross entropy on training rows, propagate its analytical gradients backward, then update weights and biases."
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Network builder"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Add hidden layer"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Remove hidden layer"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Architecture:"
+  },
+  {
+    "file": "neural.tsx",
+    "text": ". Output: one sigmoid unit, binary classification. Features divided by 3. Seed 42. Changing architecture, activation or data resets weights."
+  },
+  {
+    "file": "neural.tsx",
+    "text": "One neural epoch"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Reset neural network"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Epoch"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Data and current predictions"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Held-out inputs colored by current predicted class. Blue = 1, gold = 0. Accuracy above compares with actual targets."
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Learning curve"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Run one epoch to begin a real training history."
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Forward and backward inspection"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Sample x1="
+  },
+  {
+    "file": "neural.tsx",
+    "text": ", target="
+  },
+  {
+    "file": "neural.tsx",
+    "text": ". Output p(1)="
+  },
+  {
+    "file": "neural.tsx",
+    "text": ". Node values are activations. Blue connections are positive, gold negative. Line width shows magnitude, bounded for readability."
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Exact weight, bias and gradient table"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Layer"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Neuron"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Bias"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Weights"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "What the network computes"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Each layer computes z=Wa+b, then an activation. Hidden activations allow nonlinear boundaries. With no hidden layer this is logistic regression, so it cannot solve XOR. Binary cross entropy and a sigmoid output give the output delta p−y. Hidden deltas use the chain rule: transpose weights times the next delta, multiplied by the activation derivative. Full-batch gradients are averaged across training examples before weights and biases are updated."
+  },
+  {
+    "file": "neural.tsx",
+    "text": "ReLU has derivative 0 at and below zero by convention. Initialization matters; small networks can reach local solutions. This visualizer trains tiny two-feature models, not large deep-learning tasks. The held-out split contains"
+  },
+  {
+    "file": "neural.tsx",
+    "text": "examples and not used in gradient updates."
+  },
+  {
+    "file": "neural.tsx",
+    "text": "Feedforward networks model nonlinear relationships in numeric features and provide building blocks for larger systems. This two-feature binary demonstration is useful for understanding capacity and backpropagation, not a claim of performance on real datasets. Compare held-out predictions when changing architecture."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Normalized full negative-gradient direction"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "OPTIMIZATION / ACTUAL PARAMETER UPDATES"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Choose a path through loss."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Compare gradient sampling, optimizer memory and learning-rate schedules. The data fit, parameter path and loss curve update from the same real calculation."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Choose the full regression loss or analytic double-well objective."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Evaluate the selected sampled or full gradient, including Nesterov look-ahead when selected."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Update optimizer memory and parameters, then compute the full objective and record the actual path."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Objective and update rule"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "One update is not necessarily one epoch. Seeds are fixed for a fair reset comparison."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Step decay halves the rate every 50 updates. Cosine decays to zero over the chosen update budget. Inverse time uses rate/(1+decay×step). RMSprop uses the squared-gradient decay directly; Adam additionally uses first-moment memory and bias correction."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Every optimizer or objective edit resets its state and moment accumulators. Lower the learning rate if the loss rises or updates diverge. Adaptive optimizers do not guarantee a global minimum."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "One optimizer update"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Reset optimizer"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Update"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Parameter landscape and actual path"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Show 3D loss surface"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Gold: actual parameter path and current point. Pink arrow: normalized full negative-gradient direction (not necessarily the momentum or adaptive update direction). White cross: global minimum. Purple cross: higher local minimum, when present. Paths outside [-3,3] are clipped, but the numeric loss and parameters remain visible. 3D height uses log(1+loss−min(0,grid minimum)) for readability; it is not a linear z axis."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "minimum: w="
+  },
+  {
+    "file": "optimization.tsx",
+    "text": ", objective="
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Full objective after each update"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "No optimization results yet. Start or run one update."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Every loss is evaluated on the full objective after a parameter update. Stochastic loss can rise even when its sampled gradient is correct. A budget ending is not proof of convergence."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Last learning rate:"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": ". Last sampled/look-ahead gradient: ["
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Current full gradient: ["
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "]. Nesterov uses a look-ahead location, not the current location, for its update gradient."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Data and current fitted line"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "The same current weight and bias generate this line and the point on the loss landscape. The dataset is synthetic, not a fitted real-world claim."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Inspect exact update history"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Actual parameter updates, up to the configured maximum"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Update"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Full objective"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Rate"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "No updates yet."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Why optimizer memory exists"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Momentum accumulates velocity to smooth changes in direction. Nesterov measures the gradient at a look-ahead location. RMSprop rescales coordinates by recent squared gradients. Adam combines first and second moments with startup bias correction. These are update rules, not substitutes for checking data scale, loss shape or validation performance."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Batch gradients are deterministic on this fixed dataset. Stochastic and mini-batch sampling trade per-update work for noisy estimates. The appropriate rate can differ across methods. A tiny gradient can indicate a local stationary point rather than a good solution."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "These rules optimize model parameters in regression and neural training. The two-parameter workbench isolates update behavior, stochasticity and conditioning. A low objective on one task does not rank optimizers universally, and the analytic double well is not an empirical dataset."
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "References and limitations"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Stochastic gradient descent reference ↗"
+  },
+  {
+    "file": "optimization.tsx",
+    "text": "Educational two-parameter optimizers, not a general autodiff framework. All calculations run in the browser. No optimizer history is saved automatically. Numerical convergence uses the full gradient norm; noisy methods may reach the budget without satisfying it."
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Fit preprocessing on training rows only"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "This is a separate modeling pipeline, not an exploratory whole-table transform. It shuffles raw row indices once, holds out test rows, fits missing-value and scale statistics on training rows only, applies the same fitted transform to both partitions, then trains one actual linear model. No row is discarded."
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Paste 12–200 rows as x1,x2,target without a header. A blank feature or ? means missing; target must always be present. Values are bounded to ±10,000. The deterministic random split is not stratified; binary tasks need both classes in each partition."
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Input source:"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": ". Editing rows changes this label to a manual input."
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Raw pipeline rows"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Pipeline test fraction"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Pipeline split seed"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Cancel pipeline"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Reset pipeline example"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Fitted"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "training rows, evaluated on"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "held-out rows. Statistics below never use held-out feature values. 300 gradient updates are a budget, not a convergence certificate. This browser estimator also divides transformed features by 3 internally."
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Fitted training-only preprocessing state"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Feature"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Observed-value mean"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Center"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Scale"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Constant in train"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Standardization uses population variance after training-mean imputation. Min-max test values may fall outside [0,1]; they are not clipped. Constant training columns use divisor 1, preserving a visible test deviation. A transformed feature beyond ±30 is rejected, not silently clipped."
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Actual training objective"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Inspect raw and transformed held-out rows"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Source row"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Raw x1,x2"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Transformed x1,x2"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Target"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Training source rows:"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Do not tune repeatedly on this held-out set and then call it an unbiased final evaluation. The fitted cross-validation control below refits preprocessing inside every fold using these same raw rows. The older synthetic CV demonstration farther below is separate."
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Cross-validate this raw-row pipeline"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Every fold creates a fresh imputer, scaler and model. The fold's test features and labels never enter fitting. Test fraction above affects only the single split, not K-fold membership. Choose stratification only for binary targets. No shared fitted state is reused between folds."
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Fitted-pipeline CV folds"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Stratify fitted-pipeline folds"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Cancel pipeline CV"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Completed"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "fresh fitted pipelines on"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "raw rows. Every row is held out exactly once."
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "The mean is an unweighted mean of fold metrics, not a pooled metric. Folds have nearly equal size. CV is for model selection, not an untouched final-test guarantee."
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Fresh per-fold training state and held-out metric"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Fold"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Train / test rows"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Training means x1,x2"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Scale x1,x2"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Updates"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Inspect fitted-pipeline fold membership"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "Fold"
+  },
+  {
+    "file": "pipeline.tsx",
+    "text": "held-out source rows:"
+  },
+  {
+    "file": "plotly-landscape.tsx",
+    "text": "Interactive contour · Plotly"
+  },
+  {
+    "file": "plotly-landscape.tsx",
+    "text": "Open the actual 41×41 full-objective grid with the same computed optimizer path. Color shows unmodified loss, not the logarithmic height used by the separate SVG surface. Grid range is [−3,3] on both parameters; points outside it may be off-screen until you zoom out."
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": "Layer-by-layer propagation"
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": "Capture the currently inspected sample and parameters, then follow its real forward values and analytical backward deltas. Capturing pauses training. Playback only explains this fixed sample; it does not train or change any weight. Full-batch training averages gradients over all training rows."
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": "Capture propagation snapshot"
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": "No propagation snapshot yet. Select a training sample above, then capture it."
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": "Captured epoch"
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": ", raw input ["
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": "], target"
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": ", hidden activation"
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": ". Changing the live model does not change this snapshot. Capture again to refresh it."
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": "Next propagation stage"
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": "Restart propagation"
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": "· layer"
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": "· stage"
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": "This highlight changes one layer at a time; it is a read-only explanation of computed values."
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": "Active layer exact arithmetic, rounded only for display"
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": "Neuron"
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": "; dL/dw = δ × previous activation = ["
+  },
+  {
+    "file": "propagation-player.tsx",
+    "text": "Playback is opt-in, with pause and manual next-stage controls. No continuous motion or automatic playback is needed to inspect the calculations."
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "RECURRENT NETWORKS / FULL BPTT"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Learn a running memory of a signal."
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Train an actual scalar RNN or independently parameterized LSTM. The target is an exponential moving average: y_t=0.65y_previous+0.35x_t, starting at zero. Full backpropagation through time learns every recurrent, gate and output parameter."
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Start hidden state and any cell state at zero for each sequence."
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Process inputs in time order with the same shared recurrent parameters."
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Accumulate MSE across training sequences, walk the unrolled graph backward, clip the global gradient and update parameters."
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Architecture and training"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "One input, one hidden unit"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": ", one linear output."
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "independent parameters. Initial h"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "zero for each sequence. Seed 42 creates 24 sequences of 8 values in [−1,1]: 18 training and 6 held out. Every update uses only the training set."
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "One sequence epoch"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Reset sequence model"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Sequence epoch"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Inspect a sequence"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Sample"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Custom inputs, 2–30 comma-separated values in [−1,1]"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Apply custom sequence"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Use dataset sequence"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Target versus current predictions"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Dots: true moving average. Line: current model prediction. Both are recalculated from the real parameters after each epoch. No teacher forcing, input at each step is x_t only."
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Sequence learning curve"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Run an epoch to compute the first point."
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "MSE averages over all 144 training time steps. The held-out loss never contributes gradients. Global norm clipping rescales the complete gradient without changing its direction."
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Unroll the actual recurrent state"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Next sequence step"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "First sequence step"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Inspect recurrent step"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "At step"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": ": previous h="
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "; target="
+  },
+  {
+    "file": "sequence.tsx",
+    "text": ", prediction="
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Exact states, targets and gates"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Learned parameters and full BPTT gradient"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Gradients below are recomputed on the training set at the current parameters, before clipping. The norm and multiplier above belong to the last applied update."
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Parameter"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Current value"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Current dL/dθ"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Equations and backward flow"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Why recurrence? A feedforward model receiving only the current independent input cannot know the preceding signal history. A recurrent hidden state carries information from earlier inputs. This tiny scalar architecture is intentionally restrictive; it is not a language model. A single scalar RNN cannot reliably copy an arbitrary previous input while also encoding a new input. The smooth-memory task is better suited to this architecture."
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Advanced: full BPTT derivation"
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "The output derivative is 2(ŷ−y)/(NT). It contributes dy·h to dWy, dy to dby, and dy·Wy to dh. Walk time steps backward and add the future dh before differentiating the current cell. Sum parameter gradients over all time steps and sequences."
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Gate preactivation derivatives are dc·c_previous·f(1−f), dc·g·i(1−i), dc·i·(1−g²), and dh·tanh(c)·o(1−o). For each gate q, accumulate dWq=da_q·x, dUq=da_q·h_previous, dbq=da_q. The next backward hidden derivative sums da_q·Uq across gates. Independent gates allow learning what to keep, write and expose."
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Full BPTT here has no truncation. Saturating tanh and sigmoid derivatives can shrink gradients. Repeated recurrent multiplication can also enlarge them. Clipping limits an update's norm, but does not solve vanishing gradients. LSTM's additive cell path helps memory when the learned forget gate remains near one, not by guaranteeing unlimited memory."
+  },
+  {
+    "file": "sequence.tsx",
+    "text": "Applications include sequence regression, sensor streams and short temporal patterns. Limits: synthetic fixed-length task, scalar state, full-batch SGD, no dropout or stacked cells. A lower training loss alone is not evidence of generalization. PyTorch is better suited to larger models and real datasets."
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "Use this table in another browser lab"
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "Share an explicit copy of the current table within this open session. Nothing is uploaded or stored automatically. Later edits here do not change that copy. Training labs have smaller limits and will ask you to choose numeric feature/target columns."
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "Before modeling, split the data and fit preprocessing on training rows only. This exploratory table's whole-data transforms are not a leakage-safe modeling pipeline."
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "Share current table with labs"
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "Open classical models"
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "Open structure discovery"
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "Open neural network"
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "Open fitted pipeline"
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "Use a table from Dataset Explorer"
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "No shared table in this session. Import or prepare a table in Dataset Explorer, then choose Share current table with labs."
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "Open Dataset Explorer ↗"
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "Use shared table:"
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "rows available. This lab takes the first"
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "rows in original table order, maximum"
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": ". Features must be in [−"
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "No scaling, fitting, imputation or row removal happens during transfer."
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "Shared feature"
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "Shared target column"
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "Rows to transfer"
+  },
+  {
+    "file": "shared-dataset.tsx",
+    "text": "Use shared table for this lab"
+  },
+  {
+    "file": "shared-pipeline.tsx",
+    "text": "To use an imported table, open Dataset Explorer, share its current table, then return here. No table has been shared in this session."
+  },
+  {
+    "file": "shared-pipeline.tsx",
+    "text": "Load shared table into fitted pipeline:"
+  },
+  {
+    "file": "shared-pipeline.tsx",
+    "text": "Copies the first selected rows in their current table order, without scaling, imputation or row removal. Blank feature cells remain missing. Target must be a separate numeric column. Loading does not train or replace your settings. Share the original raw table for a leakage-safe starting point: a table already transformed using all rows cannot be made leakage-safe by splitting afterward."
+  },
+  {
+    "file": "shared-pipeline.tsx",
+    "text": "Pipeline shared row count"
+  },
+  {
+    "file": "shared-pipeline.tsx",
+    "text": "Load shared rows into pipeline"
+  },
+  {
+    "file": "three-cloud.tsx",
+    "text": "True 3D feature view · Three.js"
+  },
+  {
+    "file": "three-cloud.tsx",
+    "text": "Perspective rendering uses all three actual feature coordinates. Rotate with the two controls; colors match the current computed assignments. Axes are centered on the cloud for orientation, not coordinate-zero reference lines. The SVG and table below remain the exact-value alternatives."
+  },
+  {
+    "file": "three-cloud.tsx",
+    "text": "True 3D azimuth ·"
+  },
+  {
+    "file": "three-cloud.tsx",
+    "text": "True 3D elevation ·"
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "Node impurity arithmetic"
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "These counts come from the actual training rows reaching each fitted decision-tree node. Held-out rows are excluded. Both binary criteria are calculated below; this tree chose splits using"
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": ". Expanding a node explains its chosen split, not every rejected candidate. Entropy uses log base 2 and 0 log₂0 = 0."
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "Class 0 count ="
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "; class 1 count ="
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "Gini = 1 − p₀² − p₁² = 1 − ("
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "Entropy = −p₀ log₂p₀ − p₁ log₂p₁ = −("
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": ") log₂("
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": ") log₂("
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "bits. Terms with zero count contribute zero."
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "Recorded fitted-node"
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": ". It matches the corresponding calculation above."
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "The selected split sends"
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "rows left and"
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "right. Counts and probabilities are recomputed in each child."
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "Actual child class counts and impurities"
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "Child"
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "Class 0"
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "Class 1"
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "Gini"
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "Entropy (bits)"
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "Weighted child Gini = ("
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": ". Gini decrease ="
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "Weighted child entropy = ("
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": ". Information gain ="
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "bits."
+  },
+  {
+    "file": "tree-arithmetic.tsx",
+    "text": "This is a leaf. No chosen child split or split gain exists here. The stopping rule can be purity, depth limit, too few rows or no admissible improving split. The predicted class probability is"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Component mean"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "· scale ±"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "UNSUPERVISED / REAL COMPUTATION"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Find structure without labels."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Merge, expand, fit or project the same small numeric dataset. All results use real calculations on all displayed points, not held-out classification metrics."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Standardize all features before fitting (population scale)"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "60 synthetic points by default; seed 42. Three features are fitted. The 2D view displays features 1 and 2 only. Switch to the rotated 3D view to include feature 3. PCA always centers, even without scaling."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Use your own three-feature data"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Paste 8–100 rows: x1,x2,x3, no target or header. Each value must be in [-10,10]. Feature edits reset fitting."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Apply unlabelled data"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "One structure step"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Reset structure"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Projection controls"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Rotated 3D view"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Rotation changes only the view, never the fitted distances. Point tooltips report original fitted coordinates and assignment."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Palette repeats after 8 groups; numbers in the table distinguish every group. Hollow points are not visited yet. Gray points are DBSCAN noise or forest outliers. Crosses are Gaussian component means."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Silhouette excludes noise and is undefined for fewer than two non-noise groups. It measures separation, not correctness against hidden labels."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "The horizontal and vertical coordinates are PC1 and PC2 in 2D; rotating includes PC3. Projection signs can reverse without changing the solution."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Run one EM update to compute the first actual likelihood."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Build a tree to compute corrected path-length scores."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Each row is one exact merge, in chronological order. Child IDs 0–"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "are individual points; later IDs are merged nodes."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Actual agglomerative merge log"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Node"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Children"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Distance"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Size"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "No merges yet."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Core points need at least"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "neighbors within epsilon"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": ", counting themselves. Red outline marks the most recently inspected point."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Loadings and reconstruction"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "]; eigenvalue"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Retained PC1+PC2 variance:"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "%. Discarding PC3 loses its variance. These are descriptive full-data values, not held-out prediction scores."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Soft membership inspection"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Point"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": ": responsibilities ["
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "]. They sum to one, apart from rounding."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Component"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": ": weight"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": ", mean ["
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "], diagonal variance ["
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Inspect every point and computed assignment"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "fitted data points. No target labels are used."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Point"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Feature 1"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Feature 2"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Feature 3"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Selected-data scikit-learn equivalent with current controls, not the same step-by-step implementation. It fits its own complete estimator; library initialization, ties and stopping rules can differ."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Clustering helps explore groups in unlabelled observations. PCA compresses correlated measurements and supports visualization. Anomaly ranking helps prioritize unusual observations for review, not automatically declare errors. Check scale, sampling and domain meaning before applying any discovered structure."
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Sources, scope and persistence"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Clustering reference ↗"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "PCA reference ↗"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Outlier detection reference ↗"
+  },
+  {
+    "file": "unsupervised.tsx",
+    "text": "Small deterministic TypeScript implementations run in your browser. Configuration changes reset the model. Local API execution supports these estimator families on larger bounded datasets and saves results, but it is a separate workspace; browser state is not automatically saved."
+  }
+]
