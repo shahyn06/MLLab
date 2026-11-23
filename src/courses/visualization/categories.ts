@@ -179,25 +179,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Both charts rank B above C above A; normalization must not change that order.",
+        "ar": "يرتب الرسمان B ثم C ثم A ويجب ألا يغير التطبيع الترتيب."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "Counts total 15; proportions are [0.2, 7/15, 1/3] and sum to 1.",
+      "ar": "مجموع الأعداد 15 والنسب [0.2,7/15,1/3] وتجمع إلى 1."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Both charts rank B above C above A; normalization must not change that order.",
+      "ar": "يرتب الرسمان B ثم C ثم A ويجب ألا يغير التطبيع الترتيب."
+    },
+    "starter": "import numpy as np\nimport matplotlib.pyplot as plt\ngroups=[\"A\",\"B\",\"C\"]; counts=np.array([3,7,5])\n# Plot raw counts and counts/counts.sum(), with zero baselines\n"
   }
 };

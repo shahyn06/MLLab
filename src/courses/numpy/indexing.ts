@@ -183,25 +183,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Confirm no corrected value is negative and the arrays do not share writable data.",
+        "ar": "تحقق ألا توجد قيمة مصححة سالبة وأن المصفوفتين لا تتشاركان بيانات قابلة للكتابة."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "Corrected readings are [0,2,0,5], while original remains [-3,2,-1,5].",
+      "ar": "القراءات المصححة [0,2,0,5] وتبقى الأصلية [-3,2,-1,5]."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Confirm no corrected value is negative and the arrays do not share writable data.",
+      "ar": "تحقق ألا توجد قيمة مصححة سالبة وأن المصفوفتين لا تتشاركان بيانات قابلة للكتابة."
+    },
+    "starter": "import numpy as np\noriginal=np.array([-3,2,-1,5])\ncorrected=original.copy()\n# Use a Boolean mask to replace negatives in corrected\n"
   }
 };

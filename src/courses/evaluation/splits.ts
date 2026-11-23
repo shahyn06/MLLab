@@ -173,25 +173,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Repeat the same seed and check identical memberships, not only equal counts.",
+        "ar": "كرر البذرة نفسها وتحقق من تطابق العضوية لا الأعداد فقط."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "There are 24 training indices and 6 test indices, disjoint and covering all 30 rows.",
+      "ar": "هناك 24 فهرس تدريب و6 اختبار دون تقاطع وتغطي الثلاثين صفًا."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Repeat the same seed and check identical memberships, not only equal counts.",
+      "ar": "كرر البذرة نفسها وتحقق من تطابق العضوية لا الأعداد فقط."
+    },
+    "starter": "from sklearn.model_selection import train_test_split\nindices=list(range(30))\n# Split test_size=.2, random_state=7; inspect sets\n"
   }
 };

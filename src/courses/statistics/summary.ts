@@ -169,25 +169,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Use ddof=1 consistently for both samples and explain why the median resists this added extreme.",
+        "ar": "استخدم ddof=1 باستمرار للعينتين واشرح مقاومة الوسيط للقيمة المضافة المتطرفة."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "Mean changes from 3 to 22.4, median stays 3, and sample standard deviation increases sharply.",
+      "ar": "يتغير المتوسط من 3 إلى 22.4 ويبقى الوسيط 3 ويزداد الانحراف المعياري للعينة بشدة."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Use ddof=1 consistently for both samples and explain why the median resists this added extreme.",
+      "ar": "استخدم ddof=1 باستمرار للعينتين واشرح مقاومة الوسيط للقيمة المضافة المتطرفة."
+    },
+    "starter": "import numpy as np\nbase=np.array([2.,3.,3.,4.]); extended=np.append(base,100.)\n# Compare mean, median and std(ddof=1) for both arrays\n"
   }
 };

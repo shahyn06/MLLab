@@ -144,8 +144,8 @@ export const lesson:Lesson={
         "ar": "السؤال 4 · اجمع"
       },
       "instructions": {
-        "en": "Store whether cluster numeric labels have an intrinsic class meaning.",
-        "ar": "هل أرقام العناقيد تعني فئات ثابتة بذاتها؟"
+        "en": "Open the clustering lab and compare k=2 and k=3 on the same cloud. Notice that cluster IDs can change without any class meaning. Answer below. Store whether cluster numeric labels have an intrinsic class meaning.",
+        "ar": "افتح معمل التجميع وقارن k=2 وk=3 على السحابة نفسها. لاحظ أن معرفات المجموعات قد تتغير دون معنى فئوي ثم أجب أدناه. هل أرقام العناقيد تعني فئات ثابتة بذاتها؟"
       },
       "starter": "# Your code here\n",
       "setup": "import numpy as np",
@@ -179,25 +179,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Do not compare numeric cluster IDs as class labels; compare geometry and the same observations.",
+        "ar": "لا تقارن معرفات المجموعات كتسميات فئات؛ قارن الهندسة والمشاهدات نفسها."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "For k=2, sorted centers are approximately [[1/3,1/3],[25/3,25/3]], inertia=8/3. More centers can reduce inertia without being more meaningful.",
+      "ar": "عند k=2 المركزان بعد الترتيب نحو [[1/3,1/3],[25/3,25/3]] والقصور 8/3. قد تقلل المراكز الأكثر القصور دون معنى أفضل."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Do not compare numeric cluster IDs as class labels; compare geometry and the same observations.",
+      "ar": "لا تقارن معرفات المجموعات كتسميات فئات؛ قارن الهندسة والمشاهدات نفسها."
+    },
+    "starter": "import numpy as np\nfrom sklearn.cluster import KMeans\nX=np.array([[0.,0.],[0.,1.],[1.,0.],[8.,8.],[8.,9.],[9.,8.]])\n# Fit k=1,2,3 with random_state=7,n_init=10; print centers and inertia\n"
   }
 };

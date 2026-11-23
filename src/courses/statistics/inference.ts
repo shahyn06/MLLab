@@ -169,25 +169,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "The test assumes independent observations and a suitable mean model. Not rejecting does not prove the null true.",
+        "ar": "يفترض الاختبار استقلال المشاهدات ونموذج متوسط مناسبًا. عدم الرفض لا يثبت صحة فرض العدم."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "t is approximately 1.4142 with 4 degrees of freedom; two-sided p is about .2302. Do not reject at .05.",
+      "ar": "t نحو 1.4142 بأربع درجات حرية وp ثنائية الطرف نحو .2302. لا نرفض عند .05."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "The test assumes independent observations and a suitable mean model. Not rejecting does not prove the null true.",
+      "ar": "يفترض الاختبار استقلال المشاهدات ونموذج متوسط مناسبًا. عدم الرفض لا يثبت صحة فرض العدم."
+    },
+    "starter": "from scipy.stats import ttest_1samp\nsample=[4.,5.,6.,7.,8.]\n# Test null mean=5; print statistic and pvalue; compare to alpha=.05\n"
   }
 };

@@ -223,25 +223,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Call the function with [10,20] and verify 15 without changing any global variable.",
+        "ar": "استدع الدالة مع [10,20] وتحقق من 15 دون تغيير متغير عام."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "The three nonempty means are 7, 2 and 1. An empty list must raise a clear error or return a documented sentinel, not divide by zero accidentally.",
+      "ar": "المتوسطات للقوائم غير الفارغة 7 و2 و1. يجب أن ترفع الفارغة خطأ واضحًا أو تعيد قيمة خاصة موثقة بدل قسمة عرضية على صفر."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Call the function with [10,20] and verify 15 without changing any global variable.",
+      "ar": "استدع الدالة مع [10,20] وتحقق من 15 دون تغيير متغير عام."
+    },
+    "starter": "def mean(values):\n    # Handle an empty list explicitly, then return the mean\n    pass\nfor values in [[7],[2,2,2],[-2,0,5]]:\n    print(mean(values))\n# Test your documented empty-list behavior\n"
   }
 };

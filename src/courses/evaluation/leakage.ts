@@ -138,8 +138,8 @@ export const lesson:Lesson={
         "ar": "السؤال 4 · اجمع"
       },
       "instructions": {
-        "en": "Fit Ridge(alpha=1) on x=0,1,2; y=0,2,4 and store slope.",
-        "ar": "درب Ridge واحفظ الميل."
+        "en": "Open the fitted pipeline lab, compare no scaling with standardization while holding raw data and split seed fixed. Inspect the training-only fitted state. Then fit Ridge below. Fit Ridge(alpha=1) on x=0,1,2; y=0,2,4 and store slope.",
+        "ar": "افتح معمل مسار التجهيز وقارن دون تحجيم بالمعايرة مع تثبيت البيانات والبذرة وافحص حالة التجهيز المدربة على التدريب فقط ثم لائم Ridge أدناه. درب Ridge واحفظ الميل."
       },
       "starter": "# Your code here\n",
       "setup": "import numpy as np\nfrom sklearn.metrics import accuracy_score, precision_score, recall_score, mean_absolute_error, mean_squared_error\nfrom sklearn.model_selection import train_test_split, KFold",
@@ -173,25 +173,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Change only test from 100 to 1000. Training-only fitted mean/scale must not change.",
+        "ar": "غير الاختبار فقط من 100 إلى 1000؛ يجب ألا يتغير متوسط ومقياس الملاءمة على التدريب."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "Training-only mean is 1, scale is 1 and transformed test is 99. The leaked fit has a different mean/scale.",
+      "ar": "متوسط التدريب فقط 1 ومقياسه 1 والاختبار المحول 99. للملاءمة المتسربة متوسط ومقياس مختلفان."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Change only test from 100 to 1000. Training-only fitted mean/scale must not change.",
+      "ar": "غير الاختبار فقط من 100 إلى 1000؛ يجب ألا يتغير متوسط ومقياس الملاءمة على التدريب."
+    },
+    "starter": "import numpy as np\nfrom sklearn.preprocessing import StandardScaler\ntrain=np.array([[0.],[2.]]); test=np.array([[100.]])\n# Compare scaler.fit(train) with a deliberately LEAKED fit on stacked train and test\n"
   }
 };

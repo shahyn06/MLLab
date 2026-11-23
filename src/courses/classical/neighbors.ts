@@ -144,8 +144,8 @@ export const lesson:Lesson={
         "ar": "السؤال 4 · اجمع"
       },
       "instructions": {
-        "en": "Find Euclidean distance from [0,0] to [3,4].",
-        "ar": "احسب المسافة الإقليدية."
+        "en": "Open the classical lab, choose K-Nearest Neighbors and compare k=1 with k=5 on a fixed split. Inspect the boundary before calculating distance below. Find Euclidean distance from [0,0] to [3,4].",
+        "ar": "افتح المعمل الكلاسيكي واختر K-Nearest Neighbors وقارن k=1 وk=5 مع تثبيت التقسيم وافحص الحد قبل حساب المسافة أدناه. احسب المسافة الإقليدية."
       },
       "starter": "# Your code here\n",
       "setup": "import numpy as np",
@@ -179,25 +179,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Fit StandardScaler only on X; apply exactly the same units conversion to query and training rows.",
+        "ar": "لائم StandardScaler على X فقط وطبق تحويل الوحدات نفسه على الاستعلام وصفوف التدريب."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "Raw predictions may change with rescaling. Standardized predictions should remain invariant to this positive column scaling.",
+      "ar": "قد تتغير التنبؤات الخام بالتحجيم ويجب أن تبقى المعيارية ثابتة عند التحجيم الموجب للعمود."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Fit StandardScaler only on X; apply exactly the same units conversion to query and training rows.",
+      "ar": "لائم StandardScaler على X فقط وطبق تحويل الوحدات نفسه على الاستعلام وصفوف التدريب."
+    },
+    "starter": "import numpy as np\nfrom sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.pipeline import make_pipeline\nX=np.array([[0.,0.],[1.,2.],[3.,1.],[4.,3.]]); y=[0,0,1,1]\nquery=np.array([[2.,1.1]])\n# Compare raw and standardized 1-NN; repeat after multiplying feature 2 in BOTH X and query by 100\n"
   }
 };

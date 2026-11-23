@@ -177,25 +177,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Change an interior day and verify exactly its two adjacent differences change.",
+        "ar": "غير يومًا داخليًا وتحقق من تغير الفرقين المجاورين له فقط."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "Seven level values and six changes [2,-1,4,3,-2,4], on separate labeled axes.",
+      "ar": "سبع قيم مستوى وستة تغيرات [2,-1,4,3,-2,4] على محورين منفصلين مسميين."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Change an interior day and verify exactly its two adjacent differences change.",
+      "ar": "غير يومًا داخليًا وتحقق من تغير الفرقين المجاورين له فقط."
+    },
+    "starter": "import numpy as np\nimport matplotlib.pyplot as plt\nvisits=np.array([10,12,11,15,18,16,20])\n# Plot visits for days 1..7 and np.diff(visits) for days 2..7\n"
   }
 };

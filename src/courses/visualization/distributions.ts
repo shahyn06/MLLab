@@ -173,25 +173,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Compute np.histogram for each bin count and verify counts.sum()==len(x).",
+        "ar": "احسب np.histogram لكل عدد حاويات وتحقق أن مجموع التكرارات يساوي طول البيانات."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "Both histograms count nine observations and median remains 3. Bin heights and edges differ.",
+      "ar": "يعد الرسمان تسع مشاهدات ويبقى الوسيط 3 وتختلف ارتفاعات الحاويات وحدودها."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Compute np.histogram for each bin count and verify counts.sum()==len(x).",
+      "ar": "احسب np.histogram لكل عدد حاويات وتحقق أن مجموع التكرارات يساوي طول البيانات."
+    },
+    "starter": "import numpy as np\nimport matplotlib.pyplot as plt\nx=np.array([1,1,2,3,3,4,5,8,9])\n# Plot x using bins=3 and bins=6; print its median\n"
   }
 };

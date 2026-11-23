@@ -176,25 +176,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "The original list must still contain seven values, and a day of exactly 30 must be included.",
+        "ar": "يجب أن تبقى القائمة الأصلية سبع قيم وأن يحتسب يوم بقيمة 30 تمامًا."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "Selected minutes are [35,50,30,45], day count is 4 and total is 160.",
+      "ar": "الدقائق المختارة [35,50,30,45] وعدد الأيام 4 والمجموع 160."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "The original list must still contain seven values, and a day of exactly 30 must be included.",
+      "ar": "يجب أن تبقى القائمة الأصلية سبع قيم وأن يحتسب يوم بقيمة 30 تمامًا."
+    },
+    "starter": "minutes=[20,35,0,50,30,15,45]\n# Keep values >=30, sum them, and build a dictionary\n"
   }
 };

@@ -138,8 +138,8 @@ export const lesson:Lesson={
         "ar": "السؤال 4 · اجمع"
       },
       "instructions": {
-        "en": "For rate 1.1 starting at w=0, compute the loss after one step. Compare 12.96 to initial 9 in the lab.",
-        "ar": "عند معدل 1.1 احسب الخسارة بعد خطوة وقارن بالبداية."
+        "en": "Open the Gradient Descent lab, reset to its fixed initial w=-3, set rate 1.1 and take one step: the displayed loss grows from 36 to 51.84. In the separate Python calculation below start at w=0, use the same rate, and store its updated loss in result. Its initial loss is 9.",
+        "ar": "افتح معمل التدرج وأعد موضعه الثابت w=-3 واضبط المعدل 1.1 وخذ خطوة؛ تزيد الخسارة من 36 إلى 51.84. في حساب Python المنفصل أدناه ابدأ w=0 وبالمعدل نفسه واحفظ الخسارة المحدثة في result. خسارته الأولية 9."
       },
       "starter": "# Your code here\n",
       "setup": "import numpy as np\nfrom sklearn.linear_model import LinearRegression, LogisticRegression\nfrom sklearn.metrics import mean_squared_error",
@@ -160,8 +160,8 @@ export const lesson:Lesson={
       ],
       "solution": "w=0-1.1*2*(0-3)\nresult = (w-3)**2",
       "explanation": {
-        "en": "For rate 1.1 starting at w=0, compute the loss after one step. Compare 12.96 to initial 9 in the lab. The solution computes this using w=0-1.1*2*(0-3); result = (w-3)**2. The checker inspects result, not the printed display. Change one input and predict the new result.",
-        "ar": "عند معدل 1.1 احسب الخسارة بعد خطوة وقارن بالبداية. يحسب الحل ذلك باستخدام w=0-1.1*2*(0-3); result = (w-3)**2. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
+        "en": "For Python starting at w=0, w becomes 6.6 and the loss becomes 12.96, larger than 9. The lab starts at -3 instead, so its numerical loss is different; both runs diverge at this rate.",
+        "ar": "في Python من w=0 يصبح الوزن 6.6 والخسارة 12.96 أكبر من 9. يبدأ المعمل عند -3 فتختلف خسارته العددية؛ يتباعد التشغيلان بهذا المعدل."
       },
       "labRoute": "/gradient"
     }
@@ -173,25 +173,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Each history must have ten updated losses, and each method must restart w at 0.",
+        "ar": "يجب أن يحتوي كل سجل عشر خسائر بعد التحديث وأن يبدأ كل معدل w من صفر."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "Rate .1 first loss is 5.76 and decreases. Rate 1.1 first loss is 12.96 and diverges on this quadratic.",
+      "ar": "خسارة .1 الأولى 5.76 ثم تنخفض وخسارة 1.1 الأولى 12.96 وتتباعد على هذه التربيعية."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Each history must have ten updated losses, and each method must restart w at 0.",
+      "ar": "يجب أن يحتوي كل سجل عشر خسائر بعد التحديث وأن يبدأ كل معدل w من صفر."
+    },
+    "starter": "def loss(w): return (w-3)**2\nfor rate in [.1,1.1]:\n    w=0.; history=[]\n    # Perform ten updates, append loss after each update, then print\n"
   }
 };

@@ -23,3 +23,21 @@ A static frontend does not deploy the optional account/Python backend. Browser P
 ## Verify after the owner approves deployment
 
 Use the exact deployment URL returned by the host. Test home, direct unit routes, Arabic/RTL and both themes. Run a Pandas checker, Seaborn/Matplotlib figure, sklearn exercise, an infinite loop with Stop, timeout recovery, guest persistence and certificate download. Keep accounts disabled unless a backend is deliberately deployed and verified.
+
+## Recommended no-backend route, pending approval
+
+Cloudflare Pages currently supports private GitHub repositories on its Free plan. The documented Free limit is 500 builds/month, 20,000 site files and 25 MiB per asset. This project builds below those asset limits. Terms and the actual account plan must still be checked when setting it up.
+
+Owner step: sign into the chosen Cloudflare account, open Workers & Pages > Create application > Pages > Connect to Git, and authorize the Cloudflare GitHub app for **only shahyn06/MLLab**. Select `feature/guided-learning` as the initial production branch (or merge and choose main only after a separate merge decision). Choose React (Vite), build command `npm run build`, output `dist`, root repository directory, Node 22. Then approve Save and Deploy. We have not done any of these account/disclosure/deployment actions. The repository stays private, but the resulting website's frontend assets will be accessible to visitors; a private source repo does not make a private website.
+
+Git integration enables automatic future builds on pushes. Disable automatic production/preview deployments if the owner wants manual release control. The existing repository workflow itself is manual-only and is not required for Cloudflare Pages. No custom domain or paid service is needed for the default host subdomain. No paid upgrade should be accepted without a new owner decision.
+
+After the owner approves and deployment returns its real URL, verify that URL's actual Python worker/package/figure behavior. Do not describe local production checks as a tested remote deployment. Static browser Python needs no backend server; account synchronization remains a separate API-hosting decision.
+
+Current source documentation checked November 23, 2026:
+- https://developers.cloudflare.com/pages/get-started/git-integration/
+- https://developers.cloudflare.com/pages/configuration/build-configuration/
+- https://developers.cloudflare.com/pages/platform/limits/
+- https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+
+GitHub's current documentation says GitHub Free requires a visible-to-anyone repository for Pages. Pages sites are ordinarily internet-visible even when the source repository is private. Private-repository builds may incur Actions charges beyond the plan's included usage. Do not change source visibility or buy a plan to avoid the Cloudflare account step.

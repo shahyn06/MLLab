@@ -138,8 +138,8 @@ export const lesson:Lesson={
         "ar": "السؤال 4 · اجمع"
       },
       "instructions": {
-        "en": "Store whether order matters for a recurrent model processing a sequence.",
-        "ar": "هل ترتيب العناصر مهم للنموذج المتكرر؟"
+        "en": "Open the sequence lab and compare RNN with LSTM on the same sequence task. Inspect actual predictions and the hidden-state display. Then answer about order below. Store whether order matters for a recurrent model processing a sequence.",
+        "ar": "افتح معمل التسلسل وقارن RNN وLSTM على المهمة نفسها وافحص التنبؤات الفعلية وعرض الحالة المخفية ثم أجب عن الترتيب أدناه. هل ترتيب العناصر مهم للنموذج المتكرر؟"
       },
       "starter": "# Your code here\n",
       "setup": "import numpy as np",
@@ -173,25 +173,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Reverse a one-element sequence as a control: its final state must not change.",
+        "ar": "اعكس تسلسلًا من عنصر واحد كضابط؛ يجب ألا تتغير حالته النهائية."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "Final states differ because previous state affects each update. Each sequence must restart at h=0.",
+      "ar": "تختلف الحالتان النهائيتان لأن الحالة السابقة تؤثر في التحديث. يجب أن يبدأ كل تسلسل من h=0."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Reverse a one-element sequence as a control: its final state must not change.",
+      "ar": "اعكس تسلسلًا من عنصر واحد كضابط؛ يجب ألا تتغير حالته النهائية."
+    },
+    "starter": "import numpy as np\nfor sequence in [[1.,2.,3.],[3.,2.,1.]]:\n    h=0.\n    # h=np.tanh(.5*h+.2*x) for every x, then print final h\n"
   }
 };

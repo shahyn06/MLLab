@@ -186,25 +186,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Use np.allclose(centered.mean(axis=0),0), not exact equality on arbitrary floating-point data.",
+        "ar": "استخدم np.allclose(centered.mean(axis=0),0) لا التطابق الحرفي لبيانات عشرية عامة."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "Column means before centering are [3,4]; after centering both are approximately zero.",
+      "ar": "متوسطا العمودين قبل التمركز [3,4] وبعده يقاربان صفرًا."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Use np.allclose(centered.mean(axis=0),0), not exact equality on arbitrary floating-point data.",
+      "ar": "استخدم np.allclose(centered.mean(axis=0),0) لا التطابق الحرفي لبيانات عشرية عامة."
+    },
+    "starter": "import numpy as np\nx=np.array([[1.,2.],[3.,6.],[5.,4.]])\n# Subtract column means using broadcasting\n"
   }
 };

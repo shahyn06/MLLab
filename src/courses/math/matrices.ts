@@ -188,25 +188,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Check matrix order matches the described application order. Then try a shear to see noncommutativity.",
+        "ar": "تحقق أن ترتيب المصفوفات يطابق ترتيب التطبيق ثم جرب قصًا لرؤية عدم التبادل."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "Both methods give [8,15]. Here the diagonal transforms commute, unlike general matrix pairs.",
+      "ar": "تعطي الطريقتان [8,15]. تتبادل التحويلات القطرية هنا بخلاف أزواج المصفوفات العامة."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Check matrix order matches the described application order. Then try a shear to see noncommutativity.",
+      "ar": "تحقق أن ترتيب المصفوفات يطابق ترتيب التطبيق ثم جرب قصًا لرؤية عدم التبادل."
+    },
+    "starter": "import numpy as np\nA=np.diag([2.,1.]); B=np.diag([1.,3.]); v=np.array([4.,5.])\n# Compare B @ (A @ v) with (B @ A) @ v\n"
   }
 };

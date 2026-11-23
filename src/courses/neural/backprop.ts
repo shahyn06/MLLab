@@ -138,8 +138,8 @@ export const lesson:Lesson={
         "ar": "السؤال 4 · اجمع"
       },
       "instructions": {
-        "en": "Find Adam bias-corrected m after first gradient 4, beta=.9.",
-        "ar": "احسب تصحيح التحيز لأول خطوة."
+        "en": "Open the neural lab, take one epoch and inspect the actual loss change. Compare a smaller learning rate while keeping the initial setup fixed. Then compute the Adam correction below. Find Adam bias-corrected m after first gradient 4, beta=.9.",
+        "ar": "افتح معمل الشبكة وخذ حقبة وافحص تغير الخسارة الفعلي وقارن بمعدل أصغر مع تثبيت البداية ثم احسب تصحيح Adam أدناه. احسب تصحيح التحيز لأول خطوة."
       },
       "starter": "# Your code here\n",
       "setup": "import numpy as np",
@@ -173,25 +173,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Check gradient agreement within 1e-5 and verify the step used subtraction rather than addition.",
+        "ar": "تحقق من اتفاق التدرجين ضمن 1e-5 وأن الخطوة طرحت التدرج ولم تجمعه."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "Analytic gradient=12, numerical gradient approximately 12, new w=1.88 and new loss=2.6896 versus initial 4.",
+      "ar": "التدرج التحليلي 12 والعددي يقاربه والوزن الجديد 1.88 والخسارة 2.6896 بدل 4."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Check gradient agreement within 1e-5 and verify the step used subtraction rather than addition.",
+      "ar": "تحقق من اتفاق التدرجين ضمن 1e-5 وأن الخطوة طرحت التدرج ولم تجمعه."
+    },
+    "starter": "w=2.; x=3.; target=4.; h=1e-5; rate=.01\ndef loss(w):return (w*x-target)**2\n# Analytic gradient, centered numerical gradient, updated w and loss\n"
   }
 };

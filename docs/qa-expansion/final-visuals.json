@@ -1,0 +1,10 @@
+{
+  "darkArabicUnits": [
+    "numpy",
+    "hypothesis",
+    "unsupervised",
+    "cnn",
+    "optimization"
+  ],
+  "challenge": "pandas-summaries"
+}

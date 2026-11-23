@@ -50,7 +50,7 @@ export const en = {
   "plannedMessage": "This lesson is planned. You can explore other available units without unlocking anything.",
   "guest": "Guest mode",
   "guestHint": "Progress stays on this device. Accounts require the optional backend.",
-  "completeHint": "Completion is self-reported review, not proof of mastery.",
+  "completeHint": "Map completion follows checked lesson exercises. Manual lab review is separate; neither is proof of mastery.",
   "home": "Home",
   "tools": "Tools",
   "execution": "Python execution",

@@ -228,25 +228,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Use pd.testing.assert_frame_equal and ensure no extra Unnamed index column appears.",
+        "ar": "استخدم pd.testing.assert_frame_equal وتأكد من عدم ظهور عمود فهرس Unnamed زائد."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "The reloaded table has shape (2,2), columns [item,price] and prices [12,15].",
+      "ar": "أبعاد الجدول المستعاد (2,2) وأعمدته [item,price] وأسعاره [12,15]."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Use pd.testing.assert_frame_equal and ensure no extra Unnamed index column appears.",
+      "ar": "استخدم pd.testing.assert_frame_equal وتأكد من عدم ظهور عمود فهرس Unnamed زائد."
+    },
+    "starter": "import pandas as pd\nmenu=pd.DataFrame({\"item\":[\"tea\",\"juice\"],\"price\":[12,15]})\n# Save data/menu.csv without index, read it, compare\n"
   }
 };

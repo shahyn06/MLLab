@@ -141,8 +141,8 @@ export const lesson:Lesson={
         "ar": "السؤال 4 · اجمع"
       },
       "instructions": {
-        "en": "Fit a depth-1 regressor on x=0,1,2,3 and y=0,0,4,4; predict 2.5.",
-        "ar": "درب شجرة انحدار وتنبأ."
+        "en": "Open the classical lab, choose Decision Tree and compare depths 1 and 3 on the same seeded data. Inspect held-out accuracy rather than assuming depth always helps. Then fit the small regressor below. Fit a depth-1 regressor on x=0,1,2,3 and y=0,0,4,4; predict 2.5.",
+        "ar": "افتح المعمل الكلاسيكي واختر Decision Tree وقارن العمقين 1 و3 مع تثبيت البيانات والبذرة. افحص دقة الاختبار بدل افتراض أفضلية العمق ثم لائم المنحدر الصغير أدناه. درب شجرة انحدار وتنبأ."
       },
       "starter": "# Your code here\n",
       "setup": "import numpy as np",
@@ -176,25 +176,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Keep split and random_state fixed. Do not choose depth using the final test set in a real comparison.",
+        "ar": "ثبت التقسيم والبذرة ولا تختَر العمق عبر الاختبار النهائي في مقارنة حقيقية."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "Two training/test score pairs using 90 training and 30 test rows. Deeper does not guarantee higher test accuracy.",
+      "ar": "زوجا درجات تدريب واختبار على 90 صف تدريب و30 اختبار. العمق الأكبر لا يضمن دقة اختبار أعلى."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Keep split and random_state fixed. Do not choose depth using the final test set in a real comparison.",
+      "ar": "ثبت التقسيم والبذرة ولا تختَر العمق عبر الاختبار النهائي في مقارنة حقيقية."
+    },
+    "starter": "from sklearn.datasets import make_classification\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.tree import DecisionTreeClassifier\nX,y=make_classification(n_samples=120,n_features=4,n_redundant=0,random_state=7)\nXtr,Xte,ytr,yte=train_test_split(X,y,test_size=.25,stratify=y,random_state=7)\n# Fit depth 1 and 3 on identical training rows and print train/test accuracy\n"
   }
 };

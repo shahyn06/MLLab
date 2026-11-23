@@ -138,8 +138,8 @@ export const lesson:Lesson={
         "ar": "السؤال 4 · اجمع"
       },
       "instructions": {
-        "en": "Store whether a numeric house-price target is a regression task (True/False).",
-        "ar": "هل التنبؤ بسعر بيت رقمي مسألة انحدار؟"
+        "en": "Open the Linear Regression lab, set slope 2 and intercept 1, and inspect the predicted value at x=3 before solving below. Store whether a numeric house-price target is a regression task (True/False).",
+        "ar": "افتح معمل الانحدار واضبط الميل 2 والانحياز 1 وافحص التنبؤ عند x=3 قبل الحل أدناه. هل التنبؤ بسعر بيت رقمي مسألة انحدار؟"
       },
       "starter": "# Your code here\n",
       "setup": "import numpy as np\nfrom sklearn.linear_model import LinearRegression, LogisticRegression\nfrom sklearn.metrics import mean_squared_error",
@@ -168,30 +168,27 @@ export const lesson:Lesson={
   ],
   "challenge": {
     "goal": {
-      "en": "Fit house price from area on the built-in linear synthetic data. Hold out the last two rows and report their predictions and errors.",
-      "ar": "درب سعر البيت من المساحة على البيانات المصطنعة واحجز آخر صفين واعرض التنبؤات والأخطاء."
+      "en": "Fit a synthetic price index from area on the six observations defined below. Hold out the last two rows and report their predictions and errors.",
+      "ar": "درب مؤشر سعر اصطناعيًا من المساحة على المشاهدات الست المحددة أدناه واحجز آخر صفين واعرض التنبؤات والأخطاء."
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Confirm the fit uses only area[:4],price[:4]. Perfect synthetic predictions do not guarantee real house-price performance.",
+        "ar": "تحقق أن الملاءمة تستخدم أول أربعة صفوف فقط. لا تضمن التنبؤات الاصطناعية الكاملة أداء أسعار بيوت حقيقية."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "Predictions are [11,13] and both errors are approximately zero because this synthetic relation is exactly linear.",
+      "ar": "التنبؤان [11,13] والخطآن يقاربان صفرًا لأن العلاقة الاصطناعية خطية تمامًا."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Confirm the fit uses only area[:4],price[:4]. Perfect synthetic predictions do not guarantee real house-price performance.",
+      "ar": "تحقق أن الملاءمة تستخدم أول أربعة صفوف فقط. لا تضمن التنبؤات الاصطناعية الكاملة أداء أسعار بيوت حقيقية."
+    },
+    "starter": "import numpy as np\nfrom sklearn.linear_model import LinearRegression\narea=np.array([1.,2.,3.,4.,5.,6.]).reshape(-1,1)\nprice=2*area.ravel()+1\n# Fit the first four rows only, predict the final two\n"
   }
 };

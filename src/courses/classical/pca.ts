@@ -150,8 +150,8 @@ export const lesson:Lesson={
         "ar": "السؤال 4 · اجمع"
       },
       "instructions": {
-        "en": "Store whether PCA uses the target labels to find components.",
-        "ar": "هل يستخدم PCA الفئات الهدف لإيجاد المكونات؟"
+        "en": "Open the structure lab, choose PCA and change the displayed projection angle. Distinguish changing the view from refitting the principal components. Answer below. Store whether PCA uses the target labels to find components.",
+        "ar": "افتح معمل البنية واختر PCA وغير زاوية العرض. ميز تغيير المنظور من إعادة ملاءمة المكونات الرئيسية ثم أجب أدناه. هل يستخدم PCA الفئات الهدف لإيجاد المكونات؟"
       },
       "starter": "# Your code here\n",
       "setup": "import numpy as np",
@@ -185,25 +185,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "PCA component sign can flip without changing reconstruction. Add off-line noise to observe positive reconstruction error.",
+        "ar": "قد تنعكس إشارة مكون PCA دون تغيير الاستعادة. أضف تشويشًا خارج الخط لرؤية خطأ استعادة موجب."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "Projected shape is (4,1), reconstruction shape is (4,2), explained variance ratio is 1 and MSE is approximately zero.",
+      "ar": "أبعاد الإسقاط (4,1) والاستعادة (4,2) ونسبة التباين المفسر 1 وMSE تقارب صفرًا."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "PCA component sign can flip without changing reconstruction. Add off-line noise to observe positive reconstruction error.",
+      "ar": "قد تنعكس إشارة مكون PCA دون تغيير الاستعادة. أضف تشويشًا خارج الخط لرؤية خطأ استعادة موجب."
+    },
+    "starter": "import numpy as np\nfrom sklearn.decomposition import PCA\nX=np.array([[1.,1.],[2.,2.],[3.,3.],[4.,4.]])\n# fit PCA(1), transform, inverse_transform; compute reconstruction MSE\n"
   }
 };

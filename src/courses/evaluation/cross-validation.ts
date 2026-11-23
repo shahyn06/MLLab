@@ -178,25 +178,22 @@ export const lesson:Lesson={
     },
     "steps": [
       {
-        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
-        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+        "en": "Complete the self-contained starter below. Run it, then compare the actual result with the target described here.",
+        "ar": "أكمل البداية المستقلة بالأسفل وشغلها ثم قارن النتيجة الفعلية بالهدف الموضح هنا."
       },
       {
-        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
-        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
-      },
-      {
-        "en": "Check one result independently by hand or with a second calculation.",
-        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+        "en": "Track test indices: every row must appear exactly once. Never fit a fold model on all X.",
+        "ar": "تتبع فهارس الاختبار؛ يجب ظهور كل صف مرة واحدة. لا تدرب نموذج طية على X كلها."
       }
     ],
     "expected": {
-      "en": "A runnable cell, its real output and a short explanation of the change.",
-      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+      "en": "Four MSE scores and their mean are approximately zero for this exact linear synthetic relation.",
+      "ar": "أربع درجات MSE ومتوسطها تقارب صفرًا للعلاقة الاصطناعية الخطية التامة."
     },
     "selfCheck": {
-      "en": "The cell runs without error; your predicted type, shape and values match the output.",
-      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
-    }
+      "en": "Track test indices: every row must appear exactly once. Never fit a fold model on all X.",
+      "ar": "تتبع فهارس الاختبار؛ يجب ظهور كل صف مرة واحدة. لا تدرب نموذج طية على X كلها."
+    },
+    "starter": "import numpy as np\nfrom sklearn.linear_model import LinearRegression\nfrom sklearn.model_selection import KFold\nfrom sklearn.metrics import mean_squared_error\nX=np.arange(12,dtype=float).reshape(-1,1); y=2*X.ravel()+1\n# Four folds: fit a NEW model on each train index set and score held-out rows\n"
   }
 };
