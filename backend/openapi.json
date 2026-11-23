@@ -6,6 +6,112 @@
     "version": "0.1.0"
   },
   "paths": {
+    "/api/v1/progress": {
+      "get": {
+        "tags": [
+          "progress"
+        ],
+        "summary": "Get Progress",
+        "operationId": "get_progress_api_v1_progress_get",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LearningProgress"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "progress"
+        ],
+        "summary": "Put Progress",
+        "operationId": "put_progress_api_v1_progress_put",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LearningProgress"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LearningProgress"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/v1/health": {
       "get": {
         "tags": [
@@ -1706,6 +1812,42 @@
         ],
         "title": "DatasetPreview"
       },
+      "ExerciseResult": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "attempted",
+              "solved"
+            ],
+            "title": "Status",
+            "default": "attempted"
+          },
+          "hints": {
+            "type": "integer",
+            "maximum": 2.0,
+            "minimum": 0.0,
+            "title": "Hints",
+            "default": 0
+          },
+          "solutionUsed": {
+            "type": "boolean",
+            "title": "Solutionused",
+            "default": false
+          },
+          "updatedAt": {
+            "type": "string",
+            "maxLength": 40,
+            "title": "Updatedat"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "updatedAt"
+        ],
+        "title": "ExerciseResult"
+      },
       "ExperimentInput": {
         "properties": {
           "name": {
@@ -1910,6 +2052,129 @@
         "type": "object",
         "title": "HTTPValidationError"
       },
+      "LearningProgress": {
+        "properties": {
+          "savedExperiments": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "type": "array",
+            "maxItems": 12,
+            "title": "Savedexperiments"
+          },
+          "version": {
+            "type": "integer",
+            "const": 1,
+            "title": "Version",
+            "default": 1
+          },
+          "completedUnits": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "maxItems": 500,
+            "title": "Completedunits"
+          },
+          "lastVisitedLesson": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 120
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Lastvisitedlesson"
+          },
+          "lastVisitedUnit": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 100
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Lastvisitedunit"
+          },
+          "taskResults": {
+            "additionalProperties": {
+              "$ref": "#/components/schemas/TaskResult"
+            },
+            "type": "object",
+            "maxProperties": 500,
+            "title": "Taskresults"
+          },
+          "quizScores": {
+            "additionalProperties": {
+              "type": "number"
+            },
+            "type": "object",
+            "maxProperties": 500,
+            "title": "Quizscores"
+          },
+          "exerciseResults": {
+            "additionalProperties": {
+              "$ref": "#/components/schemas/ExerciseResult"
+            },
+            "type": "object",
+            "maxProperties": 2000,
+            "title": "Exerciseresults"
+          },
+          "courseCompletedAt": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object",
+            "maxProperties": 100,
+            "title": "Coursecompletedat"
+          },
+          "learnerName": {
+            "type": "string",
+            "maxLength": 80,
+            "title": "Learnername",
+            "default": ""
+          },
+          "lastActivity": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 40
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Lastactivity"
+          },
+          "language": {
+            "type": "string",
+            "enum": [
+              "en",
+              "ar"
+            ],
+            "title": "Language",
+            "default": "en"
+          },
+          "theme": {
+            "type": "string",
+            "enum": [
+              "system",
+              "dark",
+              "light"
+            ],
+            "title": "Theme",
+            "default": "system"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "title": "LearningProgress"
+      },
       "PlaygroundCapability": {
         "properties": {
           "available": {
@@ -2002,6 +2267,27 @@
           "limits"
         ],
         "title": "PlaygroundOutput"
+      },
+      "TaskResult": {
+        "properties": {
+          "attempt": {
+            "type": "string",
+            "maxLength": 4000,
+            "title": "Attempt",
+            "default": ""
+          },
+          "updatedAt": {
+            "type": "string",
+            "maxLength": 40,
+            "title": "Updatedat"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "updatedAt"
+        ],
+        "title": "TaskResult"
       },
       "TrainInput": {
         "properties": {

@@ -25,3 +25,15 @@ def test_auth_throttle(secured):
         assert r.status_code==401
     r=secured.post('/api/v1/auth/login',json={'username':'missing','password':'test-password-123'})
     assert r.status_code==429 and r.headers['retry-after']=='60'
+
+def test_progress_snapshots_and_resume(secured):
+    headers=auth(secured,'snapshot_learner')
+    snapshot={'schemaVersion':1,'id':'example','name':'Fixture snapshot','algorithm':'Simple Linear Regression','route':'/regression','created':'2026-11-23T10:00:00Z','config':{},'metrics':{},'model':{},'dataset':[]}
+    payload={'savedExperiments':[snapshot], 'lastVisitedLesson':'python-notebooks','lastVisitedUnit':'notebooks','language':'ar','theme':'light'}
+    saved=secured.put('/api/v1/progress',json=payload,headers=headers)
+    assert saved.status_code==200
+    fetched=secured.get('/api/v1/progress',headers=headers).json()
+    assert fetched['lastVisitedLesson']=='python-notebooks'
+    assert fetched['savedExperiments'][0]['id']=='example'
+    assert fetched['language']=='ar'
+    assert secured.put('/api/v1/progress',json={'savedExperiments':[snapshot]*13},headers=headers).status_code==422

@@ -52,6 +52,8 @@ All routes below start with `/api/v1`. JSON field names are in `openapi.json`; s
 
 | Method | Route | Result |
 |---|---|---|
+| GET | `/progress` | Load authenticated owner learning progress |
+| PUT | `/progress` | Replace validated owner learning progress |
 | GET | `/health` | Process health, version, SQLite and auth mode |
 | GET | `/capabilities` | Supported estimators, explicit unsupported features, isolation self-test, limits |
 | POST | `/auth/register` | Create a local account, when enabled |
@@ -103,3 +105,7 @@ The suite exercises persistence after an app restart, ownership isolation, token
 ## Explicit limits and unfinished scope
 
 This delivers the local Phase 6 backend, not the entire website. There is no deployment or cloud persistence, in line with the no-deployment/no-new-service instruction. SQLite persistence survives local restarts. CNN/RNN/LSTM and PyTorch training are not implemented; capabilities reports them as unsupported. Training is synchronous, bounded, and one-at-a-time; there is no distributed job queue or start/pause/resume training endpoint. Browser animation controls remain a frontend responsibility. This backend is not a hosted notebook platform, a hardened public execution cluster, or a replacement for production operational security.
+
+## Guided course account sync
+
+Set `ML_LAB_AUTH_ENABLED=true` before starting the API. Open the frontend Account page and use the loopback API base shown above. Register, then log in. Guest merge is opt-in and preserves the guest copy. Save/Reload are explicit. Progress includes per-exercise state, hint/solution use, quiz scores, last lesson/unit, course completion dates, language/theme and up to twelve validated browser snapshots. The API scopes records by authenticated owner; it never uses guest content to infer account ownership. Browser course Python does not call this API.

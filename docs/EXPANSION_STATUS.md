@@ -1,58 +1,53 @@
-# Guided learning expansion, in progress
+# Guided learning expansion, source verification in progress
 
-Source work is on `feature/guided-learning`. This is not a completion or deployment claim. The existing hosted File has not been changed. No new hosting account, paid service or deployment has been created.
+Work is on `feature/guided-learning`. The existing hosted File has not been changed. No new hosting account, paid service, deployment or repository visibility change has been made. This document is not a deployment or final completion claim.
 
-## Implemented
+## Current implementation
 
-- A six-level, 34-unit path, collapsible roadmap/list, search, prerequisite recommendations, course navigation, breadcrumbs and resume.
-- Ten original bilingual micro-courses with 42 lessons and 168 exercises. Pandas has five lessons. Statistics now includes a dedicated covariance/correlation lesson rather than incorrectly routing that unit to inference.
-- Editable Python tutorial and exercise cells with Run, Check, Stop, reset/copy, real stdout/errors, figures, hints, solutions after an attempt/hint and completion-image download.
-- Disposable module-worker Python, pinned Pyodide 314.0.8. Seaborn 0.13.2 loads through micropip. Matplotlib uses Agg with PNG capture. Runtime/package state is shared across cells; learner namespaces are fresh.
-- A 12-second execution timeout, 150-second loading timeout, Stop/worker reset, recovery and global concurrent-run guard.
-- Six distinct level projects with runnable cells, goals, steps and self-checks.
-- Guest progress, account login/logout, explicit account save/reload and opt-in merge. Saved browser snapshots are scoped to guest/account; login merge preserves the guest copy. Legacy quiz results are recorded.
-- Over 1,700 legacy Arabic text entries, including every math/data/network worked-example tuple and algorithm derivation tuple. Shared controls and 188 literal props use locale hooks. Arabic data selectors retain stable internal values. Arabic dictionary lazy-loads instead of inflating the initial English bundle.
-- Existing lab routes, deterministic numerical engines and snapshot validators/replay retained. Removed duplicated placeholder UnitFrame sections, leaving the actual lab and links to actual lessons.
-- Manual-only static deployment workflow and deployment guide. Nothing has been triggered.
+- Six levels, 34 map units, collapsible roadmap/list, search, prerequisite recommendations, course navigation, breadcrumbs and explicit-unit resume.
+- Ten original bilingual micro-courses, 45 lessons and 180 exercises. Pandas has five lessons. Dedicated covariance/correlation, Jupyter workflow, optimizer update rules and classical ensemble/SVM/Bayes lessons fill gaps found during audit.
+- Every map unit has a distinct original bilingual guide: practical purpose, concept steps, a real slider-driven numerical illustration, three guided experiments, rendered formula and persisted quiz. Some related units intentionally share a broader course lesson while preserving their own guide/title/quiz/navigation.
+- Editable tutorial and exercise cells with Run, Check, Stop, reset/copy, real stdout/errors, inline figures, progressive hints, solution access after attempt/hint and downloadable completion image. Completion images make no external accreditation claim.
+- Module-worker Python with pinned Pyodide 314.0.8, Seaborn 0.13.2 through micropip and Matplotlib Agg/PNG capture. Runtime/package state is cached between cells; learner namespaces are fresh. A 12-second execution and 150-second loading limit, Stop/reset and global concurrent-run guard prevent a cell from blocking the page.
+- Six distinct runnable level projects.
+- Guest progress, account registration/login/logout, explicit save/reload and opt-in merge. Guest copies remain intact. Snapshots are scoped to guest/account. Sessions are in memory, not persistent browser tokens.
+- More than 2,100 legacy Arabic entries, all primary math/data/network/algorithm teaching tuples, translated controls and stable internal selector values. Arabic dictionary lazy-loads. Some computed legacy status/error messages remain English and are not claimed translated.
+- Existing lab routes, numerical engines and snapshot validators/replay retained. No edits to a separate Math Lab project.
+- Manual-only static deployment workflow and an account/hosting decision guide. Nothing triggered.
 
 ## Verified locally
 
-- TypeScript and the complete `npm test` suite pass after the current changes.
-- 336 official-solution / deliberate-wrong-answer checker cases pass.
-- Backend: 55 tests pass. The browser fixture backend was restarted after schema changes before the account snapshot check.
-- Real Python output, Pandas DataFrame checker/type rejection, Stop, automatic timeout, fresh-worker recovery, second-cell runtime reuse, sklearn tree prediction `[0 1]`, Seaborn and Matplotlib figure output.
-- Account register/login/merge/save/reload/logout, snapshot round-trip and logout isolation.
-- 372 new route/language/width geometry checks: no JS errors or horizontal overflow. 192 legacy route/language/theme/layout/accessibility records: no JS errors or overflow.
-- 32 expanded-disclosure legacy accessibility scans across both languages/themes: no detected WCAG-tag rule violations after light-mode quiz/nav fixes. This is bounded automated coverage, not assistive-technology certification.
-- 70 legacy replay/import/history UI checks pass, including unchanged learned-state replay and malicious/invalid import rejection.
-- Keyboard course tabs, Home/arrow keys, resume destination, Arabic math selectors and advanced teaching, quiz persistence.
-- Normal and portable production builds pass. Portable HTML intentionally does not run Python. Generated source ZIP is local only.
-- Arabic mobile header/legacy math/classical/neural and detailed statistics/classical teaching screenshots were inspected. Prior Pandas, output-figure and certificate screenshots were inspected.
+- TypeScript and complete `npm test` suite pass.
+- 360 official-solution / deliberate-wrong-answer checker cases pass. All 90 tutorial code cells actually execute in a scientific Python environment with zero exceptions. These check execution, not the absence of every possible teaching error.
+- Backend: 56 tests pass, including authenticated progress/snapshot/resume and input limits. OpenAPI regenerated with progress endpoints.
+- Actual browser Python: sklearn predictions, four estimators in the production build, Seaborn/Matplotlib PNG output, Pandas checker/type rejection, Stop, automatic timeout, recovery and second-cell cache reuse.
+- Account register/login/merge/save/reload/logout and snapshot round-trip/logout isolation.
+- 390 course/project route/language/width layout checks: no page errors or horizontal overflow. 192 retained-lab route/language/theme/layout/accessibility records: no page errors or overflow.
+- 136 direct unit/language/theme checks: every slider changes a numerical result, no detected WCAG-tag rule violations, explicit-unit resume works. Another 68 guide/language/formula/width checks and quiz persistence pass.
+- 32 expanded retained-lab accessibility scans pass. Bounded automated checks are not assistive-technology certification.
+- Previous 70 snapshot replay/import/history checks pass; final rerun is still to be done after the last changes.
+- Normal and portable production builds pass. Production four-model output and real Seaborn figures verified. Portable file works and explicitly disables Python in both languages.
+- Actual mobile screenshots inspected: gradient, notebook execution state, neuron activation, Arabic teaching and production Matplotlib output. Optimizer illustration compares actual stateful update rules. Its Arabic production pixels were inspected; chart-label spacing was corrected afterward.
 
-## Still to finish before calling the expansion complete
+## Remaining before true finish
 
-- Close the remaining curriculum depth gaps. In particular, the map's Jupyter workflow currently maps to Python functions, which is not an adequate dedicated lesson. Some units share related lessons. Audit all exact advertised topics and add missing teaching/widgets rather than claiming coverage from a nearby title.
-- Review course-level template/content depth against the requested shared unit template. Do not reinsert generic placeholder prose to satisfy headings. Course intros, original lab links, exercises and mini-challenges exist, but the full why/concept/visual/math/task/quiz progression needs a final content pass.
-- Finish legacy dynamic text localization, especially computed detail/error/status strings, some quiz option arrays and developer-facing API messages. The UI explicitly warns that some detailed computation messages remain English. Do not claim every string is Arabic.
-- Add unit-specific guided experiments where a generic mini-challenge is still too shallow. Keep genuine computational checks and solutions.
-- Update older README claims and OpenAPI/deployment instructions to distinguish browser Python from optional backend Python. Keep the original project's historical acceptance record distinct from this new expansion.
-- Final production/portable browser sanity check, full frontend/backend/checker tests, inspect final screenshots and rebuild source archive after the last content changes.
-- Deployment requires owner selection/approval. See `STATIC_DEPLOYMENT.md`. A private repo must not be made visible to anyone just to enable free hosting.
+- Reinspect the chart-label spacing correction and representative dark/RTL widgets. Production/portable execution and 390 geometry checks passed after the content/localization changes, before this small spacing correction.
+- Complete or clearly bound remaining computed legacy status/error localization. Current default-screen audit is under `tests/browser/localization-audit.mjs`; code, library names and Python output intentionally stay English. It does not cover every interaction/error branch.
+- Review content-to-exercise alignment for shared lessons, learner-time estimates and the final exact specification checklist. Do not count a nearby title as full teaching coverage.
+- Final regression rerun, source/archive safety inspection, documentation consistency and local commit. Latest source ZIP is local only and must be regenerated after final changes.
+- Remote source update requires reconciling the parent's no-new-publication gate. No push occurred during the latest work. Deployment needs an explicit owner choice/approval; see `STATIC_DEPLOYMENT.md`.
 
 ## Reproduce
 
-Frontend: `npm ci && npm run dev`.
+- Frontend: `npm ci && npm run dev`.
+- Source: `npx tsc --noEmit && npm test`.
+- Scientific code: `PYTHON=/path/to/python npm run test:courses` and `PYTHON=/path/to/python npm run test:tutorials`. Requires NumPy, Pandas, SciPy, scikit-learn, Matplotlib and Seaborn.
+- Backend: install `backend[test]`, then `cd backend && pytest`.
+- Build: `npm run build`; standalone Python-disabled copy: `npm run portable`.
+- Browser scripts under `tests/browser/`: `unit-guides.mjs`, `unit-visuals.mjs`, `production-expansion.mjs`, `runtime-recovery.mjs`, `package-runtime.mjs`, `snapshot-account.mjs`, `arabic-effects.mjs`, `expanded-accessibility.mjs`, `legacy-expansion.mjs`, `expansion-visual.mjs` and `localization-audit.mjs`.
 
-Source checks: `npx tsc --noEmit && npm test`.
+Browser scripts expect a disposable frontend on 5173; account tests expect a disposable auth-enabled backend on 8000. Production script starts/stops preview on 5179. Use fixture databases, not real learner data. Reports are under `docs/qa-expansion/`.
 
-Python checker parity: `PYTHON=/path/to/python npm run test:courses`, with NumPy, Pandas, SciPy, scikit-learn, Matplotlib and Seaborn installed.
-
-Backend tests: install `backend[test]`, then `cd backend && pytest`.
-
-Build: `npm run build`; standalone read-only Python-disabled copy: `npm run portable`.
-
-Browser scripts under `tests/browser/` include `runtime-recovery.mjs`, `package-runtime.mjs`, `snapshot-account.mjs`, `arabic-effects.mjs`, `expanded-accessibility.mjs`, `legacy-expansion.mjs` and `expansion-visual.mjs`. They expect the dev frontend on 5173; the account test expects a disposable auth-enabled backend on 8000. They write local test records and evidence only. Use a fixture database, not a real user database.
-
-Pyodide documentation checked for this implementation:
+Runtime sources checked:
 https://pyodide.org/en/stable/usage/webworker.html
 https://pyodide.org/en/stable/usage/downloading-and-deploying.html

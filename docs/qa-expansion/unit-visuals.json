@@ -1,0 +1,1093 @@
+{
+  "checks": [
+    {
+      "unit": "python",
+      "lang": "en",
+      "theme": "dark",
+      "first": "12 × 3 = 36",
+      "next": "12 × 8 = 96",
+      "violations": []
+    },
+    {
+      "unit": "python",
+      "lang": "en",
+      "theme": "light",
+      "first": "12 × 3 = 36",
+      "next": "12 × 8 = 96",
+      "violations": []
+    },
+    {
+      "unit": "python",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "12 × 3 = 36",
+      "next": "12 × 8 = 96",
+      "violations": []
+    },
+    {
+      "unit": "python",
+      "lang": "ar",
+      "theme": "light",
+      "first": "12 × 3 = 36",
+      "next": "12 × 8 = 96",
+      "violations": []
+    },
+    {
+      "unit": "numpy",
+      "lang": "en",
+      "theme": "dark",
+      "first": "[2, 3] · [3, 4] = 6 + 12 = 18",
+      "next": "[2, 8] · [3, 4] = 6 + 32 = 38",
+      "violations": []
+    },
+    {
+      "unit": "numpy",
+      "lang": "en",
+      "theme": "light",
+      "first": "[2, 3] · [3, 4] = 6 + 12 = 18",
+      "next": "[2, 8] · [3, 4] = 6 + 32 = 38",
+      "violations": []
+    },
+    {
+      "unit": "numpy",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "[2, 3] · [3, 4] = 6 + 12 = 18",
+      "next": "[2, 8] · [3, 4] = 6 + 32 = 38",
+      "violations": []
+    },
+    {
+      "unit": "numpy",
+      "lang": "ar",
+      "theme": "light",
+      "first": "[2, 3] · [3, 4] = 6 + 12 = 18",
+      "next": "[2, 8] · [3, 4] = 6 + 32 = 38",
+      "violations": []
+    },
+    {
+      "unit": "pandas",
+      "lang": "en",
+      "theme": "dark",
+      "first": "Threshold 3: 3/4 rows retained",
+      "next": "Threshold 8: 1/4 rows retained",
+      "violations": []
+    },
+    {
+      "unit": "pandas",
+      "lang": "en",
+      "theme": "light",
+      "first": "Threshold 3: 3/4 rows retained",
+      "next": "Threshold 8: 1/4 rows retained",
+      "violations": []
+    },
+    {
+      "unit": "pandas",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "Threshold 3: 3/4 rows retained",
+      "next": "Threshold 8: 1/4 rows retained",
+      "violations": []
+    },
+    {
+      "unit": "pandas",
+      "lang": "ar",
+      "theme": "light",
+      "first": "Threshold 3: 3/4 rows retained",
+      "next": "Threshold 8: 1/4 rows retained",
+      "violations": []
+    },
+    {
+      "unit": "plotting",
+      "lang": "en",
+      "theme": "dark",
+      "first": "slope=0.6; x=4 → y=2.4",
+      "next": "slope=1.6; x=4 → y=6.4",
+      "violations": []
+    },
+    {
+      "unit": "plotting",
+      "lang": "en",
+      "theme": "light",
+      "first": "slope=0.6; x=4 → y=2.4",
+      "next": "slope=1.6; x=4 → y=6.4",
+      "violations": []
+    },
+    {
+      "unit": "plotting",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "slope=0.6; x=4 → y=2.4",
+      "next": "slope=1.6; x=4 → y=6.4",
+      "violations": []
+    },
+    {
+      "unit": "plotting",
+      "lang": "ar",
+      "theme": "light",
+      "first": "slope=0.6; x=4 → y=2.4",
+      "next": "slope=1.6; x=4 → y=6.4",
+      "violations": []
+    },
+    {
+      "unit": "notebooks",
+      "lang": "en",
+      "theme": "dark",
+      "first": "a=1; 2 × (a=a+1) → a=3",
+      "next": "a=1; 7 × (a=a+1) → a=8",
+      "violations": []
+    },
+    {
+      "unit": "notebooks",
+      "lang": "en",
+      "theme": "light",
+      "first": "a=1; 2 × (a=a+1) → a=3",
+      "next": "a=1; 7 × (a=a+1) → a=8",
+      "violations": []
+    },
+    {
+      "unit": "notebooks",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "a=1; 2 × (a=a+1) → a=3",
+      "next": "a=1; 7 × (a=a+1) → a=8",
+      "violations": []
+    },
+    {
+      "unit": "notebooks",
+      "lang": "ar",
+      "theme": "light",
+      "first": "a=1; 2 × (a=a+1) → a=3",
+      "next": "a=1; 7 × (a=a+1) → a=8",
+      "violations": []
+    },
+    {
+      "unit": "vectors",
+      "lang": "en",
+      "theme": "dark",
+      "first": "[2, 3] · [3, 4] = 6 + 12 = 18",
+      "next": "[2, 8] · [3, 4] = 6 + 32 = 38",
+      "violations": []
+    },
+    {
+      "unit": "vectors",
+      "lang": "en",
+      "theme": "light",
+      "first": "[2, 3] · [3, 4] = 6 + 12 = 18",
+      "next": "[2, 8] · [3, 4] = 6 + 32 = 38",
+      "violations": []
+    },
+    {
+      "unit": "vectors",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "[2, 3] · [3, 4] = 6 + 12 = 18",
+      "next": "[2, 8] · [3, 4] = 6 + 32 = 38",
+      "violations": []
+    },
+    {
+      "unit": "vectors",
+      "lang": "ar",
+      "theme": "light",
+      "first": "[2, 3] · [3, 4] = 6 + 12 = 18",
+      "next": "[2, 8] · [3, 4] = 6 + 32 = 38",
+      "violations": []
+    },
+    {
+      "unit": "matrices",
+      "lang": "en",
+      "theme": "dark",
+      "first": "s=3: (1, 1) → (3, 1)",
+      "next": "s=8: (1, 1) → (8, 1)",
+      "violations": []
+    },
+    {
+      "unit": "matrices",
+      "lang": "en",
+      "theme": "light",
+      "first": "s=3: (1, 1) → (3, 1)",
+      "next": "s=8: (1, 1) → (8, 1)",
+      "violations": []
+    },
+    {
+      "unit": "matrices",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "s=3: (1, 1) → (3, 1)",
+      "next": "s=8: (1, 1) → (8, 1)",
+      "violations": []
+    },
+    {
+      "unit": "matrices",
+      "lang": "ar",
+      "theme": "light",
+      "first": "s=3: (1, 1) → (3, 1)",
+      "next": "s=8: (1, 1) → (8, 1)",
+      "violations": []
+    },
+    {
+      "unit": "derivatives",
+      "lang": "en",
+      "theme": "dark",
+      "first": "w=0.3; J=0.49; dJ/dw=-1.4",
+      "next": "w=0.8; J=0.04; dJ/dw=-0.4",
+      "violations": []
+    },
+    {
+      "unit": "derivatives",
+      "lang": "en",
+      "theme": "light",
+      "first": "w=0.3; J=0.49; dJ/dw=-1.4",
+      "next": "w=0.8; J=0.04; dJ/dw=-0.4",
+      "violations": []
+    },
+    {
+      "unit": "derivatives",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "w=0.3; J=0.49; dJ/dw=-1.4",
+      "next": "w=0.8; J=0.04; dJ/dw=-0.4",
+      "violations": []
+    },
+    {
+      "unit": "derivatives",
+      "lang": "ar",
+      "theme": "light",
+      "first": "w=0.3; J=0.49; dJ/dw=-1.4",
+      "next": "w=0.8; J=0.04; dJ/dw=-0.4",
+      "violations": []
+    },
+    {
+      "unit": "exponential",
+      "lang": "en",
+      "theme": "dark",
+      "first": "z=0.3; exp(z)=1.350; ln(exp(z))=0.3; y-axis scale: 2",
+      "next": "z=0.8; exp(z)=2.226; ln(exp(z))=0.8; y-axis scale: 2",
+      "violations": []
+    },
+    {
+      "unit": "exponential",
+      "lang": "en",
+      "theme": "light",
+      "first": "z=0.3; exp(z)=1.350; ln(exp(z))=0.3; y-axis scale: 2",
+      "next": "z=0.8; exp(z)=2.226; ln(exp(z))=0.8; y-axis scale: 2",
+      "violations": []
+    },
+    {
+      "unit": "exponential",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "z=0.3; exp(z)=1.350; ln(exp(z))=0.3; y-axis scale: 2",
+      "next": "z=0.8; exp(z)=2.226; ln(exp(z))=0.8; y-axis scale: 2",
+      "violations": []
+    },
+    {
+      "unit": "exponential",
+      "lang": "ar",
+      "theme": "light",
+      "first": "z=0.3; exp(z)=1.350; ln(exp(z))=0.3; y-axis scale: 2",
+      "next": "z=0.8; exp(z)=2.226; ln(exp(z))=0.8; y-axis scale: 2",
+      "violations": []
+    },
+    {
+      "unit": "probability",
+      "lang": "en",
+      "theme": "dark",
+      "first": "P(A)=0.3; P(not A)=0.7",
+      "next": "P(A)=0.8; P(not A)=0.2",
+      "violations": []
+    },
+    {
+      "unit": "probability",
+      "lang": "en",
+      "theme": "light",
+      "first": "P(A)=0.3; P(not A)=0.7",
+      "next": "P(A)=0.8; P(not A)=0.2",
+      "violations": []
+    },
+    {
+      "unit": "probability",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "P(A)=0.3; P(not A)=0.7",
+      "next": "P(A)=0.8; P(not A)=0.2",
+      "violations": []
+    },
+    {
+      "unit": "probability",
+      "lang": "ar",
+      "theme": "light",
+      "first": "P(A)=0.3; P(not A)=0.7",
+      "next": "P(A)=0.8; P(not A)=0.2",
+      "violations": []
+    },
+    {
+      "unit": "descriptive",
+      "lang": "en",
+      "theme": "dark",
+      "first": "s=3; mean=3.0; median=3",
+      "next": "s=8; mean=4.0; median=3",
+      "violations": []
+    },
+    {
+      "unit": "descriptive",
+      "lang": "en",
+      "theme": "light",
+      "first": "s=3; mean=3.0; median=3",
+      "next": "s=8; mean=4.0; median=3",
+      "violations": []
+    },
+    {
+      "unit": "descriptive",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "s=3; mean=3.0; median=3",
+      "next": "s=8; mean=4.0; median=3",
+      "violations": []
+    },
+    {
+      "unit": "descriptive",
+      "lang": "ar",
+      "theme": "light",
+      "first": "s=3; mean=3.0; median=3",
+      "next": "s=8; mean=4.0; median=3",
+      "violations": []
+    },
+    {
+      "unit": "distributions",
+      "lang": "en",
+      "theme": "dark",
+      "first": "n=3; SE=0.577",
+      "next": "n=8; SE=0.354",
+      "violations": []
+    },
+    {
+      "unit": "distributions",
+      "lang": "en",
+      "theme": "light",
+      "first": "n=3; SE=0.577",
+      "next": "n=8; SE=0.354",
+      "violations": []
+    },
+    {
+      "unit": "distributions",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "n=3; SE=0.577",
+      "next": "n=8; SE=0.354",
+      "violations": []
+    },
+    {
+      "unit": "distributions",
+      "lang": "ar",
+      "theme": "light",
+      "first": "n=3; SE=0.577",
+      "next": "n=8; SE=0.354",
+      "violations": []
+    },
+    {
+      "unit": "correlation",
+      "lang": "en",
+      "theme": "dark",
+      "first": "s=3; sample covariance=3; r=1",
+      "next": "s=8; sample covariance=8; r=1",
+      "violations": []
+    },
+    {
+      "unit": "correlation",
+      "lang": "en",
+      "theme": "light",
+      "first": "s=3; sample covariance=3; r=1",
+      "next": "s=8; sample covariance=8; r=1",
+      "violations": []
+    },
+    {
+      "unit": "correlation",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "s=3; sample covariance=3; r=1",
+      "next": "s=8; sample covariance=8; r=1",
+      "violations": []
+    },
+    {
+      "unit": "correlation",
+      "lang": "ar",
+      "theme": "light",
+      "first": "s=3; sample covariance=3; r=1",
+      "next": "s=8; sample covariance=8; r=1",
+      "violations": []
+    },
+    {
+      "unit": "sampling",
+      "lang": "en",
+      "theme": "dark",
+      "first": "n=3; SE=0.577",
+      "next": "n=8; SE=0.354",
+      "violations": []
+    },
+    {
+      "unit": "sampling",
+      "lang": "en",
+      "theme": "light",
+      "first": "n=3; SE=0.577",
+      "next": "n=8; SE=0.354",
+      "violations": []
+    },
+    {
+      "unit": "sampling",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "n=3; SE=0.577",
+      "next": "n=8; SE=0.354",
+      "violations": []
+    },
+    {
+      "unit": "sampling",
+      "lang": "ar",
+      "theme": "light",
+      "first": "n=3; SE=0.577",
+      "next": "n=8; SE=0.354",
+      "violations": []
+    },
+    {
+      "unit": "hypothesis",
+      "lang": "en",
+      "theme": "dark",
+      "first": "mean=0.3; null=0; SE=.2; z=1.5; do not reject",
+      "next": "mean=0.8; null=0; SE=.2; z=4.0; reject at 5%",
+      "violations": []
+    },
+    {
+      "unit": "hypothesis",
+      "lang": "en",
+      "theme": "light",
+      "first": "mean=0.3; null=0; SE=.2; z=1.5; do not reject",
+      "next": "mean=0.8; null=0; SE=.2; z=4.0; reject at 5%",
+      "violations": []
+    },
+    {
+      "unit": "hypothesis",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "mean=0.3; null=0; SE=.2; z=1.5; do not reject",
+      "next": "mean=0.8; null=0; SE=.2; z=4.0; reject at 5%",
+      "violations": []
+    },
+    {
+      "unit": "hypothesis",
+      "lang": "ar",
+      "theme": "light",
+      "first": "mean=0.3; null=0; SE=.2; z=1.5; do not reject",
+      "next": "mean=0.8; null=0; SE=.2; z=4.0; reject at 5%",
+      "violations": []
+    },
+    {
+      "unit": "learning-types",
+      "lang": "en",
+      "theme": "dark",
+      "first": "row=3; x=7; supplied target=1; without target: x only",
+      "next": "row=4; x=8; supplied target=1; without target: x only",
+      "violations": []
+    },
+    {
+      "unit": "learning-types",
+      "lang": "en",
+      "theme": "light",
+      "first": "row=3; x=7; supplied target=1; without target: x only",
+      "next": "row=4; x=8; supplied target=1; without target: x only",
+      "violations": []
+    },
+    {
+      "unit": "learning-types",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "row=3; x=7; supplied target=1; without target: x only",
+      "next": "row=4; x=8; supplied target=1; without target: x only",
+      "violations": []
+    },
+    {
+      "unit": "learning-types",
+      "lang": "ar",
+      "theme": "light",
+      "first": "row=3; x=7; supplied target=1; without target: x only",
+      "next": "row=4; x=8; supplied target=1; without target: x only",
+      "violations": []
+    },
+    {
+      "unit": "regression",
+      "lang": "en",
+      "theme": "dark",
+      "first": "slope=0.6; x=4 → y=2.4",
+      "next": "slope=1.6; x=4 → y=6.4",
+      "violations": []
+    },
+    {
+      "unit": "regression",
+      "lang": "en",
+      "theme": "light",
+      "first": "slope=0.6; x=4 → y=2.4",
+      "next": "slope=1.6; x=4 → y=6.4",
+      "violations": []
+    },
+    {
+      "unit": "regression",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "slope=0.6; x=4 → y=2.4",
+      "next": "slope=1.6; x=4 → y=6.4",
+      "violations": []
+    },
+    {
+      "unit": "regression",
+      "lang": "ar",
+      "theme": "light",
+      "first": "slope=0.6; x=4 → y=2.4",
+      "next": "slope=1.6; x=4 → y=6.4",
+      "violations": []
+    },
+    {
+      "unit": "gradient",
+      "lang": "en",
+      "theme": "dark",
+      "first": "w=0.3; J=0.49; dJ/dw=-1.4",
+      "next": "w=0.8; J=0.04; dJ/dw=-0.4",
+      "violations": []
+    },
+    {
+      "unit": "gradient",
+      "lang": "en",
+      "theme": "light",
+      "first": "w=0.3; J=0.49; dJ/dw=-1.4",
+      "next": "w=0.8; J=0.04; dJ/dw=-0.4",
+      "violations": []
+    },
+    {
+      "unit": "gradient",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "w=0.3; J=0.49; dJ/dw=-1.4",
+      "next": "w=0.8; J=0.04; dJ/dw=-0.4",
+      "violations": []
+    },
+    {
+      "unit": "gradient",
+      "lang": "ar",
+      "theme": "light",
+      "first": "w=0.3; J=0.49; dJ/dw=-1.4",
+      "next": "w=0.8; J=0.04; dJ/dw=-0.4",
+      "violations": []
+    },
+    {
+      "unit": "losses",
+      "lang": "en",
+      "theme": "dark",
+      "first": "w=0.3; J=0.49; dJ/dw=-1.4",
+      "next": "w=0.8; J=0.04; dJ/dw=-0.4",
+      "violations": []
+    },
+    {
+      "unit": "losses",
+      "lang": "en",
+      "theme": "light",
+      "first": "w=0.3; J=0.49; dJ/dw=-1.4",
+      "next": "w=0.8; J=0.04; dJ/dw=-0.4",
+      "violations": []
+    },
+    {
+      "unit": "losses",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "w=0.3; J=0.49; dJ/dw=-1.4",
+      "next": "w=0.8; J=0.04; dJ/dw=-0.4",
+      "violations": []
+    },
+    {
+      "unit": "losses",
+      "lang": "ar",
+      "theme": "light",
+      "first": "w=0.3; J=0.49; dJ/dw=-1.4",
+      "next": "w=0.8; J=0.04; dJ/dw=-0.4",
+      "violations": []
+    },
+    {
+      "unit": "perceptron",
+      "lang": "en",
+      "theme": "dark",
+      "first": "x=3; z=1; class=1",
+      "next": "x=8; z=11; class=1",
+      "violations": []
+    },
+    {
+      "unit": "perceptron",
+      "lang": "en",
+      "theme": "light",
+      "first": "x=3; z=1; class=1",
+      "next": "x=8; z=11; class=1",
+      "violations": []
+    },
+    {
+      "unit": "perceptron",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "x=3; z=1; class=1",
+      "next": "x=8; z=11; class=1",
+      "violations": []
+    },
+    {
+      "unit": "perceptron",
+      "lang": "ar",
+      "theme": "light",
+      "first": "x=3; z=1; class=1",
+      "next": "x=8; z=11; class=1",
+      "violations": []
+    },
+    {
+      "unit": "logistic",
+      "lang": "en",
+      "theme": "dark",
+      "first": "z=-2; sigmoid(z)=0.119",
+      "next": "z=3; sigmoid(z)=0.953",
+      "violations": []
+    },
+    {
+      "unit": "logistic",
+      "lang": "en",
+      "theme": "light",
+      "first": "z=-2; sigmoid(z)=0.119",
+      "next": "z=3; sigmoid(z)=0.953",
+      "violations": []
+    },
+    {
+      "unit": "logistic",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "z=-2; sigmoid(z)=0.119",
+      "next": "z=3; sigmoid(z)=0.953",
+      "violations": []
+    },
+    {
+      "unit": "logistic",
+      "lang": "ar",
+      "theme": "light",
+      "first": "z=-2; sigmoid(z)=0.119",
+      "next": "z=3; sigmoid(z)=0.953",
+      "violations": []
+    },
+    {
+      "unit": "softmax",
+      "lang": "en",
+      "theme": "dark",
+      "first": "z=-2; p=[0.013, 0.265, 0.721]",
+      "next": "z=3; p=[0.665, 0.090, 0.245]",
+      "violations": []
+    },
+    {
+      "unit": "softmax",
+      "lang": "en",
+      "theme": "light",
+      "first": "z=-2; p=[0.013, 0.265, 0.721]",
+      "next": "z=3; p=[0.665, 0.090, 0.245]",
+      "violations": []
+    },
+    {
+      "unit": "softmax",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "z=-2; p=[0.013, 0.265, 0.721]",
+      "next": "z=3; p=[0.665, 0.090, 0.245]",
+      "violations": []
+    },
+    {
+      "unit": "softmax",
+      "lang": "ar",
+      "theme": "light",
+      "first": "z=-2; p=[0.013, 0.265, 0.721]",
+      "next": "z=3; p=[0.665, 0.090, 0.245]",
+      "violations": []
+    },
+    {
+      "unit": "task-types",
+      "lang": "en",
+      "theme": "dark",
+      "first": "x=3; price=7; category=0",
+      "next": "x=8; price=17; category=1",
+      "violations": []
+    },
+    {
+      "unit": "task-types",
+      "lang": "en",
+      "theme": "light",
+      "first": "x=3; price=7; category=0",
+      "next": "x=8; price=17; category=1",
+      "violations": []
+    },
+    {
+      "unit": "task-types",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "x=3; price=7; category=0",
+      "next": "x=8; price=17; category=1",
+      "violations": []
+    },
+    {
+      "unit": "task-types",
+      "lang": "ar",
+      "theme": "light",
+      "first": "x=3; price=7; category=0",
+      "next": "x=8; price=17; category=1",
+      "violations": []
+    },
+    {
+      "unit": "datasets",
+      "lang": "en",
+      "theme": "dark",
+      "first": "Threshold 3: 3/4 rows retained",
+      "next": "Threshold 8: 1/4 rows retained",
+      "violations": []
+    },
+    {
+      "unit": "datasets",
+      "lang": "en",
+      "theme": "light",
+      "first": "Threshold 3: 3/4 rows retained",
+      "next": "Threshold 8: 1/4 rows retained",
+      "violations": []
+    },
+    {
+      "unit": "datasets",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "Threshold 3: 3/4 rows retained",
+      "next": "Threshold 8: 1/4 rows retained",
+      "violations": []
+    },
+    {
+      "unit": "datasets",
+      "lang": "ar",
+      "theme": "light",
+      "first": "Threshold 3: 3/4 rows retained",
+      "next": "Threshold 8: 1/4 rows retained",
+      "violations": []
+    },
+    {
+      "unit": "preprocessing",
+      "lang": "en",
+      "theme": "dark",
+      "first": "train=[2,4,3]; fitted mean=3; query=3; centered query=0",
+      "next": "train=[2,4,3]; fitted mean=3; query=8; centered query=5",
+      "violations": []
+    },
+    {
+      "unit": "preprocessing",
+      "lang": "en",
+      "theme": "light",
+      "first": "train=[2,4,3]; fitted mean=3; query=3; centered query=0",
+      "next": "train=[2,4,3]; fitted mean=3; query=8; centered query=5",
+      "violations": []
+    },
+    {
+      "unit": "preprocessing",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "train=[2,4,3]; fitted mean=3; query=3; centered query=0",
+      "next": "train=[2,4,3]; fitted mean=3; query=8; centered query=5",
+      "violations": []
+    },
+    {
+      "unit": "preprocessing",
+      "lang": "ar",
+      "theme": "light",
+      "first": "train=[2,4,3]; fitted mean=3; query=3; centered query=0",
+      "next": "train=[2,4,3]; fitted mean=3; query=8; centered query=5",
+      "violations": []
+    },
+    {
+      "unit": "evaluation",
+      "lang": "en",
+      "theme": "dark",
+      "first": "TP=5; FP=3; precision=5/(5+3)=0.625",
+      "next": "TP=5; FP=8; precision=5/(5+8)=0.385",
+      "violations": []
+    },
+    {
+      "unit": "evaluation",
+      "lang": "en",
+      "theme": "light",
+      "first": "TP=5; FP=3; precision=5/(5+3)=0.625",
+      "next": "TP=5; FP=8; precision=5/(5+8)=0.385",
+      "violations": []
+    },
+    {
+      "unit": "evaluation",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "TP=5; FP=3; precision=5/(5+3)=0.625",
+      "next": "TP=5; FP=8; precision=5/(5+8)=0.385",
+      "violations": []
+    },
+    {
+      "unit": "evaluation",
+      "lang": "ar",
+      "theme": "light",
+      "first": "TP=5; FP=3; precision=5/(5+3)=0.625",
+      "next": "TP=5; FP=8; precision=5/(5+8)=0.385",
+      "violations": []
+    },
+    {
+      "unit": "regularization",
+      "lang": "en",
+      "theme": "dark",
+      "first": "alpha=3; OLS=2; Ridge=0.800",
+      "next": "alpha=8; OLS=2; Ridge=0.400",
+      "violations": []
+    },
+    {
+      "unit": "regularization",
+      "lang": "en",
+      "theme": "light",
+      "first": "alpha=3; OLS=2; Ridge=0.800",
+      "next": "alpha=8; OLS=2; Ridge=0.400",
+      "violations": []
+    },
+    {
+      "unit": "regularization",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "alpha=3; OLS=2; Ridge=0.800",
+      "next": "alpha=8; OLS=2; Ridge=0.400",
+      "violations": []
+    },
+    {
+      "unit": "regularization",
+      "lang": "ar",
+      "theme": "light",
+      "first": "alpha=3; OLS=2; Ridge=0.800",
+      "next": "alpha=8; OLS=2; Ridge=0.400",
+      "violations": []
+    },
+    {
+      "unit": "classical",
+      "lang": "en",
+      "theme": "dark",
+      "first": "threshold=3; left=1; right=4",
+      "next": "threshold=8; left=4; right=1",
+      "violations": []
+    },
+    {
+      "unit": "classical",
+      "lang": "en",
+      "theme": "light",
+      "first": "threshold=3; left=1; right=4",
+      "next": "threshold=8; left=4; right=1",
+      "violations": []
+    },
+    {
+      "unit": "classical",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "threshold=3; left=1; right=4",
+      "next": "threshold=8; left=4; right=1",
+      "violations": []
+    },
+    {
+      "unit": "classical",
+      "lang": "ar",
+      "theme": "light",
+      "first": "threshold=3; left=1; right=4",
+      "next": "threshold=8; left=4; right=1",
+      "violations": []
+    },
+    {
+      "unit": "clustering",
+      "lang": "en",
+      "theme": "dark",
+      "first": "q=3; d₁=1; d₂=5; cluster 1",
+      "next": "q=8; d₁=6; d₂=0; cluster 2",
+      "violations": []
+    },
+    {
+      "unit": "clustering",
+      "lang": "en",
+      "theme": "light",
+      "first": "q=3; d₁=1; d₂=5; cluster 1",
+      "next": "q=8; d₁=6; d₂=0; cluster 2",
+      "violations": []
+    },
+    {
+      "unit": "clustering",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "q=3; d₁=1; d₂=5; cluster 1",
+      "next": "q=8; d₁=6; d₂=0; cluster 2",
+      "violations": []
+    },
+    {
+      "unit": "clustering",
+      "lang": "ar",
+      "theme": "light",
+      "first": "q=3; d₁=1; d₂=5; cluster 1",
+      "next": "q=8; d₁=6; d₂=0; cluster 2",
+      "violations": []
+    },
+    {
+      "unit": "unsupervised",
+      "lang": "en",
+      "theme": "dark",
+      "first": "angle=40°; retained variance=99.2%",
+      "next": "angle=140°; retained variance=0.8%",
+      "violations": []
+    },
+    {
+      "unit": "unsupervised",
+      "lang": "en",
+      "theme": "light",
+      "first": "angle=40°; retained variance=99.2%",
+      "next": "angle=140°; retained variance=0.8%",
+      "violations": []
+    },
+    {
+      "unit": "unsupervised",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "angle=40°; retained variance=99.2%",
+      "next": "angle=140°; retained variance=0.8%",
+      "violations": []
+    },
+    {
+      "unit": "unsupervised",
+      "lang": "ar",
+      "theme": "light",
+      "first": "angle=40°; retained variance=99.2%",
+      "next": "angle=140°; retained variance=0.8%",
+      "violations": []
+    },
+    {
+      "unit": "neural",
+      "lang": "en",
+      "theme": "dark",
+      "first": "x=3; z=2x−5=1; ReLU(z)=1",
+      "next": "x=8; z=2x−5=11; ReLU(z)=11",
+      "violations": []
+    },
+    {
+      "unit": "neural",
+      "lang": "en",
+      "theme": "light",
+      "first": "x=3; z=2x−5=1; ReLU(z)=1",
+      "next": "x=8; z=2x−5=11; ReLU(z)=11",
+      "violations": []
+    },
+    {
+      "unit": "neural",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "x=3; z=2x−5=1; ReLU(z)=1",
+      "next": "x=8; z=2x−5=11; ReLU(z)=11",
+      "violations": []
+    },
+    {
+      "unit": "neural",
+      "lang": "ar",
+      "theme": "light",
+      "first": "x=3; z=2x−5=1; ReLU(z)=1",
+      "next": "x=8; z=2x−5=11; ReLU(z)=11",
+      "violations": []
+    },
+    {
+      "unit": "optimization",
+      "lang": "en",
+      "theme": "dark",
+      "first": "steps=3; loss: SGD=2.359, Momentum=7.124, RMSprop=5.252",
+      "next": "steps=8; loss: SGD=0.253, Momentum=2.147, RMSprop=2.774",
+      "violations": []
+    },
+    {
+      "unit": "optimization",
+      "lang": "en",
+      "theme": "light",
+      "first": "steps=3; loss: SGD=2.359, Momentum=7.124, RMSprop=5.252",
+      "next": "steps=8; loss: SGD=0.253, Momentum=2.147, RMSprop=2.774",
+      "violations": []
+    },
+    {
+      "unit": "optimization",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "steps=3; loss: SGD=2.359, Momentum=7.124, RMSprop=5.252",
+      "next": "steps=8; loss: SGD=0.253, Momentum=2.147, RMSprop=2.774",
+      "violations": []
+    },
+    {
+      "unit": "optimization",
+      "lang": "ar",
+      "theme": "light",
+      "first": "steps=3; loss: SGD=2.359, Momentum=7.124, RMSprop=5.252",
+      "next": "steps=8; loss: SGD=0.253, Momentum=2.147, RMSprop=2.774",
+      "violations": []
+    },
+    {
+      "unit": "cnn",
+      "lang": "en",
+      "theme": "dark",
+      "first": "position=2; 3×1 + 4×0 + 5×(−1) = −2",
+      "next": "position=1; 2×1 + 3×0 + 4×(−1) = −2",
+      "violations": []
+    },
+    {
+      "unit": "cnn",
+      "lang": "en",
+      "theme": "light",
+      "first": "position=2; 3×1 + 4×0 + 5×(−1) = −2",
+      "next": "position=1; 2×1 + 3×0 + 4×(−1) = −2",
+      "violations": []
+    },
+    {
+      "unit": "cnn",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "position=2; 3×1 + 4×0 + 5×(−1) = −2",
+      "next": "position=1; 2×1 + 3×0 + 4×(−1) = −2",
+      "violations": []
+    },
+    {
+      "unit": "cnn",
+      "lang": "ar",
+      "theme": "light",
+      "first": "position=2; 3×1 + 4×0 + 5×(−1) = −2",
+      "next": "position=1; 2×1 + 3×0 + 4×(−1) = −2",
+      "violations": []
+    },
+    {
+      "unit": "sequence",
+      "lang": "en",
+      "theme": "dark",
+      "first": "t=3; h=1.7500",
+      "next": "t=8; h=1.9922",
+      "violations": []
+    },
+    {
+      "unit": "sequence",
+      "lang": "en",
+      "theme": "light",
+      "first": "t=3; h=1.7500",
+      "next": "t=8; h=1.9922",
+      "violations": []
+    },
+    {
+      "unit": "sequence",
+      "lang": "ar",
+      "theme": "dark",
+      "first": "t=3; h=1.7500",
+      "next": "t=8; h=1.9922",
+      "violations": []
+    },
+    {
+      "unit": "sequence",
+      "lang": "ar",
+      "theme": "light",
+      "first": "t=3; h=1.7500",
+      "next": "t=8; h=1.9922",
+      "violations": []
+    }
+  ],
+  "errors": []
+}

@@ -650,6 +650,42 @@
       "overflow": false
     },
     {
+      "route": "/course/python/python-notebooks",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-notebooks",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-notebooks",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-notebooks",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-notebooks",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/python/python-notebooks",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
       "route": "/course/numpy/numpy-arrays",
       "lang": "en",
       "width": 320,
@@ -1766,6 +1802,42 @@
       "overflow": false
     },
     {
+      "route": "/course/classical/classical-ensembles",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-ensembles",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-ensembles",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-ensembles",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-ensembles",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/classical/classical-ensembles",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
       "route": "/course/classical/classical-neighbors",
       "lang": "en",
       "width": 320,
@@ -1941,6 +2013,42 @@
     },
     {
       "route": "/course/neural/neural-backprop",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-optimizers",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-optimizers",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-optimizers",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-optimizers",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-optimizers",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/neural/neural-optimizers",
       "lang": "ar",
       "width": 1280,
       "overflow": false

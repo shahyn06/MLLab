@@ -15,7 +15,8 @@
     "predev": "npm run libraries && node scripts/build-worker.mjs",
     "portable": "npm run build:portable && python3 scripts/package-portable.py",
     "libraries": "node scripts/build-libraries.mjs && tailwindcss -i src/tailwind-input.css -o src/vendor/tailwind-utilities.css --minify",
-    "test:courses": "node scripts/test-courses.mjs"
+    "test:courses": "node scripts/test-courses.mjs",
+    "test:tutorials": "node scripts/test-tutorials.mjs"
   },
   "dependencies": {
     "@codemirror/commands": "^6.11.1",

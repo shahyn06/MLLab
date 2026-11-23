@@ -1,0 +1,277 @@
+{
+  "checks": [
+    {
+      "unit": "python",
+      "lang": "en"
+    },
+    {
+      "unit": "python",
+      "lang": "ar"
+    },
+    {
+      "unit": "numpy",
+      "lang": "en"
+    },
+    {
+      "unit": "numpy",
+      "lang": "ar"
+    },
+    {
+      "unit": "pandas",
+      "lang": "en"
+    },
+    {
+      "unit": "pandas",
+      "lang": "ar"
+    },
+    {
+      "unit": "plotting",
+      "lang": "en"
+    },
+    {
+      "unit": "plotting",
+      "lang": "ar"
+    },
+    {
+      "unit": "notebooks",
+      "lang": "en"
+    },
+    {
+      "unit": "notebooks",
+      "lang": "ar"
+    },
+    {
+      "unit": "vectors",
+      "lang": "en"
+    },
+    {
+      "unit": "vectors",
+      "lang": "ar"
+    },
+    {
+      "unit": "matrices",
+      "lang": "en"
+    },
+    {
+      "unit": "matrices",
+      "lang": "ar"
+    },
+    {
+      "unit": "derivatives",
+      "lang": "en"
+    },
+    {
+      "unit": "derivatives",
+      "lang": "ar"
+    },
+    {
+      "unit": "exponential",
+      "lang": "en"
+    },
+    {
+      "unit": "exponential",
+      "lang": "ar"
+    },
+    {
+      "unit": "probability",
+      "lang": "en"
+    },
+    {
+      "unit": "probability",
+      "lang": "ar"
+    },
+    {
+      "unit": "descriptive",
+      "lang": "en"
+    },
+    {
+      "unit": "descriptive",
+      "lang": "ar"
+    },
+    {
+      "unit": "distributions",
+      "lang": "en"
+    },
+    {
+      "unit": "distributions",
+      "lang": "ar"
+    },
+    {
+      "unit": "correlation",
+      "lang": "en"
+    },
+    {
+      "unit": "correlation",
+      "lang": "ar"
+    },
+    {
+      "unit": "sampling",
+      "lang": "en"
+    },
+    {
+      "unit": "sampling",
+      "lang": "ar"
+    },
+    {
+      "unit": "hypothesis",
+      "lang": "en"
+    },
+    {
+      "unit": "hypothesis",
+      "lang": "ar"
+    },
+    {
+      "unit": "learning-types",
+      "lang": "en"
+    },
+    {
+      "unit": "learning-types",
+      "lang": "ar"
+    },
+    {
+      "unit": "regression",
+      "lang": "en"
+    },
+    {
+      "unit": "regression",
+      "lang": "ar"
+    },
+    {
+      "unit": "gradient",
+      "lang": "en"
+    },
+    {
+      "unit": "gradient",
+      "lang": "ar"
+    },
+    {
+      "unit": "losses",
+      "lang": "en"
+    },
+    {
+      "unit": "losses",
+      "lang": "ar"
+    },
+    {
+      "unit": "perceptron",
+      "lang": "en"
+    },
+    {
+      "unit": "perceptron",
+      "lang": "ar"
+    },
+    {
+      "unit": "logistic",
+      "lang": "en"
+    },
+    {
+      "unit": "logistic",
+      "lang": "ar"
+    },
+    {
+      "unit": "softmax",
+      "lang": "en"
+    },
+    {
+      "unit": "softmax",
+      "lang": "ar"
+    },
+    {
+      "unit": "task-types",
+      "lang": "en"
+    },
+    {
+      "unit": "task-types",
+      "lang": "ar"
+    },
+    {
+      "unit": "datasets",
+      "lang": "en"
+    },
+    {
+      "unit": "datasets",
+      "lang": "ar"
+    },
+    {
+      "unit": "preprocessing",
+      "lang": "en"
+    },
+    {
+      "unit": "preprocessing",
+      "lang": "ar"
+    },
+    {
+      "unit": "evaluation",
+      "lang": "en"
+    },
+    {
+      "unit": "evaluation",
+      "lang": "ar"
+    },
+    {
+      "unit": "regularization",
+      "lang": "en"
+    },
+    {
+      "unit": "regularization",
+      "lang": "ar"
+    },
+    {
+      "unit": "classical",
+      "lang": "en"
+    },
+    {
+      "unit": "classical",
+      "lang": "ar"
+    },
+    {
+      "unit": "clustering",
+      "lang": "en"
+    },
+    {
+      "unit": "clustering",
+      "lang": "ar"
+    },
+    {
+      "unit": "unsupervised",
+      "lang": "en"
+    },
+    {
+      "unit": "unsupervised",
+      "lang": "ar"
+    },
+    {
+      "unit": "neural",
+      "lang": "en"
+    },
+    {
+      "unit": "neural",
+      "lang": "ar"
+    },
+    {
+      "unit": "optimization",
+      "lang": "en"
+    },
+    {
+      "unit": "optimization",
+      "lang": "ar"
+    },
+    {
+      "unit": "cnn",
+      "lang": "en"
+    },
+    {
+      "unit": "cnn",
+      "lang": "ar"
+    },
+    {
+      "unit": "sequence",
+      "lang": "en"
+    },
+    {
+      "unit": "sequence",
+      "lang": "ar"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "production build four actual sklearn estimators",
+    "production Seaborn/Matplotlib PNG",
+    "portable file renders with explicit Python-disabled state",
+    "portable embedded Arabic dictionary and translated Python-disabled state"
+  ],
+  "errors": []
+}

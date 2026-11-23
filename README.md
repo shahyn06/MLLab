@@ -1,6 +1,18 @@
 # ML Learning Lab
 
-An English-language, browser-based Machine Learning learning website. Change parameters, inspect the results and understand the model.
+A bilingual Arabic/English guided Machine Learning learning website. Change parameters, inspect results and practice with editable Python.
+
+## Guided learning expansion
+
+The current source adds a six-level, 34-unit learning map and ten original micro-courses: 45 lessons, 180 checked exercises and six level projects. Every map unit has original bilingual guidance, a numerical interactive illustration, three guided experiments, rendered math and a persisted quiz. See [the implementation and QA status](docs/EXPANSION_STATUS.md) for exact coverage and remaining caveats.
+
+Tutorial and exercise Python runs locally in a Web Worker through lazily downloaded Pyodide 314.0.8. NumPy, Pandas, SciPy, scikit-learn, Matplotlib and Seaborn are supported. Code and output remain on the device. First use needs internet to download the runtime/packages. The single-file portable HTML disables Python execution with an explicit message. The optional local FastAPI backend is separate and is required only for account sync and advanced server workspaces.
+
+Accounts use explicit Save/Reload, not automatic cloud sync. Enable `ML_LAB_AUTH_ENABLED=true` on your local API to use them. Guest use needs no account or backend. Account sessions are in memory and require login again after a page refresh.
+
+No new deployment is enabled. Existing hosting is unchanged. Do not change repository visibility to deploy it. See [static deployment choices](docs/STATIC_DEPLOYMENT.md).
+
+The older acceptance sections below describe the retained labs and their earlier development, not a new deployment or complete end-to-end acceptance of this expansion.
 
 ## Core browser workspaces
 
@@ -8,7 +20,7 @@ An English-language, browser-based Machine Learning learning website. Change par
 - **Perceptron:** online training on AND and XOR, adjustable weights and bias, a decision-boundary plot and prediction table.
 - **Gradient Descent:** a quadratic loss curve, configurable learning rate, single-step and ten-step updates, timed playback, paired objective/learning-curve plots and position history.
 - Each lab includes an explanation, worked example, educational Python code and a quiz with feedback.
-- A searchable roadmap covers 15 curriculum sections. Unbuilt topics are labeled Planned.
+- A searchable six-level roadmap covers 34 guided units and links to the existing workspaces.
 - Dashboard, nine lab families, sidebar, Settings, light/dark themes and rendered equations. Planned labs are clearly marked.
 - Responsive design. Browser workbenches calculate locally; the optional Local execution workspace sends explicit requests to your own API.
 
@@ -50,7 +62,7 @@ Deploy the contents of `dist` to a static host. The browser labs need no backend
 
 Three original algorithm labs, four mathematical workbenches, a 12-estimator supervised workbench, K-Means, dataset/evaluation tools and small neural-network workbenches are built. The remaining curriculum is a roadmap, not completed course material. Topic names follow the aibdaya.com concept-map image supplied for the project. The request described 217 topics; the total has not been reconciled item by item. The project does not copy paid course content or access a course account.
 
-Lab state is temporary and resets when the page is reopened. Theme preferences are saved locally when browser storage is available. Python snippets in the browser lessons are educational. Only the optional local API workspace executes Python, after checking isolation capability. Examples are fictional and are not production models. Do not enter sensitive data. Browser workbenches do not upload their inputs. The Local execution workspace sends selected uploads, training configurations and Python to the explicit loopback API you connect.
+Lab state is temporary and resets when the page is reopened. Theme preferences are saved locally when browser storage is available. Legacy lab snippets are copyable educational examples. New micro-course cells execute real browser Python through Pyodide. The optional local API has its own isolated Python runner. Examples are fictional and are not production models. Do not enter sensitive data. Browser workbenches do not upload their inputs. The Local execution workspace sends selected uploads, training configurations and Python to the explicit loopback API you connect.
 
 ## Educational references
 
