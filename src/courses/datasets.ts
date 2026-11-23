@@ -1,0 +1,2 @@
+export const courseFiles={"reviews.csv":"item,rating,units,note\ntea,4,2,fresh\ncoffee,5,3,\ntea,3,1,mild\njuice,2,4,sour\ncoffee,4,2,\njuice,5,1,sweet\n","housing.csv":"area,rooms,price\n40,1,80\n55,2,110\n70,2,140\n85,3,170\n100,3,200\n115,4,230\n","measurements.csv":"sample,value\na,2\nb,4\nc,4\nd,6\ne,9\n"};
+export const datasetLicense='Original synthetic teaching datasets, CC0-1.0. No personal data.';

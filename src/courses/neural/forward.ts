@@ -1,0 +1,204 @@
+import type {Lesson} from '../types';
+export const lesson:Lesson={
+  "id": "neural-forward",
+  "title": {
+    "en": "Layers and activations",
+    "ar": "الطبقات ودوال التنشيط"
+  },
+  "minutes": 15,
+  "intro": {
+    "en": "A dense layer multiplies inputs by weights, adds biases and applies an activation. Nonlinear activations let stacked layers represent nonlinear patterns. Track tensor shapes and distinguish the number of weights from the number of biases.",
+    "ar": "تضرب الطبقة الكثيفة المدخلات بالأوزان وتضيف الانحياز ثم التنشيط. يسمح التنشيط غير الخطي بتمثيل أنماط غير خطية. راقب الأبعاد وميز الأوزان عن الانحياز."
+  },
+  "cells": [
+    {
+      "id": "neural-forward-a",
+      "text": {
+        "en": "Run this example, then edit one value and predict how the output changes.",
+        "ar": "شغّل المثال ثم غيّر قيمة وتوقع كيف يتغير الخرج."
+      },
+      "code": "import numpy as np\nx=np.array([1.,2.]);W=np.array([[1.,-1.],[.5,.5]])\nz=x@W\nprint(z,np.maximum(z,0))"
+    },
+    {
+      "id": "neural-forward-b",
+      "text": {
+        "en": "Compare this second view of the same idea. Explain what each output represents.",
+        "ar": "قارن هذا التطبيق الآخر للفكرة وفسر معنى كل خرج."
+      },
+      "code": "import numpy as np\nx=np.array([1.,2.]);W=np.array([[1.,-1.],[.5,.5]])\nz=x@W\nprint(z,np.maximum(z,0))\n\nprint(1/(1+np.exp(-np.array([-1.,0.,1.]))))"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "neural-forward-q1",
+      "title": {
+        "en": "Question 1 · Start",
+        "ar": "السؤال 1 · ابدأ"
+      },
+      "instructions": {
+        "en": "Compute ReLU([-2,0,3]).",
+        "ar": "احسب ReLU للقيم."
+      },
+      "starter": "# Your code here\n",
+      "setup": "import numpy as np",
+      "checker": {
+        "kind": "array",
+        "variable": "result",
+        "expected": [
+          0,
+          0,
+          3
+        ]
+      },
+      "hints": [
+        {
+          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
+          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+        },
+        {
+          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
+          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+        }
+      ],
+      "solution": "result=np.maximum([-2,0,3],0)",
+      "explanation": {
+        "en": "This solution follows the requested operation. The checker compares the resulting array with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
+        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+      },
+      "labRoute": "/neural"
+    },
+    {
+      "id": "neural-forward-q2",
+      "title": {
+        "en": "Question 2 · Apply",
+        "ar": "السؤال 2 · طبّق"
+      },
+      "instructions": {
+        "en": "Compute [1,2] @ [[1,-1],[.5,.5]].",
+        "ar": "احسب خرج الطبقة الخطية."
+      },
+      "starter": "# Your code here\n",
+      "setup": "import numpy as np",
+      "checker": {
+        "kind": "array",
+        "variable": "result",
+        "expected": [
+          2,
+          0
+        ]
+      },
+      "hints": [
+        {
+          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
+          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+        },
+        {
+          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
+          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+        }
+      ],
+      "solution": "result=np.array([1,2])@np.array([[1,-1],[.5,.5]])",
+      "explanation": {
+        "en": "This solution follows the requested operation. The checker compares the resulting array with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
+        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+      },
+      "labRoute": "/neural"
+    },
+    {
+      "id": "neural-forward-q3",
+      "title": {
+        "en": "Question 3 · Modify",
+        "ar": "السؤال 3 · عدّل"
+      },
+      "instructions": {
+        "en": "Count weights in a dense 3-input, 4-output layer, excluding bias.",
+        "ar": "احسب عدد الأوزان دون الانحياز."
+      },
+      "starter": "# Your code here\n",
+      "setup": "import numpy as np",
+      "checker": {
+        "kind": "value",
+        "variable": "result",
+        "expected": 12
+      },
+      "hints": [
+        {
+          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
+          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+        },
+        {
+          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
+          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+        }
+      ],
+      "solution": "result=3*4",
+      "explanation": {
+        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
+        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+      },
+      "labRoute": "/neural"
+    },
+    {
+      "id": "neural-forward-q4",
+      "title": {
+        "en": "Question 4 · Combine",
+        "ar": "السؤال 4 · اجمع"
+      },
+      "instructions": {
+        "en": "Count biases for a 4-output dense layer.",
+        "ar": "احسب عدد قيم الانحياز."
+      },
+      "starter": "# Your code here\n",
+      "setup": "import numpy as np",
+      "checker": {
+        "kind": "value",
+        "variable": "result",
+        "expected": 4
+      },
+      "hints": [
+        {
+          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
+          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+        },
+        {
+          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
+          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+        }
+      ],
+      "solution": "result=4",
+      "explanation": {
+        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
+        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+      },
+      "labRoute": "/neural"
+    }
+  ],
+  "challenge": {
+    "goal": {
+      "en": "Implement a two-layer ReLU network forward pass with NumPy and print every intermediate shape and activation.",
+      "ar": "نفذ المرور الأمامي لشبكة بطبقتين مع ReLU واطبع الأبعاد والتنشيطات."
+    },
+    "steps": [
+      {
+        "en": "Use the tutorial cell to prepare the inputs, then implement the analysis described in the goal.",
+        "ar": "استخدم خلية الشرح لتجهيز المدخلات ثم نفذ التحليل المحدد في الهدف."
+      },
+      {
+        "en": "Print the computed intermediate values so another learner can follow your reasoning.",
+        "ar": "اطبع القيم الوسيطة المحسوبة حتى يستطيع متعلم آخر متابعة التفكير."
+      },
+      {
+        "en": "Check one result independently by hand or with a second calculation.",
+        "ar": "تحقق من نتيجة واحدة يدويًا أو بحساب آخر مستقل."
+      }
+    ],
+    "expected": {
+      "en": "A runnable cell, its real output and a short explanation of the change.",
+      "ar": "خلية قابلة للتشغيل وخرجها الحقيقي وشرح قصير للتغيير."
+    },
+    "selfCheck": {
+      "en": "The cell runs without error; your predicted type, shape and values match the output.",
+      "ar": "تعمل الخلية دون خطأ ويتطابق النوع والأبعاد والقيم مع توقعك."
+    }
+  }
+};

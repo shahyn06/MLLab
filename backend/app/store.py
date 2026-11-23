@@ -41,6 +41,9 @@ class Store:
                     experiment_id TEXT PRIMARY KEY, owner TEXT NOT NULL,
                     artifact BLOB NOT NULL, metadata TEXT NOT NULL
                 );
+                CREATE TABLE IF NOT EXISTS learning_progress (
+                    owner TEXT PRIMARY KEY, document TEXT NOT NULL, updated_at TEXT NOT NULL
+                );
                 CREATE INDEX IF NOT EXISTS dataset_owner ON datasets(owner);
                 CREATE INDEX IF NOT EXISTS experiment_owner ON experiments(owner);
             ''')

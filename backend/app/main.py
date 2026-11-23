@@ -1,6 +1,9 @@
 import io
 import json
 import threading
+import time
+from collections import defaultdict
+from .progress import LearningProgress
 from contextlib import asynccontextmanager
 from dataclasses import asdict
 from typing import Annotated
@@ -24,10 +27,23 @@ def create_app(settings=None):
     app.add_middleware(CORSMiddleware, allow_origins=list(settings.cors_origins), allow_credentials=False,
                        allow_methods=['GET', 'POST', 'PUT', 'DELETE'], allow_headers=['Authorization', 'Content-Type'])
 
+    auth_attempts = defaultdict(list)
+    auth_lock = threading.Lock()
+
     @app.middleware('http')
     async def request_size_limit(request: Request, call_next):
         # Reject both advertised and streamed oversized bodies before parsing.
         # The local prototype deliberately caps every request, including JSON.
+        if request.url.path in {'/api/v1/auth/login', '/api/v1/auth/register'} and request.method == 'POST':
+            key = request.client.host if request.client else 'unknown'
+            tick = time.monotonic()
+            with auth_lock:
+                for old_key in list(auth_attempts):
+                    auth_attempts[old_key] = [t for t in auth_attempts[old_key] if tick-t < 60]
+                    if not auth_attempts[old_key]: del auth_attempts[old_key]
+                if len(auth_attempts[key]) >= 12:
+                    return JSONResponse({'detail': 'Too many authentication attempts. Try again in one minute.'}, status_code=429, headers={'Retry-After':'60'})
+                auth_attempts[key].append(tick)
         limit = settings.upload_bytes + 65536
         try:
             if int(request.headers.get('content-length', '0')) > limit:
@@ -54,6 +70,21 @@ def create_app(settings=None):
 
     Owner = Annotated[str, Depends(owner)]
     prefix = '/api/v1'
+
+    @app.get(prefix + '/progress', response_model=LearningProgress, tags=['progress'])
+    def get_progress(user: Owner):
+        with store.connect() as db:
+            row = db.execute('SELECT document FROM learning_progress WHERE owner=?', (user,)).fetchone()
+        return json.loads(row['document']) if row else LearningProgress()
+
+    @app.put(prefix + '/progress', response_model=LearningProgress, tags=['progress'])
+    def put_progress(payload: LearningProgress, user: Owner):
+        document = payload.model_dump_json()
+        if len(document.encode()) > 256000:
+            raise HTTPException(413, 'Progress exceeds 256 KB')
+        with store.connect() as db:
+            db.execute('INSERT INTO learning_progress VALUES (?,?,?) ON CONFLICT(owner) DO UPDATE SET document=excluded.document, updated_at=excluded.updated_at', (user, document, now()))
+        return payload
 
     def get_dataset(dataset_id, user):
         result = store.dataset(dataset_id, user)
