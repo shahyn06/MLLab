@@ -48,18 +48,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Translate the requested relationship into one expression. Use the inputs from the task rather than copying the tutorial values.",
+          "ar": "حوّل العلاقة المطلوبة إلى تعبير واحد واستخدم مدخلات المهمة لا قيم المثال."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = np.cov([1,2,3],[2,4,6],ddof=1)[0,1]",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Find covariance of [1,2,3] with [2,4,6], sample definition. The solution computes this using result = np.cov([1,2,3],[2,4,6],ddof=1)[0,1]. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب التغاير بتعريف العينة. يحسب الحل ذلك باستخدام result = np.cov([1,2,3],[2,4,6],ddof=1)[0,1]. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -81,18 +81,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Translate the requested relationship into one expression. Use the inputs from the task rather than copying the tutorial values.",
+          "ar": "حوّل العلاقة المطلوبة إلى تعبير واحد واستخدم مدخلات المهمة لا قيم المثال."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = stats.pearsonr([1,2,3],[2,4,6]).statistic",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Find correlation of the same values. The solution computes this using result = stats.pearsonr([1,2,3],[2,4,6]).statistic. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب الارتباط لنفس القيم. يحسب الحل ذلك باستخدام result = stats.pearsonr([1,2,3],[2,4,6]).statistic. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -114,18 +114,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Identify the aggregation and its axis. Check whether the question uses population variance or sample variance (ddof=1).",
+          "ar": "حدد عملية التجميع ومحورها وافحص هل المطلوب تباين المجتمع أم العينة (ddof=1)."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = stats.ttest_1samp([4,5,6,7,8],popmean=6).statistic",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Find t statistic testing mean 6 for [4,5,6,7,8]. The solution computes this using result = stats.ttest_1samp([4,5,6,7,8],popmean=6).statistic. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب إحصاء t لاختبار المتوسط 6. يحسب الحل ذلك باستخدام result = stats.ttest_1samp([4,5,6,7,8],popmean=6).statistic. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -147,18 +147,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Translate the requested relationship into one expression. Use the inputs from the task rather than copying the tutorial values.",
+          "ar": "حوّل العلاقة المطلوبة إلى تعبير واحد واستخدم مدخلات المهمة لا قيم المثال."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = .03 < .05",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "For p=.03 and alpha=.05, store whether the null is rejected. This does not prove the alternative. The solution computes this using result = .03 < .05. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "عند p=.03 و alpha=.05 هل نرفض فرض العدم؟ هذا لا يثبت البديل. يحسب الحل ذلك باستخدام result = .03 < .05. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     }
   ],

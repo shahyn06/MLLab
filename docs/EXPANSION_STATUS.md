@@ -1,50 +1,58 @@
-# Guided learning expansion checkpoint
+# Guided learning expansion, in progress
 
-This is an implementation checkpoint, not a finished release. Existing published File is unchanged.
+Source work is on `feature/guided-learning`. This is not a completion or deployment claim. The existing hosted File has not been changed. No new hosting account, paid service or deployment has been created.
 
-Implemented:
-- One six-level, 34-unit path model; visual/collapsible roadmap and list view; unified navigation.
-- Arabic/English platform scaffold, course text and instructions; RTL and dark/light/system themes.
-- Guest progress; explicit account progress save/reload and opt-in merge. Owner-scoped backend endpoints, validation and login throttling.
-- Ten original micro-courses, 41 lessons, 164 exercises. Pandas has five lessons.
-- Editable tutorial/exercise cells; lazy Pyodide module worker; package loading; real output; checker feedback; hints and gated solutions; inline figure support; stop/timeout paths.
-- Per-exercise attempted/solved/hints/solution tracking; course completion image.
-- Synthetic CC0 teaching data and 328 passing checker solution/wrong-answer checks.
+## Implemented
 
-Not complete / must verify before release:
-- Full legacy lab translation: original advanced workspaces remain English. The UI explicitly says so.
-- Unit template depth and per-unit mapping need a content pass. Several units share the same old workbench; new micro-courses are mapped at course rather than individual-lesson granularity.
-- Add explicit level mini-projects beyond lesson-specific mini-challenges. Review all teaching explanations, hints and exercise difficulty.
-- Browser QA across all routes, three widths, both themes/languages; real Pyodide stop/timeouts, all packages and inline figures; course completion download; account navigation persistence and merge behavior.
-- Minimize first-load JS further. Plotly/Three are deferred, but initial bundle is still large because existing experiment provider imports heavy components.
-- Hosted compatibility and publication. The existing File sandbox may block Pyodide workers/CDN imports; test an unpublished preview before claiming online execution there. No backend deployment or paid hosting is configured.
-- Portable build, generated documentation and exact reproducible checker export script.
-- Verify all old routes/snapshots and final tsc/npm/backend suites again after remaining fixes.
+- A six-level, 34-unit path, collapsible roadmap/list, search, prerequisite recommendations, course navigation, breadcrumbs and resume.
+- Ten original bilingual micro-courses with 42 lessons and 168 exercises. Pandas has five lessons. Statistics now includes a dedicated covariance/correlation lesson rather than incorrectly routing that unit to inference.
+- Editable Python tutorial and exercise cells with Run, Check, Stop, reset/copy, real stdout/errors, figures, hints, solutions after an attempt/hint and completion-image download.
+- Disposable module-worker Python, pinned Pyodide 314.0.8. Seaborn 0.13.2 loads through micropip. Matplotlib uses Agg with PNG capture. Runtime/package state is shared across cells; learner namespaces are fresh.
+- A 12-second execution timeout, 150-second loading timeout, Stop/worker reset, recovery and global concurrent-run guard.
+- Six distinct level projects with runnable cells, goals, steps and self-checks.
+- Guest progress, account login/logout, explicit account save/reload and opt-in merge. Saved browser snapshots are scoped to guest/account; login merge preserves the guest copy. Legacy quiz results are recorded.
+- Over 1,700 legacy Arabic text entries, including every math/data/network worked-example tuple and algorithm derivation tuple. Shared controls and 188 literal props use locale hooks. Arabic data selectors retain stable internal values. Arabic dictionary lazy-loads instead of inflating the initial English bundle.
+- Existing lab routes, deterministic numerical engines and snapshot validators/replay retained. Removed duplicated placeholder UnitFrame sections, leaving the actual lab and links to actual lessons.
+- Manual-only static deployment workflow and deployment guide. Nothing has been triggered.
 
-Run frontend: `npm ci && npm run dev`.
-Run tests: `npx tsc --noEmit && npm test`.
-Run backend tests: install `backend[test]`, then `cd backend && pytest`.
-Run checker parity: install NumPy/Pandas/SciPy/scikit-learn/Matplotlib/Seaborn, then `python tests/check_course_solutions.py`.
+## Verified locally
 
-Pyodide reference checked 23 November 2026:
+- TypeScript and the complete `npm test` suite pass after the current changes.
+- 336 official-solution / deliberate-wrong-answer checker cases pass.
+- Backend: 55 tests pass. The browser fixture backend was restarted after schema changes before the account snapshot check.
+- Real Python output, Pandas DataFrame checker/type rejection, Stop, automatic timeout, fresh-worker recovery, second-cell runtime reuse, sklearn tree prediction `[0 1]`, Seaborn and Matplotlib figure output.
+- Account register/login/merge/save/reload/logout, snapshot round-trip and logout isolation.
+- 372 new route/language/width geometry checks: no JS errors or horizontal overflow. 192 legacy route/language/theme/layout/accessibility records: no JS errors or overflow.
+- 32 expanded-disclosure legacy accessibility scans across both languages/themes: no detected WCAG-tag rule violations after light-mode quiz/nav fixes. This is bounded automated coverage, not assistive-technology certification.
+- 70 legacy replay/import/history UI checks pass, including unchanged learned-state replay and malicious/invalid import rejection.
+- Keyboard course tabs, Home/arrow keys, resume destination, Arabic math selectors and advanced teaching, quiz persistence.
+- Normal and portable production builds pass. Portable HTML intentionally does not run Python. Generated source ZIP is local only.
+- Arabic mobile header/legacy math/classical/neural and detailed statistics/classical teaching screenshots were inspected. Prior Pandas, output-figure and certificate screenshots were inspected.
+
+## Still to finish before calling the expansion complete
+
+- Close the remaining curriculum depth gaps. In particular, the map's Jupyter workflow currently maps to Python functions, which is not an adequate dedicated lesson. Some units share related lessons. Audit all exact advertised topics and add missing teaching/widgets rather than claiming coverage from a nearby title.
+- Review course-level template/content depth against the requested shared unit template. Do not reinsert generic placeholder prose to satisfy headings. Course intros, original lab links, exercises and mini-challenges exist, but the full why/concept/visual/math/task/quiz progression needs a final content pass.
+- Finish legacy dynamic text localization, especially computed detail/error/status strings, some quiz option arrays and developer-facing API messages. The UI explicitly warns that some detailed computation messages remain English. Do not claim every string is Arabic.
+- Add unit-specific guided experiments where a generic mini-challenge is still too shallow. Keep genuine computational checks and solutions.
+- Update older README claims and OpenAPI/deployment instructions to distinguish browser Python from optional backend Python. Keep the original project's historical acceptance record distinct from this new expansion.
+- Final production/portable browser sanity check, full frontend/backend/checker tests, inspect final screenshots and rebuild source archive after the last content changes.
+- Deployment requires owner selection/approval. See `STATIC_DEPLOYMENT.md`. A private repo must not be made visible to anyone just to enable free hosting.
+
+## Reproduce
+
+Frontend: `npm ci && npm run dev`.
+
+Source checks: `npx tsc --noEmit && npm test`.
+
+Python checker parity: `PYTHON=/path/to/python npm run test:courses`, with NumPy, Pandas, SciPy, scikit-learn, Matplotlib and Seaborn installed.
+
+Backend tests: install `backend[test]`, then `cd backend && pytest`.
+
+Build: `npm run build`; standalone read-only Python-disabled copy: `npm run portable`.
+
+Browser scripts under `tests/browser/` include `runtime-recovery.mjs`, `package-runtime.mjs`, `snapshot-account.mjs`, `arabic-effects.mjs`, `expanded-accessibility.mjs`, `legacy-expansion.mjs` and `expansion-visual.mjs`. They expect the dev frontend on 5173; the account test expects a disposable auth-enabled backend on 8000. They write local test records and evidence only. Use a fixture database, not a real user database.
+
+Pyodide documentation checked for this implementation:
 https://pyodide.org/en/stable/usage/webworker.html
 https://pyodide.org/en/stable/usage/downloading-and-deploying.html
-Runtime is pinned to 314.0.8. Python is in a module worker; learner code is local, not sent to a Python server. Runtime downloads go to jsDelivr. Do not execute untrusted code.
-
-## Runtime QA update
-- Real Pandas tutorial output, correct DataFrame checker and wrong-type rejection verified in Chromium.
-- Infinite-loop Stop verified: worker terminates and editor text remains.
-- Seaborn is not in Pyodide's built-in package index. Runtime now loads it with pinned micropip (0.13.2, dependencies already loaded), not loadPackage.
-- Matplotlib must use Agg inside the worker. Native Pyodide browser backend expects window and fails there. Corrected to Agg and collect PNGs inline.
-- Full backend suite passes 55 tests.
-- English and Arabic Pandas exercise mobile screenshots visually inspected; no horizontal overflow.
-
-## Integration update
-- Every map unit now opens a specific real lesson. Unit lessonId/codeId/taskIds/quizId are populated from the shared lesson metadata. All map states reflect checked exercise completion rather than review checkboxes.
-- Added six distinct level projects with dataset, steps, expected results and independent self-check criteria.
-- Initial bundle reduced to about 300 KB (93 KB gzip), with courses, advanced labs, Plotly and Three.js deferred.
-- 366 route/language/viewport layout checks passed with zero page errors and no horizontal overflow. This is geometry coverage, not a claim that every pixel has been manually inspected.
-- Account browser workflow passed register/login/opt-in merge/save/navigate/reload/logout.
-- Portable build succeeds. Python execution is intentionally disabled in portable mode.
-- Static-host workflow/config is ready but manual-only; no deployment enabled or triggered. See STATIC_DEPLOYMENT.md.
-- Snapshot integration now scopes browser snapshots to the logged-in progress document, with guest-to-account merge preserving IDs and existing guest data. Needs final backend round-trip and UI QA.

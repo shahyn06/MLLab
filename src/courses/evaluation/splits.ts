@@ -48,18 +48,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Translate the requested relationship into one expression. Use the inputs from the task rather than copying the tutorial values.",
+          "ar": "حوّل العلاقة المطلوبة إلى تعبير واحد واستخدم مدخلات المهمة لا قيم المثال."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "a,b=train_test_split(list(range(20)),test_size=.25,random_state=7)\nresult=len(b)",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Split 20 indices with test_size=.25 and store test count. The solution computes this using a,b=train_test_split(list(range(20)),test_size=.25,random_state=7); result=len(b). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "قسم 20 فهرسًا واحفظ حجم الاختبار. يحسب الحل ذلك باستخدام a,b=train_test_split(list(range(20)),test_size=.25,random_state=7); result=len(b). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/evaluation"
     },
@@ -82,18 +82,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Translate the requested relationship into one expression. Use the inputs from the task rather than copying the tutorial values.",
+          "ar": "حوّل العلاقة المطلوبة إلى تعبير واحد واستخدم مدخلات المهمة لا قيم المثال."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = bool(set([0,1,2]) & set([3,4]))",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Store whether train=[0,1,2] and test=[3,4] overlap. The solution computes this using result = bool(set([0,1,2]) & set([3,4])). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "هل تتداخل المجموعتان؟ يحسب الحل ذلك باستخدام result = bool(set([0,1,2]) & set([3,4])). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/evaluation"
     },
@@ -116,18 +116,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Use an explicit type conversion. Check the type of the input before combining numbers and text.",
+          "ar": "استخدم تحويل نوع صريحًا وافحص نوع المدخل قبل الجمع بين الأعداد والنصوص."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result=100-int(100*.2)",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Calculate training count for 100 samples with 20% test. The solution computes this using result=100-int(100*.2). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب حجم التدريب. يحسب الحل ذلك باستخدام result=100-int(100*.2). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/evaluation"
     },
@@ -150,18 +150,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Translate the requested relationship into one expression. Use the inputs from the task rather than copying the tutorial values.",
+          "ar": "حوّل العلاقة المطلوبة إلى تعبير واحد واستخدم مدخلات المهمة لا قيم المثال."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "a=train_test_split(list(range(20)),random_state=7)\nb=train_test_split(list(range(20)),random_state=7)\nresult = a==b",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Check that a seeded split repeats exactly. The solution computes this using a=train_test_split(list(range(20)),random_state=7); b=train_test_split(list(range(20)),random_state=7); result = a==b. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "تحقق أن نفس البذرة تكرر التقسيم. يحسب الحل ذلك باستخدام a=train_test_split(list(range(20)),random_state=7); b=train_test_split(list(range(20)),random_state=7); result = a==b. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/evaluation"
     }

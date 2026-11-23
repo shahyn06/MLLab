@@ -48,18 +48,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Separate the factors and calculate their product. Keep the result numeric rather than putting the expression in quotes.",
+          "ar": "حدد العوامل واحسب حاصل ضربها. أبق النتيجة عددية ولا تضع التعبير بين علامتي اقتباس."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = 2*3",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Evaluate derivative of x squared at x=3. The solution computes this using result = 2*3. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب مشتقة مربع x عند 3. يحسب الحل ذلك باستخدام result = 2*3. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -81,18 +81,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Separate the factors and calculate their product. Keep the result numeric rather than putting the expression in quotes.",
+          "ar": "حدد العوامل واحسب حاصل ضربها. أبق النتيجة عددية ولا تضع التعبير بين علامتي اقتباس."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = 4*(2*1-3)",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Evaluate derivative of (2w-3)^2 at w=1. The solution computes this using result = 4*(2*1-3). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "طبق قاعدة السلسلة عند w=1. يحسب الحل ذلك باستخدام result = 4*(2*1-3). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -114,18 +114,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Separate the factors and calculate their product. Keep the result numeric rather than putting the expression in quotes.",
+          "ar": "حدد العوامل واحسب حاصل ضربها. أبق النتيجة عددية ولا تضع التعبير بين علامتي اقتباس."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = 1-.1*(-4)",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Take one gradient step from w=1, gradient=-4, learning rate=.1. The solution computes this using result = 1-.1*(-4). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "نفذ خطوة نزول تدريجي واحدة. يحسب الحل ذلك باستخدام result = 1-.1*(-4). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -147,18 +147,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Separate the factors and calculate their product. Keep the result numeric rather than putting the expression in quotes.",
+          "ar": "حدد العوامل واحسب حاصل ضربها. أبق النتيجة عددية ولا تضع التعبير بين علامتي اقتباس."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "h=1e-5\nresult = (np.sin(h)-np.sin(-h))/(2*h)",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Approximate derivative of sin(x) at zero using centered differences h=1e-5. The solution computes this using h=1e-5; result = (np.sin(h)-np.sin(-h))/(2*h). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "قرب مشتقة sin عند صفر بالفروق المركزية. يحسب الحل ذلك باستخدام h=1e-5; result = (np.sin(h)-np.sin(-h))/(2*h). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     }
   ],

@@ -52,18 +52,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Build the NumPy array first and inspect its shape and dtype before applying the operation.",
+          "ar": "أنشئ مصفوفة NumPy أولًا وافحص shape وdtype قبل العملية."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return array output with shape [3]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع array بالأبعاد [3]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = np.array([1,2,3]) + 10",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting array with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Add 10 to [1,2,3] without a loop. The solution computes this using result = np.array([1,2,3]) + 10. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "أضف 10 لكل عنصر دون حلقة. يحسب الحل ذلك باستخدام result = np.array([1,2,3]) + 10. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -94,18 +94,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Identify the aggregation and its axis. Check whether the question uses population variance or sample variance (ddof=1).",
+          "ar": "حدد عملية التجميع ومحورها وافحص هل المطلوب تباين المجتمع أم العينة (ddof=1)."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return array output with shape [2, 2]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع array بالأبعاد [2, 2]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "x = np.array([[1.,2.],[3.,4.]])\nresult = x-x.mean(axis=0)",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting array with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Subtract column means from [[1,2],[3,4]]. The solution computes this using x = np.array([[1.,2.],[3.,4.]]); result = x-x.mean(axis=0). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "اطرح متوسط كل عمود. يحسب الحل ذلك باستخدام x = np.array([[1.,2.],[3.,4.]]); result = x-x.mean(axis=0). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -131,18 +131,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Build the NumPy array first and inspect its shape and dtype before applying the operation.",
+          "ar": "أنشئ مصفوفة NumPy أولًا وافحص shape وdtype قبل العملية."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return array output with shape [3]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع array بالأبعاد [3]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = np.array([2,3,4])*np.array([5,6,7])",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting array with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Multiply [2,3,4] elementwise by [5,6,7]. The solution computes this using result = np.array([2,3,4])*np.array([5,6,7]). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "اضرب المصفوفتين عنصرًا بعنصر. يحسب الحل ذلك باستخدام result = np.array([2,3,4])*np.array([5,6,7]). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -164,18 +164,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Identify the aggregation and its axis. Check whether the question uses population variance or sample variance (ddof=1).",
+          "ar": "حدد عملية التجميع ومحورها وافحص هل المطلوب تباين المجتمع أم العينة (ddof=1)."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = np.mean((np.array([1,3])-np.array([2,5]))**2)",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Calculate mean squared error between [1,3] and [2,5]. The solution computes this using result = np.mean((np.array([1,3])-np.array([2,5]))**2). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب متوسط مربع الخطأ بين القيم والتنبؤات. يحسب الحل ذلك باستخدام result = np.mean((np.array([1,3])-np.array([2,5]))**2). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     }
   ],

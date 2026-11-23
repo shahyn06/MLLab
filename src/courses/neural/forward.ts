@@ -52,18 +52,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Translate the requested relationship into one expression. Use the inputs from the task rather than copying the tutorial values.",
+          "ar": "حوّل العلاقة المطلوبة إلى تعبير واحد واستخدم مدخلات المهمة لا قيم المثال."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return array output with shape [3]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع array بالأبعاد [3]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result=np.maximum([-2,0,3],0)",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting array with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Compute ReLU([-2,0,3]). The solution computes this using result=np.maximum([-2,0,3],0). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب ReLU للقيم. يحسب الحل ذلك باستخدام result=np.maximum([-2,0,3],0). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/neural"
     },
@@ -89,18 +89,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Build the NumPy array first and inspect its shape and dtype before applying the operation.",
+          "ar": "أنشئ مصفوفة NumPy أولًا وافحص shape وdtype قبل العملية."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return array output with shape [2]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع array بالأبعاد [2]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result=np.array([1,2])@np.array([[1,-1],[.5,.5]])",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting array with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Compute [1,2] @ [[1,-1],[.5,.5]]. The solution computes this using result=np.array([1,2])@np.array([[1,-1],[.5,.5]]). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب خرج الطبقة الخطية. يحسب الحل ذلك باستخدام result=np.array([1,2])@np.array([[1,-1],[.5,.5]]). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/neural"
     },
@@ -123,18 +123,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Separate the factors and calculate their product. Keep the result numeric rather than putting the expression in quotes.",
+          "ar": "حدد العوامل واحسب حاصل ضربها. أبق النتيجة عددية ولا تضع التعبير بين علامتي اقتباس."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result=3*4",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Count weights in a dense 3-input, 4-output layer, excluding bias. The solution computes this using result=3*4. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب عدد الأوزان دون الانحياز. يحسب الحل ذلك باستخدام result=3*4. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/neural"
     },
@@ -157,18 +157,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Translate the requested relationship into one expression. Use the inputs from the task rather than copying the tutorial values.",
+          "ar": "حوّل العلاقة المطلوبة إلى تعبير واحد واستخدم مدخلات المهمة لا قيم المثال."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result=4",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Count biases for a 4-output dense layer. The solution computes this using result=4. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب عدد قيم الانحياز. يحسب الحل ذلك باستخدام result=4. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/neural"
     }

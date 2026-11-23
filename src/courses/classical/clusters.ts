@@ -51,18 +51,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Create the estimator, fit on the training inputs, then use its fitted attributes or predictions as requested. Do not fit on test rows.",
+          "ar": "أنشئ المقدر ولائمه على مدخلات التدريب ثم استخدم خصائصه أو تنبؤاته حسب المطلوب. لا تلائم على الاختبار."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output with shape [2]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value بالأبعاد [2]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "from sklearn.cluster import KMeans\nm=KMeans(2,random_state=7,n_init=10).fit([[0],[1],[9],[10]])\nresult=sorted(m.cluster_centers_.ravel())",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Fit 2 clusters to [0,1,9,10] and return sorted centers. The solution computes this using from sklearn.cluster import KMeans; m=KMeans(2,random_state=7,n_init=10).fit([[0],[1],[9],[10]]); result=sorted(m.cluster_centers_.ravel()). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "درب عنقودين وأعد المراكز مرتبة. يحسب الحل ذلك باستخدام from sklearn.cluster import KMeans; m=KMeans(2,random_state=7,n_init=10).fit([[0],[1],[9],[10]]); result=sorted(m.cluster_centers_.ravel()). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/clustering"
     },
@@ -85,18 +85,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Create the estimator, fit on the training inputs, then use its fitted attributes or predictions as requested. Do not fit on test rows.",
+          "ar": "أنشئ المقدر ولائمه على مدخلات التدريب ثم استخدم خصائصه أو تنبؤاته حسب المطلوب. لا تلائم على الاختبار."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "from sklearn.cluster import KMeans\nresult=KMeans(2,random_state=7,n_init=10).fit([[0],[1],[9],[10]]).inertia_",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Find K-Means inertia for that data. The solution computes this using from sklearn.cluster import KMeans; result=KMeans(2,random_state=7,n_init=10).fit([[0],[1],[9],[10]]).inertia_. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب مجموع مربعات المسافات للمراكز. يحسب الحل ذلك باستخدام from sklearn.cluster import KMeans; result=KMeans(2,random_state=7,n_init=10).fit([[0],[1],[9],[10]]).inertia_. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/clustering"
     },
@@ -122,18 +122,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Identify the aggregation and its axis. Check whether the question uses population variance or sample variance (ddof=1).",
+          "ar": "حدد عملية التجميع ومحورها وافحص هل المطلوب تباين المجتمع أم العينة (ddof=1)."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return array output with shape [2]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع array بالأبعاد [2]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result=np.array([[1,2],[3,4]]).mean(axis=0)",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting array with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Find center of [[1,2],[3,4]]. The solution computes this using result=np.array([[1,2],[3,4]]).mean(axis=0). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب مركز النقطتين. يحسب الحل ذلك باستخدام result=np.array([[1,2],[3,4]]).mean(axis=0). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/clustering"
     },
@@ -156,18 +156,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Translate the requested relationship into one expression. Use the inputs from the task rather than copying the tutorial values.",
+          "ar": "حوّل العلاقة المطلوبة إلى تعبير واحد واستخدم مدخلات المهمة لا قيم المثال."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result=False",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Store whether cluster numeric labels have an intrinsic class meaning. The solution computes this using result=False. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "هل أرقام العناقيد تعني فئات ثابتة بذاتها؟ يحسب الحل ذلك باستخدام result=False. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/clustering"
     }

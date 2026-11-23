@@ -51,18 +51,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Create the estimator, fit on the training inputs, then use its fitted attributes or predictions as requested. Do not fit on test rows.",
+          "ar": "أنشئ المقدر ولائمه على مدخلات التدريب ثم استخدم خصائصه أو تنبؤاته حسب المطلوب. لا تلائم على الاختبار."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return array output with shape [2]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع array بالأبعاد [2]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "from sklearn.neighbors import KNeighborsClassifier\nresult=KNeighborsClassifier(n_neighbors=1).fit([[0],[1],[4],[5]],[0,0,1,1]).predict([[.2],[4.8]])",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting array with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Fit 1-neighbor classifier and predict .2 and 4.8. The solution computes this using from sklearn.neighbors import KNeighborsClassifier; result=KNeighborsClassifier(n_neighbors=1).fit([[0],[1],[4],[5]],[0,0,1,1]).predict([[.2],[4.8]]). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "درب أقرب جار وتنبأ. يحسب الحل ذلك باستخدام from sklearn.neighbors import KNeighborsClassifier; result=KNeighborsClassifier(n_neighbors=1).fit([[0],[1],[4],[5]],[0,0,1,1]).predict([[.2],[4.8]]). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/classical"
     },
@@ -88,18 +88,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Create the estimator, fit on the training inputs, then use its fitted attributes or predictions as requested. Do not fit on test rows.",
+          "ar": "أنشئ المقدر ولائمه على مدخلات التدريب ثم استخدم خصائصه أو تنبؤاته حسب المطلوب. لا تلائم على الاختبار."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return array output with shape [2]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع array بالأبعاد [2]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "from sklearn.svm import SVC\nresult=SVC(kernel=\"linear\").fit([[0],[1],[4],[5]],[0,0,1,1]).predict([[.2],[4.8]])",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting array with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Fit linear SVM to same data and predict .2 and 4.8. The solution computes this using from sklearn.svm import SVC; result=SVC(kernel=\"linear\").fit([[0],[1],[4],[5]],[0,0,1,1]).predict([[.2],[4.8]]). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "درب SVM خطي وتنبأ. يحسب الحل ذلك باستخدام from sklearn.svm import SVC; result=SVC(kernel=\"linear\").fit([[0],[1],[4],[5]],[0,0,1,1]).predict([[.2],[4.8]]). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/classical"
     },
@@ -122,18 +122,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Create the estimator, fit on the training inputs, then use its fitted attributes or predictions as requested. Do not fit on test rows.",
+          "ar": "أنشئ المقدر ولائمه على مدخلات التدريب ثم استخدم خصائصه أو تنبؤاته حسب المطلوب. لا تلائم على الاختبار."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "from sklearn.naive_bayes import GaussianNB\nresult=len(GaussianNB().fit([[0],[1],[4],[5]],[0,0,1,1]).classes_)",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Fit GaussianNB and count classes. The solution computes this using from sklearn.naive_bayes import GaussianNB; result=len(GaussianNB().fit([[0],[1],[4],[5]],[0,0,1,1]).classes_). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "درب GaussianNB واحسب الفئات. يحسب الحل ذلك باستخدام from sklearn.naive_bayes import GaussianNB; result=len(GaussianNB().fit([[0],[1],[4],[5]],[0,0,1,1]).classes_). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/classical"
     },
@@ -156,18 +156,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Build the NumPy array first and inspect its shape and dtype before applying the operation.",
+          "ar": "أنشئ مصفوفة NumPy أولًا وافحص shape وdtype قبل العملية."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result=np.linalg.norm(np.array([3,4])-[0,0])",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Find Euclidean distance from [0,0] to [3,4]. The solution computes this using result=np.linalg.norm(np.array([3,4])-[0,0]). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب المسافة الإقليدية. يحسب الحل ذلك باستخدام result=np.linalg.norm(np.array([3,4])-[0,0]). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/classical"
     }

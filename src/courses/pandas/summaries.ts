@@ -48,18 +48,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Identify the aggregation and its axis. Check whether the question uses population variance or sample variance (ddof=1).",
+          "ar": "حدد عملية التجميع ومحورها وافحص هل المطلوب تباين المجتمع أم العينة (ddof=1)."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = df.rating.mean()",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Calculate the mean rating. The solution computes this using result = df.rating.mean(). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب متوسط التقييم. يحسب الحل ذلك باستخدام result = df.rating.mean(). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -81,18 +81,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Translate the requested relationship into one expression. Use the inputs from the task rather than copying the tutorial values.",
+          "ar": "حوّل العلاقة المطلوبة إلى تعبير واحد واستخدم مدخلات المهمة لا قيم المثال."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = df.item.nunique()",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Count distinct items. The solution computes this using result = df.item.nunique(). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب عدد العناصر المختلفة. يحسب الحل ذلك باستخدام result = df.item.nunique(). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -121,18 +121,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Separate the factors and calculate their product. Keep the result numeric rather than putting the expression in quotes.",
+          "ar": "حدد العوامل واحسب حاصل ضربها. أبق النتيجة عددية ولا تضع التعبير بين علامتي اقتباس."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return series output with shape [6]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع series بالأبعاد [6]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = df.units * 2",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting series with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Create a Series result that doubles each units value. The solution computes this using result = df.units * 2. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "أنشئ Series تضاعف قيم units. يحسب الحل ذلك باستخدام result = df.units * 2. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -161,18 +161,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Translate the requested relationship into one expression. Use the inputs from the task rather than copying the tutorial values.",
+          "ar": "حوّل العلاقة المطلوبة إلى تعبير واحد واستخدم مدخلات المهمة لا قيم المثال."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output with shape [6]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value بالأبعاد [6]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = df.item.str.upper().tolist()",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Convert item names to uppercase in a list result. The solution computes this using result = df.item.str.upper().tolist(). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "حوّل أسماء العناصر لحروف كبيرة كقائمة. يحسب الحل ذلك باستخدام result = df.item.str.upper().tolist(). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     }
   ],

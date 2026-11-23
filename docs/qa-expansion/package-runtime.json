@@ -1,0 +1,6 @@
+{
+  "checks": [
+    "actual sklearn classifier predictions [0 1]",
+    "Seaborn actual figure in shared worker after sklearn"
+  ]
+}

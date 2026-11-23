@@ -52,18 +52,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Create the requested plot using the given x and y values. Keep the figure or axes in the requested variable if asked.",
+          "ar": "أنشئ الرسم المطلوب من قيم x وy المعطاة واحفظ الشكل أو المحاور في المتغير المطلوب إن طلب."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output with shape [3]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value بالأبعاد [3]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "fig, ax = plt.subplots()\nax.bar([\"A\",\"B\",\"C\"],[3,7,5])\nresult = [p.get_height() for p in ax.patches]",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Create a bar plot with heights [3,7,5], store patch heights as result. The solution computes this using fig, ax = plt.subplots(); ax.bar([\"A\",\"B\",\"C\"],[3,7,5]); result = [p.get_height() for p in ax.patches]. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "ارسم أعمدة واحفظ ارتفاعاتها كقائمة. يحسب الحل ذلك باستخدام fig, ax = plt.subplots(); ax.bar([\"A\",\"B\",\"C\"],[3,7,5]); result = [p.get_height() for p in ax.patches]. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -88,18 +88,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Build the NumPy array first and inspect its shape and dtype before applying the operation.",
+          "ar": "أنشئ مصفوفة NumPy أولًا وافحص shape وdtype قبل العملية."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return array output with shape [2]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع array بالأبعاد [2]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = np.array([3,7])/10",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting array with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Normalize [3,7] to proportions. The solution computes this using result = np.array([3,7])/10. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "حوّل القيم لنسب مجموعها واحد. يحسب الحل ذلك باستخدام result = np.array([3,7])/10. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -124,18 +124,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Create the requested plot using the given x and y values. Keep the figure or axes in the requested variable if asked.",
+          "ar": "أنشئ الرسم المطلوب من قيم x وy المعطاة واحفظ الشكل أو المحاور في المتغير المطلوب إن طلب."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output with shape [2]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value بالأبعاد [2]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "fig, ax = plt.subplots()\nax.set_ylim(0,10)\nresult = list(ax.get_ylim())",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Set y limits to [0,10], then store them as a list. The solution computes this using fig, ax = plt.subplots(); ax.set_ylim(0,10); result = list(ax.get_ylim()). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "ابدأ المحور الرأسي من صفر واحفظ حدوده. يحسب الحل ذلك باستخدام fig, ax = plt.subplots(); ax.set_ylim(0,10); result = list(ax.get_ylim()). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -157,18 +157,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Translate the requested relationship into one expression. Use the inputs from the task rather than copying the tutorial values.",
+          "ar": "حوّل العلاقة المطلوبة إلى تعبير واحد واستخدم مدخلات المهمة لا قيم المثال."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "values={\"A\":3,\"B\":7,\"C\":5}\nresult = max(values,key=values.get)",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Find the name with highest value in {\"A\":3,\"B\":7,\"C\":5}. The solution computes this using values={\"A\":3,\"B\":7,\"C\":5}; result = max(values,key=values.get). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "حدد اسم الفئة الأعلى قيمة. يحسب الحل ذلك باستخدام values={\"A\":3,\"B\":7,\"C\":5}; result = max(values,key=values.get). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     }
   ],

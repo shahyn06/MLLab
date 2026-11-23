@@ -1,3 +1,4 @@
+import {useLegacyText} from './i18n/legacy-context';
 import {readStoredState} from './storage-engine';
 import React, {createContext,useContext,useEffect,useState} from 'react';
 const Path=createContext('/');
@@ -11,6 +12,6 @@ export function Header({title,intro}:any){return <header><h1>{title}</h1>{intro&
 export function Group({label,children}:any){return <section className="ml-content-group" aria-label={label}><h2>{label}</h2>{children}</section>}
 export function Closing({children}:any){return <footer>{children}</footer>}
 export function TextLink({href,children}:any){return <a href={href} target="_blank" rel="noreferrer">{children} ↗</a>}
-export function CopyButton({text,label}:any){const [status,S]=useState('');async function copy(){try{await navigator.clipboard.writeText(text);S('Copied')}catch{S('Copy is unavailable here. Select the code and copy it manually.')}}return <><button type="button" className="ml-btn ml-secondary" onClick={copy}>{status==='Copied'?status:label}</button>{status&&<span role="status" style={{display:'block'}}>{status}</span>}</>}
+export function CopyButton({text,label}:any){const tr=useLegacyText();const [status,S]=useState('');async function copy(){try{await navigator.clipboard.writeText(text);S(tr('Copied'))}catch{S(tr('Copy is unavailable here. Select the code and copy it manually.'))}}return <><button type="button" className="ml-btn ml-secondary" onClick={copy}>{status==='Copied'?status:label}</button>{status&&<span role="status" style={{display:'block'}}>{status}</span>}</>}
 
 export function useLocalState(key:string,initial:any):[any,(v:any)=>void,{ready:boolean,message:string}]{const [loaded]=useState(()=>readStoredState(key,initial));const [value,setValue]=useState(loaded.value),[message,M]=useState(loaded.message);const save=(v:any)=>{setValue(v);try{localStorage.setItem(key,JSON.stringify(v));M('Preferences are saved on this device.')}catch{M('Storage is unavailable. This preference lasts for this session only.')}};return [value,save,{ready:true,message}]}

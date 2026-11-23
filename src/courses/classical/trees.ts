@@ -51,18 +51,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Create the estimator, fit on the training inputs, then use its fitted attributes or predictions as requested. Do not fit on test rows.",
+          "ar": "أنشئ المقدر ولائمه على مدخلات التدريب ثم استخدم خصائصه أو تنبؤاته حسب المطلوب. لا تلائم على الاختبار."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return array output with shape [2]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع array بالأبعاد [2]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "from sklearn.tree import DecisionTreeClassifier\nm=DecisionTreeClassifier(max_depth=1,random_state=7).fit([[0],[1],[2],[3]],[0,0,1,1])\nresult=m.predict([[.5],[2.5]])",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting array with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Train that depth-1 tree and predict .5 and 2.5. The solution computes this using from sklearn.tree import DecisionTreeClassifier; m=DecisionTreeClassifier(max_depth=1,random_state=7).fit([[0],[1],[2],[3]],[0,0,1,1]); result=m.predict([[.5],[2.5]]). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "درب شجرة بعمق 1 وتنبأ بالقيمتين. يحسب الحل ذلك باستخدام from sklearn.tree import DecisionTreeClassifier; m=DecisionTreeClassifier(max_depth=1,random_state=7).fit([[0],[1],[2],[3]],[0,0,1,1]); result=m.predict([[.5],[2.5]]). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/classical"
     },
@@ -85,18 +85,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Create the estimator, fit on the training inputs, then use its fitted attributes or predictions as requested. Do not fit on test rows.",
+          "ar": "أنشئ المقدر ولائمه على مدخلات التدريب ثم استخدم خصائصه أو تنبؤاته حسب المطلوب. لا تلائم على الاختبار."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "from sklearn.tree import DecisionTreeClassifier\nm=DecisionTreeClassifier(max_depth=1,random_state=7).fit([[0],[1],[2],[3]],[0,0,1,1])\nresult=m.tree_.threshold[0]",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Store the root threshold of that tree. The solution computes this using from sklearn.tree import DecisionTreeClassifier; m=DecisionTreeClassifier(max_depth=1,random_state=7).fit([[0],[1],[2],[3]],[0,0,1,1]); result=m.tree_.threshold[0]. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احفظ عتبة الجذر. يحسب الحل ذلك باستخدام from sklearn.tree import DecisionTreeClassifier; m=DecisionTreeClassifier(max_depth=1,random_state=7).fit([[0],[1],[2],[3]],[0,0,1,1]); result=m.tree_.threshold[0]. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/classical"
     },
@@ -119,18 +119,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Create the estimator, fit on the training inputs, then use its fitted attributes or predictions as requested. Do not fit on test rows.",
+          "ar": "أنشئ المقدر ولائمه على مدخلات التدريب ثم استخدم خصائصه أو تنبؤاته حسب المطلوب. لا تلائم على الاختبار."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "from sklearn.ensemble import RandomForestClassifier\nm=RandomForestClassifier(n_estimators=5,random_state=7).fit([[0],[1],[2],[3]],[0,0,1,1])\nresult=len(m.estimators_)",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Fit a five-tree forest and count estimators. The solution computes this using from sklearn.ensemble import RandomForestClassifier; m=RandomForestClassifier(n_estimators=5,random_state=7).fit([[0],[1],[2],[3]],[0,0,1,1]); result=len(m.estimators_). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "درب غابة بخمس أشجار واحسبها. يحسب الحل ذلك باستخدام from sklearn.ensemble import RandomForestClassifier; m=RandomForestClassifier(n_estimators=5,random_state=7).fit([[0],[1],[2],[3]],[0,0,1,1]); result=len(m.estimators_). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/classical"
     },
@@ -153,18 +153,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Create the estimator, fit on the training inputs, then use its fitted attributes or predictions as requested. Do not fit on test rows.",
+          "ar": "أنشئ المقدر ولائمه على مدخلات التدريب ثم استخدم خصائصه أو تنبؤاته حسب المطلوب. لا تلائم على الاختبار."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "from sklearn.tree import DecisionTreeRegressor\nm=DecisionTreeRegressor(max_depth=1).fit([[0],[1],[2],[3]],[0,0,4,4])\nresult=m.predict([[2.5]])[0]",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Fit a depth-1 regressor on x=0,1,2,3 and y=0,0,4,4; predict 2.5. The solution computes this using from sklearn.tree import DecisionTreeRegressor; m=DecisionTreeRegressor(max_depth=1).fit([[0],[1],[2],[3]],[0,0,4,4]); result=m.predict([[2.5]])[0]. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "درب شجرة انحدار وتنبأ. يحسب الحل ذلك باستخدام from sklearn.tree import DecisionTreeRegressor; m=DecisionTreeRegressor(max_depth=1).fit([[0],[1],[2],[3]],[0,0,4,4]); result=m.predict([[2.5]])[0]. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       },
       "labRoute": "/classical"
     }

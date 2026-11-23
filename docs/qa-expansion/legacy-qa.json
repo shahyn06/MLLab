@@ -1,0 +1,1285 @@
+{
+  "rows": [
+    {
+      "route": "/regression",
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/regression",
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/regression",
+      "lang": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/regression",
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/regression",
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/regression",
+      "lang": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/regression",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/regression",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/regression",
+      "lang": "ar",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/regression",
+      "lang": "ar",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/regression",
+      "lang": "ar",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/regression",
+      "lang": "ar",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/gradient",
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/gradient",
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/gradient",
+      "lang": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/gradient",
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/gradient",
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/gradient",
+      "lang": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/gradient",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/gradient",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/gradient",
+      "lang": "ar",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/gradient",
+      "lang": "ar",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/gradient",
+      "lang": "ar",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/gradient",
+      "lang": "ar",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/perceptron",
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/perceptron",
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/perceptron",
+      "lang": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/perceptron",
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/perceptron",
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/perceptron",
+      "lang": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/perceptron",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/perceptron",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/perceptron",
+      "lang": "ar",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/perceptron",
+      "lang": "ar",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/perceptron",
+      "lang": "ar",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/perceptron",
+      "lang": "ar",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/math",
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/math",
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/math",
+      "lang": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/math",
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/math",
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/math",
+      "lang": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/math",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/math",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/math",
+      "lang": "ar",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/math",
+      "lang": "ar",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/math",
+      "lang": "ar",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/math",
+      "lang": "ar",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/datasets",
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/datasets",
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/datasets",
+      "lang": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/datasets",
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/datasets",
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/datasets",
+      "lang": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/datasets",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/datasets",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/datasets",
+      "lang": "ar",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/datasets",
+      "lang": "ar",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/datasets",
+      "lang": "ar",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/datasets",
+      "lang": "ar",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/preprocessing",
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/preprocessing",
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/preprocessing",
+      "lang": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/preprocessing",
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/preprocessing",
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/preprocessing",
+      "lang": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/preprocessing",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/preprocessing",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/preprocessing",
+      "lang": "ar",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/preprocessing",
+      "lang": "ar",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/preprocessing",
+      "lang": "ar",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/preprocessing",
+      "lang": "ar",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/evaluation",
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/evaluation",
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/evaluation",
+      "lang": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/evaluation",
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/evaluation",
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/evaluation",
+      "lang": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/evaluation",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/evaluation",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/evaluation",
+      "lang": "ar",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/evaluation",
+      "lang": "ar",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/evaluation",
+      "lang": "ar",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/evaluation",
+      "lang": "ar",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/classical",
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/classical",
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/classical",
+      "lang": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/classical",
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/classical",
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/classical",
+      "lang": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/classical",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/classical",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/classical",
+      "lang": "ar",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/classical",
+      "lang": "ar",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/classical",
+      "lang": "ar",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/classical",
+      "lang": "ar",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/clustering",
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/clustering",
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/clustering",
+      "lang": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/clustering",
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/clustering",
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/clustering",
+      "lang": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/clustering",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/clustering",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/clustering",
+      "lang": "ar",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/clustering",
+      "lang": "ar",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/clustering",
+      "lang": "ar",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/clustering",
+      "lang": "ar",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/unsupervised",
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/unsupervised",
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/unsupervised",
+      "lang": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/unsupervised",
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/unsupervised",
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/unsupervised",
+      "lang": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/unsupervised",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/unsupervised",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/unsupervised",
+      "lang": "ar",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/unsupervised",
+      "lang": "ar",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/unsupervised",
+      "lang": "ar",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/unsupervised",
+      "lang": "ar",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/optimization",
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/optimization",
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/optimization",
+      "lang": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/optimization",
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/optimization",
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/optimization",
+      "lang": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/optimization",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/optimization",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/optimization",
+      "lang": "ar",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/optimization",
+      "lang": "ar",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/optimization",
+      "lang": "ar",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/optimization",
+      "lang": "ar",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/neural",
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/neural",
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/neural",
+      "lang": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/neural",
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/neural",
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/neural",
+      "lang": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/neural",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/neural",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/neural",
+      "lang": "ar",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/neural",
+      "lang": "ar",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/neural",
+      "lang": "ar",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/neural",
+      "lang": "ar",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/cnn",
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/cnn",
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/cnn",
+      "lang": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/cnn",
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/cnn",
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/cnn",
+      "lang": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/cnn",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/cnn",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/cnn",
+      "lang": "ar",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/cnn",
+      "lang": "ar",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/cnn",
+      "lang": "ar",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/cnn",
+      "lang": "ar",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/sequence",
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/sequence",
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/sequence",
+      "lang": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/sequence",
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/sequence",
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/sequence",
+      "lang": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/sequence",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/sequence",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/sequence",
+      "lang": "ar",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/sequence",
+      "lang": "ar",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/sequence",
+      "lang": "ar",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/sequence",
+      "lang": "ar",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/execution",
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/execution",
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/execution",
+      "lang": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/execution",
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/execution",
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/execution",
+      "lang": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/execution",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/execution",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/execution",
+      "lang": "ar",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/execution",
+      "lang": "ar",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/execution",
+      "lang": "ar",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/execution",
+      "lang": "ar",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/browser-experiments",
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/browser-experiments",
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/browser-experiments",
+      "lang": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/browser-experiments",
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/browser-experiments",
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/browser-experiments",
+      "lang": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/browser-experiments",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/browser-experiments",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/browser-experiments",
+      "lang": "ar",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/browser-experiments",
+      "lang": "ar",
+      "theme": "light",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/browser-experiments",
+      "lang": "ar",
+      "theme": "light",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/browser-experiments",
+      "lang": "ar",
+      "theme": "light",
+      "violations": []
+    }
+  ],
+  "errors": []
+}

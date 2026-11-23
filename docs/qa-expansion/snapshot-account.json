@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "guest capture",
+    "opt-in merge preserves guest snapshot",
+    "account-only capture",
+    "save/reload preserves both snapshots",
+    "logout restores separate guest store"
+  ]
+}

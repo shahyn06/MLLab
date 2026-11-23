@@ -61,18 +61,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Construct a DataFrame with a dictionary whose keys are the requested column names. Keep each column list the same length.",
+          "ar": "أنشئ DataFrame من قاموس مفاتيحه أسماء الأعمدة المطلوبة وقوائمه متساوية الطول."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return frame output with shape [2, 2]. Column order: item, price. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع frame بالأبعاد [2, 2] وترتيب الأعمدة item, price. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = pd.DataFrame({\"item\":[\"tea\",\"coffee\"],\"price\":[12,18]})",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting frame with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Create result as a DataFrame with item [\"tea\",\"coffee\"] and price [12,18], in that column order. The solution computes this using result = pd.DataFrame({\"item\":[\"tea\",\"coffee\"],\"price\":[12,18]}). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "أنشئ DataFrame باسم result بعمودي item و price بالترتيب المحدد. يحسب الحل ذلك باستخدام result = pd.DataFrame({\"item\":[\"tea\",\"coffee\"],\"price\":[12,18]}). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -98,18 +98,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Translate the requested relationship into one expression. Use the inputs from the task rather than copying the tutorial values.",
+          "ar": "حوّل العلاقة المطلوبة إلى تعبير واحد واستخدم مدخلات المهمة لا قيم المثال."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return series output with shape [3]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع series بالأبعاد [3]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = pd.Series([4,5,3])",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting series with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Create a Series result containing [4,5,3]. The solution computes this using result = pd.Series([4,5,3]). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "أنشئ Series بالقيم [4,5,3]. يحسب الحل ذلك باستخدام result = pd.Series([4,5,3]). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -160,18 +160,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Translate the requested relationship into one expression. Use the inputs from the task rather than copying the tutorial values.",
+          "ar": "حوّل العلاقة المطلوبة إلى تعبير واحد واستخدم مدخلات المهمة لا قيم المثال."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return frame output with shape [6, 2]. Column order: item, rating. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع frame بالأبعاد [6, 2] وترتيب الأعمدة item, rating. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = pd.read_csv(\"data/reviews.csv\")[[\"item\",\"rating\"]]",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting frame with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Read data/reviews.csv into result, keeping only columns item and rating. The solution computes this using result = pd.read_csv(\"data/reviews.csv\")[[\"item\",\"rating\"]]. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "اقرأ الملف واختر عمودي item و rating. يحسب الحل ذلك باستخدام result = pd.read_csv(\"data/reviews.csv\")[[\"item\",\"rating\"]]. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -206,18 +206,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Translate the requested relationship into one expression. Use the inputs from the task rather than copying the tutorial values.",
+          "ar": "حوّل العلاقة المطلوبة إلى تعبير واحد واستخدم مدخلات المهمة لا قيم المثال."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return frame output with shape [2, 2]. Column order: item, rating. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع frame بالأبعاد [2, 2] وترتيب الأعمدة item, rating. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "df.head(2).to_csv(\"data/sample.csv\",index=False)\nresult = pd.read_csv(\"data/sample.csv\")[[\"item\",\"rating\"]]",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting frame with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Write the first two review rows to data/sample.csv without an index, read them back, and keep item and rating in result. The solution computes this using df.head(2).to_csv(\"data/sample.csv\",index=False); result = pd.read_csv(\"data/sample.csv\")[[\"item\",\"rating\"]]. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "اكتب أول صفين دون الفهرس ثم اقرأهما واختر العمودين. يحسب الحل ذلك باستخدام df.head(2).to_csv(\"data/sample.csv\",index=False); result = pd.read_csv(\"data/sample.csv\")[[\"item\",\"rating\"]]. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     }
   ],

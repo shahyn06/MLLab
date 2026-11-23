@@ -68,18 +68,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Define the requested function with the stated argument names. Return the computed value; printing alone does not return it.",
+          "ar": "عرّف الدالة بأسماء الوسائط المطلوبة وأعد القيمة المحسوبة؛ الطباعة وحدها لا تعيدها."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return function output. Test the function on one case by hand.",
+          "ar": "أعد خرجًا من النوع function. اختبر الدالة يدويًا على حالة واحدة."
         }
       ],
       "solution": "def result(x):\n    return x*x",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting function with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Define result(x) returning x squared. The solution computes this using def result(x):;     return x*x. The checker calls your function on the stated cases. Change one input and predict the new result.",
+        "ar": "عرّف result(x) لإرجاع مربع x. يحسب الحل ذلك باستخدام def result(x):;     return x*x. يستدعي الفاحص الدالة على الحالات المحددة. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -121,18 +121,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Define the requested function with the stated argument names. Return the computed value; printing alone does not return it.",
+          "ar": "عرّف الدالة بأسماء الوسائط المطلوبة وأعد القيمة المحسوبة؛ الطباعة وحدها لا تعيدها."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return function output. Test the function on one case by hand.",
+          "ar": "أعد خرجًا من النوع function. اختبر الدالة يدويًا على حالة واحدة."
         }
       ],
       "solution": "def result(values):\n    return sum(values)/len(values)",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting function with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Define result(values) returning the mean for a nonempty list. The solution computes this using def result(values):;     return sum(values)/len(values). The checker calls your function on the stated cases. Change one input and predict the new result.",
+        "ar": "عرّف دالة تحسب المتوسط لقائمة غير فارغة. يحسب الحل ذلك باستخدام def result(values):;     return sum(values)/len(values). يستدعي الفاحص الدالة على الحالات المحددة. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -154,18 +154,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Translate the requested relationship into one expression. Use the inputs from the task rather than copying the tutorial values.",
+          "ar": "حوّل العلاقة المطلوبة إلى تعبير واحد واستخدم مدخلات المهمة لا قيم المثال."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = round(3.14159,2)",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Call a function to round 3.14159 to two decimal places. The solution computes this using result = round(3.14159,2). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "استدع دالة لتقريب 3.14159 لمنزلتين. يحسب الحل ذلك باستخدام result = round(3.14159,2). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -201,18 +201,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Define the requested function with the stated argument names. Return the computed value; printing alone does not return it.",
+          "ar": "عرّف الدالة بأسماء الوسائط المطلوبة وأعد القيمة المحسوبة؛ الطباعة وحدها لا تعيدها."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return function output. Test the function on one case by hand.",
+          "ar": "أعد خرجًا من النوع function. اختبر الدالة يدويًا على حالة واحدة."
         }
       ],
       "solution": "def result(x):\n    return max(0,x)",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting function with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Define result(x) that clips values below zero to zero. The solution computes this using def result(x):;     return max(0,x). The checker calls your function on the stated cases. Change one input and predict the new result.",
+        "ar": "عرّف دالة تجعل القيم السالبة صفرًا. يحسب الحل ذلك باستخدام def result(x):;     return max(0,x). يستدعي الفاحص الدالة على الحالات المحددة. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     }
   ],

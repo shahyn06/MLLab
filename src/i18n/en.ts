@@ -103,7 +103,7 @@ export const en = {
   "toggle": "Toggle",
   "mathLtr": "Formulas and Python code read left to right.",
   "sampleCode": "Run the matching parameter-dependent Python examples inside the original lab below. Copy them to Jupyter, or use the optional Python execution workspace.",
-  "legacyNote": "The original lab below is preserved. Its detailed content is currently English; the new navigation and unit scaffold support Arabic and English.",
+  "legacyNote": "The original simulation is preserved below. Open the linked lesson for guided teaching and Python exercises. Some detailed computation messages remain in English.",
   "phaseNotice": "Learning platform expansion",
   "status": "Status",
   "notSaved": "Changes remain on this device until saved to the account.",

@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "actual Python output",
+    "global concurrent-run guard",
+    "automatic 12-second timeout",
+    "worker recovery after timeout",
+    "second-cell cached runtime"
+  ]
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "route": "/math",
+    "lang": "en",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/math",
+    "lang": "en",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/math",
+    "lang": "ar",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/math",
+    "lang": "ar",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/classical",
+    "lang": "en",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/classical",
+    "lang": "en",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/classical",
+    "lang": "ar",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/classical",
+    "lang": "ar",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/neural",
+    "lang": "en",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/neural",
+    "lang": "en",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/neural",
+    "lang": "ar",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/neural",
+    "lang": "ar",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/unsupervised",
+    "lang": "en",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/unsupervised",
+    "lang": "en",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/unsupervised",
+    "lang": "ar",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/unsupervised",
+    "lang": "ar",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/datasets",
+    "lang": "en",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/datasets",
+    "lang": "en",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/datasets",
+    "lang": "ar",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/datasets",
+    "lang": "ar",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/evaluation",
+    "lang": "en",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/evaluation",
+    "lang": "en",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/evaluation",
+    "lang": "ar",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/evaluation",
+    "lang": "ar",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/optimization",
+    "lang": "en",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/optimization",
+    "lang": "en",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/optimization",
+    "lang": "ar",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/optimization",
+    "lang": "ar",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/browser-experiments",
+    "lang": "en",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/browser-experiments",
+    "lang": "en",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/browser-experiments",
+    "lang": "ar",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/browser-experiments",
+    "lang": "ar",
+    "theme": "light",
+    "violations": []
+  }
+]

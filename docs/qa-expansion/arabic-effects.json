@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "Arabic math selectors retain stable English identifiers and advanced translated teaching",
+    "legacy quiz results now persist in user progress",
+    "keyboard arrow and Home tabs",
+    "resume opens last lesson"
+  ]
+}

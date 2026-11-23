@@ -48,18 +48,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Trace the values entering the loop or sum. Accumulate only the values that satisfy the stated condition.",
+          "ar": "تتبع القيم الداخلة في الحلقة أو الجمع واجمع فقط ما يحقق الشرط المحدد."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = df.note.isna().sum()",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Count missing note values. The solution computes this using result = df.note.isna().sum(). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب القيم الناقصة في note. يحسب الحل ذلك باستخدام result = df.note.isna().sum(). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -85,18 +85,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Inspect isna() first. Decide whether the task asks to remove rows or replace the missing cells.",
+          "ar": "افحص isna() أولًا وحدد هل المطلوب حذف الصفوف أم تعويض الخلايا المفقودة."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output with shape [3]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value بالأبعاد [3]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = df.note.fillna(\"none\").head(3).tolist()",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Fill missing note values with \"none\", then return the first three as a list. The solution computes this using result = df.note.fillna(\"none\").head(3).tolist(). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "املأ القيم الناقصة بـ none واختر أول ثلاث. يحسب الحل ذلك باستخدام result = df.note.fillna(\"none\").head(3).tolist(). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -118,18 +118,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Choose the join key shared by both tables and check whether the task asks for an inner or left join.",
+          "ar": "اختر مفتاح الربط المشترك وافحص هل المطلوب ربط داخلي أم أيسر."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "prices = pd.DataFrame({\"item\":[\"tea\",\"coffee\",\"juice\"],\"price\":[12,18,15]})\njoined = df.merge(prices,on=\"item\",how=\"left\",validate=\"many_to_one\")\nresult = (joined.units * joined.price).sum()",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Merge prices tea=12, coffee=18, juice=15, then calculate total units times price. The solution computes this using prices = pd.DataFrame({\"item\":[\"tea\",\"coffee\",\"juice\"],\"price\":[12,18,15]}); joined = df.merge(prices,on=\"item\",how=\"left\",validate=\"many_to_one\"); result = (joined.units * joined.price).sum(). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "ادمج الأسعار ثم احسب إجمالي units مضروبة في price. يحسب الحل ذلك باستخدام prices = pd.DataFrame({\"item\":[\"tea\",\"coffee\",\"juice\"],\"price\":[12,18,15]}); joined = df.merge(prices,on=\"item\",how=\"left\",validate=\"many_to_one\"); result = (joined.units * joined.price).sum(). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -151,18 +151,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Inspect isna() first. Decide whether the task asks to remove rows or replace the missing cells.",
+          "ar": "افحص isna() أولًا وحدد هل المطلوب حذف الصفوف أم تعويض الخلايا المفقودة."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = len(df.dropna(subset=[\"note\"]))",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Drop rows with missing note and store remaining count. The solution computes this using result = len(df.dropna(subset=[\"note\"])). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احذف الصفوف التي تنقصها note واحسب الباقي. يحسب الحل ذلك باستخدام result = len(df.dropna(subset=[\"note\"])). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     }
   ],

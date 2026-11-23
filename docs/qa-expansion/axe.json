@@ -1,0 +1,22 @@
+[
+  {
+    "route": "/",
+    "result": []
+  },
+  {
+    "route": "/course/pandas/pandas-creating",
+    "result": []
+  },
+  {
+    "route": "/account",
+    "result": []
+  },
+  {
+    "route": "/project/0",
+    "result": []
+  },
+  {
+    "route": "/regression",
+    "result": []
+  }
+]

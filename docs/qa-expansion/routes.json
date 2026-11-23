@@ -1334,6 +1334,42 @@
       "overflow": false
     },
     {
+      "route": "/course/statistics/statistics-correlation",
+      "lang": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-correlation",
+      "lang": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-correlation",
+      "lang": "en",
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-correlation",
+      "lang": "ar",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-correlation",
+      "lang": "ar",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/course/statistics/statistics-correlation",
+      "lang": "ar",
+      "width": 1280,
+      "overflow": false
+    },
+    {
       "route": "/course/statistics/statistics-sampling",
       "lang": "en",
       "width": 320,

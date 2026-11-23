@@ -18,6 +18,7 @@ class LearningProgress(BaseModel):
     savedExperiments: list[dict] = Field(default_factory=list, max_length=12)
     version: Literal[1] = 1
     completedUnits: list[str] = Field(default_factory=list, max_length=500)
+    lastVisitedLesson: str | None = Field(default=None, max_length=120)
     lastVisitedUnit: str | None = Field(default=None, max_length=100)
     taskResults: dict[str, TaskResult] = Field(default_factory=dict, max_length=500)
     quizScores: dict[str, float] = Field(default_factory=dict, max_length=500)

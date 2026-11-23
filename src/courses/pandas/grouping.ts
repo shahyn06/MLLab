@@ -52,18 +52,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Group rows with groupby before applying the aggregation. Select the requested output columns only.",
+          "ar": "جمّع الصفوف باستخدام groupby قبل التجميع العددي واختر أعمدة الخرج المطلوبة فقط."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output with shape [3]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value بالأبعاد [3]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = df.groupby(\"item\").units.sum().sort_index().tolist()",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Sum units by item, sort item alphabetically, and store values as a list. The solution computes this using result = df.groupby(\"item\").units.sum().sort_index().tolist(). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "اجمع units حسب item ورتب الأسماء ثم احفظ القيم كقائمة. يحسب الحل ذلك باستخدام result = df.groupby(\"item\").units.sum().sort_index().tolist(). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -89,18 +89,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Group rows with groupby before applying the aggregation. Select the requested output columns only.",
+          "ar": "جمّع الصفوف باستخدام groupby قبل التجميع العددي واختر أعمدة الخرج المطلوبة فقط."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output with shape [3]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value بالأبعاد [3]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = df.groupby(\"item\").rating.mean().sort_index().tolist()",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Find mean rating for each item, alphabetically sorted, as a list. The solution computes this using result = df.groupby(\"item\").rating.mean().sort_index().tolist(). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب متوسط التقييم لكل عنصر بالترتيب الأبجدي. يحسب الحل ذلك باستخدام result = df.groupby(\"item\").rating.mean().sort_index().tolist(). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -125,18 +125,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Translate the requested relationship into one expression. Use the inputs from the task rather than copying the tutorial values.",
+          "ar": "حوّل العلاقة المطلوبة إلى تعبير واحد واستخدم مدخلات المهمة لا قيم المثال."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output with shape [2]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value بالأبعاد [2]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = df.sort_values([\"rating\",\"item\"],ascending=[False,True]).item.head(2).tolist()",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Sort by rating descending, item ascending, then keep the first two item values as a list. The solution computes this using result = df.sort_values([\"rating\",\"item\"],ascending=[False,True]).item.head(2).tolist(). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "رتب تنازليًا بالتقييم وتصاعديًا بالاسم واختر أول اسمين. يحسب الحل ذلك باستخدام result = df.sort_values([\"rating\",\"item\"],ascending=[False,True]).item.head(2).tolist(). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -162,18 +162,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Group rows with groupby before applying the aggregation. Select the requested output columns only.",
+          "ar": "جمّع الصفوف باستخدام groupby قبل التجميع العددي واختر أعمدة الخرج المطلوبة فقط."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output with shape [3]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value بالأبعاد [3]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = df.groupby(\"item\").size().sort_index().tolist()",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Count reviews per item in alphabetical order as a list. The solution computes this using result = df.groupby(\"item\").size().sort_index().tolist(). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "احسب عدد التقييمات لكل عنصر بترتيب الأسماء. يحسب الحل ذلك باستخدام result = df.groupby(\"item\").size().sort_index().tolist(). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     }
   ],

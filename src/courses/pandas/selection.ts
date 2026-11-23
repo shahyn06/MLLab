@@ -52,18 +52,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Use loc for labels and iloc for integer positions. A list of columns keeps a DataFrame; one column name returns a Series.",
+          "ar": "استخدم loc للتسميات وiloc للمواضع الصحيحة. قائمة الأعمدة تبقي DataFrame واسم عمود واحد يعيد Series."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return series output with shape [3]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع series بالأبعاد [3]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = df[\"rating\"].iloc[:3]",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting series with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Select the first three ratings as a Series result. The solution computes this using result = df[\"rating\"].iloc[:3]. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "اختر أول ثلاث تقييمات كـ Series. يحسب الحل ذلك باستخدام result = df[\"rating\"].iloc[:3]. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -88,18 +88,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Use loc for labels and iloc for integer positions. A list of columns keeps a DataFrame; one column name returns a Series.",
+          "ar": "استخدم loc للتسميات وiloc للمواضع الصحيحة. قائمة الأعمدة تبقي DataFrame واسم عمود واحد يعيد Series."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output with shape [2]. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value بالأبعاد [2]. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = df.loc[df.rating == 5,\"item\"].tolist()",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Select item values where rating is exactly 5 as a list. The solution computes this using result = df.loc[df.rating == 5,\"item\"].tolist(). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "اختر أسماء العناصر ذات التقييم 5 كقائمة. يحسب الحل ذلك باستخدام result = df.loc[df.rating == 5,\"item\"].tolist(). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -134,18 +134,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Use loc for labels and iloc for integer positions. A list of columns keeps a DataFrame; one column name returns a Series.",
+          "ar": "استخدم loc للتسميات وiloc للمواضع الصحيحة. قائمة الأعمدة تبقي DataFrame واسم عمود واحد يعيد Series."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return frame output with shape [2, 2]. Column order: item, rating. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع frame بالأبعاد [2, 2] وترتيب الأعمدة item, rating. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = df.iloc[[1,3]][[\"item\",\"rating\"]]",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting frame with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Select rows at positions 1 and 3, with item and rating columns. The solution computes this using result = df.iloc[[1,3]][[\"item\",\"rating\"]]. The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "اختر الصفين في الموضعين 1 و3 والعمودين. يحسب الحل ذلك باستخدام result = df.iloc[[1,3]][[\"item\",\"rating\"]]. يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     },
     {
@@ -167,18 +167,18 @@ export const lesson:Lesson={
       },
       "hints": [
         {
-          "en": "Create a variable named result. Use the operation demonstrated in this lesson; keep the requested type and order.",
-          "ar": "أنشئ المتغير result واستخدم العملية الموضحة مع مراعاة النوع والترتيب."
+          "en": "Use loc for labels and iloc for integer positions. A list of columns keeps a DataFrame; one column name returns a Series.",
+          "ar": "استخدم loc للتسميات وiloc للمواضع الصحيحة. قائمة الأعمدة تبقي DataFrame واسم عمود واحد يعيد Series."
         },
         {
-          "en": "Break the task into input, operation and output. Inspect the intermediate values before assigning result.",
-          "ar": "قسم المهمة لمدخل وعملية وخرج. اطبع القيم الوسيطة قبل تعيين result."
+          "en": "Return value output. Assign it to result and print it before checking.",
+          "ar": "أعد خرجًا من النوع value. احفظه في result واطبعه قبل الفحص."
         }
       ],
       "solution": "result = df.loc[(df.item==\"coffee\") & (df.rating>=4),\"units\"].sum()",
       "explanation": {
-        "en": "This solution follows the requested operation. The checker compares the resulting value with the expected result, including order and numeric tolerance. Try another input to test your understanding.",
-        "ar": "يتبع الحل العملية المطلوبة ويقارن الفاحص النتيجة مع مراعاة الترتيب ودقة الأعداد. جرّب مدخلًا آخر لاختبار فهمك."
+        "en": "Select coffee reviews with rating at least 4, then sum units. The solution computes this using result = df.loc[(df.item==\"coffee\") & (df.rating>=4),\"units\"].sum(). The checker inspects result, not the printed display. Change one input and predict the new result.",
+        "ar": "رشح تقييمات coffee بدرجة 4 فأكثر واجمع units. يحسب الحل ذلك باستخدام result = df.loc[(df.item==\"coffee\") & (df.rating>=4),\"units\"].sum(). يفحص المتغير result لا المظهر المطبوع. غيّر مدخلًا وتوقع النتيجة الجديدة."
       }
     }
   ],
