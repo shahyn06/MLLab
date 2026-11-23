@@ -246,3 +246,4 @@ Latest acceptance increment: 5,120 reproducible source checks, 819 math-content 
 Latest source suite: 5,350 checks. Data concepts now have a three-level guide beside real computation; see docs/qa/data-guide-ui.json. Optional browser contrast review: run tests/browser/hero-contrast.mjs, then scripts/check-hero-contrast.py with the same ML_QA_OUTPUT directory (Pillow required for that image audit only).
 
 Final scoped review: docs/FINAL_DISPOSITION.md lists the 18 obligations that are not fully verified. docs/CONTROL_EFFECT_MAP.md maps the original 282 source control sites to bounded runtime evidence. On 2026-11-22 the project owner reviewed those 18 declared items and closed the project by explicit acceptance; historical ordering, universal interface exceptions, manual assistive-technology review and declared backend/cloud boundaries are recorded, not silently waived, and keep their non-verified ledger statuses.
+
